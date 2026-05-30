@@ -356,3 +356,21 @@ BAIDU_PUSH_TOKEN=xxx python3 scripts/baidu_push.py sitemap.xml \
 - 配额随收录量增加，老站可达 100 万 / 天
 - 当天用完 24:00 后重置（中国时区）
 - `not_same_site` 也算消耗配额 → 推前先 `--dry-run` 检查
+
+### ⚠️ 坑 2：`site` 参数只认裸域，不要带 `https://`
+
+百度站长后台的接口示例 URL 里有时写 `site=https://qiuyiwu.com` —— **别直接 copy**。带协议的形式会返回 `{"error":400,"message":"site init fail"}`。
+
+正确写法：
+
+```bash
+# ❌ 错
+--site "https://qiuyiwu.com"
+
+# ✅ 对
+--site "qiuyiwu.com"
+# 或带 www（如果你验证的是带 www 的）
+--site "www.qiuyiwu.com"
+```
+
+400 错误**不扣**配额，可以放心试。但 `not_same_site` 错误**会扣**配额。所以推之前先用 1-2 个 URL 测试 `--site` 参数格式对了，再批量推。
