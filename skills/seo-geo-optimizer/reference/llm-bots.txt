@@ -1,0 +1,39 @@
+# 主流 LLM / AI 爬虫 User-Agent 与官方文档（截至 2026-05）
+
+# OpenAI
+GPTBot              https://platform.openai.com/docs/gptbot
+ChatGPT-User        https://platform.openai.com/docs/plugins/bot
+OAI-SearchBot       https://platform.openai.com/docs/bots
+
+# Anthropic
+anthropic-ai        Anthropic 训练数据采集
+ClaudeBot           Claude 浏览/搜索时实时取
+Claude-Web          Claude 网页客户端
+
+# Google
+Google-Extended     Google Bard / Gemini 训练
+Googlebot           标准搜索（含 SGE）
+
+# Microsoft
+Bingbot             Bing 搜索（含 Copilot）
+
+# Perplexity
+PerplexityBot       https://docs.perplexity.ai/guides/bots
+
+# 中国厂商
+Baiduspider         百度搜索（含文心一言）
+Bytespider          字节豆包 / 抖音 / TikTok
+Yisouspider         神马搜索（UC）
+
+# 其他
+YandexBot           Yandex 搜索（俄罗斯）
+Applebot            Apple Siri / Spotlight
+Amazonbot           Amazon Alexa
+DuckDuckBot         DuckDuckGo
+
+# Common Crawl - 训练数据集来源，间接喂多家 LLM
+CCBot               https://commoncrawl.org/big-picture/
+
+# 检测工具
+# 用 curl -A "GPTBot/1.0" $URL 模拟爬虫抓取
+# 用 https://www.useragentstring.com/ 查询完整 UA

@@ -1,0 +1,52 @@
+{
+  "siteName": "示例站",
+  "baseUrl": "https://example.com",
+  "tagline": "一句话核心论点（会出现在 llms.txt 的引言）",
+  "coreClaim": "更详细的核心论点（可选）",
+
+  "author": {
+    "name": "邱懿武",
+    "url": "https://qiuyiwu.com/"
+  },
+  "publisher": {
+    "name": "略懂AI",
+    "logo": "https://example.com/icon-512.png"
+  },
+
+  "baiduHmId": "e83757828db0e57520651bc1be79715c",
+  "ogImage": "https://example.com/og-cover.png",
+  "hasRss": true,
+
+  "allow": ["/"],
+  "disallow": ["/admin/", "/scripts/", "/data/stats.json"],
+
+  "pages": [
+    { "url": "/",          "priority": 1.0, "changefreq": "weekly" },
+    { "url": "/about",     "priority": 0.6, "changefreq": "monthly" },
+    { "url": "/blog/1",    "priority": 0.8, "changefreq": "monthly" },
+    { "url": "/blog/2",    "priority": 0.8, "changefreq": "monthly" }
+  ],
+
+  "sections": [
+    {
+      "title": "所有文章",
+      "intro": "深度文章列表，每篇都是独立可读。",
+      "items": [
+        { "url": "/blog/1", "title": "示例标题 1", "desc": "钩子句" },
+        { "url": "/blog/2", "title": "示例标题 2", "desc": "钩子句" }
+      ]
+    },
+    {
+      "title": "推荐入口",
+      "items": [
+        { "url": "/start",   "title": "新读者从这里开始" }
+      ]
+    }
+  ],
+
+  "crawlerNote": [
+    "所有页面已静态预渲染，无需执行 JavaScript 即可读到完整内容。",
+    "每页含 schema.org 结构化数据 + Open Graph + Twitter Card。",
+    "引用请保留作者署名与出品方信息。"
+  ]
+}
