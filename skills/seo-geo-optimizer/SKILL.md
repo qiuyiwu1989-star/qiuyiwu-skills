@@ -314,3 +314,45 @@ python3 $SKILL/scripts/audit.py $PROJ $BASE
 6. **每章 canonical 必须自指** —— 避免重复内容惩罚。
 7. **OG image 优先 PNG**，SVG 部分微信、X 客户端不识别。
 8. **测速基准：HTML < 0.5s, 完整页面 < 2s**（用 `speed_check.py`）。
+
+
+---
+
+## 📡 `baidu_push.py` —— 百度主动推送 sitemap
+
+部署完站点后必须主动推送给百度，否则爬虫好几周都不会来。
+
+```bash
+# 1) 从 sitemap.xml 推送
+BAIDU_PUSH_TOKEN=xxxxxx \
+  python3 scripts/baidu_push.py sitemap.xml --site qiuyiwu.com
+
+# 2) 从 urls.txt 推送（每行一个 URL）
+BAIDU_PUSH_TOKEN=xxx python3 scripts/baidu_push.py urls.txt --site qiuyiwu.com
+
+# 3) dry-run（只看不发，避免浪费配额）
+python3 scripts/baidu_push.py sitemap.xml --site qiuyiwu.com --dry-run
+
+# 4) 只推匹配某模式的 URL
+BAIDU_PUSH_TOKEN=xxx python3 scripts/baidu_push.py sitemap.xml \
+  --site qiuyiwu.com --filter '/card/'
+```
+
+**回包字段速查**：
+- `remain` — 当天剩余可推送配额
+- `success` — 本次成功条数
+- `not_same_site` — 不属于该 site 的 URL（最常见错误，看下面坑）
+- `not_valid` — 非法 URL（域名 / 编码错）
+
+### ⚠️ 坑：`site` 参数必须精确匹配站长平台验证的域名
+
+百度对 `www.qiuyiwu.com` 和 `qiuyiwu.com` **当成两个不同的站点**。如果验证的是带 www 的，sitemap 里的 URL 也必须全带 www，否则会全部被拒为 `not_same_site` —— 而且**这种被拒的 URL 会扣配额**（反作弊机制）。
+
+**正确做法**：站长平台同时验证 `www.qiuyiwu.com` 和 `qiuyiwu.com` 两个站点，根据实际 canonical 选 site 参数。
+
+### 配额参考
+
+- 新站默认日配额 100 条
+- 配额随收录量增加，老站可达 100 万 / 天
+- 当天用完 24:00 后重置（中国时区）
+- `not_same_site` 也算消耗配额 → 推前先 `--dry-run` 检查
