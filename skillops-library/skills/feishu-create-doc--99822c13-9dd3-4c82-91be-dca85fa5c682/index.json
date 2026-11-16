@@ -1,0 +1,23 @@
+{
+  "id": "99822c13-9dd3-4c82-91be-dca85fa5c682",
+  "name": "feishu-create-doc",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-create-doc--99822c13-9dd3-4c82-91be-dca85fa5c682",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-create-doc--99822c13-9dd3-4c82-91be-dca85fa5c682/versions/1.0.0",
+      "sourcePackageHash": "d41b534391aaba257ae1013b6b921c1aa94d05a7c5d7f155422805ada741931e",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

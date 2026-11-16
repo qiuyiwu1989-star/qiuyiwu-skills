@@ -1,0 +1,23 @@
+{
+  "id": "9e784ef0-fc0d-4437-88ea-a8a6423462e6",
+  "name": "brainstorming",
+  "description": "Structured ideation before any implementation. Use when starting any non-trivial task.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/brainstorming--9e784ef0-fc0d-4437-88ea-a8a6423462e6",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/brainstorming--9e784ef0-fc0d-4437-88ea-a8a6423462e6/versions/1.0.0",
+      "sourcePackageHash": "36a775909a75008050a943b484b0ff11b72598467a42ae15ac9e589bac8953b4",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

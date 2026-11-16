@@ -1,0 +1,23 @@
+{
+  "id": "9c8ece3afb62928b",
+  "name": "artifact-template-me-008",
+  "description": "Create an image using the ME-008 米绿编辑线描 template and its retained reference file. Use when the user selects this template, names ME-008 米绿编辑线描, or explicitly invokes $artifact-template-me-008. 用淡米底、活力绿、卷发圆眼镜粗线人物生成八种页型的整页演示图，按文字量选择构图。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/artifact-template-me-008--9c8ece3afb62928b",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/artifact-template-me-008--9c8ece3afb62928b/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

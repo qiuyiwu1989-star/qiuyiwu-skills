@@ -1,0 +1,23 @@
+{
+  "id": "1677cb7f-62cf-4f38-a9f2-a9043ad6ade3",
+  "name": "google-cloud-waf-security",
+  "description": "Generates security-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify security requirements, and provide actionable recommendations for IAM, network security, data protection, and operational security.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/google-cloud-waf-security--1677cb7f-62cf-4f38-a9f2-a9043ad6ade3",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/google-cloud-waf-security--1677cb7f-62cf-4f38-a9f2-a9043ad6ade3/versions/1.0.0",
+      "sourcePackageHash": "9236e541ff3db79448e41db5cefd7ba0133a2a02f4515777dd07a627aeb05a64",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

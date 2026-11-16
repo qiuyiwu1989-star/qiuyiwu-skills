@@ -1,0 +1,23 @@
+{
+  "id": "aea3de438e485380",
+  "name": "shengchan-shigu-kuaizhen",
+  "description": ">-",
+  "source": "skillops",
+  "category": "engineering",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/shengchan-shigu-kuaizhen--aea3de438e485380",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/shengchan-shigu-kuaizhen--aea3de438e485380/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

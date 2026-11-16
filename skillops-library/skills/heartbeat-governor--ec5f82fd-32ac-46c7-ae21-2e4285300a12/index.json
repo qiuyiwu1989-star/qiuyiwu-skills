@@ -1,0 +1,32 @@
+{
+  "id": "ec5f82fd-32ac-46c7-ae21-2e4285300a12",
+  "name": "heartbeat-governor",
+  "description": "Enforces per-skill execution budgets for scheduled cron skills — pauses runaway skills that exceed their token or wall-clock budget before they drain your monthly API allowance.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/heartbeat-governor--ec5f82fd-32ac-46c7-ae21-2e4285300a12",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/heartbeat-governor--ec5f82fd-32ac-46c7-ae21-2e4285300a12/versions/1.0.0",
+      "sourcePackageHash": "2c90dcf71d84b1899d22be22d022906b9cbafc4c0e696d90ce822d15ac574b5d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "governor.py"
+        }
+      ]
+    }
+  ]
+}

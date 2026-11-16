@@ -1,0 +1,33 @@
+{
+  "id": "3107ff3d220cf14d",
+  "name": "邱懿武动画风格",
+  "description": "温润 · 克制 · 中文 premium · 邱懿武品牌族的动画 DNA",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "public",
+  "candidate": false,
+  "path": "skills/skill--3107ff3d220cf14d",
+  "currentVersion": 2,
+  "versions": [
+    {
+      "version": 2,
+      "path": "skills/skill--3107ff3d220cf14d/versions/2",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "path": "skills/skill--3107ff3d220cf14d/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

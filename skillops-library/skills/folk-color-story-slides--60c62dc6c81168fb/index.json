@@ -1,0 +1,23 @@
+{
+  "id": "60c62dc6c81168fb",
+  "name": "folk-color-story-slides",
+  "description": "制作FX-014彩绘乡游整页PPT；用户选择此风格时使用，支持八种页型。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/folk-color-story-slides--60c62dc6c81168fb",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/folk-color-story-slides--60c62dc6c81168fb/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "13ad7b2e992c114b",
+  "name": "thought-icons",
+  "description": "为邱懿武的应用和网站设计「思想的符号」SVG 图标体系：细线、克制手绘感、宋韵新中式气质，覆盖功能图标与有独立辨识度的产品标识。用于图标集合、应用标识、深浅色适配与小尺寸优化，不用于文章插画。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/thought-icons--13ad7b2e992c114b",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/thought-icons--13ad7b2e992c114b/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

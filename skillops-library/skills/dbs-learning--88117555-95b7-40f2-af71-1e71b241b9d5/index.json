@@ -1,0 +1,23 @@
+{
+  "id": "88117555-95b7-40f2-af71-1e71b241b9d5",
+  "name": "dbs-learning",
+  "description": "",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-learning--88117555-95b7-40f2-af71-1e71b241b9d5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-learning--88117555-95b7-40f2-af71-1e71b241b9d5/versions/1.0.0",
+      "sourcePackageHash": "762c221a6cd835b30639dff40f48a1c9b13e979f9879acfca4f13793f66e4672",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

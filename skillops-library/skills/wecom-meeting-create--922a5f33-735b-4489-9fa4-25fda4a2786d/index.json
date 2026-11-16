@@ -1,0 +1,32 @@
+{
+  "id": "922a5f33-735b-4489-9fa4-25fda4a2786d",
+  "name": "wecom-meeting-create",
+  "description": "企业微信会议创建技能, 支持创建预约会议. 当用户需要\"创建会议\", \"预约会议\", \"约会议\", \"安排会议\"时触发.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-meeting-create--922a5f33-735b-4489-9fa4-25fda4a2786d",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-meeting-create--922a5f33-735b-4489-9fa4-25fda4a2786d/versions/1.0.0",
+      "sourcePackageHash": "b403a15b3fd645be3c64d7740e00bee2e4fa4026ad5e9fda1cb040d7fb344fac",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/example-full.md"
+        },
+        {
+          "path": "references/example-reminder.md"
+        },
+        {
+          "path": "references/example-security.md"
+        }
+      ]
+    }
+  ]
+}

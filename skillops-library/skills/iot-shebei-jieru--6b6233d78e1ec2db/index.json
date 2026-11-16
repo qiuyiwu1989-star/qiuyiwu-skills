@@ -1,0 +1,23 @@
+{
+  "id": "6b6233d78e1ec2db",
+  "name": "iot-shebei-jieru",
+  "description": ">-",
+  "source": "skillops",
+  "category": "engineering",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/iot-shebei-jieru--6b6233d78e1ec2db",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/iot-shebei-jieru--6b6233d78e1ec2db/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

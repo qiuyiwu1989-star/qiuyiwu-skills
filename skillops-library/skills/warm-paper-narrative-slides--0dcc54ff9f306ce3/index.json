@@ -1,0 +1,23 @@
+{
+  "id": "0dcc54ff9f306ce3",
+  "name": "warm-paper-narrative-slides",
+  "description": "制作 WS-017 暖纸叙事手绘 PPT，按用户认可的万物有 AI 十页样稿表达理念、故事与连续推演。用于用户指定本编号或暖纸叙事手绘；区别于 BS-001 米色观点手绘与暖纸绘本编辑风。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/warm-paper-narrative-slides--0dcc54ff9f306ce3",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/warm-paper-narrative-slides--0dcc54ff9f306ce3/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "55141efc60913eb6",
+  "name": "gsap-react",
+  "description": "Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with Reac",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/gsap-react--55141efc60913eb6",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/gsap-react--55141efc60913eb6/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

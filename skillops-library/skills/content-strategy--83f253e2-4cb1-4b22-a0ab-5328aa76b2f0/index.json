@@ -1,0 +1,26 @@
+{
+  "id": "83f253e2-4cb1-4b22-a0ab-5328aa76b2f0",
+  "name": "content-strategy",
+  "description": "Build and execute a content marketing strategy for a solopreneur business. Use when planning what content to create, deciding on content formats and channels, building a content calendar, measuring content performance, or systematizing content production. Covers audience research for content, content pillars, distribution strategy, repurposing workflows, and metrics. Trigger on \"content strategy\",",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/content-strategy--83f253e2-4cb1-4b22-a0ab-5328aa76b2f0",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/content-strategy--83f253e2-4cb1-4b22-a0ab-5328aa76b2f0/versions/1.0.0",
+      "sourcePackageHash": "e19aac3559cc50be029c2f545fb242b8b3688b498923ed5c73c6baf7cd4d3dd4",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

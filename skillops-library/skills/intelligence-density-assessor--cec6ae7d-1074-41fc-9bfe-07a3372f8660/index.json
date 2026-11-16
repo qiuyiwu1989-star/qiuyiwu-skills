@@ -1,0 +1,26 @@
+{
+  "id": "cec6ae7d-1074-41fc-9bfe-07a3372f8660",
+  "name": "intelligence-density-assessor",
+  "description": "智能密度场景评估器——用「智能密度方法论」对企业的 AI 场景做结构化诊断、潜力评估与优先级排序。当用户描述任何一个想做或已做的 AI 场景（AI 客服、AI 质检、AI 选品、智能排产、AI 写文案、智能投放、AI 面试、简历初筛等），或问\"这个场景值不值得做\"\"能做到 L 几\"\"我们该从哪个场景开始\"\"这几个场景先做哪个\"\"这个 AI 项目为什么没效果\"\"评估一下我们的 AI 转型\"\"这个场景的 ROI 怎么算\"时，必须使用此技能。触发词包括：场景评估、智能密度、密度评估、判断点、失误后果、AI 场景值不值得做、这个场景能做到几级、场景优先级、先做哪个场景、AI 转型诊断、潜力评估、该不该上这个 AI、我们想做一个 AI、为什么上了 AI 没感觉、AI 项目没效果、L1 L5 分级、三道工序、定题供料验收、转化率诊断、验收带宽。即使用户只是随口说\"我们打算做个 AI 客服\"或\"帮我看看",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/intelligence-density-assessor--cec6ae7d-1074-41fc-9bfe-07a3372f8660",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/intelligence-density-assessor--cec6ae7d-1074-41fc-9bfe-07a3372f8660/versions/1.0.0",
+      "sourcePackageHash": "2e49d32f99abf7c7a483fea03fafd2147ed52c18c6dd1cf27b287453dfc29ff8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/theory.md"
+        }
+      ]
+    }
+  ]
+}

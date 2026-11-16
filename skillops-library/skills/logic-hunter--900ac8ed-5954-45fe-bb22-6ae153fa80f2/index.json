@@ -1,0 +1,41 @@
+{
+  "id": "900ac8ed-5954-45fe-bb22-6ae153fa80f2",
+  "name": "logic-hunter",
+  "description": "Hard-core logic verification and evidence tracing tool based on the \"Golden Triangle\" knowledge mining framework",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/logic-hunter--900ac8ed-5954-45fe-bb22-6ae153fa80f2",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/logic-hunter--900ac8ed-5954-45fe-bb22-6ae153fa80f2/versions/1.0.0",
+      "sourcePackageHash": "e0ae43717484837bf8f5642075739997513b0a81d90e5142d6d1ae09c18de29f",
+      "files": [
+        {
+          "path": "MANIFEST.json"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "TEST_CASES.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "logic_engine.py"
+        },
+        {
+          "path": "tools_schema.json"
+        }
+      ]
+    }
+  ]
+}

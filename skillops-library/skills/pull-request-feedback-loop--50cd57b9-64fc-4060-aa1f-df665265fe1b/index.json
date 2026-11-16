@@ -1,0 +1,33 @@
+{
+  "id": "50cd57b9-64fc-4060-aa1f-df665265fe1b",
+  "name": "pull-request-feedback-loop",
+  "description": "Handles PR review feedback by fetching comments, grouping issues, fixing one group at a time, and verifying before replies.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/pull-request-feedback-loop--50cd57b9-64fc-4060-aa1f-df665265fe1b",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/pull-request-feedback-loop--50cd57b9-64fc-4060-aa1f-df665265fe1b/versions/1.0.0",
+      "sourcePackageHash": "a65f97708e55355bd415b0bf879689b0d38c3863945d2f0751baf68fdf365ce8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/pull-request-feedback-loop--50cd57b9-64fc-4060-aa1f-df665265fe1b/versions/1.0.1",
+      "sourcePackageHash": "67de4d2b6f3edc54d5cb2fcb9a4582cfcdcc5f8b2e7c275ce70ea46bf366957b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

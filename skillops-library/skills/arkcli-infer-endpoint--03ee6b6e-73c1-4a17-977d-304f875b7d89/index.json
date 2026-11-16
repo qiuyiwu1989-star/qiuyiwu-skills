@@ -1,0 +1,44 @@
+{
+  "id": "03ee6b6e-73c1-4a17-977d-304f875b7d89",
+  "name": "arkcli-infer-endpoint",
+  "description": "arkcli 推理接入点管理与显式 raw CRUD 创建能力。**正向触发：用户明确要求脚本化 / CI / 无护栏 / 原始 raw CRUD 创建 Endpoint 时，必须使用本 skill 的 `arkcli infer endpoint create` 路径，不能切到 `arkcli-deploy`**；模型缺失或只有品牌/家族名时仍留在本 skill，先执行实时有界候选与 0/1/N 澄清，模型未唯一确定前禁止 preview 或创建。本 skill 也负责对**已有** Endpoint 做获取、列表、启动、停止、删除、更新，以及在 NotFound 后用当前完整列表 + 历史 usage 判断 ID 是否不完整或仅有历史记录。普通的『创建/新建/部署一个 endpoint』仍走带产品护栏的 arkcli-deploy（`+deploy`），只有用户明确选择上述原始路径才例",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-infer-endpoint--03ee6b6e-73c1-4a17-977d-304f875b7d89",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-infer-endpoint--03ee6b6e-73c1-4a17-977d-304f875b7d89/versions/1.0.0",
+      "sourcePackageHash": "343f9967250d2be7a36bed732626ad8f7e6602a517e25b8cc586e32d21e8cceb",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-infer-endpoint-create.md"
+        },
+        {
+          "path": "references/arkcli-infer-endpoint-delete.md"
+        },
+        {
+          "path": "references/arkcli-infer-endpoint-get.md"
+        },
+        {
+          "path": "references/arkcli-infer-endpoint-list.md"
+        },
+        {
+          "path": "references/arkcli-infer-endpoint-start.md"
+        },
+        {
+          "path": "references/arkcli-infer-endpoint-stop.md"
+        },
+        {
+          "path": "references/arkcli-infer-endpoint-update.md"
+        }
+      ]
+    }
+  ]
+}

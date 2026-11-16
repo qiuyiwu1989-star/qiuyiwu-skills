@@ -1,0 +1,23 @@
+{
+  "id": "cadaf7d1-f80d-48f9-b324-7cd0943b616a",
+  "name": "feishu-update-doc",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-update-doc--cadaf7d1-f80d-48f9-b324-7cd0943b616a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-update-doc--cadaf7d1-f80d-48f9-b324-7cd0943b616a/versions/1.0.0",
+      "sourcePackageHash": "0970a432187b0af2d9c9314af3c6e82bb358fe5c02dd0f34ad4137946309ccde",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

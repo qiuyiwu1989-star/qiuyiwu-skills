@@ -1,0 +1,32 @@
+{
+  "id": "ff00c827-a41d-4586-b15e-10526e42dfc0",
+  "name": "memory-graph-builder",
+  "description": "Parses OpenClaw's flat MEMORY.md into a structured knowledge graph — detects duplicates, contradictions, and stale entries, then builds a compressed memory digest optimized for system prompt injection.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/memory-graph-builder--ff00c827-a41d-4586-b15e-10526e42dfc0",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/memory-graph-builder--ff00c827-a41d-4586-b15e-10526e42dfc0/versions/1.0.0",
+      "sourcePackageHash": "01a2fa4417ede84cb6756e2704a64bebd36c506f1bd4f0a70415f340a1aa8b82",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "graph.py"
+        }
+      ]
+    }
+  ]
+}

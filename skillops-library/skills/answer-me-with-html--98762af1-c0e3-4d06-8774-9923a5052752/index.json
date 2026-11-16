@@ -1,0 +1,26 @@
+{
+  "id": "98762af1-c0e3-4d06-8774-9923a5052752",
+  "name": "answer-me-with-html",
+  "description": "",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/answer-me-with-html--98762af1-c0e3-4d06-8774-9923a5052752",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/answer-me-with-html--98762af1-c0e3-4d06-8774-9923a5052752/versions/1.0.0",
+      "sourcePackageHash": "ea12b4b65bfd9f6a24f852a0326a72fa77e4176b3a493434a5a6a54964a9b117",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/am.mjs"
+        }
+      ]
+    }
+  ]
+}

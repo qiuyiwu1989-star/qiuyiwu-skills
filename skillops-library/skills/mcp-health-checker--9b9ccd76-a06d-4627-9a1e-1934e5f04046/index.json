@@ -1,0 +1,32 @@
+{
+  "id": "9b9ccd76-a06d-4627-9a1e-1934e5f04046",
+  "name": "mcp-health-checker",
+  "description": "Monitors MCP server connections for health, latency, and availability — detects stale connections, timeouts, and unreachable servers before they cause silent tool failures.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/mcp-health-checker--9b9ccd76-a06d-4627-9a1e-1934e5f04046",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/mcp-health-checker--9b9ccd76-a06d-4627-9a1e-1934e5f04046/versions/1.0.0",
+      "sourcePackageHash": "21d9f033a868f7dfeacd19be7acfe2b731268efed0968c8150411675a8e0643f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "check.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

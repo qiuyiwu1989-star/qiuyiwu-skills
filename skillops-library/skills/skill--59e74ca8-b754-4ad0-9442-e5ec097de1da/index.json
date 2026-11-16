@@ -1,0 +1,71 @@
+{
+  "id": "59e74ca8-b754-4ad0-9442-e5ec097de1da",
+  "name": "三省",
+  "description": "共享职能部门·质量管理。主动巡检所有Agent的.learnings/，管理升降级，同步共享层，把教训固化成规则。中文名取自曾子'吾日三省吾身'。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill--59e74ca8-b754-4ad0-9442-e5ec097de1da",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill--59e74ca8-b754-4ad0-9442-e5ec097de1da/versions/1.0.0",
+      "sourcePackageHash": "e25934df58fdc8c98ddf7a23b5cdacb891bbc6aca996663bea92510b2394ca63",
+      "files": [
+        {
+          "path": ".clawhub/origin.json"
+        },
+        {
+          "path": ".learnings/ERRORS.md"
+        },
+        {
+          "path": ".learnings/FEATURE_REQUESTS.md"
+        },
+        {
+          "path": ".learnings/LEARNINGS.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "assets/LEARNINGS.md"
+        },
+        {
+          "path": "assets/SKILL-TEMPLATE.md"
+        },
+        {
+          "path": "hooks/openclaw/HOOK.md"
+        },
+        {
+          "path": "hooks/openclaw/handler.js"
+        },
+        {
+          "path": "hooks/openclaw/handler.ts"
+        },
+        {
+          "path": "references/examples.md"
+        },
+        {
+          "path": "references/hooks-setup.md"
+        },
+        {
+          "path": "references/openclaw-integration.md"
+        },
+        {
+          "path": "scripts/activator.sh"
+        },
+        {
+          "path": "scripts/error-detector.sh"
+        },
+        {
+          "path": "scripts/extract-skill.sh"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "5e7c2282-a599-40eb-bbba-0fa1ffec8238",
+  "name": "collaboration-library",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/collaboration-library--5e7c2282-a599-40eb-bbba-0fa1ffec8238",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/collaboration-library--5e7c2282-a599-40eb-bbba-0fa1ffec8238/versions/1.0.0",
+      "sourcePackageHash": "f06f6b314f3a14294c7fdeabdb035eb64fbf1f3440a357058573376920d15147",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/catalog.json"
+        },
+        {
+          "path": "references/index.md"
+        },
+        {
+          "path": "references/schema.md"
+        },
+        {
+          "path": "references/sources/additional-book-press.md"
+        },
+        {
+          "path": "references/sources/additional-builders-digest.md"
+        },
+        {
+          "path": "references/sources/additional-deepbrain.md"
+        },
+        {
+          "path": "references/sources/additional-qmem.md"
+        },
+        {
+          "path": "references/sources/additional-reading-archive.md"
+        },
+        {
+          "path": "references/sources/additional-vault-daily-brief.md"
+        },
+        {
+          "path": "references/sources/additional-vault-maintain.md"
+        },
+        {
+          "path": "references/sources/additional-video-archive.md"
+        },
+        {
+          "path": "references/sources/brief.md"
+        },
+        {
+          "path": "references/sources/canvas.md"
+        },
+        {
+          "path": "references/sources/contract.md"
+        },
+        {
+          "path": "references/sources/design.md"
+        },
+        {
+          "path": "references/sources/device.md"
+        },
+        {
+          "path": "references/sources/education.md"
+        },
+        {
+          "path": "references/sources/gate.md"
+        },
+        {
+          "path": "references/sources/incident.md"
+        },
+        {
+          "path": "references/sources/innolab.md"
+        },
+        {
+          "path": "references/sources/iot.md"
+        },
+        {
+          "path": "references/sources/memory.md"
+        },
+        {
+          "path": "references/sources/migrate.md"
+        },
+        {
+          "path": "references/sources/openvibe.md"
+        },
+        {
+          "path": "references/sources/plugin.md"
+        },
+        {
+          "path": "references/sources/seminar.md"
+        },
+        {
+          "path": "references/sources/visual.md"
+        },
+        {
+          "path": "references/sources/workflow.md"
+        },
+        {
+          "path": "references/sources/writing.md"
+        },
+        {
+          "path": "scripts/build_index.py"
+        },
+        {
+          "path": "scripts/search.py"
+        }
+      ]
+    }
+  ]
+}

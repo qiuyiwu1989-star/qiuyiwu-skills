@@ -1,0 +1,80 @@
+{
+  "id": "c721e6cb-101e-496d-8abf-a55c0edcaea7",
+  "name": "hao-sheji-agent",
+  "description": "「好设计」创新智能体。当用户想了解好设计奖、探索历届金奖案例、学习创新设计五大构成、进行设计分析、查找科技成果转化方向，或在教育场景（K12课堂/教师备课/青少年创新教育）中使用时，必须使用此技能。触发词包括：好设计、好设计奖、金奖案例、蛟龙号、复兴号、天眼FAST、五大构成、创新设计、创新馆、好设计创新馆、科技构成、艺术构成、人本构成、商业构成、文化构成、潘云鹤、路甬祥、中国机械工程学会、创新教育、深度案例、设计案例分析。即使用户只是说\"帮我了解一个好设计案例\"或\"我想学习创新设计\"，也应立即触发此技能。",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/hao-sheji-agent--c721e6cb-101e-496d-8abf-a55c0edcaea7",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/hao-sheji-agent--c721e6cb-101e-496d-8abf-a55c0edcaea7/versions/1.0.0",
+      "sourcePackageHash": "5fe69ab3e938cd4cab224cccecabdc9e88c24c246c96c0e455c089e91840f16f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "WIKI_CONFIG.md"
+        },
+        {
+          "path": "output/fuxing-course-grade3.md"
+        },
+        {
+          "path": "references/01-award-system.md"
+        },
+        {
+          "path": "references/02-cases-index.md"
+        },
+        {
+          "path": "references/03-five-constructs.md"
+        },
+        {
+          "path": "references/04-philosophy.md"
+        },
+        {
+          "path": "references/05-audience-modes.md"
+        },
+        {
+          "path": "references/cases/_template.md"
+        },
+        {
+          "path": "references/cases/ag600.md"
+        },
+        {
+          "path": "references/cases/baihetan.md"
+        },
+        {
+          "path": "references/cases/change56.md"
+        },
+        {
+          "path": "references/cases/crh380a.md"
+        },
+        {
+          "path": "references/cases/fast.md"
+        },
+        {
+          "path": "references/cases/fuxing.md"
+        },
+        {
+          "path": "references/cases/jiaolong.md"
+        },
+        {
+          "path": "references/cases/mars-rover.md"
+        },
+        {
+          "path": "references/cases/press800mn.md"
+        },
+        {
+          "path": "references/cases/taihu.md"
+        },
+        {
+          "path": "references/cases/wechat.md"
+        }
+      ]
+    }
+  ]
+}

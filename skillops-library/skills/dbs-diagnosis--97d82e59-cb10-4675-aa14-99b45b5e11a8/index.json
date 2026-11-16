@@ -1,0 +1,23 @@
+{
+  "id": "97d82e59-cb10-4675-aa14-99b45b5e11a8",
+  "name": "dbs-diagnosis",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-diagnosis--97d82e59-cb10-4675-aa14-99b45b5e11a8",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-diagnosis--97d82e59-cb10-4675-aa14-99b45b5e11a8/versions/1.0.0",
+      "sourcePackageHash": "c05203740f919f03e0cbd8b1d274f11d02a461aec3c64b6bb722b596d8f85839",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

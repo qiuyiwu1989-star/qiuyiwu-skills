@@ -1,0 +1,38 @@
+{
+  "id": "e5a96c76-d4eb-49e6-80d3-dbccdaa8ddd8",
+  "name": "arkclaw-team-project-builder",
+  "description": "项目经理负责项目规划、团队组建与项目调整。涵盖：意图识别 → 澄清沟通 → 规划方案 → 创建团队，以及项目运行中的成员增删改、项目信息修改。通过 openclaw gateway call 调用 RPC 落地变更。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkclaw-team-project-builder--e5a96c76-d4eb-49e6-80d3-dbccdaa8ddd8",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkclaw-team-project-builder--e5a96c76-d4eb-49e6-80d3-dbccdaa8ddd8/versions/1.0.0",
+      "sourcePackageHash": "8e08447564b56d150a9109f2c789e748a500a9f9a05140159cabbdf2fb5ea1ef",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/create_team.py"
+        },
+        {
+          "path": "scripts/finalize.py"
+        },
+        {
+          "path": "scripts/find-skills.py"
+        },
+        {
+          "path": "scripts/load_data.py"
+        },
+        {
+          "path": "scripts/prepare_data.py"
+        }
+      ]
+    }
+  ]
+}

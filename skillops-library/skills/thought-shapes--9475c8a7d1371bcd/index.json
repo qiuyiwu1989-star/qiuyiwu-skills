@@ -1,0 +1,23 @@
+{
+  "id": "9475c8a7d1371bcd",
+  "name": "thought-shapes",
+  "description": "为邱懿武的网站、产品、公开项目与文章制作「思想的形状」配图：宋韵新中式、高级灰多色、八种基础视觉语言与三种候选方向。适用于单张配图、系列设计、批量项目配图和风格调整；不代替数据图表或产品界面截图。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/thought-shapes--9475c8a7d1371bcd",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/thought-shapes--9475c8a7d1371bcd/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

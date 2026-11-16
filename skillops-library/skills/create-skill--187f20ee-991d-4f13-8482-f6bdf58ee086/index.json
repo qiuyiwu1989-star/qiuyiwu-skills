@@ -1,0 +1,26 @@
+{
+  "id": "187f20ee-991d-4f13-8482-f6bdf58ee086",
+  "name": "create-skill",
+  "description": "Scaffolds and validates new superpowers skills. Use when creating a new skill for this repository.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/create-skill--187f20ee-991d-4f13-8482-f6bdf58ee086",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/create-skill--187f20ee-991d-4f13-8482-f6bdf58ee086/versions/1.0.0",
+      "sourcePackageHash": "a44af26916f7034a5376ea8aba2f9e3c6052b86174a33b55dd45de8fb51355a3",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "TEMPLATE.md"
+        }
+      ]
+    }
+  ]
+}

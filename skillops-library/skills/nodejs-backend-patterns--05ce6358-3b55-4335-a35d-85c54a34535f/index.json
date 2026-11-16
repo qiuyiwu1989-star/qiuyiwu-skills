@@ -1,0 +1,33 @@
+{
+  "id": "05ce6358-3b55-4335-a35d-85c54a34535f",
+  "name": "nodejs-backend-patterns",
+  "description": "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectures.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/nodejs-backend-patterns--05ce6358-3b55-4335-a35d-85c54a34535f",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/nodejs-backend-patterns--05ce6358-3b55-4335-a35d-85c54a34535f/versions/1.0.0",
+      "sourcePackageHash": "dc2b2771cd5dd0f3bb32ffb3b0f46de39518f508d85d775d311c03bd771853a5",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/nodejs-backend-patterns--05ce6358-3b55-4335-a35d-85c54a34535f/versions/1.0.1",
+      "sourcePackageHash": "d2e18dc2a9a461a574bbb9a15e3e7c9591066a3e2051737210db2fe2fc1327ed",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

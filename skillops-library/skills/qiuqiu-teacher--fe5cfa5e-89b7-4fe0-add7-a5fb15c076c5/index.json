@@ -1,0 +1,104 @@
+{
+  "id": "fe5cfa5e-89b7-4fe0-add7-a5fb15c076c5",
+  "name": "qiuqiu-teacher",
+  "description": "球球老师——K12 儿童认知探索智能体。当用户（小朋友或家长）启动球球老师、想让孩子和 AI 聊天、或者需要了解孩子的认知与性格时，必须使用此技能。触发词包括：球球老师、球球、小朋友聊天、孩子对话、儿童认知报告、了解孩子、孩子画像、认知分析报告。即使用户只说\"我想让孩子聊聊\"或\"帮我了解一下我的孩子\"，也应立即触发此技能。",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/qiuqiu-teacher--fe5cfa5e-89b7-4fe0-add7-a5fb15c076c5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/qiuqiu-teacher--fe5cfa5e-89b7-4fe0-add7-a5fb15c076c5/versions/1.0.0",
+      "sourcePackageHash": "832063a347142bbe139804765d0a550c96b4138cc45a42227ee67bb696c4ff16",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "memory/children/child-index.json"
+        },
+        {
+          "path": "memory/children/兜兜.json"
+        },
+        {
+          "path": "memory/children/向日葵.json"
+        },
+        {
+          "path": "memory/children/孟好.json"
+        },
+        {
+          "path": "memory/children/徐小棠.json"
+        },
+        {
+          "path": "memory/children/沈晏辰.json"
+        },
+        {
+          "path": "memory/children/赵昱嘉.json"
+        },
+        {
+          "path": "memory/conversations/conv-index.json"
+        },
+        {
+          "path": "memory/evolution-log.json"
+        },
+        {
+          "path": "memory/reports/2026-04-11-六人认知分析报告.md"
+        },
+        {
+          "path": "memory/reports/2026-04-11-测试结果分析报告.md"
+        },
+        {
+          "path": "memory/reports/report-index.json"
+        },
+        {
+          "path": "memory/reports/兜兜-认知观察报告.md"
+        },
+        {
+          "path": "memory/reports/向日葵-认知观察报告.md"
+        },
+        {
+          "path": "memory/reports/孟好-认知观察报告.md"
+        },
+        {
+          "path": "memory/reports/徐小棠-认知观察报告.md"
+        },
+        {
+          "path": "memory/reports/沈晏辰-认知观察报告.md"
+        },
+        {
+          "path": "memory/reports/赵昱嘉-认知观察报告.md"
+        },
+        {
+          "path": "references/child-profile-library.md"
+        },
+        {
+          "path": "references/cognitive-framework.md"
+        },
+        {
+          "path": "references/dialogue-strategies.md"
+        },
+        {
+          "path": "references/report-template.md"
+        },
+        {
+          "path": "references/topic-library.md"
+        },
+        {
+          "path": "tts.sh"
+        },
+        {
+          "path": "wiki-mapping.json"
+        }
+      ]
+    }
+  ]
+}

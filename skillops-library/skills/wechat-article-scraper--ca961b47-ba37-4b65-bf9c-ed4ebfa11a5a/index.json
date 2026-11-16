@@ -1,0 +1,38 @@
+{
+  "id": "ca961b47-ba37-4b65-bf9c-ed4ebfa11a5a",
+  "name": "WeChat-Article-Scraper",
+  "description": "微信公众号文章抓取工具。从 mp.weixin.qq.com 抓取公开文章（文字+图片+视频），解析内容块顺序，下载图片，按原顺序写入飞书知识库。",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wechat-article-scraper--ca961b47-ba37-4b65-bf9c-ed4ebfa11a5a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wechat-article-scraper--ca961b47-ba37-4b65-bf9c-ed4ebfa11a5a/versions/1.0.0",
+      "sourcePackageHash": "a8527ca5a8b27a0e684eff69b00eb2eead439e1fe33cadb026bb6005f20c2807",
+      "files": [
+        {
+          "path": ".clawhub/origin.json"
+        },
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "scripts/scrape.py"
+        },
+        {
+          "path": "scripts/scrape_and_import.py"
+        }
+      ]
+    }
+  ]
+}

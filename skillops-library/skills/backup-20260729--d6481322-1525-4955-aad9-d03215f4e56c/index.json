@@ -1,0 +1,56 @@
+{
+  "id": "d6481322-1525-4955-aad9-d03215f4e56c",
+  "name": "小能-backup-20260729",
+  "description": "小能 · 共享职能部门（技能HR）。技能全生命周期管理：审计/登记/评估/锻造/图谱。任何Agent可调用。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/backup-20260729--d6481322-1525-4955-aad9-d03215f4e56c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/backup-20260729--d6481322-1525-4955-aad9-d03215f4e56c/versions/1.0.0",
+      "sourcePackageHash": "52111c78a14e78a0615bbecdad6ec34092809c3d515b485a9be87fbe50ce1d1c",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "memory/full-audit-2026-04-25.md"
+        },
+        {
+          "path": "memory/scan-log.md"
+        },
+        {
+          "path": "memory/skill-registry.json"
+        },
+        {
+          "path": "references/evaluation-criteria.md"
+        },
+        {
+          "path": "references/sms-v1.0.md"
+        },
+        {
+          "path": "skills/agent-capability-map/SKILL.md"
+        },
+        {
+          "path": "skills/skill-audit/SKILL.md"
+        },
+        {
+          "path": "skills/skill-card-gen/SKILL.md"
+        },
+        {
+          "path": "skills/skill-graph/SKILL.md"
+        },
+        {
+          "path": "skills/skill-registry-scan/SKILL.md"
+        }
+      ]
+    }
+  ]
+}

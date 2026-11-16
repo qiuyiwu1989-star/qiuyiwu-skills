@@ -1,0 +1,74 @@
+{
+  "id": "b9bb82b3-777f-4adf-be66-d2a19ce130d9",
+  "name": "skill-creator",
+  "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-creator--b9bb82b3-777f-4adf-be66-d2a19ce130d9",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-creator--b9bb82b3-777f-4adf-be66-d2a19ce130d9/versions/1.0.0",
+      "sourcePackageHash": "1c3e360823f7d4bec445eed984ca11ee2f083833223daedebca1c916b59504ca",
+      "files": [
+        {
+          "path": "LICENSE.txt"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "agents/analyzer.md"
+        },
+        {
+          "path": "agents/comparator.md"
+        },
+        {
+          "path": "agents/grader.md"
+        },
+        {
+          "path": "assets/eval_review.html"
+        },
+        {
+          "path": "eval-viewer/generate_review.py"
+        },
+        {
+          "path": "eval-viewer/viewer.html"
+        },
+        {
+          "path": "references/schemas.md"
+        },
+        {
+          "path": "scripts/__init__.py"
+        },
+        {
+          "path": "scripts/aggregate_benchmark.py"
+        },
+        {
+          "path": "scripts/generate_report.py"
+        },
+        {
+          "path": "scripts/improve_description.py"
+        },
+        {
+          "path": "scripts/package_skill.py"
+        },
+        {
+          "path": "scripts/quick_validate.py"
+        },
+        {
+          "path": "scripts/run_eval.py"
+        },
+        {
+          "path": "scripts/run_loop.py"
+        },
+        {
+          "path": "scripts/utils.py"
+        }
+      ]
+    }
+  ]
+}

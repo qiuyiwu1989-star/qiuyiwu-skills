@@ -1,0 +1,23 @@
+{
+  "id": "93cfdbbb-9538-47d5-bf6a-e74249786980",
+  "name": "wecom-contact-lookup",
+  "description": "通讯录成员查询技能，基于 MCP tool 协议封装的 `get_userlist` 接口，获取当前用户可见范围内的通讯录成员，支持按姓名/别名本地筛选匹配。返回 userid、姓名和别名。⚠️ 仅返回当前用户有权限查看的成员，非全量成员。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-contact-lookup--93cfdbbb-9538-47d5-bf6a-e74249786980",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-contact-lookup--93cfdbbb-9538-47d5-bf6a-e74249786980/versions/1.0.0",
+      "sourcePackageHash": "e4f467c35a8be65253d62767501cd046cd10c6ad27608d2aa68245cb20452263",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

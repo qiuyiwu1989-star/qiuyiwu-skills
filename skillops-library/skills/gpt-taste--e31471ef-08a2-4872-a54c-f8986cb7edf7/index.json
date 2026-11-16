@@ -1,0 +1,33 @@
+{
+  "id": "e31471ef-08a2-4872-a54c-f8986cb7edf7",
+  "name": "gpt-taste",
+  "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/gpt-taste--e31471ef-08a2-4872-a54c-f8986cb7edf7",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/gpt-taste--e31471ef-08a2-4872-a54c-f8986cb7edf7/versions/1.0.0",
+      "sourcePackageHash": "f9a0ee8b5ceb99c00e89c0449167af58b3493e20cbbe1d32f4535515728e20d6",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/gpt-taste--e31471ef-08a2-4872-a54c-f8986cb7edf7/versions/1.0.1",
+      "sourcePackageHash": "06fe3169382ca0e5a7d3b3b925d29b8e88f1442148cedb55bd047ab5ef38cb48",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

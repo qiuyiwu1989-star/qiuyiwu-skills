@@ -1,0 +1,71 @@
+{
+  "id": "0275b264-131d-425c-8f0e-083622287e79",
+  "name": "ljg-card",
+  "description": "Content caster (铸). Transforms content into PNG visuals. Six molds: -l (default) long reading card, -i infograph, -m multi-card reading cards (1080x1440), -v visual sketchnote, -c comic (manga-style B&W), -w whiteboard (marker-style board layout). Output to ~/Downloads/. Use when user says '铸', 'cast', '做成图', '做成卡片', '做成信息图', '做成海报', '视觉笔记', 'sketchnote', '漫画', 'comic', 'manga', '白板', 'whiteboard'",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-card--0275b264-131d-425c-8f0e-083622287e79",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-card--0275b264-131d-425c-8f0e-083622287e79/versions/1.0.0",
+      "sourcePackageHash": "87675ea469ec1344415ce09f68b66445e816c17a7450fb0b68aa73e05b06845b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "assets/capture.js"
+        },
+        {
+          "path": "assets/comic_template.html"
+        },
+        {
+          "path": "assets/infograph_template.html"
+        },
+        {
+          "path": "assets/long_template.html"
+        },
+        {
+          "path": "assets/poster_template.html"
+        },
+        {
+          "path": "assets/sketchnote_template.html"
+        },
+        {
+          "path": "assets/whiteboard_template.html"
+        },
+        {
+          "path": "package-lock.json"
+        },
+        {
+          "path": "package.json"
+        },
+        {
+          "path": "references/mode-comic.md"
+        },
+        {
+          "path": "references/mode-infograph.md"
+        },
+        {
+          "path": "references/mode-long.md"
+        },
+        {
+          "path": "references/mode-poster.md"
+        },
+        {
+          "path": "references/mode-sketchnote.md"
+        },
+        {
+          "path": "references/mode-whiteboard.md"
+        },
+        {
+          "path": "references/taste.md"
+        }
+      ]
+    }
+  ]
+}

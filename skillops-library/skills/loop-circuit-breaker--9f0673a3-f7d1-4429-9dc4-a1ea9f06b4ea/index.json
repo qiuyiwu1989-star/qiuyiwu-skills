@@ -1,0 +1,32 @@
+{
+  "id": "9f0673a3-f7d1-4429-9dc4-a1ea9f06b4ea",
+  "name": "loop-circuit-breaker",
+  "description": "Detects infinite tool-call retry loops from deterministic errors and breaks them before they drain context or budget",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/loop-circuit-breaker--9f0673a3-f7d1-4429-9dc4-a1ea9f06b4ea",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/loop-circuit-breaker--9f0673a3-f7d1-4429-9dc4-a1ea9f06b4ea/versions/1.0.0",
+      "sourcePackageHash": "5c1297788366034c0412f32610a701ea946c8c5f665f62fb1331ddb5bccabe79",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "check.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

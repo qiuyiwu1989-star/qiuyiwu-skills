@@ -1,0 +1,26 @@
+{
+  "id": "0f20b7c4-6c8d-400c-be34-a0d16b0ed42b",
+  "name": "weibo-video",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-video--0f20b7c4-6c8d-400c-be34-a0d16b0ed42b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-video--0f20b7c4-6c8d-400c-be34-a0d16b0ed42b/versions/1.0.0",
+      "sourcePackageHash": "d01c2405b8783dfb187e9affce42370cebee29856919a8844563a427bd0e883a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/weibo-video.js"
+        }
+      ]
+    }
+  ]
+}

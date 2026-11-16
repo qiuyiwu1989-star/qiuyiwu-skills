@@ -1,0 +1,101 @@
+{
+  "id": "c5648b9c-9db7-4874-a625-8854042e1066",
+  "name": "gke-basics",
+  "description": "Plan, create, and configure production-ready Google Kubernetes Engine (GKE) clusters using the golden path Autopilot configuration. Covers Day-0 checklist, Autopilot vs Standard, networking (private clusters, VPC-native, Gateway API), security (Workload Identity, Secret Manager, RBAC hardening), observability, scaling, cost optimization, and AI/ML inference. WHEN: create GKE cluster, provision GKE",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/gke-basics--c5648b9c-9db7-4874-a625-8854042e1066",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/gke-basics--c5648b9c-9db7-4874-a625-8854042e1066/versions/1.0.0",
+      "sourcePackageHash": "bc95773ce9058a0c0969be15207f4c578dd129a9f649dec11ad3b665f2aa2533",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "assets/default-deny-netpol.yaml"
+        },
+        {
+          "path": "assets/golden-path-autopilot.yaml"
+        },
+        {
+          "path": "assets/hpa-example.yaml"
+        },
+        {
+          "path": "assets/vpa-example.yaml"
+        },
+        {
+          "path": "assets/workload-identity-pod.yaml"
+        },
+        {
+          "path": "references/cli-reference.md"
+        },
+        {
+          "path": "references/client-library-usage.md"
+        },
+        {
+          "path": "references/core-concepts.md"
+        },
+        {
+          "path": "references/gke-app-onboarding.md"
+        },
+        {
+          "path": "references/gke-backup-dr.md"
+        },
+        {
+          "path": "references/gke-batch-hpc.md"
+        },
+        {
+          "path": "references/gke-cluster-creation.md"
+        },
+        {
+          "path": "references/gke-compute-classes.md"
+        },
+        {
+          "path": "references/gke-cost.md"
+        },
+        {
+          "path": "references/gke-golden-path.md"
+        },
+        {
+          "path": "references/gke-inference.md"
+        },
+        {
+          "path": "references/gke-multitenancy.md"
+        },
+        {
+          "path": "references/gke-networking.md"
+        },
+        {
+          "path": "references/gke-observability.md"
+        },
+        {
+          "path": "references/gke-reliability.md"
+        },
+        {
+          "path": "references/gke-scaling.md"
+        },
+        {
+          "path": "references/gke-security.md"
+        },
+        {
+          "path": "references/gke-storage.md"
+        },
+        {
+          "path": "references/gke-upgrades.md"
+        },
+        {
+          "path": "references/iac-usage.md"
+        },
+        {
+          "path": "references/mcp-usage.md"
+        }
+      ]
+    }
+  ]
+}

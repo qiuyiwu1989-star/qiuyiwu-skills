@@ -1,0 +1,102 @@
+{
+  "space_id": "7625316016565799890",
+  "space_name": "邱懿武第二大脑",
+  "space_url": "https://www.feishu.cn/wiki/space/7625316016565799890",
+  "bitable": {
+    "app_token": "AcCjbBI0VaeOhPsyX3RcWPsjnkg",
+    "app_name": "邱懿武知识系统（三表合一）",
+    "app_url": "https://yunzaokeji.feishu.cn/base/AcCjbBI0VaeOhPsyX3RcWPsjnkg",
+    "tables": {
+      "洞察主表": {
+        "table_id": "tbl7c5nlWLyNuyE8",
+        "purpose": "原子洞察、核心判断、外部文章提炼",
+        "current_count": 107,
+        "latest_id": "I-100",
+        "field_format": "纯字符串（非富文本数组）",
+        "关联类型选项": ["支撑", "矛盾", "演化", "类比"],
+        "置信度选项": ["猜想", "观察", "验证", "数据证实"],
+        "标签选项": ["人工智能", "战略落地", "产品设计", "商业模式", "估值", "组织变革", "个人成长", "领导力", "人才战略", "认知科学", "技能系统", "经济学", "哲学思辨", "社会影响", "超级个体", "转型路径", "竞争格局", "职业发展"]
+      },
+      "意图原子表": {
+        "table_id": "tbl7EoCagUSxunDZ",
+        "purpose": "意图/计划/待办，从洞察推导出的行动",
+        "current_count": 200,
+        "latest_id": "20260421002",
+        "cognitive_levels": ["L2 规律层", "L3 价值层", "L4 本质层"],
+        "sections": ["ai-cognition", "aiip", "product", "essays", "education", "tools", "ai-transform"],
+        "关联字段": {
+          "来源洞察": "指向洞察主表的关联（数组格式['record_id']）",
+          "衍生意图": "意图原子表自引用（链式推导）"
+        }
+      },
+      "选题总表": {
+        "table_id": "tblnD22DNb6VEdCK",
+        "purpose": "正式写作选题，含标题方向/论证骨架/最强细节",
+        "current_count": 20,
+        "latest_id": "S-20",
+        "关联字段": {
+          "来源洞察": "指向洞察主表",
+          "来源意图": "指向意图原子表"
+        },
+        "选项值": {
+          "状态": ["待写", "写作中", "已发布", "已废弃", "待完善"],
+          "发布时机": ["常青内容", "蹭热点", "特定节点", "待AIIP进展"],
+          "文章类型": ["A-反直觉洞察", "B-案例拆解", "C-体系框架", "D-趋势判断"],
+          "建议优先级": ["高", "中", "低"],
+          "写作难度": ["高", "中", "低"],
+          "标签": ["人工智能", "产品设计", "商业模式", "组织变革", "个人成长", "领导力", "人才战略", "认知科学", "技能系统", "经济学", "哲学思辨", "社会影响", "超级个体", "战略落地", "估值", "转型路径", "竞争格局", "职业发展"]
+        }
+      }
+    }
+  },
+  "old_bitables": {
+    "intent_bitable": {
+      "app_token": "BtDAb7sroazgx7slnkCcVucXnfH",
+      "app_name": "略懂意图管理库（旧，待迁移）",
+      "table_id": "tbl8nJTak9RnqIn5",
+      "status": "数据待迁移到新表 tbl7EoCagUSxunDZ"
+    },
+    "topic_bitable": {
+      "app_token": "Q4gIbuWwSaS3HOs9Rjfcib5Unyc",
+      "app_name": "邱懿武选题库（旧，待迁移）",
+      "table_id": "tbly7jYcwQJ6uTaD",
+      "status": "数据待迁移到新表 tblnD22DNb6VEdCK"
+    }
+  },
+  "nodes": {
+    "方法论与认知": {
+      "node_token": "FcoywzhHMiJjK9k5XDlc1ZQVnhd",
+      "doc_id": "ScC7dJXWQoqJ32xi1u1cGYv3nDh",
+      "url": "https://www.feishu.cn/wiki/FcoywzhHMiJjK9k5XDlc1ZQVnhd"
+    },
+    "项目知识库": {
+      "node_token": "K6h2wof06idPpekxMhhcAm7anoh",
+      "doc_id": "PXXQdd5feooWclxFvqGcwEfanke",
+      "url": "https://www.feishu.cn/wiki/K6h2wof06idPpekxMhhcAm7anoh"
+    },
+    "内容创作库": {
+      "node_token": "KFIwdXbP2oOIkjx48KYcsdakneg",
+      "doc_id": "KFIwdXbP2oOIkjx48KYcsdakneg",
+      "url": "https://www.feishu.cn/wiki/K6h2wof06idPpekxMhhcAm7anoh"
+    },
+    "教学知识库": {
+      "node_token": null,
+      "doc_id": "Ysyfdsd2dooWoGxvmSCcC5Vtn5e",
+      "url": "https://www.feishu.cn/wiki/EtvewY6UWiREqlkgLfWclnVcn7f"
+    },
+    "洞察与外部知识": {
+      "node_token": "EFp4wloN0iXk2pkfemdc7tJzn9d",
+      "doc_id": "XrOadcKmroMvkpxkb5Kc87rknUd",
+      "url": "https://www.feishu.cn/wiki/EFp4wloN0iXk2pkfemdc7tJzn9d"
+    }
+  },
+  "children": {
+    "项目知识库/AIIP": {
+      "node_token": null,
+      "doc_id": "ODTOdyFhhoWffsxt1SncnAF8n7f",
+      "url": "https://www.feishu.cn/wiki/I69dwnKyqiSKgCkxbJycnFmnnme"
+    }
+  },
+  "created_at": "2026-04-06T00:41:00+08:00",
+  "updated_at": "2026-04-22T00:01:00+08:00"
+}

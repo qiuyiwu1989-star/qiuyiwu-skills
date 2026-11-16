@@ -1,0 +1,23 @@
+{
+  "id": "3562422b-c251-42eb-96ac-bef80272a9a9",
+  "name": "verification-before-completion",
+  "description": "Ensures tasks are actually done, not just attempted. Use before declaring any task complete.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/verification-before-completion--3562422b-c251-42eb-96ac-bef80272a9a9",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/verification-before-completion--3562422b-c251-42eb-96ac-bef80272a9a9/versions/1.0.0",
+      "sourcePackageHash": "f5474552b330fd3b4f1398498580dfb16e9f8fff02fe8f48c74488d4711b8737",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

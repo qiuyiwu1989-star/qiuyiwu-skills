@@ -1,0 +1,26 @@
+{
+  "id": "cddb0e16-c3c3-489f-91e9-7794bc79de8d",
+  "name": "skill-vetting",
+  "description": "Reviews a ClawHub skill's source code for security risks before installation. Use before installing any new skill.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-vetting--cddb0e16-c3c3-489f-91e9-7794bc79de8d",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-vetting--cddb0e16-c3c3-489f-91e9-7794bc79de8d/versions/1.0.0",
+      "sourcePackageHash": "5f2e19f3687bc5e63b7900684bfcce0777c82a8e93a7881d600c614067cafabf",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "vet.sh"
+        }
+      ]
+    }
+  ]
+}

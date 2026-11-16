@@ -1,0 +1,23 @@
+{
+  "id": "b075872f833eb2b0",
+  "name": "luedong-sparring",
+  "description": "略懂「认知陪练」猪葛 —— 把一段碎片/念头，用张力撞料 + 顶你两轮，逼出一个你进来时没有的判断，再钉成略懂口吻的判断卡、沉淀进认知库。当用户丢来「我看到/想到一个东西」「这个值不值得想」「帮我撞一下」「陪我把这个想透」「我有个碎片」，或在飞书/微信/Claude 里捡到一句话想加压时使用。它不替你想、不替你写——它",
+  "source": "skillops",
+  "category": "business",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/luedong-sparring--b075872f833eb2b0",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/luedong-sparring--b075872f833eb2b0/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

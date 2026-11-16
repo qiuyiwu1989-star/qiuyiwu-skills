@@ -1,0 +1,32 @@
+{
+  "id": "326d39ea-a921-421c-870c-559ea311ee01",
+  "name": "memory-integrity-checker",
+  "description": "Validates memory summary DAGs for structural integrity — detects orphan nodes, circular references, token inflation, broken lineage, and stale summaries that corrupt the agent's memory.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/memory-integrity-checker--326d39ea-a921-421c-870c-559ea311ee01",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/memory-integrity-checker--326d39ea-a921-421c-870c-559ea311ee01/versions/1.0.0",
+      "sourcePackageHash": "9787035f294cf25176c0b7f8d9b6b1340b94a369c68bccca8099868178e108da",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "integrity.py"
+        }
+      ]
+    }
+  ]
+}

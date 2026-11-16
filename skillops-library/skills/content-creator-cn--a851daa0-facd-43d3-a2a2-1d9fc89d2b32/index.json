@@ -1,0 +1,26 @@
+{
+  "id": "a851daa0-facd-43d3-a2a2-1d9fc89d2b32",
+  "name": "content-creator-cn",
+  "description": "中文内容创作助手 - 一键生成掘金/知乎/公众号/小红书风格文章。适合：内容创作者、自媒体运营。",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/content-creator-cn--a851daa0-facd-43d3-a2a2-1d9fc89d2b32",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/content-creator-cn--a851daa0-facd-43d3-a2a2-1d9fc89d2b32/versions/1.0.0",
+      "sourcePackageHash": "80b5d975e4982937b7f1d6f8966d16e7bebb6476bcd674d6276ee0097d192922",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "f1ed67d4-cd64-496f-8067-b1354f45f40e",
+  "name": "weibo-adincentive",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-adincentive--f1ed67d4-cd64-496f-8067-b1354f45f40e",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-adincentive--f1ed67d4-cd64-496f-8067-b1354f45f40e/versions/1.0.0",
+      "sourcePackageHash": "ce4142a2b21e41b0c4a54422e99c82f6f4d0a02706cd6e8f0b5ec3f9561a991d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/weibo-adincentive.js"
+        }
+      ]
+    }
+  ]
+}

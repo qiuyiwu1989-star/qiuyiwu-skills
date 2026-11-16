@@ -1,0 +1,51 @@
+{
+  "id": "63bca311-c838-462f-a500-fee5af76dff0",
+  "name": "humanizer-academic-zh",
+  "description": "Humanizer 中文学术版——当用户要求润色论文、去除AI味、降低AIGC检测率，或说\"帮我改改这段\"\"这段读起来像AI写的\"时触发。",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/humanizer-academic-zh--63bca311-c838-462f-a500-fee5af76dff0",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/humanizer-academic-zh--63bca311-c838-462f-a500-fee5af76dff0/versions/1.0.0",
+      "sourcePackageHash": "398288d231f08d84825d96b5df528438871b3e8541ed70c93367a7f0d0a46512",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "SYSTEM_PROMPT.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/humanizer-academic-zh--63bca311-c838-462f-a500-fee5af76dff0/versions/1.0.1",
+      "sourcePackageHash": "860f385a240b8b9870fb3f8488d17daf16de9fdebd10e34f97a7f674ee325180",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "SYSTEM_PROMPT.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

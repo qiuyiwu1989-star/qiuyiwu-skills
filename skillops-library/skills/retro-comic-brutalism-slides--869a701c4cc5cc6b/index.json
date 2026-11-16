@@ -1,0 +1,23 @@
+{
+  "id": "869a701c4cc5cc6b",
+  "name": "retro-comic-brutalism-slides",
+  "description": "制作RC-010复古漫画新粗野主义整页PPT图，以暖纸底、超粗黑体、厚漫画面板和粉青橙复古印刷色表达内容。用户选择本风格或RC-010时使用；支持八种页型，区别于高彩贴纸涂鸦。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/retro-comic-brutalism-slides--869a701c4cc5cc6b",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/retro-comic-brutalism-slides--869a701c4cc5cc6b/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cacce206-f9a7-43bb-81f9-e923812f0599",
+  "name": "cloud-sql-basics",
+  "description": "",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/cloud-sql-basics--cacce206-f9a7-43bb-81f9-e923812f0599",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/cloud-sql-basics--cacce206-f9a7-43bb-81f9-e923812f0599/versions/1.0.0",
+      "sourcePackageHash": "fa44d96151d395cc95f04d1ee8058736460cd4dd775c7a30e0065e6b663e95ec",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/cli-usage.md"
+        },
+        {
+          "path": "references/client-library-usage.md"
+        },
+        {
+          "path": "references/core-concepts.md"
+        },
+        {
+          "path": "references/iac-usage.md"
+        },
+        {
+          "path": "references/iam-security.md"
+        },
+        {
+          "path": "references/mcp-usage.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "be23f8e237d43578",
+  "name": "archive-read",
+  "description": "用户要求查找档案、核对来源或继续以前讨论时使用。",
+  "source": "skillops",
+  "category": "knowledge",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/archive-read--be23f8e237d43578",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/archive-read--be23f8e237d43578/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "74cda74b-9f4d-44d9-a155-f921c25511db",
+  "name": "quality-gate-orchestrator",
+  "description": "Tracks required validation gates, records pass/fail/waived results, and reports readiness before task completion.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/quality-gate-orchestrator--74cda74b-9f4d-44d9-a155-f921c25511db",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/quality-gate-orchestrator--74cda74b-9f4d-44d9-a155-f921c25511db/versions/1.0.0",
+      "sourcePackageHash": "7adb95dc29b21d23c85c8cfe7fa0e9b805120011464848d9116d1b904d0730b2",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "gate.py"
+        }
+      ]
+    }
+  ]
+}

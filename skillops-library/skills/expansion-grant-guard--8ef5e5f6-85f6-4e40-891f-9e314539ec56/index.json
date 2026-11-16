@@ -1,0 +1,32 @@
+{
+  "id": "8ef5e5f6-85f6-4e40-891f-9e314539ec56",
+  "name": "expansion-grant-guard",
+  "description": "YAML-based delegation grant ledger — issues, validates, and tracks scoped permission grants for sub-agent expansions with token budgets and auto-expiry.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/expansion-grant-guard--8ef5e5f6-85f6-4e40-891f-9e314539ec56",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/expansion-grant-guard--8ef5e5f6-85f6-4e40-891f-9e314539ec56/versions/1.0.0",
+      "sourcePackageHash": "e2c5c5e221b4aca36091c6d49d6d8321ec54c42666da19fbeda59f1be2890ec7",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "guard.py"
+        }
+      ]
+    }
+  ]
+}

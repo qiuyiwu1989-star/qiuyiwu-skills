@@ -1,0 +1,33 @@
+{
+  "id": "bc493883-faec-46d9-ab98-21f903496d3b",
+  "name": "industrial-brutalist-ui",
+  "description": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/industrial-brutalist-ui--bc493883-faec-46d9-ab98-21f903496d3b",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/industrial-brutalist-ui--bc493883-faec-46d9-ab98-21f903496d3b/versions/1.0.0",
+      "sourcePackageHash": "7e5a47504c4fe85b000584e289c268ed307d93f63b3d5a47d059d8071705b8ee",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/industrial-brutalist-ui--bc493883-faec-46d9-ab98-21f903496d3b/versions/1.0.1",
+      "sourcePackageHash": "d29f32c6297bea58555545f4508a0007acfbcaf5bc61fe977e1630a14336c933",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

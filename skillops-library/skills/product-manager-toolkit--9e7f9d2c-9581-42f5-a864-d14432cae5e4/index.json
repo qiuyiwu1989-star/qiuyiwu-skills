@@ -1,0 +1,41 @@
+{
+  "id": "9e7f9d2c-9581-42f5-a864-d14432cae5e4",
+  "name": "product-manager-toolkit",
+  "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.",
+  "source": "personal_agi",
+  "category": "product",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/product-manager-toolkit--9e7f9d2c-9581-42f5-a864-d14432cae5e4",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/product-manager-toolkit--9e7f9d2c-9581-42f5-a864-d14432cae5e4/versions/1.0.0",
+      "sourcePackageHash": "00ac8acaebd79acac4a14bde233ee3e39b35cd408db516b741faa01b4ae41abd",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/frameworks.md"
+        },
+        {
+          "path": "references/input-output-examples.md"
+        },
+        {
+          "path": "references/prd_templates.md"
+        },
+        {
+          "path": "scripts/customer_interview_analyzer.py"
+        },
+        {
+          "path": "scripts/rice_prioritizer.py"
+        }
+      ]
+    }
+  ]
+}

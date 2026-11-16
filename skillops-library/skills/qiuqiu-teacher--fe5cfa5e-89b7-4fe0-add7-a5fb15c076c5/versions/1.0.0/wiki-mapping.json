@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "created": "2026-04-05",
+  "last_updated": "2026-04-05",
+  "wiki_space_id": "7625238812066614220",
+  "wiki_space_name": "球球老师",
+  "wiki_space_url": "https://www.feishu.cn/wiki/SkTYw63hRibeIJk49VlcHT3AnYc",
+  "mappings": {
+    "index": {
+      "local": "SKILL.md",
+      "wiki_id": "XGHLdKjuWo6x9jxZbnicPimknTF",
+      "wiki_node": "SkTYw63hRibeIJk49VlcHT3AnYc",
+      "wiki_url": "https://www.feishu.cn/wiki/SkTYw63hRibeIJk49VlcHT3AnYc"
+    },
+    "topic-library": {
+      "local": "references/topic-library.md",
+      "wiki_id": "CZWvd3G6eofXYgxlKapclGzunDh",
+      "wiki_url": "https://www.feishu.cn/wiki/CkcKwLqyNiwuIWkv34QcwOYon4g"
+    },
+    "dialogue-strategies": {
+      "local": "references/dialogue-strategies.md",
+      "wiki_id": "HlSMdO539oixZdxMCFXcB3T3ngg",
+      "wiki_url": "https://www.feishu.cn/wiki/ItAswmTnIi59qCkXrLicFaWUnTh"
+    },
+    "cognitive-framework": {
+      "local": "references/cognitive-framework.md",
+      "wiki_id": "On7cd5QHTorgd0xOHf9c175Xny9",
+      "wiki_url": "https://www.feishu.cn/wiki/VaW2wuqzqiGUqLkMADfcIlyunPh"
+    },
+    "report-template": {
+      "local": "references/report-template.md",
+      "wiki_id": "TyxzdFSZMoUmTSxFzjAcB3nNngb",
+      "wiki_url": "https://www.feishu.cn/wiki/PjswwHkemi7vsyk4qzzcJMouncd"
+    },
+    "child-profile-library": {
+      "local": "references/child-profile-library.md",
+      "wiki_id": "DNSLd3xDbosfPKxaywkcxcc8nvc",
+      "wiki_url": "https://www.feishu.cn/wiki/TyFvwQflsijJWCkyTl9crdeenAc"
+    }
+  }
+}

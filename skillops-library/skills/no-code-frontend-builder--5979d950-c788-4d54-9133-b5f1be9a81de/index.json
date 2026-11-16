@@ -1,0 +1,29 @@
+{
+  "id": "5979d950-c788-4d54-9133-b5f1be9a81de",
+  "name": "no-code-frontend-builder",
+  "description": "Meta-skill for generating production-ready React UI for non-programmers by orchestrating frontend-design-ultimate, shadcn-ui, and react-expert. Use when users describe UI outcomes (for example dashboards, landing pages, admin screens) and need a single copy-pasteable TSX component with explicit setup and dependency instructions.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/no-code-frontend-builder--5979d950-c788-4d54-9133-b5f1be9a81de",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/no-code-frontend-builder--5979d950-c788-4d54-9133-b5f1be9a81de/versions/1.0.0",
+      "sourcePackageHash": "42427ced93fa55871f297012d0a034cfbe448d769484cc818aa2dbf7e04b94bf",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/inspected-skills.md"
+        }
+      ]
+    }
+  ]
+}

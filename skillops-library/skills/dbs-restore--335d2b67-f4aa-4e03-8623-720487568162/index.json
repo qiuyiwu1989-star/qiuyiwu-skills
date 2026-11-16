@@ -1,0 +1,23 @@
+{
+  "id": "335d2b67-f4aa-4e03-8623-720487568162",
+  "name": "dbs-restore",
+  "description": "",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-restore--335d2b67-f4aa-4e03-8623-720487568162",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-restore--335d2b67-f4aa-4e03-8623-720487568162/versions/1.0.0",
+      "sourcePackageHash": "f57d9cffb3368dab1d925130617a15facaf5363a2ee17e9f669f601df3789048",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

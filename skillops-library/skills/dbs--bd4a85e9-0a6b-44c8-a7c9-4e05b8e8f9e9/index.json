@@ -1,0 +1,23 @@
+{
+  "id": "bd4a85e9-0a6b-44c8-a7c9-4e05b8e8f9e9",
+  "name": "dbs",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs--bd4a85e9-0a6b-44c8-a7c9-4e05b8e8f9e9",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs--bd4a85e9-0a6b-44c8-a7c9-4e05b8e8f9e9/versions/1.0.0",
+      "sourcePackageHash": "88b5dec4147cf24b18f1b834f0d1d146dd25872cfed3b53dc7cc0bfea31be36b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

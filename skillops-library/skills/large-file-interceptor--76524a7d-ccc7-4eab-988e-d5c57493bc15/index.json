@@ -1,0 +1,32 @@
+{
+  "id": "76524a7d-ccc7-4eab-988e-d5c57493bc15",
+  "name": "large-file-interceptor",
+  "description": "Detects oversized files that would blow the context window, generates structural exploration summaries, and stores compact references — preventing a single paste from consuming the entire budget.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/large-file-interceptor--76524a7d-ccc7-4eab-988e-d5c57493bc15",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/large-file-interceptor--76524a7d-ccc7-4eab-988e-d5c57493bc15/versions/1.0.0",
+      "sourcePackageHash": "36240e4728accb5f505623347c2c7085f4f4b15534967e33f8cafad7630ebc2a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "intercept.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5ae3e543-3fe4-4147-81fc-73cf79e403bb",
+  "name": "use-ai-ambitiously",
+  "description": "把别当'更快的工具'，当成'更高的杠杆'——用 Felix Rieseberg（Anthropic 工程主管）的四个野心维度（速度/高度/深度/广度）升级你交给 AI 的任务。当用户说'这个任务怎么交给 AI 做''帮我升级成 AI 能做得更好的版本''我要更有野心地用 AI''这个 prompt 怎么改''怎么让 AI 做得更深/更广/更高级'，或当用户给出一个显得过于琐碎、AI 明明能做更多时，务必使用本技能。也用于诊断'为什么我用 AI 没看到质变'。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/use-ai-ambitiously--5ae3e543-3fe4-4147-81fc-73cf79e403bb",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/use-ai-ambitiously--5ae3e543-3fe4-4147-81fc-73cf79e403bb/versions/1.0.0",
+      "sourcePackageHash": "d408b8a9f8b96adc601a620d3b69a67c10f883861633d7b97bf0662621e97f9d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/altitude-depth-range.md"
+        }
+      ]
+    }
+  ]
+}

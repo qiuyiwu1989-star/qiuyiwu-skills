@@ -1,0 +1,53 @@
+{
+  "id": "13f3488c-0ce5-40b0-b35b-e03fe6c80762",
+  "name": "小能",
+  "description": "技能人事部（HRD）—— 把每个 AI 技能当员工管：入库、落户、盘点、评级(SMS)、图谱、培训提分、绩效退化预警、退役归档的全生命周期。当用户说「造一个技能」「造技能」「存成技能」「保存为技能」「审计一下 XX」「扫描一下技能库」「我的技能库」「花名册」「技能状态」「技能关系」「团队能力盘点」「帮 XX 提分到 A」「哪些技能在退化」「哪些技能该下线」「技能盘点」「整理我的技能」「技能评级」「SMS 评分」，或当你刚创建/修改了任何 SKILL.md 文件（出生即入册），或 SessionStart 注入了 [skillops 技能人事体检] 警报时，使用本技能。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill--13f3488c-0ce5-40b0-b35b-e03fe6c80762",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill--13f3488c-0ce5-40b0-b35b-e03fe6c80762/versions/1.0.0",
+      "sourcePackageHash": "d733f7aafb40d4448f71c1f5709c9ce13ef959d817434b76c82fb3f55d4eaba5",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/cli.md"
+        },
+        {
+          "path": "references/methodology.md"
+        },
+        {
+          "path": "references/playbooks.md"
+        },
+        {
+          "path": "references/sms.md"
+        },
+        {
+          "path": "scripts/lib/fm.mjs"
+        },
+        {
+          "path": "scripts/lib/scan.mjs"
+        },
+        {
+          "path": "scripts/lib/scoring.mjs"
+        },
+        {
+          "path": "scripts/lib/store.mjs"
+        },
+        {
+          "path": "scripts/skillops.mjs"
+        }
+      ]
+    }
+  ]
+}

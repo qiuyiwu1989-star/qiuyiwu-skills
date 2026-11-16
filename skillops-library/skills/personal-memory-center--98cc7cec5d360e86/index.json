@@ -1,0 +1,23 @@
+{
+  "id": "98cc7cec5d360e86",
+  "name": "personal-memory-center",
+  "description": "Use a connected private memory-center MCP for source-backed personal context or authorized small-batch imports. Read only when a task needs background; do not substitute for project-memory protocols.",
+  "source": "skillops",
+  "category": "knowledge",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/personal-memory-center--98cc7cec5d360e86",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/personal-memory-center--98cc7cec5d360e86/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

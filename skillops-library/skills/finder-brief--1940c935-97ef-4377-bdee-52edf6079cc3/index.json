@@ -1,0 +1,43 @@
+{
+  "id": "1940c935-97ef-4377-bdee-52edf6079cc3",
+  "name": "finder-brief",
+  "description": "",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/finder-brief--1940c935-97ef-4377-bdee-52edf6079cc3",
+  "currentVersion": "1.0.2",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/finder-brief--1940c935-97ef-4377-bdee-52edf6079cc3/versions/1.0.0",
+      "sourcePackageHash": "a57482c05ddf6be7c9038f22c3785db4e10a4ee4936164dc9238f6d03be0c170",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/finder-brief--1940c935-97ef-4377-bdee-52edf6079cc3/versions/1.0.1",
+      "sourcePackageHash": "7feacebe65f635d1d8c4bf5b0b4a652e61c123e002e13467f5638c538231e708",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.2",
+      "path": "skills/finder-brief--1940c935-97ef-4377-bdee-52edf6079cc3/versions/1.0.2",
+      "sourcePackageHash": "a57482c05ddf6be7c9038f22c3785db4e10a4ee4936164dc9238f6d03be0c170",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "9287bd8f87da2fae",
+  "name": "black-orange-street-slides",
+  "description": "制作黑橙街头动势漫画整页PPT，用户选择此画法时使用。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/black-orange-street-slides--9287bd8f87da2fae",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/black-orange-street-slides--9287bd8f87da2fae/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

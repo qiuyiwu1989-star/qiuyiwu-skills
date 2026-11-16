@@ -1,0 +1,23 @@
+{
+  "id": "1f9781ab-244a-4bb2-9ca6-ea6d237e2d7a",
+  "name": "ljg-travel",
+  "description": "Deep travel research workflow for museums and ancient architecture. Input a city name, auto-generates structured knowledge document (org-mode) + portable reference cards (PNG). Covers historical background, museum highlights, archaeological significance, and architectural heritage. Use when user says '旅行研究', '博物馆功课', '古建功课', 'travel research', '出发前功课', or provides a city name with intent to do dee",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-travel--1f9781ab-244a-4bb2-9ca6-ea6d237e2d7a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-travel--1f9781ab-244a-4bb2-9ca6-ea6d237e2d7a/versions/1.0.0",
+      "sourcePackageHash": "1c7652eb3280b7f0f3d1ba646dcbdd360bf56822fbc31f67602f7d59490bb44e",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

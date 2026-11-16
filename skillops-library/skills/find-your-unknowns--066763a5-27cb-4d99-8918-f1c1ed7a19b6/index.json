@@ -1,0 +1,26 @@
+{
+  "id": "066763a5-27cb-4d99-8918-f1c1ed7a19b6",
+  "name": "find-your-unknowns",
+  "description": "在动手之前、之中、之后，系统地找出'你和 AI 之间的信息缺口'——你没想到的、你以为 AI 懂的、你说不出口却一看就知道的。当用户说'先帮我找盲点''有什麼没说清''我不知道从哪开始''这个不够好但说不上哪不对''你猜猜我想要什么''帮我扫一下我没想到的''我们漏了什么'，或当任务模糊、用户表达不出标准、长任务可能跑偏时，务必使用本技能。它是 use-ai-ambitiously 的前置——先找未知，再抬野心。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/find-your-unknowns--066763a5-27cb-4d99-8918-f1c1ed7a19b6",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/find-your-unknowns--066763a5-27cb-4d99-8918-f1c1ed7a19b6/versions/1.0.0",
+      "sourcePackageHash": "4fb26c86c8e0e74c0fb5797310f33a5cc8322f9355e912fdaf4d3f8f115d90c9",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/four-states-and-prompts.md"
+        }
+      ]
+    }
+  ]
+}

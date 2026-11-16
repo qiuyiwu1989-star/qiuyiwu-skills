@@ -1,0 +1,26 @@
+{
+  "id": "ee7e99c5-92d1-4114-9b47-aa75a125535c",
+  "name": "daily-review",
+  "description": "End-of-day structured summary and next-session prep. Use at the end of each working day or significant work block.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/daily-review--ee7e99c5-92d1-4114-9b47-aa75a125535c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/daily-review--ee7e99c5-92d1-4114-9b47-aa75a125535c/versions/1.0.0",
+      "sourcePackageHash": "f849a8d6e842b5ae2e655463d0fa5d0e1fd78e5e5678cb10b39497f7f27ff7ca",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        }
+      ]
+    }
+  ]
+}

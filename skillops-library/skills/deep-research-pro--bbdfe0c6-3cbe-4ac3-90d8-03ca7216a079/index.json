@@ -1,0 +1,35 @@
+{
+  "id": "bbdfe0c6-3cbe-4ac3-90d8-03ca7216a079",
+  "name": "deep-research-pro",
+  "description": "Multi-source deep research agent. Searches the web, synthesizes findings, and delivers cited reports. No API keys required.",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/deep-research-pro--bbdfe0c6-3cbe-4ac3-90d8-03ca7216a079",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/deep-research-pro--bbdfe0c6-3cbe-4ac3-90d8-03ca7216a079/versions/1.0.0",
+      "sourcePackageHash": "d84bfa8620979943afe9531a533dce10a43b2cfbf0c6608a1925e539a28c4406",
+      "files": [
+        {
+          "path": ".clawhub/origin.json"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "package.json"
+        }
+      ]
+    }
+  ]
+}

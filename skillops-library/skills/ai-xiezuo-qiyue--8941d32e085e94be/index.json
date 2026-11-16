@@ -1,0 +1,23 @@
+{
+  "id": "8941d32e085e94be",
+  "name": "ai-xiezuo-qiyue",
+  "description": ">-",
+  "source": "skillops",
+  "category": "agent",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/ai-xiezuo-qiyue--8941d32e085e94be",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/ai-xiezuo-qiyue--8941d32e085e94be/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

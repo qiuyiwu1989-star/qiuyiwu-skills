@@ -1,0 +1,29 @@
+{
+  "id": "c9b50db3-53d1-4945-9de4-f9c29bc563be",
+  "name": "byted-teamproject-image-generate",
+  "description": "Generate high-quality images from text prompts using Volcano Engine Seedream models. Supports multiple artistic styles and aspect ratios. Use this skill when users want to create images from text descriptions, generate artwork in various styles, create visual content for creative projects, or need AI-powered image generation capabilities.",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/byted-teamproject-image-generate--c9b50db3-53d1-4945-9de4-f9c29bc563be",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/byted-teamproject-image-generate--c9b50db3-53d1-4945-9de4-f9c29bc563be/versions/1.0.0",
+      "sourcePackageHash": "0bd82b1260d8ce2bb52afab103d98c8189c972742e6e67fc6f52d7eea7a0a8f5",
+      "files": [
+        {
+          "path": "LICENSE.txt"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/seedream_image_generate.py"
+        }
+      ]
+    }
+  ]
+}

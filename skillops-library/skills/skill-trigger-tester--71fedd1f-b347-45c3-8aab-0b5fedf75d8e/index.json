@@ -1,0 +1,26 @@
+{
+  "id": "71fedd1f-b347-45c3-8aab-0b5fedf75d8e",
+  "name": "skill-trigger-tester",
+  "description": "Scores a skill's description field against sample user prompts to predict whether OpenClaw will correctly trigger it — before you publish or install.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-trigger-tester--71fedd1f-b347-45c3-8aab-0b5fedf75d8e",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-trigger-tester--71fedd1f-b347-45c3-8aab-0b5fedf75d8e/versions/1.0.0",
+      "sourcePackageHash": "a898c23bced922625129f749f2a926da368bdba74e223226d69fbd86c530a800",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "test.py"
+        }
+      ]
+    }
+  ]
+}

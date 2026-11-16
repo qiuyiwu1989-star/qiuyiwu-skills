@@ -1,0 +1,57 @@
+{
+  "_comment": "本地补充源。不经过上游 feed，由 scripts/local-supplement.js 直接抓取。上游 default-sources.json 保持不动。",
+  "_verified": "2026-09-30 实测可达（RSS 优先）",
+  "podcasts": [
+    {
+      "name": "Hard Fork",
+      "rssUrl": "https://feeds.simplecast.com/6HKOhNgS",
+      "url": "https://www.nytimes.com/column/hard-fork",
+      "note": "NYT 科技播客，主流社会与产业政策视角"
+    },
+    {
+      "name": "The Cognitive Revolution",
+      "rssUrl": "https://feeds.megaphone.fm/RINTP3108857801",
+      "url": "https://www.cognitiverevolution.ai/",
+      "note": "AI 应用层落地，学术+创业"
+    },
+    {
+      "name": "AI + a16z",
+      "rssUrl": "https://feeds.simplecast.com/Hb_IuXOo",
+      "url": "https://a16z.com/podcasts/",
+      "note": "a16z 机构视角，投资与商业模式"
+    },
+    {
+      "name": "The a16z Show",
+      "rssUrl": "https://feeds.simplecast.com/JGE3yC0V",
+      "url": "https://a16z.com/podcasts/",
+      "note": "a16z 主频道"
+    }
+  ],
+  "blogs": [
+    {
+      "name": "OpenAI News",
+      "rssUrl": "https://openai.com/news/rss.xml",
+      "indexUrl": "https://openai.com/news/"
+    },
+    {
+      "name": "Google DeepMind",
+      "rssUrl": "https://deepmind.google/blog/rss.xml",
+      "indexUrl": "https://deepmind.google/discover/blog/"
+    },
+    {
+      "name": "Microsoft Research",
+      "rssUrl": "https://www.microsoft.com/en-us/research/blog/feed/",
+      "indexUrl": "https://www.microsoft.com/en-us/research/blog/"
+    },
+    {
+      "name": "Anthropic News",
+      "indexUrl": "https://www.anthropic.com/news",
+      "kind": "scrape",
+      "note": "无公开 RSS，走 HTML 抓取"
+    }
+  ],
+  "lookbackHours": {
+    "podcasts": 336,
+    "blogs": 168
+  }
+}

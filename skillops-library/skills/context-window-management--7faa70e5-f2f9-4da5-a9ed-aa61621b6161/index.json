@@ -1,0 +1,26 @@
+{
+  "id": "7faa70e5-f2f9-4da5-a9ed-aa61621b6161",
+  "name": "context-window-management",
+  "description": "Prevents context overflow on long-running OpenClaw sessions. Use when approaching context limits.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/context-window-management--7faa70e5-f2f9-4da5-a9ed-aa61621b6161",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/context-window-management--7faa70e5-f2f9-4da5-a9ed-aa61621b6161/versions/1.0.0",
+      "sourcePackageHash": "e6c51d19d5b45dbf1ecb107cba9f994688f36a27f9269fabb041eed11794226f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        }
+      ]
+    }
+  ]
+}

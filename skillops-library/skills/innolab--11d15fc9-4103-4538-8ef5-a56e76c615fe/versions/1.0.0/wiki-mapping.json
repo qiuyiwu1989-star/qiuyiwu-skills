@@ -1,0 +1,520 @@
+{
+  "space_id": "7625147992015178715",
+  "parent_nodes": {
+    "cognition": "Eb7uwBS6Di0d22kMbQvcxXJlni0",
+    "strategy": "LVv8wDPiLiqjwTkxsWlc8yZTnz5",
+    "generation": "VLQYwoYpUieiyXkiv4Acse2bn5f",
+    "decision": "AYvnwOsigikLt8kRNhDcoeCwn9c",
+    "product": "Fybtw9bt0iBV0WkEzHmcD4Ohnif",
+    "evolution": "Gapcw6JGmiq3dmk3oJ6ctZAMnHg",
+    "case_library": "TCM0w6guIiIlHfklVPqcv1sXnDh",
+    "changelog": "UgKVwc0HXi0AGvkgphgcTKp4nhb",
+    "depth_assessment": "GRvpwomjsiReOLkWV8xc94Bsntd"
+  },
+  "method_pages": {
+    "CG01": {
+      "node_token": "F4i7wUPPzihGSrkbR0NcGSQEnKe",
+      "obj_token": "MbJwdhIbAoSmRhxymWlcOgfgndc",
+      "title": "CG01 五层认知模型",
+      "file": "cognition/five-layer-cognition.md"
+    },
+    "CG02": {
+      "node_token": "LsL2wWb3Di3SpQkA1dJcOiQ8nVh",
+      "obj_token": "EshfdBc0EoOYIOxp28aclNAznLe",
+      "title": "CG02 三方共同进化模型",
+      "file": "cognition/three-party-coevolution.md"
+    },
+    "CG03": {
+      "node_token": "RNcSw4pzLia6iukC10PcCOFSnMh",
+      "obj_token": "EZvMdmLitojx48xBkflc97OznEd",
+      "title": "CG03 认知组装者方法",
+      "file": "cognition/cognitive-assembler.md"
+    },
+    "CG04": {
+      "node_token": "Cqt2w0fgOi6KCpkDoCzcBdPMn6b",
+      "obj_token": "Er94d1bGbo2KD6xpKQScX298nse",
+      "title": "CG04 十级创造力评估",
+      "file": "cognition/ten-level-creativity.md"
+    },
+    "CG05": {
+      "node_token": "JvTEwRDaMiJUMDkBo8tcNQTqnYf",
+      "obj_token": "GPDqdqlfVoUFRZxfLUicj856n6f",
+      "title": "CG05 创新五大构成",
+      "file": "cognition/five-compositions.md"
+    },
+    "CG06": {
+      "node_token": "G8IVwAEYniu0UWkQVQUcrFjtnZb",
+      "obj_token": "WVISdSnIpo45tYx3WFlcDeajnPd",
+      "title": "CG06 L2-L4跃迁诊断",
+      "file": "cognition/l2-l4-diagnosis.md"
+    },
+    "CG07": {
+      "node_token": "Id6ewST4AiKe0lkWAZoc3p7jnjh",
+      "obj_token": "XpBhdioe9oWZcpxbgAAcDjTQnCh",
+      "title": "CG07 洞察生成框架",
+      "file": "cognition/insight-framework.md"
+    },
+    "CG08": {
+      "node_token": "QFfYw5ByBitubLkqwFTcyk4tn9Y",
+      "obj_token": "S1x1dn0uMoisrNxdbCAcZsJBnMh",
+      "title": "CG08 九宫格分析法",
+      "file": "cognition/nine-grid.md"
+    },
+    "CG09": {
+      "node_token": "Z4f5wrv9OiVVuTk013Eco01PnRd",
+      "obj_token": "HGRWdI3dRoGZQLxHWGkcAmbjn8d",
+      "title": "CG09 六顶思考帽",
+      "file": "cognition/six-hats.md"
+    },
+    "CG10": {
+      "node_token": "GPw3wSHCmi4agGkOFe7cuCsxnAe",
+      "obj_token": "CwxbdfWAdoqEKcxOjTpcrxRWnub",
+      "title": "CG10 马斯洛需求层次",
+      "file": "cognition/maslow.md"
+    },
+    "CG11": {
+      "node_token": "LLOcwVbAcibryKkYKGZcJiu3nyf",
+      "obj_token": "Sf9idPwpFo96VBxZbDScbJe4n6d",
+      "title": "CG11 H³-TII能力操作系统",
+      "file": "cognition/h3-tii.md"
+    },
+    "CG12": {
+      "node_token": "QUl2w2UzIiiJFVk2iLIc2pKgn8d",
+      "obj_token": "Mi57dS5C3oMgiaxwRbjcJ3oCnab",
+      "title": "CG12 金字塔原理",
+      "file": "cognition/pyramid.md"
+    },
+    "CG13": {
+      "node_token": "RQa6wAJrji5X84kGFQzcmb7OnNf",
+      "obj_token": "EDm3d58ckoqkVqxxDZLcQPXgn1g",
+      "title": "CG13 推导式写作法",
+      "file": "cognition/deductive-writing.md"
+    },
+    "CG14": {
+      "node_token": "LiD3w2rMLisylOkilCAckDG9nde",
+      "obj_token": "ZcJgdn0b2okcdrxr2rjcoiVtnte",
+      "title": "CG14 方法卡结构设计",
+      "file": "cognition/method-card-design.md"
+    },
+    "ST01": {
+      "node_token": "SbwgwOJBbibjTokVPBcczWvcnrc",
+      "obj_token": "KV4cdSZ3QoeAaXxgMmRc92cenQd",
+      "title": "ST01 四代思维跃迁模型",
+      "file": "strategy/paradigm-shift.md"
+    },
+    "ST02": {
+      "node_token": "Z97Ewj4pPilb5jkLiGncSSesnze",
+      "obj_token": "Jsb1ddkQvobt4vxNFkVcEP25n5g",
+      "title": "ST02 行业第一性原理分析",
+      "file": "strategy/industry-first-principles.md"
+    },
+    "ST03": {
+      "node_token": "existing",
+      "obj_token": "BfGgdhPmjownZ7xvDnLcFRX5nTO",
+      "title": "ST03 护城河迁移理论",
+      "file": "strategy/moat-migration.md"
+    },
+    "ST04": {
+      "node_token": "existing",
+      "obj_token": "D4HndX8vEoAZ81xsPiqcgtLQnyb",
+      "title": "ST04 消费时代诊断",
+      "file": "strategy/consumption-era.md"
+    },
+    "ST05": {
+      "node_token": "RJ1XwDWjJirFgOkyaGjciYFwnGX",
+      "obj_token": "XyXUd6yLco703ixijTkcDcKcnQd",
+      "title": "ST05 哑铃型社会分析",
+      "file": "strategy/dumbbell-society.md"
+    },
+    "ST06": {
+      "node_token": "existing",
+      "obj_token": "LYq7deSceoe3eExuLf0cSIInnIe",
+      "title": "ST06 蓝海战略",
+      "file": "strategy/blue-ocean.md"
+    },
+    "ST07": {
+      "node_token": "TkXpwWx9Wiie3OkxOWvcfBc9ngd",
+      "obj_token": "FLQcdPU7eozEjYxBVtlcbWJdn0c",
+      "title": "ST07 AI战略攻守矩阵",
+      "file": "strategy/attack-defend.md"
+    },
+    "ST08": {
+      "node_token": "N3ihwfVVrisojAkSbuScDVufnZd",
+      "obj_token": "WceJd9WnZo1TLBxDMplcOP0Mnvf",
+      "title": "ST08 战略幻觉诊断",
+      "file": "strategy/strategic-illusion.md"
+    },
+    "ST09": {
+      "node_token": "SD5YwvTrti72bQkLf15cS6T4npc",
+      "obj_token": "RvqrdrobxoBMvAxdDMjcGytMnCf",
+      "title": "ST09 双轨人才体系",
+      "file": "strategy/dual-track-talent.md"
+    },
+    "ST10": {
+      "node_token": "DhrRwPhOBit13dk0WPecoV5hnAc",
+      "obj_token": "ZEv8d9eLWobWgOxVz3ucSMiDnxi",
+      "title": "ST10 流程三阶进化论",
+      "file": "strategy/three-stage-evolution.md"
+    },
+    "ST11": {
+      "node_token": "SJVLwQcX3iQ8RtkZZxZc9zAInte",
+      "obj_token": "NY2ndh6r9oRp3fxsfv9cCHa1nsf",
+      "title": "ST11 波特五力分析",
+      "file": "strategy/porter-five.md"
+    },
+    "ST12": {
+      "node_token": "RKcOw3TI8iJZSlkJYmrcC1L7nWe",
+      "obj_token": "I7mudrljAoXvF8xpTS7cP8kAnoe",
+      "title": "ST12 护城河理论分析",
+      "file": "strategy/moat-analysis.md"
+    },
+    "ST13": {
+      "node_token": "PaiZwedOSilH7vk81EMcKdOEnLg",
+      "obj_token": "RkVidxiaio9CAvxbJdmcdLAVnD5",
+      "title": "ST13 安索夫增长矩阵",
+      "file": "strategy/ansoff.md"
+    },
+    "GN01": {
+      "node_token": "MiEuwn6kYiSBCUkRTj9cAguDnCA",
+      "obj_token": "X0nNdJfTeoTl2CxwsF6cPPyxnSc",
+      "title": "GN01 六步飞轮",
+      "file": "generation/six-step-flywheel.md"
+    },
+    "GN02": {
+      "node_token": "ZUsswXL45izzCQko1r0cq6tRnxb",
+      "obj_token": "K6LMdTIAFoPAoExhP3ycleNWndd",
+      "title": "GN02 角色基因理论",
+      "file": "generation/role-gene.md"
+    },
+    "GN03": {
+      "node_token": "CwQ3wXsOiiRDwikRsBzcC9kxnxb",
+      "obj_token": "UkYNdSGMVoshz3xyxQBcMxv6n8b",
+      "title": "GN03 具身生产法",
+      "file": "generation/embodied-production.md"
+    },
+    "GN04": {
+      "node_token": "Zp5WwWAnxiTWGokQA7fcNwXknpc",
+      "obj_token": "C6dndN1wgoIpQFxOTAWcBzV2n4d",
+      "title": "GN04 老瓶换新装策略",
+      "file": "generation/old-bottle-new-label.md"
+    },
+    "GN05": {
+      "node_token": "XWPBwrTCAiBy1lk48L7ckbPMnBo",
+      "obj_token": "KnEddr4FjodwCyxh8YSc01TXnsh",
+      "title": "GN05 设计思维",
+      "file": "generation/design-thinking.md"
+    },
+    "GN06": {
+      "node_token": "MaNHwXCwGiPwdBkOnU9c2wPonCg",
+      "obj_token": "YAekdbM65onPNGx5DYscHQZCnUh",
+      "title": "GN06 颠覆性思维的产品路演法",
+      "file": "generation/disruptive-roadshow.md"
+    },
+    "DC01": {
+      "node_token": "M6PAweCYxiIoPdkWS9Pcjqt5n9b",
+      "obj_token": "YY3KdHu0votYBcx1DoYcZZfbnEf",
+      "title": "DC01 场景价值矩阵",
+      "file": "decision/scene-value-matrix.md"
+    },
+    "DC02": {
+      "node_token": "YVunwdABpiXEqbkJCzscmMzTnvf",
+      "obj_token": "UcIBdkPvwoMIooxtz7jcY2X5nDE",
+      "title": "DC02 SWOT分析",
+      "file": "decision/swot.md"
+    },
+    "DC03": {
+      "node_token": "Y6K6wlL1RiSvI0ksQkxcpHyxntb",
+      "obj_token": "S6NFdfCtKoI2eixbQxBcUT1fntf",
+      "title": "DC03 波士顿矩阵",
+      "file": "decision/bcg.md"
+    },
+    "DC04": {
+      "node_token": "W861wRW1WiJkjFkpcIIcv8zanwf",
+      "obj_token": "XWeLdAJ5Qow9jOxSivTck0cfn1d",
+      "title": "DC04 KANO需求模型",
+      "file": "decision/kano.md"
+    },
+    "DC05": {
+      "node_token": "Dy2GwZIGEiSW4ykPwnSccuTrnd3",
+      "obj_token": "PuDAducM8oq1UGxoCvtcywFZn9g",
+      "title": "DC05 J曲线穿越策略",
+      "file": "decision/j-curve.md"
+    },
+    "DC06": {
+      "node_token": "W5CEw9dQUiZrRekWDFjcUAZNnCg",
+      "obj_token": "TVf0dfaKnoHVAEx5j3JcVtnmnEe",
+      "title": "DC06 AI产品价值三阶评估法",
+      "file": "decision/ai-product-value-assessment.md"
+    },
+    "PD01": {
+      "node_token": "UAiLw2YUgi4wBWkpMXccVIzLn0D",
+      "obj_token": "EvAFdBsHao13Yfxqc7QcE5ZznUc",
+      "title": "PD01 商业模式画布BMC",
+      "file": "product/bmc.md"
+    },
+    "PD02": {
+      "node_token": "GgsnwKlXMixTdmkHkGDcOu39n4e",
+      "obj_token": "Zrw8dJLz1oeCiXxr1NvcMoEHn6b",
+      "title": "PD02 IP四层知识图谱",
+      "file": "product/ip-knowledge-graph.md"
+    },
+    "PD03": {
+      "node_token": "QOCsw6h1ciIcpCkn1ORcBsIknyd",
+      "obj_token": "Gz8VdWxKYocsgYxvKPLcdmsYnHg",
+      "title": "PD03 人货场模型",
+      "file": "product/people-goods-field.md"
+    },
+    "PD04": {
+      "node_token": "WjEAwj4CqirRrMk5I9eciPLMnab",
+      "obj_token": "P89Pdyk6VoMhLGxRxtAcoLHEnQd",
+      "title": "PD04 用户画像",
+      "file": "product/user-persona.md"
+    },
+    "PD05": {
+      "node_token": "HvwtwD2m2ik94rk6777c70oynyb",
+      "obj_token": "OpTHdxwJJo24uWx6nRrc5UqUnhc",
+      "title": "PD05 客户旅程图",
+      "file": "product/customer-journey.md"
+    },
+    "PD06": {
+      "node_token": "Pvqhw2lOyix3JjkgjEacCtMrnye",
+      "obj_token": "SVUQd71HLoXzAzxMjVQc6kI6n6c",
+      "title": "PD06 最小可行产品",
+      "file": "product/mvp.md"
+    },
+    "PD07": {
+      "node_token": "LNltwAOETijM6JkQO9pcuqNOnVe",
+      "obj_token": "OpPRdAmnUo2slxxJfXccgf04n1c",
+      "title": "PD07 Hook钩子模型",
+      "file": "product/hook.md"
+    },
+    "PD08": {
+      "node_token": "OsDVwDUBXibZCpkFnpOcgNXanRd",
+      "obj_token": "ObYXdtkY2oGpBXx8wXpcJZPmnSu",
+      "title": "PD08 品牌资产分析",
+      "file": "product/brand-equity.md"
+    },
+    "PD09": {
+      "node_token": "GXqxw0eKkiqYLakB0q1clIjPnBb",
+      "obj_token": "RUHYdSKQkoHqRpxFfeVcV0Gnnee",
+      "title": "PD09 品牌共鸣模型",
+      "file": "product/brand-resonance.md"
+    },
+    "EV01": {
+      "node_token": "ZPRvwiIJUiDzbNkIKbLcSPXOncc",
+      "obj_token": "Qsrsdx1gEouocPxxjEYcnMKsnyf",
+      "title": "EV01 AARRR增长模型",
+      "file": "evolution/aarrr.md"
+    },
+    "EV02": {
+      "node_token": "QE5XwP3O0ioXFakWKO8c7HACnsg",
+      "obj_token": "XayTdepX7oDhh8xdK3hckXKWnCg",
+      "title": "EV02 数据×场景飞轮",
+      "file": "evolution/data-scene-flywheel.md"
+    },
+    "EV03": {
+      "node_token": "JTnwwFWlRi2RRrkts0Cc9WRNnKf",
+      "obj_token": "Ekqkd5C1loxn8mxZn5qcwcYTnhb",
+      "title": "EV03 OKR目标管理",
+      "file": "evolution/okr.md"
+    },
+    "PD10": {
+      "node_token": "IQ5pwWdhViLMMNkfWOBcF2eZnKc",
+      "obj_token": "JxxcdMnz8oW7lzxBqA0cdqvynEf",
+      "title": "PD10 产品定义九宫格",
+      "file": "product/product-definition/nine-grid.md"
+    },
+    "CG15": {
+      "node_token": "AwAWwb35kiSjGSkreMKcerh6nEh",
+      "obj_token": "FAcFdWezPoFgLGxzgz3cekYcnAd",
+      "title": "CG15 未来雷达图",
+      "file": "cognition/future-radar.md"
+    },
+    "CG16": {
+      "node_token": "S3rdwKo4wiQNwbkRpMQcpVAEn5c",
+      "obj_token": "UdFzdH3KSoavmQxVITecS8PunIi",
+      "title": "CG16 消费趋势画布",
+      "file": "cognition/consumer-trend-canvas.md"
+    },
+    "CG17": {
+      "node_token": "J3sqwNSVGio2bLkEcetc1xwNngg",
+      "obj_token": "NmKcdgO0WoWoGTxtBQwcScDSnx7",
+      "title": "CG17 设计民族志",
+      "file": "cognition/design-ethnography.md"
+    },
+    "CG18": {
+      "node_token": "BvhswRJjwiLrG7k1U4ScwUWknkg",
+      "obj_token": "LqlZdDddDo2hUwxMhGPcLuDenph",
+      "title": "CG18 亲和图",
+      "file": "cognition/affinity-diagram.md"
+    },
+    "CG19": {
+      "node_token": "NIxIwJaRnilQpQkjjJocnmIln6e",
+      "obj_token": "OPISdQDgmoJq3Mxrtn3cWQC9nvc",
+      "title": "CG19 杰文斯悖论推理法",
+      "file": "cognition/jevons-paradox-reasoning.md"
+    },
+    "GN07": {
+      "node_token": "DoMOwolfmipRUrkGCK5csAG4npd",
+      "obj_token": "Ex8hdH2wyoVQ11xORUccEfnHnrg",
+      "title": "GN07 假如会怎么样",
+      "file": "generation/what-if.md"
+    },
+    "GN08": {
+      "node_token": "PeOrw375Uib1pNkP03Ic671Dnfb",
+      "obj_token": "ONATdpyU2odmeCxJJgGcSOv7nSb",
+      "title": "GN08 头脑风暴",
+      "file": "generation/brainstorming.md"
+    },
+    "GN09": {
+      "node_token": "CipAwJBL9iUOifkPkNQcj3OYnIh",
+      "obj_token": "M8cudUbREo04dNx47ZSchF6fn9g",
+      "title": "GN09 行为风暴",
+      "file": "generation/body-storming.md"
+    },
+    "GN10": {
+      "node_token": "N4Ogw99jsilc1gkS75fcDsMpnwc",
+      "obj_token": "Vu42dLYFAokiEuxcXHic2qawnLg",
+      "title": "GN10 概念提炼",
+      "file": "generation/concept-development.md"
+    },
+    "GN11": {
+      "node_token": "DvrIw3O11i8n5GkHkGxcz1oKnNg",
+      "obj_token": "R7X5dJWVIoNj3Fxpg6ncNosGn6b",
+      "title": "GN11 原型法",
+      "file": "generation/prototyping.md"
+    },
+    "GN12": {
+      "node_token": "YAodwK6KWiDHEekhMJ6cPOIunRe",
+      "obj_token": "EwzFd5jQXoybUsxr0zIcQwP0nad",
+      "title": "GN12 故事板",
+      "file": "generation/storyboard.md"
+    },
+    "DC07": {
+      "node_token": "Qv3hw0d75i8bmPkR4gfcRRLRnnY",
+      "obj_token": "Pmfvdgm7yoOW0Wx5XSbcHUzwnMd",
+      "title": "DC07 评估矩阵",
+      "file": "decision/evaluation-matrix.md"
+    },
+    "PD11": {
+      "node_token": "U4fewOAqKi3sFFkJfUmcQnG1nMc",
+      "obj_token": "L2mmd5lXzo6RZLxtr8DchvrEnMd",
+      "title": "PD11 创新十环分析法",
+      "file": "product/ten-types-innovation.md"
+    },
+    "PD12": {
+      "node_token": "Z3AxwIaJDiHpR3kgp7tcbIRTnve",
+      "obj_token": "QHn0dqzULo5YucxmbnRcS5E2nnf",
+      "title": "PD12 价值机会分析",
+      "file": "product/value-opportunity-analysis.md"
+    },
+    "PD13": {
+      "node_token": "UVfQwjVAQiL5Nfk7meIc3M8InWd",
+      "obj_token": "GfcJdP6VVosT4QxFk6ucr7MJnkh",
+      "title": "PD13 商业折纸",
+      "file": "product/business-origami.md"
+    },
+    "ST14": {
+      "node_token": "FB2iwOCUiieI5HkW1X6cb3Qonhb",
+      "obj_token": "Md84dCJqToHXDzxOi7Ic2bfHnXf",
+      "title": "ST14 战略路线图",
+      "file": "strategy/strategy-roadmap.md"
+    },
+    "ST15": {
+      "node_token": "JbTvw3NpdiZZQVkMxoYcUsqwn3e",
+      "obj_token": "SXHqd7XM8o1akJxwYglc0u5Tnrg",
+      "title": "ST15 投资叙事架构",
+      "file": "strategy/investment-narrative.md"
+    },
+    "ST16": {
+      "node_token": "Yi8nwXnHYifv3KkwGD6cZivxnSh",
+      "obj_token": "LNpZdbnRDozJwwxkoATcATiSnUd",
+      "title": "ST16 智能密度评估",
+      "file": "strategy/intelligence-density.md"
+    },
+    "ST17": {
+      "node_token": "MTWlwcBdbifc4ek0iLScNHlYn5d",
+      "obj_token": "MMJ2doETWo9hPVxexf7cjs3Unhb",
+      "title": "ST17 系统基模分析",
+      "file": "strategy/system-archetypes.md"
+    },
+    "ST18": {
+      "node_token": "BsGJwZYa6ib5MMkT0cgcTZwFnUf",
+      "obj_token": "KiJ7dOvSKowXhrxaIk7cGwFdnEc",
+      "title": "ST18 系统因果回路分析",
+      "file": "strategy/causal-loop-analysis.md"
+    },
+    "DC08": {
+      "node_token": "TnnwwAnu6iFROEkm4decrHQjn8g",
+      "obj_token": "OtFgdbTZRoG7egx9dXMc5tsIn9c",
+      "title": "DC08 谈判准备框架",
+      "file": "decision/negotiation-prep.md"
+    },
+    "DC09": {
+      "node_token": "C84uwjgPwiWYWZk4TQKc5JEPn5g",
+      "obj_token": "KipTdprz6okTkuxZOTwcW4GSnsd",
+      "title": "DC09 非暴力沟通框架",
+      "file": "decision/nonviolent-communication.md"
+    }
+  },
+  "reference_pages": {
+    "changelog": {
+      "node_token": "UgKVwc0HXi0AGvkgphgcTKp4nhb",
+      "obj_token": "OpGndWtxnoGpimx5wWKcYFjZnjf",
+      "title": "迭代日志 CHANGELOG",
+      "file": "references/CHANGELOG.md"
+    },
+    "depth_assessment": {
+      "node_token": "GRvpwomjsiReOLkWV8xc94Bsntd",
+      "obj_token": "VJeVduZP1oAlH3xLRNdcytVGnDf",
+      "title": "深度评估报告",
+      "file": "references/DEPTH_ASSESSMENT.md"
+    },
+    "skill_main": {
+      "node_token": "XcRBwWMxwiO665k48Z8cl46onzf",
+      "obj_token": "Z91wdv7fQoHJL1xcRAEcUFXFnJc",
+      "title": "SKILL.md 技能主文件",
+      "file": "SKILL.md"
+    },
+    "memory_bank": {
+      "node_token": "QoyKw1r03i0XaXk7HjNcpYWHnUt",
+      "obj_token": "KijhdfccdoT4Q9xP80xcsiXPnEb",
+      "title": "记忆库 Memory",
+      "file": "memory/index.json"
+    }
+  },
+  "memory_pages": {
+    "index": {
+      "node_token": "NNuOwGSeni2rjPksyTYcXM3vnVe",
+      "obj_token": "IxMUdf0MXoAY8ZxLAEcc6Anbn0e",
+      "title": "记忆索引 index.json"
+    },
+    "evolution_log": {
+      "node_token": "H9g5wfDX3iYmX6k3c4icPTEgnJf",
+      "obj_token": "KWytdLQR5o01abxWtupcbVHQnBg",
+      "title": "进化日志 evolution-log.json"
+    },
+    "user_index": {
+      "node_token": "GwZowA9mLi8EeBkfuDZcvIYEnet",
+      "obj_token": "Lb6Ud3LYQoJgBcxySlecBYftnvg",
+      "title": "用户索引 user-index.json"
+    },
+    "yw_profile": {
+      "node_token": "HnKpwsht0iET61kK5CHcPGmDnke",
+      "obj_token": "Fq1ZdvIE3olgGHxF87GcsHVanFh",
+      "title": "邱懿武 用户画像 profile.json"
+    },
+    "yw_analyses": {
+      "node_token": "XJ2Fw5Ls2iaprSkyvHWcxHQQnsb",
+      "obj_token": "ZpnddV4Y9osqKwxCsi7cY9qtngg",
+      "title": "邱懿武 分析记录 analyses.json"
+    }
+  },
+  "case_pages": {
+    "case-001": {
+      "node_token": "ZBR2wviM5isa0okUbo5ccRLLnxg",
+      "obj_token": "XTy2dPlcZozqzbxfiJIc648Znhd",
+      "title": "InnoLab方法论深度评估（自我诊断）"
+    }
+  }
+}

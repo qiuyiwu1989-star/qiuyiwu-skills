@@ -1,0 +1,26 @@
+{
+  "id": "83c1ec47-7cfe-4d1d-9aeb-545669e0a3e2",
+  "name": "story-cog",
+  "description": "AI creative writing and storytelling powered by CellCog. Write novels, short stories, screenplays, fan fiction, poetry. World building, character development, narrative design. Fiction writing for fantasy, sci-fi, mystery, romance, horror, literary fiction. AI story writer and writing assistant.",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/story-cog--83c1ec47-7cfe-4d1d-9aeb-545669e0a3e2",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/story-cog--83c1ec47-7cfe-4d1d-9aeb-545669e0a3e2/versions/1.0.0",
+      "sourcePackageHash": "59cfa9442cfa5549ca492a5fba0d6674761337cde403da3755ca0e398785da49",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

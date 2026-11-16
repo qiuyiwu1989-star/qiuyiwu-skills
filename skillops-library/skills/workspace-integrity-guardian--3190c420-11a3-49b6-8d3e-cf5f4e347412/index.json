@@ -1,0 +1,32 @@
+{
+  "id": "3190c420-11a3-49b6-8d3e-cf5f4e347412",
+  "name": "workspace-integrity-guardian",
+  "description": "Detects drift or tampering in SOUL.md, AGENTS.md, MEMORY.md, and other critical workspace files and prompts recovery",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/workspace-integrity-guardian--3190c420-11a3-49b6-8d3e-cf5f4e347412",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/workspace-integrity-guardian--3190c420-11a3-49b6-8d3e-cf5f4e347412/versions/1.0.0",
+      "sourcePackageHash": "8680ca88d7c7597c75894b3739738646b652f2a3a94715794a6c9d460d2f497d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "guard.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "d140e1a9-487b-429c-9838-088ab23adcff",
+  "name": "dbs-chatroom-austrian",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-chatroom-austrian--d140e1a9-487b-429c-9838-088ab23adcff",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-chatroom-austrian--d140e1a9-487b-429c-9838-088ab23adcff/versions/1.0.0",
+      "sourcePackageHash": "6ffb0b8d0cdf55784391e26cbda1193784d3eb6308f178f60cd0f3ed2344eb69",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

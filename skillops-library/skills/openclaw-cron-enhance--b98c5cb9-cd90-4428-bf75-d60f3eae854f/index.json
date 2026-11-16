@@ -1,0 +1,23 @@
+{
+  "id": "b98c5cb9-cd90-4428-bf75-d60f3eae854f",
+  "name": "openclaw-cron-enhance",
+  "description": "MUST invoke before any OpenClaw cron/reminder/scheduled-task create or update, including Chinese requests like 定时提醒、每天早上9点提醒我站会、明天提醒我、每周发报告. Applies ArkClaw guardrails to cron.add/update params.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/openclaw-cron-enhance--b98c5cb9-cd90-4428-bf75-d60f3eae854f",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/openclaw-cron-enhance--b98c5cb9-cd90-4428-bf75-d60f3eae854f/versions/1.0.0",
+      "sourcePackageHash": "281c305f3a0867eb3f36b431fd66039cd25eaabfec5c9f201a124e41acbe7141",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

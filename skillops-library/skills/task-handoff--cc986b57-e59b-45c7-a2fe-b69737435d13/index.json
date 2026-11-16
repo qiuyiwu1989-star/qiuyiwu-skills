@@ -1,0 +1,26 @@
+{
+  "id": "cc986b57-e59b-45c7-a2fe-b69737435d13",
+  "name": "task-handoff",
+  "description": "Gracefully hands off incomplete tasks across agent restarts. Use when work must be paused mid-task.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/task-handoff--cc986b57-e59b-45c7-a2fe-b69737435d13",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/task-handoff--cc986b57-e59b-45c7-a2fe-b69737435d13/versions/1.0.0",
+      "sourcePackageHash": "444e7337b44e9ba337926920e965a6d9c0b82fdd18fbc4f3ff1657b9c5491860",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        }
+      ]
+    }
+  ]
+}

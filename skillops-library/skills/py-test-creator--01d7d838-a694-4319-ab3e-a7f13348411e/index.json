@@ -1,0 +1,105 @@
+{
+  "id": "01d7d838-a694-4319-ab3e-a7f13348411e",
+  "name": "py-test-creator",
+  "description": "Automatically generates pytest-compatible unit test templates from Python function signatures and docstrings",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/py-test-creator--01d7d838-a694-4319-ab3e-a7f13348411e",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/py-test-creator--01d7d838-a694-4319-ab3e-a7f13348411e/versions/1.0.0",
+      "sourcePackageHash": "547586a1fd81830de96697009464479f147cadd4276b79594723657ae4ac6ab5",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "assets/sample-functions.py"
+        },
+        {
+          "path": "assets/sample-tests.py"
+        },
+        {
+          "path": "package.json"
+        },
+        {
+          "path": "references/pytest-conventions.md"
+        },
+        {
+          "path": "references/python-ast-guide.md"
+        },
+        {
+          "path": "references/testing-patterns.md"
+        },
+        {
+          "path": "scripts/cli.py"
+        },
+        {
+          "path": "scripts/generator.py"
+        },
+        {
+          "path": "scripts/main.py"
+        },
+        {
+          "path": "scripts/parser.py"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/py-test-creator--01d7d838-a694-4319-ab3e-a7f13348411e/versions/1.0.1",
+      "sourcePackageHash": "b4582845221792297f09d15393e642819caed8823d4a89354e211bb8d9343ef8",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "assets/sample-functions.py"
+        },
+        {
+          "path": "assets/sample-tests.py"
+        },
+        {
+          "path": "package.json"
+        },
+        {
+          "path": "references/pytest-conventions.md"
+        },
+        {
+          "path": "references/python-ast-guide.md"
+        },
+        {
+          "path": "references/testing-patterns.md"
+        },
+        {
+          "path": "scripts/cli.py"
+        },
+        {
+          "path": "scripts/generator.py"
+        },
+        {
+          "path": "scripts/main.py"
+        },
+        {
+          "path": "scripts/parser.py"
+        }
+      ]
+    }
+  ]
+}

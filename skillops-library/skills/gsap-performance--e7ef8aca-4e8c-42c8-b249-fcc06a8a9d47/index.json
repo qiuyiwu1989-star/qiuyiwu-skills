@@ -1,0 +1,23 @@
+{
+  "id": "e7ef8aca-4e8c-42c8-b249-fcc06a8a9d47",
+  "name": "gsap-performance",
+  "description": "Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or w",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/gsap-performance--e7ef8aca-4e8c-42c8-b249-fcc06a8a9d47",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/gsap-performance--e7ef8aca-4e8c-42c8-b249-fcc06a8a9d47/versions/1.0.0",
+      "sourcePackageHash": "31b40231b38d2d14c941bfe5d3e5e5401efab9b56308765ad76d181c526221f5",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

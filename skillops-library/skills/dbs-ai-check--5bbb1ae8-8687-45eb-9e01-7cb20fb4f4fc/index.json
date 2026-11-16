@@ -1,0 +1,23 @@
+{
+  "id": "5bbb1ae8-8687-45eb-9e01-7cb20fb4f4fc",
+  "name": "dbs-ai-check",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-ai-check--5bbb1ae8-8687-45eb-9e01-7cb20fb4f4fc",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-ai-check--5bbb1ae8-8687-45eb-9e01-7cb20fb4f4fc/versions/1.0.0",
+      "sourcePackageHash": "b01f49d896585f3fff51d46b466c5a35d878e9c1e14a426c948b7fe39dd73c50",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

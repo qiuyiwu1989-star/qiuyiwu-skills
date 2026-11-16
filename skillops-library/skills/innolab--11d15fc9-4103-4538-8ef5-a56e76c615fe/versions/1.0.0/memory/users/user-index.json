@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "created": "2026-04-05",
+  "last_updated": "2026-04-20",
+  "total_users": 1,
+  "users": {
+    "ou_778f915edc97f053c2f71f8a610bd605": {
+      "name": "邱懿武",
+      "profile_dir": "ou_778f915edc97f053c2f71f8a610bd605",
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-04-20",
+      "total_analyses": 0,
+      "preferred_response_style": "简洁有判断力（凌晨/快速场景）或详细展开（白天/深度场景）",
+      "top_engines": ["Cognition", "Strategy", "Generation", "Decision"]
+    }
+  }
+}

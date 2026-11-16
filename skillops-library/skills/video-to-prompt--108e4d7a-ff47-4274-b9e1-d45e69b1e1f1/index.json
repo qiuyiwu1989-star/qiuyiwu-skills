@@ -1,0 +1,29 @@
+{
+  "id": "108e4d7a-ff47-4274-b9e1-d45e69b1e1f1",
+  "name": "video-to-prompt",
+  "description": "Convert a local desktop recording (MP4 / MKV) into a structured executable operation prompt. Use this skill when the user asks to generate a prompt from a recorded video / screen recording. Trigger keywords: 视频、录屏、录制、生成提示词、video、record、extract-prompt.",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/video-to-prompt--108e4d7a-ff47-4274-b9e1-d45e69b1e1f1",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/video-to-prompt--108e4d7a-ff47-4274-b9e1-d45e69b1e1f1/versions/1.0.0",
+      "sourcePackageHash": "6062c19970df4a656b416c4453c9c0991d46ac797b09b76c57d1085b28efcbfa",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/video-to-prompt.sh"
+        }
+      ]
+    }
+  ]
+}

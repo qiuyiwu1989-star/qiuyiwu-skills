@@ -1,0 +1,41 @@
+{
+  "id": "aebce068-8186-4d3b-a5b3-729fdc4cff6f",
+  "name": "alloydb-basics",
+  "description": "",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/alloydb-basics--aebce068-8186-4d3b-a5b3-729fdc4cff6f",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/alloydb-basics--aebce068-8186-4d3b-a5b3-729fdc4cff6f/versions/1.0.0",
+      "sourcePackageHash": "46121dcf13dc83d4546c447616a787dc9c0897b7c69e1f7e11f45d462adddaad",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/cli-usage.md"
+        },
+        {
+          "path": "references/client-library-usage.md"
+        },
+        {
+          "path": "references/core-concepts.md"
+        },
+        {
+          "path": "references/iac-usage.md"
+        },
+        {
+          "path": "references/iam-security.md"
+        },
+        {
+          "path": "references/mcp-usage.md"
+        }
+      ]
+    }
+  ]
+}

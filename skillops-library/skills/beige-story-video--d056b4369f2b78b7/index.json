@@ -1,0 +1,23 @@
+{
+  "id": "d056b4369f2b78b7",
+  "name": "beige-story-video",
+  "description": "制作米色手绘叙事短视频，从故事与分幕、旁白、统一角色插画、TTS 到语义字幕和轻动态成片。用于当智能开始与你共同成长系列及用户要求同类讲解动画；不是单页PPT画风模板。",
+  "source": "skillops",
+  "category": "media",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/beige-story-video--d056b4369f2b78b7",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/beige-story-video--d056b4369f2b78b7/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

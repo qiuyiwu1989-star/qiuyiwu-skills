@@ -1,0 +1,32 @@
+{
+  "id": "606f4e22-30d0-4704-bb5f-3f8b379d5c72",
+  "name": "prompt-injection-guard",
+  "description": "Detects and intercepts prompt injection attempts in external content before the agent acts on them",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/prompt-injection-guard--606f4e22-30d0-4704-bb5f-3f8b379d5c72",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/prompt-injection-guard--606f4e22-30d0-4704-bb5f-3f8b379d5c72/versions/1.0.0",
+      "sourcePackageHash": "17b4221097bc23968003148172248448c6d354ce5bd2b567327eb4d1c9264924",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "guard.py"
+        }
+      ]
+    }
+  ]
+}

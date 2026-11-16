@@ -1,0 +1,26 @@
+{
+  "id": "e3e2b582-24b7-429e-8bd0-21fbcdacc077",
+  "name": "agent-self-recovery",
+  "description": "Detects when the agent is stuck in a loop and escapes systematically. Use when you notice repeated failures or loss of direction.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/agent-self-recovery--e3e2b582-24b7-429e-8bd0-21fbcdacc077",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/agent-self-recovery--e3e2b582-24b7-429e-8bd0-21fbcdacc077/versions/1.0.0",
+      "sourcePackageHash": "110760594651a45bbb06af3f1d8e4da6edd3258614784cba2d5a93eb5bb58345",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        }
+      ]
+    }
+  ]
+}

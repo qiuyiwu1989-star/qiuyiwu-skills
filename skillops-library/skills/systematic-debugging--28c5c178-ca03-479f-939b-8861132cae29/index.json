@@ -1,0 +1,23 @@
+{
+  "id": "28c5c178-ca03-479f-939b-8861132cae29",
+  "name": "systematic-debugging",
+  "description": "Use when encountering any bug, test failure, or unexpected behavior. 4-phase root cause investigation — NO fixes without understanding the problem first.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/systematic-debugging--28c5c178-ca03-479f-939b-8861132cae29",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/systematic-debugging--28c5c178-ca03-479f-939b-8861132cae29/versions/1.0.0",
+      "sourcePackageHash": "64bf1524062d5860c2db1d090e1a55b9e00bb7ba0c6cf0c72f2841d529b0e03c",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

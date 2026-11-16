@@ -1,0 +1,26 @@
+{
+  "id": "f28d0e6e-8e02-4a41-a561-9663546bf4e4",
+  "name": "wecom-send-template-card",
+  "description": "当需要通过企业微信发送结构化卡片消息时使用，包括：通知提醒、投票表决、方案选择、多维度选择等需要用户交互或查看结构化信息的场景。即使用户未明确要求\"发卡片\"，只要语境适合（如\"帮我问一下选A还是B\"），也应主动激活。仅限 wecom 通道。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-send-template-card--f28d0e6e-8e02-4a41-a561-9663546bf4e4",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-send-template-card--f28d0e6e-8e02-4a41-a561-9663546bf4e4/versions/1.0.0",
+      "sourcePackageHash": "8af13668c0431df77cbed44f55d673a61beb747c39feb8ff968c7c7520e05d3b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/api-template-card-types.md"
+        }
+      ]
+    }
+  ]
+}

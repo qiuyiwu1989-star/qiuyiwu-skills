@@ -1,0 +1,26 @@
+{
+  "id": "d923832f-0a28-4c16-b086-88a579c6fd25",
+  "name": "weibo-cron",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-cron--d923832f-0a28-4c16-b086-88a579c6fd25",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-cron--d923832f-0a28-4c16-b086-88a579c6fd25/versions/1.0.0",
+      "sourcePackageHash": "ff42d6440e6a4969f2ee68d30a07afdeeb9407bffd9e24c7ddcefefa05be3f8d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/HEARTBEAT-PROCESS.md"
+        }
+      ]
+    }
+  ]
+}

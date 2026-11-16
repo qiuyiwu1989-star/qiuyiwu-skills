@@ -1,0 +1,39 @@
+{
+  "id": "e70b016a-af73-4514-9b0d-5f835085f870",
+  "name": "vite-react-tailwind",
+  "description": "使用 Vite + React + TailwindCSS v4 + lucide-react 进行前端项目搭建和开发的技能。涵盖项目初始化、组件开发、本地 Mock 数据、开发服务器启动、自测验证等完整前端开发流程。",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/vite-react-tailwind--e70b016a-af73-4514-9b0d-5f835085f870",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/vite-react-tailwind--e70b016a-af73-4514-9b0d-5f835085f870/versions/1.0.0",
+      "sourcePackageHash": "4dbdc1f78fa88a3f078f3ba089326b86803096d07cb348f7340c089749aa34d0",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/vite-react-tailwind--e70b016a-af73-4514-9b0d-5f835085f870/versions/1.0.1",
+      "sourcePackageHash": "2831066e157e52ab0e6ff80935e8c209797ef5e6c2250959338d714b66554a9d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

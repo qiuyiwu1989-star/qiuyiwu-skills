@@ -1,0 +1,26 @@
+{
+  "id": "e8e16d1f-9c5d-488a-a0d1-860aaf56ef57",
+  "name": "weibo-interactive",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-interactive--e8e16d1f-9c5d-488a-a0d1-860aaf56ef57",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-interactive--e8e16d1f-9c5d-488a-a0d1-860aaf56ef57/versions/1.0.0",
+      "sourcePackageHash": "008dddbcf009108c0cc6aef75f12092089ca9ba2f4630cd829916bdd4203bd31",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/weibo-interactive.js"
+        }
+      ]
+    }
+  ]
+}

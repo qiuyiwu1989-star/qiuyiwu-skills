@@ -1,0 +1,23 @@
+{
+  "id": "2ded4b47-d877-4ed9-ae66-3cf90492b4a4",
+  "name": "dbs-xhs-title",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-xhs-title--2ded4b47-d877-4ed9-ae66-3cf90492b4a4",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-xhs-title--2ded4b47-d877-4ed9-ae66-3cf90492b4a4/versions/1.0.0",
+      "sourcePackageHash": "a875c15caadb7178cebe0a15922ebee426e2a3580e20f4dab7c1b7274c7e118a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "096a2464-8c04-4419-9628-37345984b006",
+  "name": "stitch-design-taste",
+  "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/stitch-design-taste--096a2464-8c04-4419-9628-37345984b006",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/stitch-design-taste--096a2464-8c04-4419-9628-37345984b006/versions/1.0.0",
+      "sourcePackageHash": "3d9db60a9a0bdeb9dc9d4ab024028f44216af29deba73344dc5d5b958901a086",
+      "files": [
+        {
+          "path": "DESIGN.md"
+        },
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/stitch-design-taste--096a2464-8c04-4419-9628-37345984b006/versions/1.0.1",
+      "sourcePackageHash": "95ac977d3173f81f13d830809c120598706b0c6f6a4f0514a48a438434af32fb",
+      "files": [
+        {
+          "path": "DESIGN.md"
+        },
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

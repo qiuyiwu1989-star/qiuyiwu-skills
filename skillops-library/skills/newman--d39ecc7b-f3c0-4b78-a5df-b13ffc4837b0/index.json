@@ -1,0 +1,81 @@
+{
+  "id": "d39ecc7b-f3c0-4b78-a5df-b13ffc4837b0",
+  "name": "newman",
+  "description": "Automated API testing with Postman collections via Newman CLI. Use when user requests API testing, collection execution, automated testing, CI/CD integration, or mentions \"Postman\", \"Newman\", \"API tests\", \"run collection\", or \"automated testing\".",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/newman--d39ecc7b-f3c0-4b78-a5df-b13ffc4837b0",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/newman--d39ecc7b-f3c0-4b78-a5df-b13ffc4837b0/versions/1.0.0",
+      "sourcePackageHash": "ee62fc715706d00d5911ec413aaea3a0ecb2841a1a703bcdb96c952679aea7c7",
+      "files": [
+        {
+          "path": "INSTALLATION.md"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/advanced-patterns.md"
+        },
+        {
+          "path": "references/ci-cd-examples.md"
+        },
+        {
+          "path": "scripts/install-newman.sh"
+        },
+        {
+          "path": "scripts/run-tests.sh"
+        },
+        {
+          "path": "scripts/security-audit.sh"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/newman--d39ecc7b-f3c0-4b78-a5df-b13ffc4837b0/versions/1.0.1",
+      "sourcePackageHash": "19753a67b2921905279ef1ea5b04379d1544aff5ed00745313b5b6cabc14ff3e",
+      "files": [
+        {
+          "path": "INSTALLATION.md"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/advanced-patterns.md"
+        },
+        {
+          "path": "references/ci-cd-examples.md"
+        },
+        {
+          "path": "scripts/install-newman.sh"
+        },
+        {
+          "path": "scripts/run-tests.sh"
+        },
+        {
+          "path": "scripts/security-audit.sh"
+        }
+      ]
+    }
+  ]
+}

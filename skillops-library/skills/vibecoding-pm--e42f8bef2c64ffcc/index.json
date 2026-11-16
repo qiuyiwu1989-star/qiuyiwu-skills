@@ -1,0 +1,33 @@
+{
+  "id": "e42f8bef2c64ffcc",
+  "name": "vibecoding-pm",
+  "description": "Vibe coding 项目管理内核——把 AI 编程项目的意图、状态、决策、验收标准外化为可接续的项目操作系统，让任何新会话都能接班。当用户开始一个新的编程/开发项目、继续一个已有代码项目、项目变乱、或要把一个在对话里聊成型的方案交给编码工具去实现时，必须使用此技能。触发词包括：vibe coding、项目管理、管理这个项目、整理代码项目、项目失控了、接着上次写、继续开发、帮我做个应用、写个程序、做个网站、做个小工具、开个新项目、接管这个项目、代码越来越乱、spec、CLAUDE.md、TASKS.md、升档、原型转产品、交接、交接包、打包交出去、转给 Claude Code、把方案交给它实现、验收器、反样本、这个方案怎么落地。即使用户只是说'帮我写个XX应用'或'继续昨天那个项目'，只要涉及会跨越多次对话的代码项目，也应立即触发此技能先建立或读取项目管理文件。项目缺少 CLAUDE.md 时，动手写代码前先触发本技能判定档位。方案已在对话中成型、准备交给另一个界面实现时，先触发本技能生成交接包。",
+  "source": "skillops",
+  "category": "agent",
+  "visibility": "public",
+  "candidate": false,
+  "path": "skills/vibecoding-pm--e42f8bef2c64ffcc",
+  "currentVersion": 2,
+  "versions": [
+    {
+      "version": 2,
+      "path": "skills/vibecoding-pm--e42f8bef2c64ffcc/versions/2",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "path": "skills/vibecoding-pm--e42f8bef2c64ffcc/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

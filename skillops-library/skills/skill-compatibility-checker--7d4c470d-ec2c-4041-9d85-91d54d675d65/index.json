@@ -1,0 +1,32 @@
+{
+  "id": "7d4c470d-ec2c-4041-9d85-91d54d675d65",
+  "name": "skill-compatibility-checker",
+  "description": "Checks whether installed skills are compatible with the current OpenClaw version and flags skills that require runtime features not present in your installation.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-compatibility-checker--7d4c470d-ec2c-4041-9d85-91d54d675d65",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-compatibility-checker--7d4c470d-ec2c-4041-9d85-91d54d675d65/versions/1.0.0",
+      "sourcePackageHash": "69135898abcd906e2feb1b27972249c594d2107232df1db3b6f55c4ac7d30d1f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "check.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

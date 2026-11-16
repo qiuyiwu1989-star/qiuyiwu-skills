@@ -1,0 +1,32 @@
+{
+  "id": "dfd4424c-3460-43d4-a54a-b0692e6144e7",
+  "name": "channel-context-bridge",
+  "description": "Writes a resumé card at session end so context survives channel switches — and auto-injects it as a primer at the start of any new session",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/channel-context-bridge--dfd4424c-3460-43d4-a54a-b0692e6144e7",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/channel-context-bridge--dfd4424c-3460-43d4-a54a-b0692e6144e7/versions/1.0.0",
+      "sourcePackageHash": "4b0ce2a09e9e86567d8bf61b772c9ba61554108c157b108cdd1774cdc7f29fe3",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "bridge.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

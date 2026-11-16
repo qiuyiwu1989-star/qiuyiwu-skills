@@ -1,0 +1,26 @@
+{
+  "id": "9cd7439b-1c75-4f83-a62b-576f866ef772",
+  "name": "computer-use",
+  "description": "CUA (Computer Use Agent) for visual GUI-based computer control + Office document automation. When you need screenshots/scrolling/clicking/dragging, Office document operations (Word/Excel/PowerPoint), or need to run CUA commands, **you MUST read this SKILL.md first** — it includes mandatory tags, preflight checks, single-process rules, and operating procedures.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/computer-use--9cd7439b-1c75-4f83-a62b-576f866ef772",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/computer-use--9cd7439b-1c75-4f83-a62b-576f866ef772/versions/1.0.0",
+      "sourcePackageHash": "7af4914958d8ba3fac50781790eab5dc25f7f02edb2387eea240e0d13f7e8caf",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/cua.sh"
+        }
+      ]
+    }
+  ]
+}

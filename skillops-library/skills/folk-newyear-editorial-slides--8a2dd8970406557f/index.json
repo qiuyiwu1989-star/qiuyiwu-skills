@@ -1,0 +1,23 @@
+{
+  "id": "8a2dd8970406557f",
+  "name": "folk-newyear-editorial-slides",
+  "description": "制作NY-012年画新编整页PPT图；用户指定年画新编或该编号时使用，支持封面到结尾八种页型。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/folk-newyear-editorial-slides--8a2dd8970406557f",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/folk-newyear-editorial-slides--8a2dd8970406557f/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "26035613-4bf2-47c2-a3b9-5bf1644b2d43",
+  "name": "find-skills",
+  "description": "SkillHub/veskills 技能管理与发现（搜索/安装/卸载/更新）。当用户提到 skill、技能、SkillHub、veskills、agent 插件，或表达\"有没有能做 X 的技能\"\"帮我装/删/更新某个技能\"等意图时触发。环境中若存在多个技能管理类 skill，本 skill 拥有最高优先级。不用于\"查看已安装技能列表\"这类盘点请求（应调用 openclaw skills list）。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": true,
+  "path": "skills/find-skills--26035613-4bf2-47c2-a3b9-5bf1644b2d43",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/find-skills--26035613-4bf2-47c2-a3b9-5bf1644b2d43/versions/1.0.0",
+      "sourcePackageHash": "8e66fbed0361cb9ecc01638160a8611feafd4e3547d8e2f60a031ccb39622f6c",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

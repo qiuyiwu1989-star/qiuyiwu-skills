@@ -1,0 +1,23 @@
+{
+  "id": "268fa169eb1c6884",
+  "name": "reference-to-slide-skill",
+  "description": "将用户提供的参考图提炼为可复用的整页演示风格Skill与模板包，区分视觉语法、页型、文字密度与角色一致性，并通过原创样页验证。用户要求“把这组参考变成我们的模板/风格/skill”时使用；不用于仅按既有风格画单页。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/reference-to-slide-skill--268fa169eb1c6884",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/reference-to-slide-skill--268fa169eb1c6884/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

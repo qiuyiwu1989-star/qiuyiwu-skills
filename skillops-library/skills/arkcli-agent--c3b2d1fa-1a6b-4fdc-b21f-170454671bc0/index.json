@@ -1,0 +1,56 @@
+{
+  "id": "c3b2d1fa-1a6b-4fdc-b21f-170454671bc0",
+  "name": "arkcli-agent",
+  "description": "arkcli agent：管理 ARK Managed Agents，包括 Agent / Skill / Env / Session / File / Memory Store / Vault / MCP OAuth。控制面优先走 ForTop/OpenTOP，Session 运行时和 Files 走数据面直联。",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-agent--c3b2d1fa-1a6b-4fdc-b21f-170454671bc0",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-agent--c3b2d1fa-1a6b-4fdc-b21f-170454671bc0/versions/1.0.0",
+      "sourcePackageHash": "95ed6d142f144d282218c204cc20c03379dbbbcfc2d06b869eb053c3fa5c88ad",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/agent.md"
+        },
+        {
+          "path": "references/debug-export.md"
+        },
+        {
+          "path": "references/evals.md"
+        },
+        {
+          "path": "references/events-chat.md"
+        },
+        {
+          "path": "references/interfaces-gaps.md"
+        },
+        {
+          "path": "references/mcp-vault.md"
+        },
+        {
+          "path": "references/model-config.md"
+        },
+        {
+          "path": "references/self-hosted.md"
+        },
+        {
+          "path": "references/session-files.md"
+        },
+        {
+          "path": "references/session-upgrade.md"
+        },
+        {
+          "path": "references/skills.md"
+        }
+      ]
+    }
+  ]
+}

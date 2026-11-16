@@ -1,0 +1,33 @@
+{
+  "id": "5327997c-6ca9-4261-b7c0-09c246d6e2b3",
+  "name": "design-taste-frontend",
+  "description": "Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/design-taste-frontend--5327997c-6ca9-4261-b7c0-09c246d6e2b3",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/design-taste-frontend--5327997c-6ca9-4261-b7c0-09c246d6e2b3/versions/1.0.0",
+      "sourcePackageHash": "b83859e365ef6a18823e9afb372ca3d79e0b298cb8a755b8858bb81d15699f18",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/design-taste-frontend--5327997c-6ca9-4261-b7c0-09c246d6e2b3/versions/1.0.1",
+      "sourcePackageHash": "875e9e7409a646bedb3d15990c640eb694d23f5a948e45cdce9229083ce23a2e",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

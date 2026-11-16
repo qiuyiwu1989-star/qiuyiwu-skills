@@ -1,0 +1,41 @@
+{
+  "id": "884501e8-a193-4a06-8ac4-16d036ffa769",
+  "name": "cloud-run-basics",
+  "description": "",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/cloud-run-basics--884501e8-a193-4a06-8ac4-16d036ffa769",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/cloud-run-basics--884501e8-a193-4a06-8ac4-16d036ffa769/versions/1.0.0",
+      "sourcePackageHash": "168dfd9a825c916c209f61e72d583c3aa96254030b5f083901956d417c651d72",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/cli-usage.md"
+        },
+        {
+          "path": "references/client-library-usage.md"
+        },
+        {
+          "path": "references/core-concepts.md"
+        },
+        {
+          "path": "references/iac-usage.md"
+        },
+        {
+          "path": "references/iam-security.md"
+        },
+        {
+          "path": "references/mcp-usage.md"
+        }
+      ]
+    }
+  ]
+}

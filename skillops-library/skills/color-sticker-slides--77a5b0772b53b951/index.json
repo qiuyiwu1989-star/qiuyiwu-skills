@@ -1,0 +1,23 @@
+{
+  "id": "77a5b0772b53b951",
+  "name": "color-sticker-slides",
+  "description": "制作高彩贴纸涂鸦风格整页PPT图，用钴蓝、明黄、朱红、纸片与物件表达内容。用户指定高彩贴纸涂鸦或CS-009时使用；默认无人物，支持八种页型。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/color-sticker-slides--77a5b0772b53b951",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/color-sticker-slides--77a5b0772b53b951/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

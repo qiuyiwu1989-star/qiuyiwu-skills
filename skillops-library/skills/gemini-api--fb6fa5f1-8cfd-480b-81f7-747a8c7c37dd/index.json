@@ -1,0 +1,50 @@
+{
+  "id": "fb6fa5f1-8cfd-480b-81f7-747a8c7c37dd",
+  "name": "gemini-api",
+  "description": "Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like Live API, tools, multimedia generation, caching, and batch prediction.",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/gemini-api--fb6fa5f1-8cfd-480b-81f7-747a8c7c37dd",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/gemini-api--fb6fa5f1-8cfd-480b-81f7-747a8c7c37dd/versions/1.0.0",
+      "sourcePackageHash": "6904f1474d3f89de8bfd0e19b9688d034f27ec77fb94c3bae09e0282089f6773",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/advanced_features.md"
+        },
+        {
+          "path": "references/bounding_box.md"
+        },
+        {
+          "path": "references/embeddings.md"
+        },
+        {
+          "path": "references/live_api.md"
+        },
+        {
+          "path": "references/media_generation.md"
+        },
+        {
+          "path": "references/model_tuning.md"
+        },
+        {
+          "path": "references/safety.md"
+        },
+        {
+          "path": "references/structured_and_tools.md"
+        },
+        {
+          "path": "references/text_and_multimodal.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ece598d7-07c3-441b-8e95-d56476c6a4f6",
+  "name": "feishu-channel-rules",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-channel-rules--ece598d7-07c3-441b-8e95-d56476c6a4f6",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-channel-rules--ece598d7-07c3-441b-8e95-d56476c6a4f6/versions/1.0.0",
+      "sourcePackageHash": "6cf9517d73ecb64ba91c763119cd5ba0f5443fe0084c33890ba47f03ecbd0a2d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/markdown-syntax.md"
+        }
+      ]
+    }
+  ]
+}

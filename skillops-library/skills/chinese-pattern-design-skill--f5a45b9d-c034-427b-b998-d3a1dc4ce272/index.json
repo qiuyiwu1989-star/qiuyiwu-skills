@@ -1,0 +1,38 @@
+{
+  "id": "f5a45b9d-c034-427b-b998-d3a1dc4ce272",
+  "name": "chinese-pattern-design-skill",
+  "description": "中国图案美学推理引擎（Chinese Pattern Semantic Compiler）。当用户想要设计中国风图案、分析中国传统纹样、生成图案提示词、理解某个纹样的文化含义、把某种意境或感受转化为具体图案方案时，必须使用此技能。触发词包括：中国图案、传统纹样、图案设计、帮我设计一个纹样、这个纹样是什么、中国风提示词、景泰蓝图案、龙纹、莲花纹、回纹、吉祥纹样、图案意境、文人气图案、唐风图案、宋风图案、国潮图案、传统图案转译。即使用户只是说\"帮我想一个中国风的图案\"、\"这个纹样代表什么\"、\"我想要一种很古典的感觉\"，也应立即触发此技能。当用户上传包含中国图案的图片时，必须触发此技能。",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/chinese-pattern-design-skill--f5a45b9d-c034-427b-b998-d3a1dc4ce272",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/chinese-pattern-design-skill--f5a45b9d-c034-427b-b998-d3a1dc4ce272/versions/1.0.0",
+      "sourcePackageHash": "9655c6b8a80f5bd3cc58c4d916b5afbc4d7f2204781bb2f82d287c44db2ef2a4",
+      "files": [
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/L1-L2-原子层.md"
+        },
+        {
+          "path": "references/关系规则引擎.md"
+        },
+        {
+          "path": "references/推理策略.md"
+        },
+        {
+          "path": "references/案例库.md"
+        }
+      ]
+    }
+  ]
+}

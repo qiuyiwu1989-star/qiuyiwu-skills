@@ -1,0 +1,23 @@
+{
+  "id": "70260b0fc424d95e",
+  "name": "skillops",
+  "description": "技能人事专员「小能」—— 户主邱懿武的 AI 技能 HRD：盘点、落户、体检、考核、周报、遥测，及技能 HRD 方法论的权威表达。当用户说「存成技能」「保存为技能」「把这个做成 skill」「我的技能」「技能库」「花名册」「技能状态」「落户」「入册」「入编」「人事周报」「技能盘点」「整理我的技能」「这个技能怎么样了」「",
+  "source": "skillops",
+  "category": "agent",
+  "visibility": "private",
+  "candidate": true,
+  "path": "skills/skillops--70260b0fc424d95e",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/skillops--70260b0fc424d95e/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

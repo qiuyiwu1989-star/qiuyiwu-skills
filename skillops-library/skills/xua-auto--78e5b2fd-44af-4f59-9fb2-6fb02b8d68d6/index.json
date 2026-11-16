@@ -1,0 +1,23 @@
+{
+  "id": "78e5b2fd-44af-4f59-9fb2-6fb02b8d68d6",
+  "name": "XUA-auto",
+  "description": "A comprehensive skill that uses the optimal strategy to orchestrate opencli, browser-use, and computer-use for browser or desktop automation tasks.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/xua-auto--78e5b2fd-44af-4f59-9fb2-6fb02b8d68d6",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/xua-auto--78e5b2fd-44af-4f59-9fb2-6fb02b8d68d6/versions/1.0.0",
+      "sourcePackageHash": "fa0b1aa80c222696b4f3248d3b9a2b56325d635783f560c0da5dd437b116eaa2",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

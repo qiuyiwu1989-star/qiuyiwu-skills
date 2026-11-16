@@ -1,0 +1,32 @@
+{
+  "id": "b8b1ad40-9cc2-4593-9402-d1524be703bf",
+  "name": "compaction-resilience-guard",
+  "description": "Monitors memory compaction for failures and enforces a three-level fallback chain — normal, aggressive, deterministic truncation — ensuring compaction always makes forward progress.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/compaction-resilience-guard--b8b1ad40-9cc2-4593-9402-d1524be703bf",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/compaction-resilience-guard--b8b1ad40-9cc2-4593-9402-d1524be703bf/versions/1.0.0",
+      "sourcePackageHash": "e0304e245a2df44b02f9722d877f0f27f308da905ae1b7af500eaccf40c9f77a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "guard.py"
+        }
+      ]
+    }
+  ]
+}

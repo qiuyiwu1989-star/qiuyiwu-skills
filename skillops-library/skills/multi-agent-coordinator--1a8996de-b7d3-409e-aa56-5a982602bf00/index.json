@@ -1,0 +1,32 @@
+{
+  "id": "1a8996de-b7d3-409e-aa56-5a982602bf00",
+  "name": "multi-agent-coordinator",
+  "description": "Orchestrates multiple parallel OpenClaw agents — tracks health, detects timeouts, reconciles conflicting outputs, and manages structured handoffs",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/multi-agent-coordinator--1a8996de-b7d3-409e-aa56-5a982602bf00",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/multi-agent-coordinator--1a8996de-b7d3-409e-aa56-5a982602bf00/versions/1.0.0",
+      "sourcePackageHash": "0b908dc2412586da7278bc1c8acbcdf2f3553442ea36ee0ce2fe202e1b14285c",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "run.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "a1b1b66d-7e17-4bc7-9bda-9b973c5851bd",
+  "name": "weibo-token",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-token--a1b1b66d-7e17-4bc7-9bda-9b973c5851bd",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-token--a1b1b66d-7e17-4bc7-9bda-9b973c5851bd/versions/1.0.0",
+      "sourcePackageHash": "26f81afe1afade7b93daa25df924fd36631f48e8da56eaf029d6c42309ae521a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

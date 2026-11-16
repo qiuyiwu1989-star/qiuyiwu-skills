@@ -1,0 +1,23 @@
+{
+  "id": "7e06e7a16b6d7c80",
+  "name": "guomu",
+  "description": "过目——在人快要变成盲签的时候，把该被看见的东西变成看得进去、也改得动的可视化产物（HTML/SVG），而不是又一段密集文字。当用户的回应开始变短变模糊（\"好的\"\"你看着办\"\"都行\"）、重复问已经答过的事、或一次要定的相关事项超过三件时，必须使用此技能。触发词包括：画个图、可视化、做个 HTML、做个界面、做个页面、太长了、看不懂、给我理一下、这几个方案怎么选、帮我对比一下、这个在聊天里改不动、导出一份、生成一页给别人看。即使用户完全没提可视化，只要即将输出的内容超出人的并行读取能力、或用户已出现盲签迹象，也应立即触发此技能，先判断该不该走可视化通道，再动手。",
+  "source": "skillops",
+  "category": "agent",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/guomu--7e06e7a16b6d7c80",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/guomu--7e06e7a16b6d7c80/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

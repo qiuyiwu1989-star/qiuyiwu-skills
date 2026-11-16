@@ -1,0 +1,23 @@
+{
+  "id": "454f8add-638c-4e5b-854a-129ded287ce2",
+  "name": "feishu-task",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-task--454f8add-638c-4e5b-854a-129ded287ce2",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-task--454f8add-638c-4e5b-854a-129ded287ce2/versions/1.0.0",
+      "sourcePackageHash": "48e4a370785cabe60bb0f556903d0fd33f57b55fc034d455e0adfcb680edf8c3",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

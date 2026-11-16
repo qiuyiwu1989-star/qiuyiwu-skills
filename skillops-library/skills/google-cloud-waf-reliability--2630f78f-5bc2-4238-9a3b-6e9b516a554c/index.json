@@ -1,0 +1,23 @@
+{
+  "id": "2630f78f-5bc2-4238-9a3b-6e9b516a554c",
+  "name": "google-cloud-waf-reliability",
+  "description": "Generates reliability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework. Use this skill to evaluate a workload, identify reliability requirements, and provide actionable recommendations for build, deploy, and manage the workload reliably in Google Cloud.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/google-cloud-waf-reliability--2630f78f-5bc2-4238-9a3b-6e9b516a554c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/google-cloud-waf-reliability--2630f78f-5bc2-4238-9a3b-6e9b516a554c/versions/1.0.0",
+      "sourcePackageHash": "2f3846963e8990f1432f2c4d778a01304bdcd833d6cbde16f9bbe89be990adc6",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

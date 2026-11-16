@@ -1,0 +1,147 @@
+{
+  "id": "d0616cae-f6ea-4648-920d-ed2139e63785",
+  "name": "openclaw-docker",
+  "description": "Manage Docker containers and Compose projects via OpenClaw tools",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/openclaw-docker--d0616cae-f6ea-4648-920d-ed2139e63785",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/openclaw-docker--d0616cae-f6ea-4648-920d-ed2139e63785/versions/1.0.0",
+      "sourcePackageHash": "bdabea7816ab8b6b1170aa1a68a4cfb8542fcceba9d325e8115f4f31dc412d7f",
+      "files": [
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "jest.integration.config.cjs"
+        },
+        {
+          "path": "openclaw.plugin.json"
+        },
+        {
+          "path": "package-lock.json"
+        },
+        {
+          "path": "package.json"
+        },
+        {
+          "path": "src/compose.ts"
+        },
+        {
+          "path": "src/config.ts"
+        },
+        {
+          "path": "src/dockerClient.ts"
+        },
+        {
+          "path": "src/guards.ts"
+        },
+        {
+          "path": "src/index.ts"
+        },
+        {
+          "path": "src/templates/github-issue-helper.ts"
+        },
+        {
+          "path": "src/tools.ts"
+        },
+        {
+          "path": "src/types.ts"
+        },
+        {
+          "path": "test/integration/docker.test.ts"
+        },
+        {
+          "path": "test/tools.test.ts"
+        },
+        {
+          "path": "tsconfig.json"
+        },
+        {
+          "path": "vitest.config.ts"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/openclaw-docker--d0616cae-f6ea-4648-920d-ed2139e63785/versions/1.0.1",
+      "sourcePackageHash": "33d8631ec01a829156bb852a80596f833553fb7f2e1067862a2fe9f10ce45ff6",
+      "files": [
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "jest.integration.config.cjs"
+        },
+        {
+          "path": "openclaw.plugin.json"
+        },
+        {
+          "path": "package-lock.json"
+        },
+        {
+          "path": "package.json"
+        },
+        {
+          "path": "src/compose.ts"
+        },
+        {
+          "path": "src/config.ts"
+        },
+        {
+          "path": "src/dockerClient.ts"
+        },
+        {
+          "path": "src/guards.ts"
+        },
+        {
+          "path": "src/index.ts"
+        },
+        {
+          "path": "src/templates/github-issue-helper.ts"
+        },
+        {
+          "path": "src/tools.ts"
+        },
+        {
+          "path": "src/types.ts"
+        },
+        {
+          "path": "test/integration/docker.test.ts"
+        },
+        {
+          "path": "test/tools.test.ts"
+        },
+        {
+          "path": "tsconfig.json"
+        },
+        {
+          "path": "vitest.config.ts"
+        }
+      ]
+    }
+  ]
+}

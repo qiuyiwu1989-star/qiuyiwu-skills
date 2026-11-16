@@ -1,0 +1,23 @@
+{
+  "id": "a3774cab-6e46-4adf-9e06-7e2dbc00c16c",
+  "name": "dbs-deconstruct",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-deconstruct--a3774cab-6e46-4adf-9e06-7e2dbc00c16c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-deconstruct--a3774cab-6e46-4adf-9e06-7e2dbc00c16c/versions/1.0.0",
+      "sourcePackageHash": "986b9caf497b3f1d6ac8291c9e520d380b6eb2a5edccd70c7bb5b1343b19a399",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

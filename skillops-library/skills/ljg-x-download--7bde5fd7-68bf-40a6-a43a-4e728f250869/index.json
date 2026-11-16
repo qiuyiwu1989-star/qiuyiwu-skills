@@ -1,0 +1,23 @@
+{
+  "id": "7bde5fd7-68bf-40a6-a43a-4e728f250869",
+  "name": "ljg-x-download",
+  "description": "Download images and videos from X (Twitter) posts to ~/Downloads. Use when user shares an X/Twitter link and wants to save media, or says '下载', 'download', '保存图片', '保存视频', or provides a x.com/twitter.com URL with intent to download media.",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-x-download--7bde5fd7-68bf-40a6-a43a-4e728f250869",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-x-download--7bde5fd7-68bf-40a6-a43a-4e728f250869/versions/1.0.0",
+      "sourcePackageHash": "0bcbe66fcf9facf93e316d876f72d556f222737e8b0157372d5900ca13de9446",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

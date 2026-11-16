@@ -1,0 +1,23 @@
+{
+  "id": "6f5945a9-89e6-4957-9188-941995e39572",
+  "name": "writing-plans",
+  "description": "Use when you have a spec or requirements for a multi-step task. Creates comprehensive implementation plans with bite-sized tasks, exact file paths, and complete code examples.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/writing-plans--6f5945a9-89e6-4957-9188-941995e39572",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/writing-plans--6f5945a9-89e6-4957-9188-941995e39572/versions/1.0.0",
+      "sourcePackageHash": "e2ec7b2c6d686b95d7144b0b75689c852779bfe0ee9ef3facb2841f4ae35a682",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

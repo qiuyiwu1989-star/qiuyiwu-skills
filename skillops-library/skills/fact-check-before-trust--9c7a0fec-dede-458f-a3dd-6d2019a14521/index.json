@@ -1,0 +1,23 @@
+{
+  "id": "9c7a0fec-dede-458f-a3dd-6d2019a14521",
+  "name": "fact-check-before-trust",
+  "description": "Triggers a secondary verification pass for any agent output containing factual claims, numbers, dates, or named entities before the output is acted on",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/fact-check-before-trust--9c7a0fec-dede-458f-a3dd-6d2019a14521",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/fact-check-before-trust--9c7a0fec-dede-458f-a3dd-6d2019a14521/versions/1.0.0",
+      "sourcePackageHash": "db598a2c47baea44c421e8725b60c8ec4bd8ef6cf2d228911dc548fa751cdcd0",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "open_id": "ou_778f915edc97f053c2f71f8a610bd605",
+  "total_analyses": 5,
+  "analyses": [
+    {
+      "id": "mem-2026-04-05-001",
+      "date": "2026-04-05",
+      "title": "InnoLab V3 架构升级",
+      "problem_type": "产品定义",
+      "methods_used": ["CG01", "CG07"],
+      "core_conclusion": "六引擎流水线+五层深度架构",
+      "iterations": 2
+    },
+    {
+      "id": "mem-2026-04-05-002",
+      "date": "2026-04-05",
+      "title": "51个方法深度评估",
+      "problem_type": "自我进化",
+      "methods_used": ["CG14", "CG07", "CG04", "PD05"],
+      "core_conclusion": "12S/32A/4B/3C，7个待补强",
+      "iterations": 1
+    },
+    {
+      "id": "mem-2026-04-05-003",
+      "date": "2026-04-05",
+      "title": "GN06路演法纳入",
+      "problem_type": "产品定义",
+      "methods_used": ["CG07", "CG08", "GN06", "PD02"],
+      "core_conclusion": "归入生成引擎L4，9页认知反转结构",
+      "iterations": 1
+    },
+    {
+      "id": "mem-2026-04-05-004",
+      "date": "2026-04-05",
+      "title": "DC06三阶评估法纳入",
+      "problem_type": "战略决策",
+      "methods_used": ["ST02", "DC01", "DC06", "DC05"],
+      "core_conclusion": "归入决策引擎L4，三维度13项打分+红灯机制",
+      "iterations": 1
+    },
+    {
+      "id": "mem-2026-04-19-005",
+      "date": "2026-04-19",
+      "title": "品焕AI化转型战略诊断",
+      "problem_type": "战略决策",
+      "methods_used": ["CG01", "ST02", "ST08", "ST16", "DC01", "EV02", "ST03"],
+      "core_conclusion": "团队卡在L2→L3跃迁，主图评分是唯一突破口",
+      "iterations": 1
+    }
+  ]
+}

@@ -93,3 +93,7 @@ skills/
 ```
 
 新建 skill 模板见 `~/.claude/skills/anthropic-skills:skill-creator/`（如果装了 skill-creator）。
+
+## SkillOps 技能归档
+
+[打开整库索引与版本说明](skillops-library/README.md)。

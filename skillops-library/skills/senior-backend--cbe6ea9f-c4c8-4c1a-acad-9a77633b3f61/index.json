@@ -1,0 +1,75 @@
+{
+  "id": "cbe6ea9f-c4c8-4c1a-acad-9a77633b3f61",
+  "name": "senior-backend",
+  "description": "This skill should be used when the user asks to \"design REST APIs\", \"optimize database queries\", \"implement authentication\", \"build microservices\", \"review backend code\", \"set up GraphQL\", \"handle database migrations\", or \"load test APIs\". Use for Node.js/Express/Fastify development, PostgreSQL optimization, API security, and backend architecture patterns.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/senior-backend--cbe6ea9f-c4c8-4c1a-acad-9a77633b3f61",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/senior-backend--cbe6ea9f-c4c8-4c1a-acad-9a77633b3f61/versions/1.0.0",
+      "sourcePackageHash": "547e587bc0fea5dd9322560ce03b51f633c085ae1a168ddb35d11ce2218b7eff",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/api_design_patterns.md"
+        },
+        {
+          "path": "references/backend_security_practices.md"
+        },
+        {
+          "path": "references/database_optimization_guide.md"
+        },
+        {
+          "path": "scripts/api_load_tester.py"
+        },
+        {
+          "path": "scripts/api_scaffolder.py"
+        },
+        {
+          "path": "scripts/database_migration_tool.py"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/senior-backend--cbe6ea9f-c4c8-4c1a-acad-9a77633b3f61/versions/1.0.1",
+      "sourcePackageHash": "64f46a364d1814c6efb5c51a021a847e0d45c5ab62c1237f1c60ca651547c2f4",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/api_design_patterns.md"
+        },
+        {
+          "path": "references/backend_security_practices.md"
+        },
+        {
+          "path": "references/database_optimization_guide.md"
+        },
+        {
+          "path": "scripts/api_load_tester.py"
+        },
+        {
+          "path": "scripts/api_scaffolder.py"
+        },
+        {
+          "path": "scripts/database_migration_tool.py"
+        }
+      ]
+    }
+  ]
+}

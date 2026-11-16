@@ -1,0 +1,32 @@
+{
+  "id": "98282837-036d-4b37-9d00-b3dbc5d829ee",
+  "name": "wecom-doc-manager",
+  "description": "企业微信文档管理技能。提供文档的创建、读取和编辑能力，支持通过 docid 或文档 URL 操作企业微信文档（doc_type=3）和智能表格（doc_type=10）。适用场景：(1) 以 Markdown 格式导出获取文档完整内容（异步轮询） (2) 新建文档或智能表格 (3) 用 Markdown 格式覆写文档内容。当用户需要查看文档内容、创建新文档、编辑文档正文时触发此 Skill。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-doc-manager--98282837-036d-4b37-9d00-b3dbc5d829ee",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-doc-manager--98282837-036d-4b37-9d00-b3dbc5d829ee/versions/1.0.0",
+      "sourcePackageHash": "1b23e548ea171ad3763f656c14107fe5395fbe5f4cb605889bf3639099e554e5",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/api-create-doc.md"
+        },
+        {
+          "path": "references/api-edit-doc-content.md"
+        },
+        {
+          "path": "references/api-export-document.md"
+        }
+      ]
+    }
+  ]
+}

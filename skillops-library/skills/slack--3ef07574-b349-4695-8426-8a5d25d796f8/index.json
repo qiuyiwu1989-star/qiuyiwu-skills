@@ -1,0 +1,29 @@
+{
+  "id": "3ef07574-b349-4695-8426-8a5d25d796f8",
+  "name": "slack",
+  "description": "Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/slack--3ef07574-b349-4695-8426-8a5d25d796f8",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/slack--3ef07574-b349-4695-8426-8a5d25d796f8/versions/1.0.0",
+      "sourcePackageHash": "79f55dcd2c574f20dd487d006cbc3b0c0da7e83ff4c88499b1ceebf9b2178af1",
+      "files": [
+        {
+          "path": ".clawhub/origin.json"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "447f25a87d3a4c95",
+  "name": "creator-education",
+  "description": "创造者教育理论智能体——邱懿武 / 永乐教育核心理念「创造者教育」的权威知识、立场与表达。当任务涉及创造者教育、作者身份、永乐教育理念、创造力与创造者之辨、AI 时代教育理论，或需要从这套理论出发写作、分析、答辩、做对外表达时，必须使用此技能。触发词包括：创造者教育、作者身份、永乐理念、创造力 vs 创造者、AI 时代",
+  "source": "skillops",
+  "category": "research",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/creator-education--447f25a87d3a4c95",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/creator-education--447f25a87d3a4c95/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "842fa623-d3ef-4341-a71a-9009377f13e4",
+  "name": "skills",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skills--842fa623-d3ef-4341-a71a-9009377f13e4",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skills--842fa623-d3ef-4341-a71a-9009377f13e4/versions/1.0.0",
+      "sourcePackageHash": "61477ec13952a04d82bf6fbb672c12d9b0be0b3623dd8cf44dfaf21159173722",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

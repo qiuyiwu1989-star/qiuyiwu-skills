@@ -1,0 +1,44 @@
+{
+  "id": "4c5fa0ef-f008-4669-8b99-4aaa988747b7",
+  "name": "arkcli-chat",
+  "description": "arkcli +chat：通过数据面 Responses API 快速对话/推理，支持多模态、流式、多轮、临时 API Key/Base URL/Endpoint 执行与无副作用 dry-run。当用户给出 Endpoint 但未说明工作流时，先用 resources resolve 识别候选；已经出现 Responses API capability/access 错误时，只读用 models get 核对精确模型的 api_support，不重试真实调用。有明确产出形态的多模态理解走 arkcli-understand。",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-chat--4c5fa0ef-f008-4669-8b99-4aaa988747b7",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-chat--4c5fa0ef-f008-4669-8b99-4aaa988747b7/versions/1.0.0",
+      "sourcePackageHash": "f2a08658ccda85aa50cdaa103df320fb8e5d67af644b693ef836c5304b723e69",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-chat.md"
+        },
+        {
+          "path": "references/caching-thinking.md"
+        },
+        {
+          "path": "references/chat-meta.md"
+        },
+        {
+          "path": "references/evals.md"
+        },
+        {
+          "path": "references/stream-events.md"
+        },
+        {
+          "path": "references/text-format.md"
+        },
+        {
+          "path": "references/tools.md"
+        }
+      ]
+    }
+  ]
+}

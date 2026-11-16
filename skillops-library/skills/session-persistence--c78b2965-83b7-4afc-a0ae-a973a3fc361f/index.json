@@ -1,0 +1,32 @@
+{
+  "id": "c78b2965-83b7-4afc-a0ae-a973a3fc361f",
+  "name": "session-persistence",
+  "description": "Imports OpenClaw session transcripts into a local SQLite database with FTS5 full-text search — the agent never loses a message, even after context compaction or session rollover.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/session-persistence--c78b2965-83b7-4afc-a0ae-a973a3fc361f",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/session-persistence--c78b2965-83b7-4afc-a0ae-a973a3fc361f/versions/1.0.0",
+      "sourcePackageHash": "fe152b16890832a0cce9b1b9d68e4ab08d057522174303764a4b94ce80768afc",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "persist.py"
+        }
+      ]
+    }
+  ]
+}

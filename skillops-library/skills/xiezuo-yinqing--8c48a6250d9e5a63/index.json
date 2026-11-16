@@ -1,0 +1,23 @@
+{
+  "id": "8c48a6250d9e5a63",
+  "name": "xiezuo-yinqing",
+  "description": ">-",
+  "source": "skillops",
+  "category": "writing",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/xiezuo-yinqing--8c48a6250d9e5a63",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/xiezuo-yinqing--8c48a6250d9e5a63/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

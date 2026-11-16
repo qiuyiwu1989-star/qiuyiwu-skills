@@ -1,0 +1,32 @@
+{
+  "id": "faa9a28a-fe5b-4e71-8484-3cdfd23b57a7",
+  "name": "skill-forge",
+  "description": "小能核心技能——创建、改进、测试Agent技能。当用户要求创建新skill、修改现有skill、或评估skill质量时使用。六阶段流程（意图捕获→写SKILL.md→参考文件→质量检查→测试→迭代），造完自动调用skill-audit十维评估。触发词：造一个技能/开发skill/new skill/创建技能",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-forge--faa9a28a-fe5b-4e71-8484-3cdfd23b57a7",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-forge--faa9a28a-fe5b-4e71-8484-3cdfd23b57a7/versions/1.0.0",
+      "sourcePackageHash": "b925dc8e01714f0312ef43562836896da34aa304aa7ed35fd6451858b847d598",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/quality-checklist.md"
+        },
+        {
+          "path": "references/skill-anatomy.md"
+        },
+        {
+          "path": "templates/agent-template.md"
+        }
+      ]
+    }
+  ]
+}

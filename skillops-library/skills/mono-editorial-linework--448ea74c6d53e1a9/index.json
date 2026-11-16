@@ -1,0 +1,23 @@
+{
+  "id": "448ea74c6d53e1a9",
+  "name": "mono-editorial-linework",
+  "description": "制作单色编辑线描风格的整页演示图或无字插画，以黑色成年人线描、单一强调色、醒目黑体和克制场景表达概念与协作。用户指定本风格或引用这组绿底肖像、巨型物件协作和会议线描参考时使用；不替代蓝墨研究手绘的手写研究图解。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/mono-editorial-linework--448ea74c6d53e1a9",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/mono-editorial-linework--448ea74c6d53e1a9/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

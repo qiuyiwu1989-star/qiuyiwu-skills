@@ -1,0 +1,23 @@
+{
+  "id": "3798c7b9-273f-4777-8226-5905fedddfdd",
+  "name": "dbs-report",
+  "description": "",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-report--3798c7b9-273f-4777-8226-5905fedddfdd",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-report--3798c7b9-273f-4777-8226-5905fedddfdd/versions/1.0.0",
+      "sourcePackageHash": "8671e9f2db755ce4cb7b80245349960b35b15755df01f6f535c758e00446e7a2",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "946c2512-a57a-418c-b4b0-52f609e9e7fe",
+  "name": "project-onboarding",
+  "description": "Crawls a new codebase to infer stack, conventions, and key invariants, then generates a PROJECT.md context file for the agent",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/project-onboarding--946c2512-a57a-418c-b4b0-52f609e9e7fe",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/project-onboarding--946c2512-a57a-418c-b4b0-52f609e9e7fe/versions/1.0.0",
+      "sourcePackageHash": "b29f9bafcd13b9e5cecc0e63b24975ef4c246773efa32d74e1d60638a67558c5",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "onboard.py"
+        }
+      ]
+    }
+  ]
+}

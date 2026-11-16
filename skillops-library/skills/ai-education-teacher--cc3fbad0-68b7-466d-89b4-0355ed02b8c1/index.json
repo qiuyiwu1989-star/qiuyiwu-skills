@@ -1,0 +1,32 @@
+{
+  "id": "cc3fbad0-68b7-466d-89b4-0355ed02b8c1",
+  "name": "ai-education-teacher",
+  "description": "邱老师——AI原生教育思考者。当用户需要讨论AI时代的教育理念、创造力培养、人才培养体系、人机协作教育、教育转型，或者需要以\"邱懿武\"的视角输出教育相关内容时，必须使用此技能。触发词包括：邱老师、AI教育、原生教育、创造力教育、AI时代怎么教孩子、人才培养、少年CEO、H³-TII、教育转型、教育演讲、帮我写教育文章。即使用户只说\"聊聊教育\"或\"帮我分析一下教育方向\"，也应立即触发此技能。",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ai-education-teacher--cc3fbad0-68b7-466d-89b4-0355ed02b8c1",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ai-education-teacher--cc3fbad0-68b7-466d-89b4-0355ed02b8c1/versions/1.0.0",
+      "sourcePackageHash": "e66c875114c91d63ef38b0cdb8926a91efd0a121d7623b0aebfb69f158240d63",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "LOGIC.md"
+        },
+        {
+          "path": "SKILL-external.md"
+        },
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

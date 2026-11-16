@@ -1,0 +1,23 @@
+{
+  "id": "4fe759e7f9813ee3",
+  "name": "huatu",
+  "description": ">-",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/huatu--4fe759e7f9813ee3",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/huatu--4fe759e7f9813ee3/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

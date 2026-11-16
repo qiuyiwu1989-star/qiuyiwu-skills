@@ -1,0 +1,23 @@
+{
+  "id": "83ea072f-6580-48b2-959a-af67c2d06c4a",
+  "name": "dbs-good-question",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-good-question--83ea072f-6580-48b2-959a-af67c2d06c4a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-good-question--83ea072f-6580-48b2-959a-af67c2d06c4a/versions/1.0.0",
+      "sourcePackageHash": "65a3da13ac5dfbbc143f2204c1ae6b594a5817e8e73b62d8d86b7813cd7c7e2b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

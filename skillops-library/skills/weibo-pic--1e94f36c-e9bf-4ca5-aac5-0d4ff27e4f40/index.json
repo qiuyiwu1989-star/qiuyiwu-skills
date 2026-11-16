@@ -1,0 +1,26 @@
+{
+  "id": "1e94f36c-e9bf-4ca5-aac5-0d4ff27e4f40",
+  "name": "weibo-pic",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-pic--1e94f36c-e9bf-4ca5-aac5-0d4ff27e4f40",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-pic--1e94f36c-e9bf-4ca5-aac5-0d4ff27e4f40/versions/1.0.0",
+      "sourcePackageHash": "56e0e6cae24ef8aadcb0fc3bf6d951b3f79429a2f99c27a7f7cecb642f1f13ad",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/weibo-pic.js"
+        }
+      ]
+    }
+  ]
+}

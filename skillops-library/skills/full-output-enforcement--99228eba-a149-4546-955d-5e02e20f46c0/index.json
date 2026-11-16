@@ -1,0 +1,23 @@
+{
+  "id": "99228eba-a149-4546-955d-5e02e20f46c0",
+  "name": "full-output-enforcement",
+  "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/full-output-enforcement--99228eba-a149-4546-955d-5e02e20f46c0",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/full-output-enforcement--99228eba-a149-4546-955d-5e02e20f46c0/versions/1.0.0",
+      "sourcePackageHash": "71083b6234d1204ae09033310e635d19e6a91b79ef42ed15255fba6af6a03436",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

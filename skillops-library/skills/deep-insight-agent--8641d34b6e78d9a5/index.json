@@ -1,0 +1,23 @@
+{
+  "id": "8641d34b6e78d9a5",
+  "name": "Deep Insight Agent",
+  "description": "Multi-dimensional insight dispatch system — intelligently matches 12 analysis methods based on meeting/lecture/negotiation/chat recordings. Supports mixed-recor",
+  "source": "skillops",
+  "category": "product",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/deep-insight-agent--8641d34b6e78d9a5",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/deep-insight-agent--8641d34b6e78d9a5/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

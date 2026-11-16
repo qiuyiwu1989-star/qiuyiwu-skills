@@ -1,0 +1,32 @@
+{
+  "id": "2a65723c-944c-4d77-8bb9-8d1ef27f030a",
+  "name": "config-encryption-auditor",
+  "description": "Scans OpenClaw config directories for plaintext API keys, tokens, and secrets in unencrypted files — flags exposure risks and suggests encryption or environment variable migration.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/config-encryption-auditor--2a65723c-944c-4d77-8bb9-8d1ef27f030a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/config-encryption-auditor--2a65723c-944c-4d77-8bb9-8d1ef27f030a/versions/1.0.0",
+      "sourcePackageHash": "8f788d9943ac0bfb2b4523b7fe09a167111684f36b8aa9c78316b205459227e0",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "audit.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

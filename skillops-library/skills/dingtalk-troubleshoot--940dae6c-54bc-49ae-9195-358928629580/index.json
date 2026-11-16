@@ -1,0 +1,23 @@
+{
+  "id": "940dae6c-54bc-49ae-9195-358928629580",
+  "name": "dingtalk-troubleshoot",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dingtalk-troubleshoot--940dae6c-54bc-49ae-9195-358928629580",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dingtalk-troubleshoot--940dae6c-54bc-49ae-9195-358928629580/versions/1.0.0",
+      "sourcePackageHash": "38082406abbbdb16b38367ed2979ad9101da733d41798d77341a2a0c468a13f7",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

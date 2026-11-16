@@ -1,0 +1,23 @@
+{
+  "id": "ddd65516-ca1c-43cb-8dbc-3f453d53ecde",
+  "name": "dbs-hook",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-hook--ddd65516-ca1c-43cb-8dbc-3f453d53ecde",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-hook--ddd65516-ca1c-43cb-8dbc-3f453d53ecde/versions/1.0.0",
+      "sourcePackageHash": "13daa2585caecf0133fd48352fc92862385791af80427b2e43d4b86b4a8bc501",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

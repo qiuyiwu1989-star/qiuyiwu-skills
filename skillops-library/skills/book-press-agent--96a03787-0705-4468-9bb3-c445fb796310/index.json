@@ -1,0 +1,26 @@
+{
+  "id": "96a03787-0705-4468-9bb3-c445fb796310",
+  "name": "book-press-agent",
+  "description": "深度榨书智能体（BookPress Agent）——把任何一本书压缩成可迁移的知识资产，并持续积累形成个人知识体系。当用户想要深度分析一本书、提取核心模型、做读书笔记、做书评、把书转化为课程/内容选题、或对比两本书的观点时，必须使用此技能。触发词包括：榨书、深度分析这本书、帮我读这本书、提取核心框架、书中的核心模型是什么、把这本书的精华提炼出来、帮我做读书报告、这本书值得读吗、跟另一本书做对比、把书转成课程大纲、出内容选题、我的阅读记录、深度洞察汇总、之前读过的书。即使用户只是上传了一本书的PDF、笔记、或者只是说出书名，也应立即触发此技能。当用户询问\"之前分析过哪些书\"、\"我的阅读库\"、\"洞察汇总\"时，也必须触发此技能来检索记忆中的阅读档案。",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/book-press-agent--96a03787-0705-4468-9bb3-c445fb796310",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/book-press-agent--96a03787-0705-4468-9bb3-c445fb796310/versions/1.0.0",
+      "sourcePackageHash": "6a417808e85bb8f417bd5f60c38c1aba5b374ce06bae1fc286df069d9f8b57a2",
+      "files": [
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

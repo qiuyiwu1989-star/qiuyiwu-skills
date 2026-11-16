@@ -1,0 +1,23 @@
+{
+  "id": "b758e95c-76db-4205-a00c-72ab51290db3",
+  "name": "weibo-hot-search",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-hot-search--b758e95c-76db-4205-a00c-72ab51290db3",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-hot-search--b758e95c-76db-4205-a00c-72ab51290db3/versions/1.0.0",
+      "sourcePackageHash": "dc0ce577117b1c7b25a0bd161b8d55a3a08beba9d7c3d976d257a4995841c7f5",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

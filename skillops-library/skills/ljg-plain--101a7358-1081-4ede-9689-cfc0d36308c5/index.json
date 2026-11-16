@@ -1,0 +1,23 @@
+{
+  "id": "101a7358-1081-4ede-9689-cfc0d36308c5",
+  "name": "ljg-plain",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-plain--101a7358-1081-4ede-9689-cfc0d36308c5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-plain--101a7358-1081-4ede-9689-cfc0d36308c5/versions/1.0.0",
+      "sourcePackageHash": "98d68bd58b05ba3e80804ea8273bc124c1819e2f7bea9ca73467cf49add62957",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

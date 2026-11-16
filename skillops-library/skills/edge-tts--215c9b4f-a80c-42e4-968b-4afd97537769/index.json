@@ -1,0 +1,50 @@
+{
+  "id": "215c9b4f-a80c-42e4-968b-4afd97537769",
+  "name": "edge-tts",
+  "description": "",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/edge-tts--215c9b4f-a80c-42e4-968b-4afd97537769",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/edge-tts--215c9b4f-a80c-42e4-968b-4afd97537769/versions/1.0.0",
+      "sourcePackageHash": "75782d55979094ea3f583ebcb354989e3a0ff10e173704649083365360efa120",
+      "files": [
+        {
+          "path": "DISTRIBUTION.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "install.sh"
+        },
+        {
+          "path": "references/node_edge_tts_guide.md"
+        },
+        {
+          "path": "scripts/config-manager.js"
+        },
+        {
+          "path": "scripts/package-lock.json"
+        },
+        {
+          "path": "scripts/package.json"
+        },
+        {
+          "path": "scripts/tts-converter.js"
+        },
+        {
+          "path": "skill-info.json"
+        }
+      ]
+    }
+  ]
+}

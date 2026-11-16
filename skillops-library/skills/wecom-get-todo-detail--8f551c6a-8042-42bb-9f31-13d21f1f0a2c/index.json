@@ -1,0 +1,23 @@
+{
+  "id": "8f551c6a-8042-42bb-9f31-13d21f1f0a2c",
+  "name": "wecom-get-todo-detail",
+  "description": "企业微信待办详情批量查询技能，根据待办 ID 列表获取完整信息（包含待办内容和分派人）。在用户说\"看看这个待办的详情\"、\"待办内容是什么\"、\"这个待办分派给谁了\"、\"告诉我待办的具体信息\"等需要查看待办完整内容的场景时使用。通常配合 wecom-get-todo-list 使用——先获取待办 ID 列表，再用本技能获取详情。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-get-todo-detail--8f551c6a-8042-42bb-9f31-13d21f1f0a2c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-get-todo-detail--8f551c6a-8042-42bb-9f31-13d21f1f0a2c/versions/1.0.0",
+      "sourcePackageHash": "4a0c82da2fc06f6a39ed7acb0dc01362953c0b57292433b45404171c03c9c59a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

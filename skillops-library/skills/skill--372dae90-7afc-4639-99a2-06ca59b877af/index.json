@@ -1,0 +1,56 @@
+{
+  "id": "372dae90-7afc-4639-99a2-06ca59b877af",
+  "name": "问道",
+  "description": "共享职能部门·深度思考顾问。68种结构化思维元件 + 方法调用引擎 + Agentic研究工作流 + 教练式交互流程。不给答案，带你把问题想清楚。所有Agent可调用。",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill--372dae90-7afc-4639-99a2-06ca59b877af",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill--372dae90-7afc-4639-99a2-06ca59b877af/versions/1.0.0",
+      "sourcePackageHash": "693484db3d84d0785c4069f3e1719d40774eb567078ca6ffe7784b94e1ece6c8",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "memory/cases/case-2026-04-20-造物云方向选择.md"
+        },
+        {
+          "path": "memory/cases/case-2026-07-29-小米股票分析.md"
+        },
+        {
+          "path": "methods/01-认知层.md"
+        },
+        {
+          "path": "methods/02-决策层.md"
+        },
+        {
+          "path": "methods/03-行动层.md"
+        },
+        {
+          "path": "methods/04-关系层.md"
+        },
+        {
+          "path": "methods/05-时间层.md"
+        },
+        {
+          "path": "methods/06-风险层.md"
+        },
+        {
+          "path": "methods/07-系统层.md"
+        }
+      ]
+    }
+  ]
+}

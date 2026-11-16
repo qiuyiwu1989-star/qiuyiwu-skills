@@ -1,0 +1,32 @@
+{
+  "id": "bef96509-d85f-44cc-bb8a-effeac1bc7c5",
+  "name": "workflow-orchestration",
+  "description": "Chains multiple skills into a named multi-step workflow with conditions and state tracking. Use when a recurring task requires the same sequence of skills every time.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/workflow-orchestration--bef96509-d85f-44cc-bb8a-effeac1bc7c5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/workflow-orchestration--bef96509-d85f-44cc-bb8a-effeac1bc7c5/versions/1.0.0",
+      "sourcePackageHash": "d271e35bf505968f861e4dcd8e86ac22d685c8fd87dcce760ce8f40a65edcc21",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "run.py"
+        }
+      ]
+    }
+  ]
+}

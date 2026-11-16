@@ -1,0 +1,23 @@
+{
+  "id": "54ac22632351add8",
+  "name": "blue-ink-research-slides",
+  "description": "制作蓝墨研究手绘风格的整页演示图：淡蓝底、黑色有机线条、亮蓝强调与匹配的手写字。用户指定蓝墨研究手绘或引用这组UX研究参考时使用，适合流程、对比、用户研究和方法讲解；不替代米色手绘或蓝晒工程图。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/blue-ink-research-slides--54ac22632351add8",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/blue-ink-research-slides--54ac22632351add8/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

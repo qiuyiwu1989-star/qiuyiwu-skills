@@ -1,0 +1,29 @@
+{
+  "id": "1349f546-96fe-490b-843c-b82a6b3dcf70",
+  "name": "frontend-design",
+  "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/frontend-design--1349f546-96fe-490b-843c-b82a6b3dcf70",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/frontend-design--1349f546-96fe-490b-843c-b82a6b3dcf70/versions/1.0.0",
+      "sourcePackageHash": "9167d9189a9968d14a2e189029803d303e8d0108f038f60aa86a1e1eb634f428",
+      "files": [
+        {
+          "path": "LICENSE.txt"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

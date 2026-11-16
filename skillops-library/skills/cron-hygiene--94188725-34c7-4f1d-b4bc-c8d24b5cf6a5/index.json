@@ -1,0 +1,32 @@
+{
+  "id": "94188725-34c7-4f1d-b4bc-c8d24b5cf6a5",
+  "name": "cron-hygiene",
+  "description": "Audits cron-scheduled skills for session mode, token waste, and cost efficiency — and enforces concise-reply constraints on cron contexts",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/cron-hygiene--94188725-34c7-4f1d-b4bc-c8d24b5cf6a5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/cron-hygiene--94188725-34c7-4f1d-b4bc-c8d24b5cf6a5/versions/1.0.0",
+      "sourcePackageHash": "6650e7a8093c20f69a7244085174657716210c9eca994db19afc44df98344c9f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "audit.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

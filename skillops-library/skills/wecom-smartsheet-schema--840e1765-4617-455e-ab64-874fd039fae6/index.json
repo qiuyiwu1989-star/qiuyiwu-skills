@@ -1,0 +1,26 @@
+{
+  "id": "840e1765-4617-455e-ab64-874fd039fae6",
+  "name": "wecom-smartsheet-schema",
+  "description": "企业微信智能表格结构管理技能。提供子表（Sheet）和字段（Field/列）的增删改查能力。适用场景：(1) 查询智能表格的子表列表 (2) 添加、更新、删除子表 (3) 查询子表的字段/列信息 (4) 添加、更新、删除字段/列。当用户需要管理智能表格的表结构、列定义、子表配置时触发此 Skill。支持通过 docid 或文档 URL 定位文档。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-smartsheet-schema--840e1765-4617-455e-ab64-874fd039fae6",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-smartsheet-schema--840e1765-4617-455e-ab64-874fd039fae6/versions/1.0.0",
+      "sourcePackageHash": "230dd5e1dcc0e6aac266241fda5a47adcc222c28e701de9992fdb7501dc043f4",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/field-types.md"
+        }
+      ]
+    }
+  ]
+}

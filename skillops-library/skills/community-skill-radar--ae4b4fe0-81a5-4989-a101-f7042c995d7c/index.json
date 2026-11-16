@@ -1,0 +1,32 @@
+{
+  "id": "ae4b4fe0-81a5-4989-a101-f7042c995d7c",
+  "name": "community-skill-radar",
+  "description": "Searches Reddit communities for OpenClaw pain points and feature requests, scores them by signal strength, and writes a prioritized PROPOSALS.md for you to review and act on.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/community-skill-radar--ae4b4fe0-81a5-4989-a101-f7042c995d7c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/community-skill-radar--ae4b4fe0-81a5-4989-a101-f7042c995d7c/versions/1.0.0",
+      "sourcePackageHash": "431886528282a79a37d6f5af075fc7d3005ab65d79ddee1978e4b1efeb1e7f81",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "radar.py"
+        }
+      ]
+    }
+  ]
+}

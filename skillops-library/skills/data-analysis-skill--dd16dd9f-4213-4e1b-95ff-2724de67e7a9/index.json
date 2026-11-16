@@ -1,0 +1,50 @@
+{
+  "id": "dd16dd9f-4213-4e1b-95ff-2724de67e7a9",
+  "name": "data-analysis-skill",
+  "description": "数据分析技能包 - 自动抓取、清洗、可视化、生成报告。适合数据分析师、运营人员，告别 Excel 手工操作。",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/data-analysis-skill--dd16dd9f-4213-4e1b-95ff-2724de67e7a9",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/data-analysis-skill--dd16dd9f-4213-4e1b-95ff-2724de67e7a9/versions/1.0.0",
+      "sourcePackageHash": "114b80bcfeac5d5e33a3da97f46d26c65da3f5a6fe21760b7af4f191e1c5c7c6",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "scripts/data-clean.js"
+        },
+        {
+          "path": "scripts/data-fetch.js"
+        },
+        {
+          "path": "scripts/data-viz.js"
+        },
+        {
+          "path": "scripts/report-generate.js"
+        },
+        {
+          "path": "templates/business.json"
+        },
+        {
+          "path": "templates/technical.json"
+        },
+        {
+          "path": "templates/weekly.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bb235f0a-e4da-43da-a1c4-0fca635cfb09",
+  "name": "go-concurrency",
+  "description": "Production Go concurrency patterns — goroutines, channels, sync primitives, context, worker pools, pipelines, and graceful shutdown. Use when building concurrent Go applications or debugging race conditions.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/go-concurrency--bb235f0a-e4da-43da-a1c4-0fca635cfb09",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/go-concurrency--bb235f0a-e4da-43da-a1c4-0fca635cfb09/versions/1.0.0",
+      "sourcePackageHash": "3f982050eb12f71e604b2303ae36b67e9debfda42b3d4d318831ba799a0d11f1",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/go-concurrency--bb235f0a-e4da-43da-a1c4-0fca635cfb09/versions/1.0.1",
+      "sourcePackageHash": "a799e6c4ec0e6440ba20474230b1b399f2d6baac76301ff7357cb0dab6d80db0",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

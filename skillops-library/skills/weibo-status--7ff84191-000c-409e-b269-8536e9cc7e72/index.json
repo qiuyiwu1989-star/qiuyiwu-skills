@@ -1,0 +1,32 @@
+{
+  "id": "7ff84191-000c-409e-b269-8536e9cc7e72",
+  "name": "weibo-status",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-status--7ff84191-000c-409e-b269-8536e9cc7e72",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-status--7ff84191-000c-409e-b269-8536e9cc7e72/versions/1.0.0",
+      "sourcePackageHash": "5b9b67779d6bd675f81a87850413f5e9f1a2201474e06bd9149977dac35554ed",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/weibo-status-show.md"
+        },
+        {
+          "path": "references/weibo-status.md"
+        },
+        {
+          "path": "scripts/weibo-status-tool.js"
+        }
+      ]
+    }
+  ]
+}

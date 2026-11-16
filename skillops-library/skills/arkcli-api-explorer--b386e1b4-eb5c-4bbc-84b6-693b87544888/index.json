@@ -1,0 +1,29 @@
+{
+  "id": "b386e1b4-eb5c-4bbc-84b6-693b87544888",
+  "name": "arkcli-api-explorer",
+  "description": "Inspect or invoke locally registered ArkCLI actions when product commands cannot cover a task. Use for registry errors or exact raw payloads. Not for public API catalogs or OpenAPI schemas.",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-api-explorer--b386e1b4-eb5c-4bbc-84b6-693b87544888",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-api-explorer--b386e1b4-eb5c-4bbc-84b6-693b87544888/versions/1.0.0",
+      "sourcePackageHash": "4bbc8b8251763dfdaab6a2f6e9a603eb5f43694861f92bf6e614013ff61c3cf0",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-api.md"
+        },
+        {
+          "path": "references/evals.md"
+        }
+      ]
+    }
+  ]
+}

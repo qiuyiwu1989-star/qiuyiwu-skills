@@ -1,0 +1,23 @@
+{
+  "id": "c32b769ad298dc4e",
+  "name": "panduanku-jiagou",
+  "description": ">-",
+  "source": "skillops",
+  "category": "knowledge",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/panduanku-jiagou--c32b769ad298dc4e",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/panduanku-jiagou--c32b769ad298dc4e/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

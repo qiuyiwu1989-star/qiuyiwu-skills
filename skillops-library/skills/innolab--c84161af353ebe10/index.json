@@ -1,0 +1,23 @@
+{
+  "id": "c84161af353ebe10",
+  "name": "innolab",
+  "description": "邱懿武的创新实验室（InnoLab）——集成86个战略、产品、认知、生成、决策、进化方法论的智能分析系统。当用户需要做战略分析、产品设计、竞争诊断、认知升级、方法论指导、投资分析、路演准备、BP撰写时，必须使用此技能。触发词包括：分析一下、诊断、帮我看看这个方向、值不值得做、怎么定位、战略分析、产品分析、竞争分析、护城",
+  "source": "skillops",
+  "category": "product",
+  "visibility": "private",
+  "candidate": true,
+  "path": "skills/innolab--c84161af353ebe10",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/innolab--c84161af353ebe10/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

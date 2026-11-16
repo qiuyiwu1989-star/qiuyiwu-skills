@@ -1,0 +1,26 @@
+{
+  "id": "04a30794-050d-408c-9c56-4e0cae0249bf",
+  "name": "google-cloud-recipe-onboarding",
+  "description": "Guidance for a developer's first steps on Google Cloud, covering account creation, billing setup, project management, and deploying a first resource.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/google-cloud-recipe-onboarding--04a30794-050d-408c-9c56-4e0cae0249bf",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/google-cloud-recipe-onboarding--04a30794-050d-408c-9c56-4e0cae0249bf/versions/1.0.0",
+      "sourcePackageHash": "f1595baa7fa3239bdd900690822750f5f9117c54cd88f3fa7a9ba20bc27fface",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "reference/google-cloud-setup.md"
+        }
+      ]
+    }
+  ]
+}

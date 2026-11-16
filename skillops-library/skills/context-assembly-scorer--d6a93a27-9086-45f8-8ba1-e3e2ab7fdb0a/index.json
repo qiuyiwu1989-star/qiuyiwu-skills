@@ -1,0 +1,32 @@
+{
+  "id": "d6a93a27-9086-45f8-8ba1-e3e2ab7fdb0a",
+  "name": "context-assembly-scorer",
+  "description": "Scores how well the current context represents the full conversation — detects information blind spots, stale summaries, and coverage gaps that cause the agent to forget critical details.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/context-assembly-scorer--d6a93a27-9086-45f8-8ba1-e3e2ab7fdb0a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/context-assembly-scorer--d6a93a27-9086-45f8-8ba1-e3e2ab7fdb0a/versions/1.0.0",
+      "sourcePackageHash": "f458029454e33341d90d6de49bc4e721d27b3939fa50e4d7f68c6e263127b631",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "score.py"
+        }
+      ]
+    }
+  ]
+}

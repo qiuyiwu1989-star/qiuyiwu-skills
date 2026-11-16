@@ -1,0 +1,26 @@
+{
+  "id": "a145bf95-61de-4c21-90e0-e6412af512ad",
+  "name": "ai-artist",
+  "description": "AI艺术家智能体。当用户需要AI图像生成、视频生成、艺术风格探索、视觉创作时使用。触发词：画一幅、生成图片、做个海报、AI画画、视频生成、做个视频、艺术风格、帮我画。",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ai-artist--a145bf95-61de-4c21-90e0-e6412af512ad",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ai-artist--a145bf95-61de-4c21-90e0-e6412af512ad/versions/1.0.0",
+      "sourcePackageHash": "106737c65581b6f4807afae2bc2cb1c4ab2ae1a9d909d606abe096cdee24d2f7",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

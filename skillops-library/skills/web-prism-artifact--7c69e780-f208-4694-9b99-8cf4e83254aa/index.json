@@ -1,0 +1,32 @@
+{
+  "id": "7c69e780-f208-4694-9b99-8cf4e83254aa",
+  "name": "web-prism-artifact",
+  "description": "在 Web 渠道输出可视化/结构化数据时使用。适用于：最终回答包含 2+ 指标/KPI 对比、时间序列、趋势、排名、分布、占比，或 3 行以上可按表格扫读的记录；命中这些数据形态时默认必须使用，即使用户没有明说可视化/报表/看板；也适用于用户明确要看板、图表、报告、可视化、dashboard、chart、visualization。输出一个原始 `<openui-artifact>` 块（使用 OpenUI Lang）作为可视化主体，并额外输出至少一段文字总结；不用 markdown 正文把同一份数据再讲一遍，不输出 JSON、HTML、ECharts option 或伪 OpenUI DSL。不要在以下场景使用：用户明确要纯 HTML 页面、iframe、原生 ECharts option、SVG 源码、自定义脚本；单条事实、短解释、是/否、代码片段。",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/web-prism-artifact--7c69e780-f208-4694-9b99-8cf4e83254aa",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/web-prism-artifact--7c69e780-f208-4694-9b99-8cf4e83254aa/versions/1.0.0",
+      "sourcePackageHash": "d20f74ae7b0ba383feeeaccd8cb83a76fa0012a91602f33c6bece19bf49a69c3",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/openui-extension-plan.md"
+        },
+        {
+          "path": "references/openui-library-schema.generated.json"
+        },
+        {
+          "path": "references/openui-system-prompt.generated.md"
+        }
+      ]
+    }
+  ]
+}

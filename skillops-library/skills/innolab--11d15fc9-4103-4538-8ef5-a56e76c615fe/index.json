@@ -1,0 +1,338 @@
+{
+  "id": "11d15fc9-4103-4538-8ef5-a56e76c615fe",
+  "name": "innolab",
+  "description": "邱懿武的创新实验室（InnoLab）——集成74个战略、产品、认知方法论的智能分析系统。当用户需要做战略分析、产品设计、竞争诊断、认知升级、方法论指导、投资分析、路演准备、BP撰写时，必须使用此技能。触发词包括：分析一下、诊断、帮我看看这个方向、值不值得做、怎么定位、战略分析、产品分析、竞争分析、护城河、飞轮、蓝海、波特五力、SWOT、BMC商业画布、AARRR、KANO、Hook模型、用户画像、OKR、安索夫、BCG矩阵、消费时代、四代思维、九宫格、产品定义九宫格、认知升级、L2L4、哑铃型社会、人货场、品牌分析、设计思维、六顶思考帽、MVP、金字塔原理、马斯洛、客户旅程、创新十环、未来雷达图、原型法、故事板、头脑风暴、投资叙事、路演、BP、估值、融资。即使用户只说\"帮我想想这个事情\"、\"这个项目怎么看\"、\"分析下竞争格局\"或\"我该怎么规划\"，也应触发此技能。当用户提到任何管理/创新/战",
+  "source": "personal_agi",
+  "category": "product",
+  "state": "published",
+  "candidate": true,
+  "path": "skills/innolab--11d15fc9-4103-4538-8ef5-a56e76c615fe",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/innolab--11d15fc9-4103-4538-8ef5-a56e76c615fe/versions/1.0.0",
+      "sourcePackageHash": "667360ef85bfec884e859034461bf88070a55070ec6d3802fb636262adc84426",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "METHOD_INDEX.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "SYNC.md"
+        },
+        {
+          "path": "cases/case-index.json"
+        },
+        {
+          "path": "cases/education/ai-curriculum-l3-trap.json"
+        },
+        {
+          "path": "cases/education/dual-track-talent-practice.json"
+        },
+        {
+          "path": "cases/education/qiuqiu-data-flywheel.json"
+        },
+        {
+          "path": "cases/education/qiuqiu-teacher.json"
+        },
+        {
+          "path": "cases/enterprise/retail-ai-illusions.json"
+        },
+        {
+          "path": "cases/enterprise/zaowuyun-ai-offense-defense.json"
+        },
+        {
+          "path": "cases/product/aip-OldCai-ip.json"
+        },
+        {
+          "path": "cases/product/ip-design-process-rebuild.json"
+        },
+        {
+          "path": "cases/product/old-bottle-new-wine-cases.json"
+        },
+        {
+          "path": "memory/2026-04-05-session.md"
+        },
+        {
+          "path": "memory/2026-04-19/001-品焕AI化转型战略诊断.json"
+        },
+        {
+          "path": "memory/2026-04-20/006-aip-strategic-deep-dive.md"
+        },
+        {
+          "path": "memory/evolution-log.json"
+        },
+        {
+          "path": "memory/index.json"
+        },
+        {
+          "path": "memory/users/ou_778f915edc97f053c2f71f8a610bd605/analyses.json"
+        },
+        {
+          "path": "memory/users/ou_778f915edc97f053c2f71f8a610bd605/profile.json"
+        },
+        {
+          "path": "memory/users/user-index.json"
+        },
+        {
+          "path": "methods/cognition/affinity-diagram.md"
+        },
+        {
+          "path": "methods/cognition/cognitive-assembler.md"
+        },
+        {
+          "path": "methods/cognition/consumer-trend-canvas.md"
+        },
+        {
+          "path": "methods/cognition/deductive-writing.md"
+        },
+        {
+          "path": "methods/cognition/design-ethnography.md"
+        },
+        {
+          "path": "methods/cognition/five-compositions.md"
+        },
+        {
+          "path": "methods/cognition/five-layer-cognition.md"
+        },
+        {
+          "path": "methods/cognition/future-radar.md"
+        },
+        {
+          "path": "methods/cognition/h3-tii.md"
+        },
+        {
+          "path": "methods/cognition/insight-framework.md"
+        },
+        {
+          "path": "methods/cognition/jevons-paradox-reasoning.md"
+        },
+        {
+          "path": "methods/cognition/l2-l4-diagnosis.md"
+        },
+        {
+          "path": "methods/cognition/maslow.md"
+        },
+        {
+          "path": "methods/cognition/method-card-design.md"
+        },
+        {
+          "path": "methods/cognition/nine-grid.md"
+        },
+        {
+          "path": "methods/cognition/pyramid.md"
+        },
+        {
+          "path": "methods/cognition/six-hats.md"
+        },
+        {
+          "path": "methods/cognition/ten-level-creativity.md"
+        },
+        {
+          "path": "methods/cognition/three-party-coevolution.md"
+        },
+        {
+          "path": "methods/decision/ai-product-value-assessment.md"
+        },
+        {
+          "path": "methods/decision/bcg.md"
+        },
+        {
+          "path": "methods/decision/evaluation-matrix.md"
+        },
+        {
+          "path": "methods/decision/j-curve.md"
+        },
+        {
+          "path": "methods/decision/kano.md"
+        },
+        {
+          "path": "methods/decision/negotiation-prep.md"
+        },
+        {
+          "path": "methods/decision/nonviolent-communication.md"
+        },
+        {
+          "path": "methods/decision/scene-value-matrix.md"
+        },
+        {
+          "path": "methods/decision/swot.md"
+        },
+        {
+          "path": "methods/evolution/aarrr.md"
+        },
+        {
+          "path": "methods/evolution/data-scene-flywheel.md"
+        },
+        {
+          "path": "methods/evolution/okr.md"
+        },
+        {
+          "path": "methods/generation/body-storming.md"
+        },
+        {
+          "path": "methods/generation/brainstorming.md"
+        },
+        {
+          "path": "methods/generation/concept-development.md"
+        },
+        {
+          "path": "methods/generation/design-thinking.md"
+        },
+        {
+          "path": "methods/generation/disruptive-roadshow.md"
+        },
+        {
+          "path": "methods/generation/embodied-production.md"
+        },
+        {
+          "path": "methods/generation/old-bottle-new-label.md"
+        },
+        {
+          "path": "methods/generation/prototyping.md"
+        },
+        {
+          "path": "methods/generation/role-gene.md"
+        },
+        {
+          "path": "methods/generation/six-step-flywheel.md"
+        },
+        {
+          "path": "methods/generation/storyboard.md"
+        },
+        {
+          "path": "methods/generation/what-if.md"
+        },
+        {
+          "path": "methods/product/bmc.md"
+        },
+        {
+          "path": "methods/product/brand-equity.md"
+        },
+        {
+          "path": "methods/product/brand-resonance.md"
+        },
+        {
+          "path": "methods/product/business-origami.md"
+        },
+        {
+          "path": "methods/product/customer-journey.md"
+        },
+        {
+          "path": "methods/product/hook.md"
+        },
+        {
+          "path": "methods/product/ip-knowledge-graph.md"
+        },
+        {
+          "path": "methods/product/mvp.md"
+        },
+        {
+          "path": "methods/product/people-goods-field.md"
+        },
+        {
+          "path": "methods/product/product-definition/nine-grid.md"
+        },
+        {
+          "path": "methods/product/ten-types-innovation.md"
+        },
+        {
+          "path": "methods/product/user-persona.md"
+        },
+        {
+          "path": "methods/product/value-opportunity-analysis.md"
+        },
+        {
+          "path": "methods/strategy/ansoff.md"
+        },
+        {
+          "path": "methods/strategy/attack-defend.md"
+        },
+        {
+          "path": "methods/strategy/blue-ocean.md"
+        },
+        {
+          "path": "methods/strategy/causal-loop-analysis.md"
+        },
+        {
+          "path": "methods/strategy/consumption-era.md"
+        },
+        {
+          "path": "methods/strategy/dual-track-talent.md"
+        },
+        {
+          "path": "methods/strategy/dumbbell-society.md"
+        },
+        {
+          "path": "methods/strategy/industry-first-principles.md"
+        },
+        {
+          "path": "methods/strategy/intelligence-density.md"
+        },
+        {
+          "path": "methods/strategy/investment-narrative.md"
+        },
+        {
+          "path": "methods/strategy/moat-analysis.md"
+        },
+        {
+          "path": "methods/strategy/moat-migration.md"
+        },
+        {
+          "path": "methods/strategy/paradigm-shift.md"
+        },
+        {
+          "path": "methods/strategy/porter-five.md"
+        },
+        {
+          "path": "methods/strategy/strategic-illusion.md"
+        },
+        {
+          "path": "methods/strategy/strategy-roadmap.md"
+        },
+        {
+          "path": "methods/strategy/system-archetypes.md"
+        },
+        {
+          "path": "methods/strategy/three-stage-evolution.md"
+        },
+        {
+          "path": "references/CHANGELOG.md"
+        },
+        {
+          "path": "references/DEPTH_ASSESSMENT.md"
+        },
+        {
+          "path": "references/METHOD_AUDIT_2026-04-26.md"
+        },
+        {
+          "path": "references/METHOD_INDEX.md"
+        },
+        {
+          "path": "references/METHOD_INDEX_v4.md"
+        },
+        {
+          "path": "skills/method-card-forge/SKILL.md"
+        },
+        {
+          "path": "sync-log.json"
+        },
+        {
+          "path": "sync-to-wiki.py"
+        },
+        {
+          "path": "wiki-mapping.json"
+        }
+      ]
+    }
+  ]
+}

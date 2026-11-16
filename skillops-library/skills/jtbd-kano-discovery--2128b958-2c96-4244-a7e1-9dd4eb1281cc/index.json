@@ -1,0 +1,41 @@
+{
+  "id": "2128b958-2c96-4244-a7e1-9dd4eb1281cc",
+  "name": "jtbd-kano-discovery",
+  "description": "需求挖掘与优先级排序方法论——先用 JTBD（Jobs To Be Done）从场景/访谈/会议录音中系统挖出用户潜在需求，再用 KANO 模型（含问卷与 Better-Worse 系数）分类排序，最后把 Top 需求转为海报/概念视频进行用户投票验证。This skill should be used when the user wants to 挖掘需求、找痛点、分析用户需求、做需求优先级、需求排序、KANO 分析、卡诺模型、JTBD、用户要完成的任务、判断雪中送炭还是锦上添花、从访谈或会议记录中提炼需求、设计 KANO 问卷或统计问卷结果、为新场景/新产品找切入点、或决定先做哪个功能/应用.",
+  "source": "personal_agi",
+  "category": "product",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/jtbd-kano-discovery--2128b958-2c96-4244-a7e1-9dd4eb1281cc",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/jtbd-kano-discovery--2128b958-2c96-4244-a7e1-9dd4eb1281cc/versions/1.0.0",
+      "sourcePackageHash": "20cc7e47ec736660560548e0e5bb006f2f0ae58d359e85bcb2502630b2483ca7",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "assets/discovery-report-template.md"
+        },
+        {
+          "path": "assets/kano-questionnaire-template.md"
+        },
+        {
+          "path": "references/example-ai-recorder.md"
+        },
+        {
+          "path": "references/jtbd-guide.md"
+        },
+        {
+          "path": "references/kano-guide.md"
+        },
+        {
+          "path": "scripts/kano_score.py"
+        }
+      ]
+    }
+  ]
+}

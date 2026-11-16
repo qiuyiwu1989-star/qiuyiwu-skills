@@ -1,0 +1,23 @@
+{
+  "id": "7828ee0e-3b2f-40e6-9e48-2dae85c30bcd",
+  "name": "ljg-learn",
+  "description": "Deep concept anatomist that deconstructs any concept through 8 exploration dimensions (history, dialectics, phenomenology, linguistics, formalization, existentialism, aesthetics, meta-philosophy) and compresses insights into an epiphany. Use when user asks to explain, dissect, or deeply understand a concept, term, or idea. Triggers on '解剖概念', '概念解剖', 'explain concept', 'learn concept', '/ljg-learn",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-learn--7828ee0e-3b2f-40e6-9e48-2dae85c30bcd",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-learn--7828ee0e-3b2f-40e6-9e48-2dae85c30bcd/versions/1.0.0",
+      "sourcePackageHash": "ffb881c44249b90c5d859ce0ade6b9a1b43d9ee7a7e598c202ad36735205d5ea",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

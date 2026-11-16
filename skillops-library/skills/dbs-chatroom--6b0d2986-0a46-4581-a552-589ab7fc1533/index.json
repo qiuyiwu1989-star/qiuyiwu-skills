@@ -1,0 +1,23 @@
+{
+  "id": "6b0d2986-0a46-4581-a552-589ab7fc1533",
+  "name": "dbs-chatroom",
+  "description": "定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-chatroom--6b0d2986-0a46-4581-a552-589ab7fc1533",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-chatroom--6b0d2986-0a46-4581-a552-589ab7fc1533/versions/1.0.0",
+      "sourcePackageHash": "7e14261de459aa351291c0ea6a5dbce2c0d5b612e93240f23eacb2afcc564df9",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

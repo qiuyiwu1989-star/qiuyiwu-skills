@@ -1,0 +1,50 @@
+{
+  "id": "4cbe2246-1450-43b0-b418-dc508f10141f",
+  "name": "reading-archive",
+  "description": "把文章、报告或播客访谈转录重建为保留判断、论证、案例和边界的可读档案，随后生成同源Agent数据；适用于阅读提炼和知行档案整理，不以短摘要代替深度提炼。",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/reading-archive--4cbe2246-1450-43b0-b418-dc508f10141f",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/reading-archive--4cbe2246-1450-43b0-b418-dc508f10141f/versions/1.0.0",
+      "sourcePackageHash": "14f00444d353b0631e0e916ef9861355b30569cc860228e324c055c5c37b0fb4",
+      "files": [
+        {
+          "path": "AUDIT.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "assets/reading-detail-example.html"
+        },
+        {
+          "path": "references-legacy/example.md"
+        },
+        {
+          "path": "references-legacy/信源层级.md"
+        },
+        {
+          "path": "references-legacy/提炼质量标准.md"
+        },
+        {
+          "path": "references/quality-standard.md"
+        },
+        {
+          "path": "references/reading-page.md"
+        },
+        {
+          "path": "references/review-checklist.md"
+        },
+        {
+          "path": "references/synthetic-example.md"
+        }
+      ]
+    }
+  ]
+}

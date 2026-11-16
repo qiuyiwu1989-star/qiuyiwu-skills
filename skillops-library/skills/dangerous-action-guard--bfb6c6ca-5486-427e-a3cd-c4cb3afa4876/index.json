@@ -1,0 +1,32 @@
+{
+  "id": "bfb6c6ca-5486-427e-a3cd-c4cb3afa4876",
+  "name": "dangerous-action-guard",
+  "description": "Intercepts irreversible or destructive actions and requires explicit user confirmation before proceeding",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dangerous-action-guard--bfb6c6ca-5486-427e-a3cd-c4cb3afa4876",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dangerous-action-guard--bfb6c6ca-5486-427e-a3cd-c4cb3afa4876/versions/1.0.0",
+      "sourcePackageHash": "ee36916bb513e0d444ab0c2688cff2b66bb50a38ba2f8f482fb1ba4bb23799dd",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "audit.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ab2e62c2-c592-4c2d-bda1-bb1b157e1b39",
+  "name": "wecom-meeting-query",
+  "description": "企业微信会议查询技能, 支持查询会议列表, 获取会议详情, 按关键词查找会议. 当用户需要\"查看会议\", \"查询会议列表\", \"会议详情\", \"什么时候开会\", \"有哪些会议\", \"查找会议\"时触发.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-meeting-query--ab2e62c2-c592-4c2d-bda1-bb1b157e1b39",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-meeting-query--ab2e62c2-c592-4c2d-bda1-bb1b157e1b39/versions/1.0.0",
+      "sourcePackageHash": "feb9fa57b3139cecf227d881cccb1c80ccda939453bcd2c21db1f6eb3cd52fe2",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

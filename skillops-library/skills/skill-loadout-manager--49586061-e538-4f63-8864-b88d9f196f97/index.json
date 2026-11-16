@@ -1,0 +1,32 @@
+{
+  "id": "49586061-e538-4f63-8864-b88d9f196f97",
+  "name": "skill-loadout-manager",
+  "description": "Manages named skill profiles (loadouts) so you can switch between focused skill sets and prevent system prompt bloat from too many active skills.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-loadout-manager--49586061-e538-4f63-8864-b88d9f196f97",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-loadout-manager--49586061-e538-4f63-8864-b88d9f196f97/versions/1.0.0",
+      "sourcePackageHash": "1e50f00bc832990fc1f8ff774c3dafe1c73f77da2cc8403c6488878729042b5c",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "loadout.py"
+        }
+      ]
+    }
+  ]
+}

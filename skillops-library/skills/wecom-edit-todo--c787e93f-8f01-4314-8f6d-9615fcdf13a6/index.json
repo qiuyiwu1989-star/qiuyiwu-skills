@@ -1,0 +1,23 @@
+{
+  "id": "c787e93f-8f01-4314-8f6d-9615fcdf13a6",
+  "name": "wecom-edit-todo",
+  "description": "企业微信待办事项编辑技能，支持创建、更新、删除待办及变更用户处理进度状态。在用户说\"帮我创建一个待办\"、\"把这个任务分派给张三\"、\"标记待办完成\"、\"删掉那个待办\"、\"帮我建个提醒\"、\"更新一下待办内容\"、\"把提醒时间改到下周\"、\"接受这个待办\"、\"拒绝这个待办\"等需要对待办进行写操作的场景时使用。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-edit-todo--c787e93f-8f01-4314-8f6d-9615fcdf13a6",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-edit-todo--c787e93f-8f01-4314-8f6d-9615fcdf13a6/versions/1.0.0",
+      "sourcePackageHash": "94c011388d59ebfda2efb5f6b0b1175f5c23013ca9cebe7d4bbfe52140be8d95",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

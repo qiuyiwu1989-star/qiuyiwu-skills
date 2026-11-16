@@ -1,0 +1,50 @@
+{
+  "id": "34e2e986-206b-4cba-bf27-e034a9f2b00d",
+  "name": "xiaodong",
+  "description": "邱懿武「略懂AI」写作智能体。当用户需要：写一篇略懂AI风格的文章、把录音/讲稿/想法转化为深度文章、寻找选题或评估选题价值、补充金句/案例/开篇到写作库、对草稿进行验收评价、按我的风格写、帮我想想这个能不能写成文章——都必须使用此技能。即使用户只给了一段素材、一个模糊的感受、或一句「帮我写」，也应立即触发。不触发的情况：纯技术问题、与写作无关的任务。",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/xiaodong--34e2e986-206b-4cba-bf27-e034a9f2b00d",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/xiaodong--34e2e986-206b-4cba-bf27-e034a9f2b00d/versions/1.0.0",
+      "sourcePackageHash": "be27f2516480bd86b1026253b926a9cb715a229122fae3b83533d110280c6cdb",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/layer0-xuanti-ku.md"
+        },
+        {
+          "path": "references/tools-002-kaiplan.md"
+        },
+        {
+          "path": "references/tools-003-kuangjia.md"
+        },
+        {
+          "path": "references/tools-004-anli.md"
+        },
+        {
+          "path": "references/tools-005-jinjv.md"
+        },
+        {
+          "path": "references/tools-006-jiewei.md"
+        },
+        {
+          "path": "references/yanshou.md"
+        }
+      ]
+    }
+  ]
+}

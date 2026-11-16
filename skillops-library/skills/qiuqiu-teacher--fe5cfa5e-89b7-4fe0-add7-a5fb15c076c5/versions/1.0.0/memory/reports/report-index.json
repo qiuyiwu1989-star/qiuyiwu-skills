@@ -1,0 +1,54 @@
+{
+  "reports": [
+    {
+      "child": "赵昱嘉",
+      "file": "赵昱嘉-认知观察报告.md",
+      "date": "2026-04-11",
+      "version": "V2",
+      "type": "parent-facing"
+    },
+    {
+      "child": "兜兜",
+      "file": "兜兜-认知观察报告.md",
+      "date": "2026-04-11",
+      "version": "V2",
+      "type": "parent-facing"
+    },
+    {
+      "child": "孟好",
+      "file": "孟好-认知观察报告.md",
+      "date": "2026-04-11",
+      "version": "V2",
+      "type": "parent-facing"
+    },
+    {
+      "child": "徐小棠",
+      "file": "徐小棠-认知观察报告.md",
+      "date": "2026-04-11",
+      "version": "V2",
+      "type": "parent-facing"
+    },
+    {
+      "child": "沈晏辰",
+      "file": "沈晏辰-认知观察报告.md",
+      "date": "2026-04-11",
+      "version": "V2",
+      "type": "parent-facing"
+    },
+    {
+      "child": "向日葵",
+      "file": "向日葵-认知观察报告.md",
+      "date": "2026-04-11",
+      "version": "V2",
+      "type": "parent-facing"
+    },
+    {
+      "child": "全局",
+      "file": "2026-04-11-测试结果分析报告.md",
+      "date": "2026-04-11",
+      "version": "V1",
+      "type": "meta-analysis"
+    }
+  ],
+  "last_updated": "2026-04-11"
+}

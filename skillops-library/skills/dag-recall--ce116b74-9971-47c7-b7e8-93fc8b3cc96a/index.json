@@ -1,0 +1,32 @@
+{
+  "id": "ce116b74-9971-47c7-b7e8-93fc8b3cc96a",
+  "name": "dag-recall",
+  "description": "Walks the memory DAG to recall detailed context on demand — query, expand, and assemble cited answers from hierarchical summaries without re-reading raw transcripts.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dag-recall--ce116b74-9971-47c7-b7e8-93fc8b3cc96a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dag-recall--ce116b74-9971-47c7-b7e8-93fc8b3cc96a/versions/1.0.0",
+      "sourcePackageHash": "7ece248134c87abe2f9b3357921434d21b53d759b9f22d608ba3e56e6e5873cf",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "recall.py"
+        }
+      ]
+    }
+  ]
+}

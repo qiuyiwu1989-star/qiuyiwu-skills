@@ -1,0 +1,29 @@
+{
+  "id": "6ef336a7-5b29-4180-a147-4558eaeda4e7",
+  "name": "byted-teamproject-video-generate",
+  "description": "Generate videos using Seedance models. Invoke when user wants to create videos from text prompts, images, or reference materials.",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/byted-teamproject-video-generate--6ef336a7-5b29-4180-a147-4558eaeda4e7",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/byted-teamproject-video-generate--6ef336a7-5b29-4180-a147-4558eaeda4e7/versions/1.0.0",
+      "sourcePackageHash": "c4a17d71c75f2ca27129c6e3e6055e753a81b15850cfd836b029e2ff5cb6019e",
+      "files": [
+        {
+          "path": "LICENSE.txt "
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/video_generate.py"
+        }
+      ]
+    }
+  ]
+}

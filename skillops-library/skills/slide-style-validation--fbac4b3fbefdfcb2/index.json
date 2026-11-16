@@ -1,0 +1,23 @@
+{
+  "id": "fbac4b3fbefdfcb2",
+  "name": "slide-style-validation",
+  "description": "验证演示风格的差异化、跨内容适应性及准入成熟度；开发或复盘风格时使用。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/slide-style-validation--fbac4b3fbefdfcb2",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/slide-style-validation--fbac4b3fbefdfcb2/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

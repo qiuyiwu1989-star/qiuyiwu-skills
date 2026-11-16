@@ -1,0 +1,32 @@
+{
+  "id": "2ed52751-1c31-40e6-a52f-858b5306009e",
+  "name": "skill-doctor",
+  "description": "Diagnoses silent skill discovery failures — YAML parse errors, path violations, schema mismatches — so broken skills don't disappear without a trace.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-doctor--2ed52751-1c31-40e6-a52f-858b5306009e",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-doctor--2ed52751-1c31-40e6-a52f-858b5306009e/versions/1.0.0",
+      "sourcePackageHash": "e5be440e92e84890cee10320e6f8e99515c9c932edd4fadef4b3a3a03736dd44",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "doctor.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

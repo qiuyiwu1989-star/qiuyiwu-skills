@@ -1,0 +1,30 @@
+{
+  "id": "9e3f7abd-c51d-4c6e-99d1-04137fe18704",
+  "name": "file-hub",
+  "description": "个人文件管理系统。当用户发送文件（图片/文档/PDF/HTML/音频/视频）要求存储、归档、索引、管理时使用。也适用于查询已存储文件、搜索文件、同步索引、查看文件目录。触发词：存储/存起来/归档/文件管理/查文件/文件列表/同步",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/file-hub--9e3f7abd-c51d-4c6e-99d1-04137fe18704",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/file-hub--9e3f7abd-c51d-4c6e-99d1-04137fe18704/versions/1.0.0",
+      "sourcePackageHash": "4f61d24f3a7b698dd15b956f1184392381af908b383e8b32e6a25707a45bb9cb",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "config.env",
+          "redactions": 1
+        },
+        {
+          "path": "fm.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "bda9a750-0358-45a2-b609-67a1e88ad9c0",
+  "name": "browser-use",
+  "description": "Browser automation. When you need to visit a webpage, open a website, take a screenshot, or perform browser automation, **you MUST read this SKILL.md first** — contains required parameters and operating procedures. **Calling the browser tool without reading may result in failed operations or unexpected behavior.**",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/browser-use--bda9a750-0358-45a2-b609-67a1e88ad9c0",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/browser-use--bda9a750-0358-45a2-b609-67a1e88ad9c0/versions/1.0.0",
+      "sourcePackageHash": "026b04923166ac8384a87f69c4d4fcd0828d5c4d9ca4ac22d6d41bef9a7f5b2e",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/browser-use--bda9a750-0358-45a2-b609-67a1e88ad9c0/versions/1.0.1",
+      "sourcePackageHash": "17d3c9844aba575d0caa1b5ed7c19b42e5502bd6455c15f50dc52cfde45c1bf8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "bua"
+        },
+        {
+          "path": "install.sh"
+        }
+      ]
+    }
+  ]
+}

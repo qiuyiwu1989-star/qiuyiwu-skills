@@ -1,0 +1,23 @@
+{
+  "id": "e03c1118f913e8f7",
+  "name": "memory-capture",
+  "description": "Submit authorized incremental collaboration evidence to a connected memory-center MCP at durable decision boundaries. Use for source-backed capture of thoughts, advice and decisions; not routine chat logging, bulk exports or trusted-memory approval.",
+  "source": "skillops",
+  "category": "knowledge",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/memory-capture--e03c1118f913e8f7",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/memory-capture--e03c1118f913e8f7/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

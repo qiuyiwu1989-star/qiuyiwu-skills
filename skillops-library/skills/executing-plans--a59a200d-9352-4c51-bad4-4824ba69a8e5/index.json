@@ -1,0 +1,23 @@
+{
+  "id": "a59a200d-9352-4c51-bad4-4824ba69a8e5",
+  "name": "executing-plans",
+  "description": "Executes plans task-by-task with verification. Use when implementing a plan.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/executing-plans--a59a200d-9352-4c51-bad4-4824ba69a8e5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/executing-plans--a59a200d-9352-4c51-bad4-4824ba69a8e5/versions/1.0.0",
+      "sourcePackageHash": "35474f0cbf9098a6ead578f52c7b275adc805a2e35e751edd9d1bb53839afc1a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "6f14c7b0-a53a-426c-94a4-ad17cade131b",
+  "name": "cfo",
+  "description": "Be the CFO with financial planning, cash management, fundraising, capital allocation, and strategic financial leadership.",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/cfo--6f14c7b0-a53a-426c-94a4-ad17cade131b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/cfo--6f14c7b0-a53a-426c-94a4-ad17cade131b/versions/1.0.0",
+      "sourcePackageHash": "407c0da238701b418880da213bd8b0e968e4fbfdf69e50429a55f3a06530516f",
+      "files": [
+        {
+          "path": ".clawhub/origin.json"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "cash.md"
+        },
+        {
+          "path": "fundraising.md"
+        },
+        {
+          "path": "operations.md"
+        },
+        {
+          "path": "planning.md"
+        }
+      ]
+    }
+  ]
+}

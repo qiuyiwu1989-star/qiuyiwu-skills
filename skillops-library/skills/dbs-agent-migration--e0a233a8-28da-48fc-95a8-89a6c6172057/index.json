@@ -1,0 +1,23 @@
+{
+  "id": "e0a233a8-28da-48fc-95a8-89a6c6172057",
+  "name": "dbs-agent-migration",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-agent-migration--e0a233a8-28da-48fc-95a8-89a6c6172057",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-agent-migration--e0a233a8-28da-48fc-95a8-89a6c6172057/versions/1.0.0",
+      "sourcePackageHash": "a37da1a7d083e81489f14fe5df3ef9339d59764ab346f2fe88606dddd7d133f1",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

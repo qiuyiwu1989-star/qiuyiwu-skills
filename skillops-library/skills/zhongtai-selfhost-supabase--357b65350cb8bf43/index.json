@@ -1,0 +1,23 @@
+{
+  "id": "357b65350cb8bf43",
+  "name": "zhongtai-selfhost-supabase",
+  "description": ">-",
+  "source": "skillops",
+  "category": "engineering",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/zhongtai-selfhost-supabase--357b65350cb8bf43",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/zhongtai-selfhost-supabase--357b65350cb8bf43/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

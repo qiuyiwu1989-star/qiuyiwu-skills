@@ -1,0 +1,26 @@
+{
+  "id": "279dea58-c7fa-464f-b738-7efa6d555027",
+  "name": "prism-feishu-card",
+  "description": "在飞书渠道输出结构化内容时使用。适用于：最终回答包含 2+ 指标/KPI 对比、时间序列、趋势、排名、分布，或 3 行以上可按表格扫读的记录；也适用于用户要看板、图表、报告、卡片、可视化（\"卡片 / 图表 / 趋势 / 指标 / 对比 / 分布 / 排行 / 报表 / 数据概览\"等说法）。通过调用 `send_prism_feishu_card` 工具发送 Card JSON 2.0，不直接输出 JSON 或 markdown 代码围栏。不要在以下场景使用：单条事实、短解释、是/否、代码片段；用户明确要纯文本回复；当前不是飞书渠道。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/prism-feishu-card--279dea58-c7fa-464f-b738-7efa6d555027",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/prism-feishu-card--279dea58-c7fa-464f-b738-7efa6d555027/versions/1.0.0",
+      "sourcePackageHash": "e7dba9ea569c1ff3c7ae9804f62474b616fe396063ddae2734c15ed991e69149",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/feishu-card.md"
+        }
+      ]
+    }
+  ]
+}

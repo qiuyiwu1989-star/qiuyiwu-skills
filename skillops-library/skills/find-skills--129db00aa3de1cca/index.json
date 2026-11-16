@@ -1,0 +1,23 @@
+{
+  "id": "129db00aa3de1cca",
+  "name": "find-skills",
+  "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express int",
+  "source": "skillops",
+  "category": "agent",
+  "visibility": "private",
+  "candidate": true,
+  "path": "skills/find-skills--129db00aa3de1cca",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/find-skills--129db00aa3de1cca/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

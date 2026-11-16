@@ -1,0 +1,23 @@
+{
+  "id": "c830a5ee3d4934fb",
+  "name": "warm-editorial-storybook",
+  "description": "制作暖纸绘本编辑风格的整页PPT图，以暖白纸底、大幅人物插画、杂志字阶、不对称留白表达故事与观点。用户指定本模板或引用这组绘本/人物编辑排版参考时使用；支持蜡笔拼贴与平面人物两个一致性分支，不替代米色马克笔手绘。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/warm-editorial-storybook--c830a5ee3d4934fb",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/warm-editorial-storybook--c830a5ee3d4934fb/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

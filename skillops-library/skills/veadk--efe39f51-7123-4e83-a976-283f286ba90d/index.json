@@ -1,0 +1,50 @@
+{
+  "id": "efe39f51-7123-4e83-a976-283f286ba90d",
+  "name": "VeADK",
+  "description": "根据用户的功能需求，完成与 VeADK 相关的功能。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/veadk--efe39f51-7123-4e83-a976-283f286ba90d",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/veadk--efe39f51-7123-4e83-a976-283f286ba90d/versions/1.0.0",
+      "sourcePackageHash": "5e0ade996873b8fb102b29f27a24ee55d9175260c971d31a62e962fbfb43c461",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/common/agent.md"
+        },
+        {
+          "path": "references/common/knowledgebase.md"
+        },
+        {
+          "path": "references/common/tools.md"
+        },
+        {
+          "path": "references/converter/dify_rules.md"
+        },
+        {
+          "path": "references/converter/langchain_rules.md"
+        },
+        {
+          "path": "references/generator/analyze.md"
+        },
+        {
+          "path": "references/generator/coding.md"
+        },
+        {
+          "path": "references/generator/refine_prompt.md"
+        },
+        {
+          "path": "scripts/save_file.py"
+        }
+      ]
+    }
+  ]
+}

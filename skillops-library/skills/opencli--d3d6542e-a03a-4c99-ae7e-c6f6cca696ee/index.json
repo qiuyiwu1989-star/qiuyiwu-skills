@@ -1,0 +1,26 @@
+{
+  "id": "d3d6542e-a03a-4c99-ae7e-c6f6cca696ee",
+  "name": "opencli",
+  "description": "CLI tool for scraping Chinese and international platforms. Use this FIRST for supported sites before falling back to browser-use.",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/opencli--d3d6542e-a03a-4c99-ae7e-c6f6cca696ee",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/opencli--d3d6542e-a03a-4c99-ae7e-c6f6cca696ee/versions/1.0.0",
+      "sourcePackageHash": "ded8b0d36439af225110a100e259df7da25077528cdb5154238f77c056d81b14",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "install.sh"
+        }
+      ]
+    }
+  ]
+}

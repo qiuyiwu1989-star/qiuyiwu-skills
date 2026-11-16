@@ -1,0 +1,33 @@
+{
+  "id": "74f0bfd356f13126",
+  "name": "youpu",
+  "description": "有谱——不会写代码的人用 AI 做东西时的记事系统。核心不是替你干活，是替你记住：聊过的话、拍过的板、试过不行的路、下一步的打算，全都规规矩矩写进文件，让明天的对话、换一个 AI、隔一个月回来，都能接着干，心里始终有谱。当不懂技术的用户想做一个网站/小程序/App/页面/小工具，或者要接着做之前的东西，或者抱怨 AI 老忘事、每次都要从头解释、项目越做越乱、改一处坏三处时，必须使用此技能。触发词包括：帮我做个网站、做个小程序、做个App、做个页面、做个小工具、我想做一个但我不会代码、接着上次做、上次做到哪了、继续昨天那个、你怎么又忘了、我不是说过了吗、每次都要重新讲一遍、它把我之前的改坏了、这个项目太乱了、帮我记一下、把今天聊的存一下、我要换个AI接着做、打个包、把上下文给我、立个谱、有谱。即使用户只是说'帮我做个XX'，只要这事明显不是一次对话能做完的，也应立即使用此技能，先立谱或读谱，再动手。",
+  "source": "skillops",
+  "category": "agent",
+  "visibility": "public",
+  "candidate": false,
+  "path": "skills/youpu--74f0bfd356f13126",
+  "currentVersion": 2,
+  "versions": [
+    {
+      "version": 2,
+      "path": "skills/youpu--74f0bfd356f13126/versions/2",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "path": "skills/youpu--74f0bfd356f13126/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

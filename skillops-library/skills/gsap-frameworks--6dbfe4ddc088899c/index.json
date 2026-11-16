@@ -1,0 +1,23 @@
+{
+  "id": "6dbfe4ddc088899c",
+  "name": "gsap-frameworks",
+  "description": "Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount. Use when the user wants animation in Vue",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/gsap-frameworks--6dbfe4ddc088899c",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/gsap-frameworks--6dbfe4ddc088899c/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

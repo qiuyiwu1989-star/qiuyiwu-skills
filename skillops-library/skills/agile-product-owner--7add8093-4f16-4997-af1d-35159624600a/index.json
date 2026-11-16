@@ -1,0 +1,35 @@
+{
+  "id": "7add8093-4f16-4997-af1d-35159624600a",
+  "name": "agile-product-owner",
+  "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use for writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing backlog.",
+  "source": "personal_agi",
+  "category": "product",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/agile-product-owner--7add8093-4f16-4997-af1d-35159624600a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/agile-product-owner--7add8093-4f16-4997-af1d-35159624600a/versions/1.0.0",
+      "sourcePackageHash": "55860e04bbb98d42733e2ac3df87ec6033c53b3f61b274c49753ab6c2d193095",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/sprint-planning-guide.md"
+        },
+        {
+          "path": "references/user-story-templates.md"
+        },
+        {
+          "path": "scripts/user_story_generator.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "82ddf1a6-edc9-4332-97a7-854da63a9a59",
+  "name": "ljg-paper",
+  "description": "",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-paper--82ddf1a6-edc9-4332-97a7-854da63a9a59",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-paper--82ddf1a6-edc9-4332-97a7-854da63a9a59/versions/1.0.0",
+      "sourcePackageHash": "1f6ed6dd9b0c6582ee74b9e3d41d092903824cf0372f94011f85053764acb11d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/template.org"
+        }
+      ]
+    }
+  ]
+}

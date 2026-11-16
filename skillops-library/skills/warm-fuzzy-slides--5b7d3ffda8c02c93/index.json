@@ -1,0 +1,23 @@
+{
+  "id": "5b7d3ffda8c02c93",
+  "name": "warm-fuzzy-slides",
+  "description": "制作暖绒日常整页演示图；用户指定本风格时使用，按内容选择构图，提供八种页型参考。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/warm-fuzzy-slides--5b7d3ffda8c02c93",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/warm-fuzzy-slides--5b7d3ffda8c02c93/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

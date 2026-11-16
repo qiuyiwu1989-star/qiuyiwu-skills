@@ -1,0 +1,26 @@
+{
+  "id": "21e05c51-a977-4c42-ac5d-56486ed02f22",
+  "name": "video-editor",
+  "description": "视频编辑器，支持合并多个视频文件、为视频添加音频轨道、合并音频、生成并烧录字幕等。",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/video-editor--21e05c51-a977-4c42-ac5d-56486ed02f22",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/video-editor--21e05c51-a977-4c42-ac5d-56486ed02f22/versions/1.0.0",
+      "sourcePackageHash": "f2aeea4bc840ce576c6be7a257256d1b51609b78eff53c77f04cde1b43da29a8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/video_editor.py"
+        }
+      ]
+    }
+  ]
+}

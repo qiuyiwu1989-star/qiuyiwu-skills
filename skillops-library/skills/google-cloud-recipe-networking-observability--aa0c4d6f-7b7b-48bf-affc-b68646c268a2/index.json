@@ -1,0 +1,44 @@
+{
+  "id": "aa0c4d6f-7b7b-48bf-affc-b68646c268a2",
+  "name": "google-cloud-recipe-networking-observability",
+  "description": "",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/google-cloud-recipe-networking-observability--aa0c4d6f-7b7b-48bf-affc-b68646c268a2",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/google-cloud-recipe-networking-observability--aa0c4d6f-7b7b-48bf-affc-b68646c268a2/versions/1.0.0",
+      "sourcePackageHash": "8cfa0fdfa9dc175c087d67cd7cda5d9e12c67fc232279acc8c1f55c1241db4f6",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/cloud-nat-analysis.md"
+        },
+        {
+          "path": "references/connectivity-tests.md"
+        },
+        {
+          "path": "references/firewall-analysis.md"
+        },
+        {
+          "path": "references/mcp-usage.md"
+        },
+        {
+          "path": "references/metrics-analysis.md"
+        },
+        {
+          "path": "references/threat-analysis.md"
+        },
+        {
+          "path": "references/vpc-flow-analysis.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "7d1bf2a6-5aef-4a8c-bc30-8990a1b9994c",
+  "name": "feishu-troubleshoot",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-troubleshoot--7d1bf2a6-5aef-4a8c-bc30-8990a1b9994c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-troubleshoot--7d1bf2a6-5aef-4a8c-bc30-8990a1b9994c/versions/1.0.0",
+      "sourcePackageHash": "a1b6e9a4c2521733ffb72ca0bdfc7a94f4afc672d32d77a855e7d26f2d05ae32",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

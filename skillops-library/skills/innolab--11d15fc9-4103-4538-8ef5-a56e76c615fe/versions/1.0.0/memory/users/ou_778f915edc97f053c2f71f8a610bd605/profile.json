@@ -1,0 +1,61 @@
+{
+  "open_id": "ou_778f915edc97f053c2f71f8a610bd605",
+  "name": "邱懿武",
+  "first_seen": "2026-04-05",
+  "last_seen": "2026-04-20",
+  "total_conversations": 8,
+
+  "identity": {
+    "role": "创业者/产品人/方法论体系构建者/AI Agent 团队 CEO",
+    "industry": "AI+教育、IP商业化、造物云（云服务商）",
+    "company_stage": "创业公司，有自研产品（小龙虾/AI教育/造物云），MBA背景",
+    "inferred_from": "五本著作（商业创新设计/AI认知革命/AI造物/AI教育/AI转型实战），InnoLab架构设计，AIIP项目"
+  },
+
+  "thinking_preferences": {
+    "preferred_depth": "L4-L5（喜欢构建系统层和范式层的思考）",
+    "preferred_engines": ["Cognition", "Strategy", "Generation", "Decision"],
+    "thinking_style": "系统型+第一性原理（喜欢拆到不可再拆，再从底层重建）",
+    "decision_style": "数据+直觉结合（既有评估打分，也有第一性原理推导）",
+    "communication_style": "直接、不废话、喜欢有判断力的回答（不喜欢表演式帮忙）",
+    "meta_preference": "喜欢用方法论分析方法论本身（meta分析）——今晚用CG08自评邱所长就是典型",
+    "inferred_from": "多次强调'要有判断'，对框架堆砌有明确反感，喜欢一针见血的结论"
+  },
+
+  "interests": {
+    "topics": ["方法论体系设计", "AI产品评估", "路演叙事", "创新教育", "IP商业化", "品牌分析", "AI Agent 团队搭建", "技能市场与平台效应", "智能体管理学"],
+    "methods_frequently_used": ["CG08", "CG07", "CG01", "ST07", "ST06", "ST10", "DC05"],
+    "methods_never_tried": ["EV01", "PD07", "DC03", "PD08", "ST17", "ST18", "DC08", "DC09"],
+    "pain_points": ["方法论质量控制", "案例库积累", "用户画像自动运行", "自进化机制落地", "现金流断裂风险"]
+  },
+
+  "conversation_patterns": {
+    "typical_question_type": "产品定义类+系统架构类+团队管理类",
+    "response_preference": "看场景——凌晨简洁有判断力，白天可以详细展开",
+    "feedback_style": "直接纠错（不对就说，不绕弯子）",
+    "optimization_cycles": "快速迭代（一天内从v1.0到v3.6，7个版本）",
+    "work_pattern": "深夜工作型（23:00-01:00+，今晚01:46还在讨论）",
+    "anti_patterns": ["框架套框架（方法感太强洞察感不够）", "为了反对而反对（被纠正后180度转向）", "表演式帮忙"]
+  },
+
+  "business_context": {
+    "造物云": "AI驱动的造物平台，服务KA企业（场景深但做不大）",
+    "小龙虾项目": "AI Agent 产品，MBA同学天然具备技能AI化的主体性",
+    "AIIP项目": "12人团队，AIIP+潮汕茶文化IP，老蔡CEO+诗中产品",
+    "现金流状态": "可用1.1万，7-14天断裂风险（2026-04-13审计）",
+    "核心思考": "AI时代真正的壁垒是判断力+数据飞轮+Skill网络"
+  },
+
+  "evolution_notes": [
+    "2026-04-05：首次会话，一天内完成InnoLab从v1.0到v3.6的搭建",
+    "2026-04-06：确立范德（Finder）为AI Agent团队CEO身份",
+    "2026-04-06：InnoLab 69→73方法",
+    "2026-04-11：球球老师群聊测试，6个孩子画像V2",
+    "2026-04-12：冷静配方A分析（品焕录音）",
+    "2026-04-13：算盘CFO审计现金流",
+    "2026-04-17：MBA养虾群压力测试，暴露应声虫问题",
+    "2026-04-20：邱所长身份激活——13个骨架方法全部补全+飞书同步+数字对齐",
+    "2026-04-20：InnoLab自评（meta分析），识别三大差距：案例库/用户画像/自进化",
+    "2026-04-20：案例库种子数据10个入库，用户画像更新，进化日志就绪"
+  ]
+}

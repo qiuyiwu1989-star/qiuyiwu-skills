@@ -1,0 +1,26 @@
+{
+  "id": "1055805a-82e3-4703-962a-f0847e106a71",
+  "name": "persistent-memory-hygiene",
+  "description": "Keeps OpenClaw's memory store clean, structured, and useful. Use at session end and during periodic maintenance.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/persistent-memory-hygiene--1055805a-82e3-4703-962a-f0847e106a71",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/persistent-memory-hygiene--1055805a-82e3-4703-962a-f0847e106a71/versions/1.0.0",
+      "sourcePackageHash": "35bb3b10d0c4a181215812be664b1002716e274a9093f2849d7d3c3e737c34fe",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        }
+      ]
+    }
+  ]
+}

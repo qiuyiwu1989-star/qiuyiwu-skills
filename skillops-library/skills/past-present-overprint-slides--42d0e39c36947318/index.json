@@ -1,0 +1,23 @@
+{
+  "id": "42d0e39c36947318",
+  "name": "past-present-overprint-slides",
+  "description": "制作GO-016古今叠印整页PPT；用户选择此风格时使用，支持八种页型。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/past-present-overprint-slides--42d0e39c36947318",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/past-present-overprint-slides--42d0e39c36947318/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

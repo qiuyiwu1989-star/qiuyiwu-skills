@@ -1,0 +1,23 @@
+{
+  "id": "67a3eaf75e52af65",
+  "name": "speech-recap",
+  "description": "把邱懿武一场演讲/讲课的「录音逐字稿 + PPT(PDF)」整理成 qiuyiwu.com 演讲板块的一篇客观图文实录文章。定位是「记录」不是「传播作品」——提炼核心价值点、修口误、顺逻辑、回归真实，保留讲者第一人称口吻。触发：给一份逐字稿 + 一个 PPT，说「把这次演讲/课整理成文章」「逐字稿成文」「上完课总结成文",
+  "source": "skillops",
+  "category": "writing",
+  "visibility": "private",
+  "candidate": true,
+  "path": "skills/speech-recap--67a3eaf75e52af65",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/speech-recap--67a3eaf75e52af65/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

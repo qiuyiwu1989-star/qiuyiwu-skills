@@ -1,0 +1,45 @@
+{
+  "id": "280ed554-00be-4ece-b38b-8041c6a6be80",
+  "name": "web_search",
+  "description": "Privacy-respecting metasearch using your local SearXNG instance. Search the web, images, news, and more without external API dependencies.",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/web_search--280ed554-00be-4ece-b38b-8041c6a6be80",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/web_search--280ed554-00be-4ece-b38b-8041c6a6be80/versions/1.0.0",
+      "sourcePackageHash": "d068157be5ee556506fdec1659ba0042b9dcc508be4cad3d187f03c24b46db48",
+      "files": [
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "PUBLISH.md"
+        },
+        {
+          "path": "PUBLISHING_CHECKLIST.md"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "config/settings.yml",
+          "redactions": 1
+        },
+        {
+          "path": "scripts/searxng.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "7a8a9d4b-0508-44c9-86b0-65267c097350",
+  "name": "wecom-schedule",
+  "description": "企业微信日程管理技能。适用于用户对企业微信日程的各类管理需求。当用户需要：(1) 查询指定时间范围内的日程列表或获取日程详细信息（标题、时间、地点、参与者等），(2) 创建新日程并设置提醒、参与人等，(3) 修改已有日程的标题、时间、地点等信息或取消日程，(4) 添加或移除日程参与人，(5) 查询多个成员的闲忙状态并分析共同空闲时段以安排会议时使用此技能。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-schedule--7a8a9d4b-0508-44c9-86b0-65267c097350",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-schedule--7a8a9d4b-0508-44c9-86b0-65267c097350/versions/1.0.0",
+      "sourcePackageHash": "0712b34731ae7f41f6dcb8465a31d5bd790e40e20f4695718dd8229c9c13596b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/api-check-availability.md"
+        },
+        {
+          "path": "references/api-create-schedule.md"
+        },
+        {
+          "path": "references/api-get-schedule-detail.md"
+        },
+        {
+          "path": "references/api-update-schedule.md"
+        },
+        {
+          "path": "references/ref-reminders.md"
+        }
+      ]
+    }
+  ]
+}

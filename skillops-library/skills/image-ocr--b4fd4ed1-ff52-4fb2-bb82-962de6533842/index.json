@@ -1,0 +1,26 @@
+{
+  "id": "b4fd4ed1-ff52-4fb2-bb82-962de6533842",
+  "name": "image-ocr",
+  "description": "",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/image-ocr--b4fd4ed1-ff52-4fb2-bb82-962de6533842",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/image-ocr--b4fd4ed1-ff52-4fb2-bb82-962de6533842/versions/1.0.0",
+      "sourcePackageHash": "a59df76670ca7f9c9ff8ccd35aab4cd4550f91554a76eaf263f530bcdbea653a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "ocr.py"
+        }
+      ]
+    }
+  ]
+}

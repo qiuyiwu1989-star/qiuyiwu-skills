@@ -1,0 +1,29 @@
+{
+  "id": "7c9edd15-b6e3-4589-86c1-a41f6d14e0b2",
+  "name": "arkcli-datasets",
+  "description": "使用 ArkCLI 创建、校验、查询、更新、删除、版本化和下载 Dataset。用户提到 Dataset、数据集、ds-*、dsv-*、训练集/验证集复用、数据格式校验或把 Dataset 接入精调任务时使用。",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-datasets--7c9edd15-b6e3-4589-86c1-a41f6d14e0b2",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-datasets--7c9edd15-b6e3-4589-86c1-a41f6d14e0b2/versions/1.0.0",
+      "sourcePackageHash": "454a715fbce75c1db598d8c84a87650ddc19cfcdddca66b43a81d645682eb6ed",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/commands.md"
+        },
+        {
+          "path": "references/evals.md"
+        }
+      ]
+    }
+  ]
+}

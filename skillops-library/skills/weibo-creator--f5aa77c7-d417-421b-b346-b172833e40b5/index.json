@@ -1,0 +1,29 @@
+{
+  "id": "f5aa77c7-d417-421b-b346-b172833e40b5",
+  "name": "weibo-creator",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-creator--f5aa77c7-d417-421b-b346-b172833e40b5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-creator--f5aa77c7-d417-421b-b346-b172833e40b5/versions/1.0.0",
+      "sourcePackageHash": "565b2dd9ce01c05af59163fa12d598e2522c2e51d2b6ede36b56fe24ecd495fd",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/creator-v-upgrade.md"
+        },
+        {
+          "path": "scripts/weibo-creator.js"
+        }
+      ]
+    }
+  ]
+}

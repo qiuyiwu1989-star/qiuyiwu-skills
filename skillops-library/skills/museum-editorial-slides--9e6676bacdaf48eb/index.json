@@ -1,0 +1,23 @@
+{
+  "id": "9e6676bacdaf48eb",
+  "name": "museum-editorial-slides",
+  "description": "制作MW-013雅物陈列整页PPT图；用户指定雅物陈列或该编号时使用，支持封面到结尾八种页型。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/museum-editorial-slides--9e6676bacdaf48eb",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/museum-editorial-slides--9e6676bacdaf48eb/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

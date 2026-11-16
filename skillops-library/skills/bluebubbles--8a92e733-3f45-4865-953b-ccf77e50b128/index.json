@@ -1,0 +1,29 @@
+{
+  "id": "8a92e733-3f45-4865-953b-ccf77e50b128",
+  "name": "bluebubbles",
+  "description": "Build or update the BlueBubbles external channel plugin for Clawdbot (extension package, REST send/probe, webhook inbound).",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/bluebubbles--8a92e733-3f45-4865-953b-ccf77e50b128",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/bluebubbles--8a92e733-3f45-4865-953b-ccf77e50b128/versions/1.0.0",
+      "sourcePackageHash": "fa5793d59ed8ec3b97e85bdc5798507b340bc2e2c697a87c824e8f7b00652650",
+      "files": [
+        {
+          "path": ".clawhub/origin.json"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

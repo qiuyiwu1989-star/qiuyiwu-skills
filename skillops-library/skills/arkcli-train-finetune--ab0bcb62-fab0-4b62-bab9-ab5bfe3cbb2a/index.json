@@ -1,0 +1,47 @@
+{
+  "id": "ab0bcb62-fab0-4b62-bab9-ab5bfe3cbb2a",
+  "name": "arkcli-train-finetune",
+  "description": "使用 ArkCLI 创建、查询和管理模型精调训练任务，并从训练指标选择最佳 step、导出训练产物为 custom model、衔接模型仓库与推理部署。任何包含精调任务 ID（`mcj-*`）的查询、查不到原因诊断、日志、trajectory、状态或生命周期操作都应使用本 skill；也适用于选择训练方法、查询精调价格和超参数、校验精调训练/验证数据、匹配精调资源组、创建任务及导出部署。本 skill 不负责独立 Dataset 生命周期管理；精调工作流中的数据校验和 Dataset 引用仍由本 skill 编排。",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-train-finetune--ab0bcb62-fab0-4b62-bab9-ab5bfe3cbb2a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-train-finetune--ab0bcb62-fab0-4b62-bab9-ab5bfe3cbb2a/versions/1.0.0",
+      "sourcePackageHash": "a1667be533257b511a9fe019dbb03ad9f8184d84cc45b4db6786f9490e2699a8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/ark-finetune-sdk.md"
+        },
+        {
+          "path": "references/create.md"
+        },
+        {
+          "path": "references/export-deploy.md"
+        },
+        {
+          "path": "references/job-configuration.md"
+        },
+        {
+          "path": "references/list.md"
+        },
+        {
+          "path": "references/manage.md"
+        },
+        {
+          "path": "references/rl-plugins.md"
+        },
+        {
+          "path": "references/testing-debug-monitoring.md"
+        }
+      ]
+    }
+  ]
+}

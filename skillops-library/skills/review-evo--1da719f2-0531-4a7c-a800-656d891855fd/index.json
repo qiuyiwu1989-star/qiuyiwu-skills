@@ -1,0 +1,26 @@
+{
+  "id": "1da719f2-0531-4a7c-a800-656d891855fd",
+  "name": "review-evo",
+  "description": "Self-improving code reviewer that learns your codebase over time. Analyzes git history, spots patterns, identifies risk — and gets smarter every run.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/review-evo--1da719f2-0531-4a7c-a800-656d891855fd",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/review-evo--1da719f2-0531-4a7c-a800-656d891855fd/versions/1.0.0",
+      "sourcePackageHash": "fe582876ff1de682e43843ed4e60e2a8bc7821703cc48adad9e14fabeac81c23",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

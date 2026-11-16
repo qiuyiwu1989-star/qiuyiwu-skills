@@ -1,0 +1,38 @@
+{
+  "id": "1b7704fa-4fed-43cc-8195-9d5d7634b606",
+  "name": "abacus-cfo",
+  "description": "CFO（首席财务官），商业模型的量化验证者。收到需求后，先理解业务背景、做财务判断，再调度4个专业角色执行。触发场景：(1) 定价和收入模型 (2) 单位经济测算 (3) 资源投入ROI (4) 融资和估值 (5) 商业模型健康度诊断",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/abacus-cfo--1b7704fa-4fed-43cc-8195-9d5d7634b606",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/abacus-cfo--1b7704fa-4fed-43cc-8195-9d5d7634b606/versions/1.0.0",
+      "sourcePackageHash": "840a784668ac24648ba1775760c9334827823abfd552bf6ff510c8e4c356e76f",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/agents/01-pricing-strategist.md"
+        },
+        {
+          "path": "references/agents/02-unit-economics-analyst.md"
+        },
+        {
+          "path": "references/agents/03-business-model-doctor.md"
+        },
+        {
+          "path": "references/agents/04-investment-strategist.md"
+        }
+      ]
+    }
+  ]
+}

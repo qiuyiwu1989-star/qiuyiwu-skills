@@ -1,0 +1,47 @@
+{
+  "id": "05764c1c-1bbc-4db5-a750-a0da195e39b6",
+  "name": "openclaw-team-builder",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/openclaw-team-builder--05764c1c-1bbc-4db5-a750-a0da195e39b6",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/openclaw-team-builder--05764c1c-1bbc-4db5-a750-a0da195e39b6/versions/1.0.0",
+      "sourcePackageHash": "dccb6fb80e9e9ea6bb99d8ad1030b1bbb16ce758641cb60ff19f0249d0ad7885",
+      "files": [
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "CLAUDE.md"
+        },
+        {
+          "path": "LICENSE"
+        },
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL-api-model-tester.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "openclaw-team-builder"
+        },
+        {
+          "path": "scripts/api-model-tester.sh"
+        },
+        {
+          "path": "scripts/team-builder.sh"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "46e1be18-d6bf-4b69-9937-080a5f002ccf",
+  "name": "firebase-basics",
+  "description": "Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/firebase-basics--46e1be18-d6bf-4b69-9937-080a5f002ccf",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/firebase-basics--46e1be18-d6bf-4b69-9937-080a5f002ccf/versions/1.0.0",
+      "sourcePackageHash": "f0313d1ebdeb39d2c551f0986a2f9623a91e9d99dd8e74ace566904d28ff277a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/additional-skills.md"
+        },
+        {
+          "path": "references/cli-usage.md"
+        },
+        {
+          "path": "references/client-library-usage.md"
+        },
+        {
+          "path": "references/core-concepts.md"
+        },
+        {
+          "path": "references/iac-usage.md"
+        },
+        {
+          "path": "references/iam-security.md"
+        },
+        {
+          "path": "references/mcp-usage.md"
+        }
+      ]
+    }
+  ]
+}

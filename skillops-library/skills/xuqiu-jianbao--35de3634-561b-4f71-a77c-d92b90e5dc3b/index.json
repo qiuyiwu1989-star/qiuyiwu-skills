@@ -1,0 +1,23 @@
+{
+  "id": "35de3634-561b-4f71-a77c-d92b90e5dc3b",
+  "name": "xuqiu-jianbao",
+  "description": ">-",
+  "source": "personal_agi",
+  "category": "product",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/xuqiu-jianbao--35de3634-561b-4f71-a77c-d92b90e5dc3b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/xuqiu-jianbao--35de3634-561b-4f71-a77c-d92b90e5dc3b/versions/1.0.0",
+      "sourcePackageHash": "018184b052edbd9c4c10c9772fbc43b4d327c8bca9e43580821b15a82f7865cc",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

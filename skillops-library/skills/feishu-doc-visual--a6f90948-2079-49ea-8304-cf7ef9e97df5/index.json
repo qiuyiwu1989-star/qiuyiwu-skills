@@ -1,0 +1,23 @@
+{
+  "id": "a6f90948-2079-49ea-8304-cf7ef9e97df5",
+  "name": "feishu-doc-visual",
+  "description": "飞书文档可视化写作技能。将内容转化为结构清晰、视觉层次分明的飞书云文档。适用场景：(1) 需要把分析报告/会议纪要写成飞书文档 (2) 需要Mermaid流程图/架构图 (3) 需要表格+Callout+列表的视觉排版 (4) 需要让飞书文档\"好看又易读",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-doc-visual--a6f90948-2079-49ea-8304-cf7ef9e97df5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-doc-visual--a6f90948-2079-49ea-8304-cf7ef9e97df5/versions/1.0.0",
+      "sourcePackageHash": "fb8e0a48a395f31cb0dd177dbf5dc08328fd43ae33b343242f9330151cb51562",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

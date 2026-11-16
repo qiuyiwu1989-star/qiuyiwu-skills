@@ -1,0 +1,23 @@
+{
+  "id": "a18ee3d4c046ab9e",
+  "name": "blue-playful-slides",
+  "description": "制作蓝调潮趣整页演示图；用户指定本风格时使用，按内容选择构图，提供八种页型参考。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/blue-playful-slides--a18ee3d4c046ab9e",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/blue-playful-slides--a18ee3d4c046ab9e/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

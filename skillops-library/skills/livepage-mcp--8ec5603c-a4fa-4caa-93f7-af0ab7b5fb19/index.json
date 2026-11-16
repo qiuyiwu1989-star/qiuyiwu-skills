@@ -1,0 +1,26 @@
+{
+  "id": "8ec5603c-a4fa-4caa-93f7-af0ab7b5fb19",
+  "name": "livepage-mcp",
+  "description": "从邱懿武的 LivePage PPT 库（qiuyiwu.com/mcp/livepage，MCP 服务）检索、读取、取材，用于提案、视频剪辑、内容复用。当用户说\"从我的PPT库找/调/取\"、\"用我以前的PPT\"、\"找一下我讲XX的那页\"、\"做个提案/视频，从PPT库取材\"时使用。也可用于定位某张幻灯片的原文、AI解读、版式、以及下载页面图片。",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/livepage-mcp--8ec5603c-a4fa-4caa-93f7-af0ab7b5fb19",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/livepage-mcp--8ec5603c-a4fa-4caa-93f7-af0ab7b5fb19/versions/1.0.0",
+      "sourcePackageHash": "3b31c92c5ab0e322ab5791af3bfd96b1b4d9af2c2148b2137fbd86c61d070e4a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/lp.py"
+        }
+      ]
+    }
+  ]
+}

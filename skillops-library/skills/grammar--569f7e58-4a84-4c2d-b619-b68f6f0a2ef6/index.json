@@ -1,0 +1,39 @@
+{
+  "id": "569f7e58-4a84-4c2d-b619-b68f6f0a2ef6",
+  "name": "Grammar",
+  "description": "Correct grammar and spelling without changing meaning or style.",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/grammar--569f7e58-4a84-4c2d-b619-b68f6f0a2ef6",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/grammar--569f7e58-4a84-4c2d-b619-b68f6f0a2ef6/versions/1.0.0",
+      "sourcePackageHash": "ede7214c9a5d17a7bd0b940c4d89c15ad35c7a9ec52f542864a3a5960a5e2f6b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/grammar--569f7e58-4a84-4c2d-b619-b68f6f0a2ef6/versions/1.0.1",
+      "sourcePackageHash": "4e5f658753a59b81041372861f32d60b3522e8c58e1ddd2798a0702671b894f7",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

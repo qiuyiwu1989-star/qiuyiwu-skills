@@ -1,0 +1,863 @@
+{
+  "id": "4f698a6a-4b89-4730-902b-2a5713ee6a9e",
+  "name": "构成",
+  "description": "设计总监，视觉表达专家。收到设计需求后，先理解需求、判断类型，再调度7个专业技能执行。触发场景：(1) 需要做PPT/演示文稿 (2) 需要生成图片/海报 (3) 需要生成视频 (4) 需要做HTML演示/网页展示 (5) 需要设计评审或视觉方案 (6) 需要把内容写成好看易读的飞书文档 (7) 需要高保真原型/交互Demo/动画Demo/设计变体探索/视频导出",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill--4f698a6a-4b89-4730-902b-2a5713ee6a9e",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill--4f698a6a-4b89-4730-902b-2a5713ee6a9e/versions/1.0.0",
+      "sourcePackageHash": "af1c68922a835f84be393d23501ea0d59d46c0471e81de3687891da4f975b3e6",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "skills/byted-seedance-video-generate/LICENSE.txt "
+        },
+        {
+          "path": "skills/byted-seedance-video-generate/SKILL.md"
+        },
+        {
+          "path": "skills/byted-seedance-video-generate/scripts/video_generate.py"
+        },
+        {
+          "path": "skills/design-review/SKILL.md"
+        },
+        {
+          "path": "skills/design-tokens/SKILL.md"
+        },
+        {
+          "path": "skills/feishu-doc-visual/SKILL.md"
+        },
+        {
+          "path": "skills/frontend-slides/.claude-plugin/marketplace.json"
+        },
+        {
+          "path": "skills/frontend-slides/LICENSE"
+        },
+        {
+          "path": "skills/frontend-slides/README.md"
+        },
+        {
+          "path": "skills/frontend-slides/SKILL.md"
+        },
+        {
+          "path": "skills/frontend-slides/STYLE_PRESETS.md"
+        },
+        {
+          "path": "skills/frontend-slides/animation-patterns.md"
+        },
+        {
+          "path": "skills/frontend-slides/html-template.md"
+        },
+        {
+          "path": "skills/frontend-slides/plugins/frontend-slides/.claude-plugin/plugin.json"
+        },
+        {
+          "path": "skills/frontend-slides/scripts/deploy.sh"
+        },
+        {
+          "path": "skills/frontend-slides/scripts/export-pdf.sh"
+        },
+        {
+          "path": "skills/frontend-slides/scripts/extract-pptx.py"
+        },
+        {
+          "path": "skills/frontend-slides/viewport-base.css"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/LICENSE"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/README.en.md"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/README.md"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/SKILL.md"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/assets/motion.min.js"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/assets/template.html"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/references/checklist.md"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/references/components.md"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/references/image-prompts.md"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/references/layouts.md"
+        },
+        {
+          "path": "skills/guizang-ppt-skill/references/themes.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/.clawscan-allow"
+        },
+        {
+          "path": "skills/html-ppt-skill/LICENSE"
+        },
+        {
+          "path": "skills/html-ppt-skill/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/README.zh-CN.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/SKILL.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/animations.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx-runtime.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/_util.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/chain-react.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/confetti-cannon.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/constellation.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/counter-explosion.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/data-stream.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/firework.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/galaxy-swirl.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/gradient-blob.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/knowledge-graph.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/letter-explode.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/magnetic-field.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/matrix-rain.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/neural-net.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/orbit-ring.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/particle-burst.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/shockwave.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/sparkle-trail.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/starfield.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/typewriter-multi.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/animations/fx/word-cascade.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/base.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/fonts.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/runtime.js"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/academic-paper.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/arctic-cool.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/aurora.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/bauhaus.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/blueprint.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/catppuccin-latte.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/catppuccin-mocha.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/corporate-clean.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/cyberpunk-neon.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/dracula.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/editorial-serif.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/engineering-whiteprint.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/glassmorphism.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/gruvbox-dark.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/japanese-minimal.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/magazine-bold.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/memphis-pop.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/midcentury.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/minimal-white.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/neo-brutalism.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/news-broadcast.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/nord.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/pitch-deck-vc.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/rainbow-gradient.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/retro-tv.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/rose-pine.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/sharp-mono.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/soft-pastel.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/solarized-light.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/sunset-warm.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/swiss-grid.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/terminal-green.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/tokyo-night.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/vaporwave.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/xiaohongshu-white.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/assets/themes/y2k-chrome.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/docs/readme/_theme-cell.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/docs/readme/montage-animations.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/docs/readme/montage-layouts.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/docs/readme/montage-templates.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/docs/readme/montage-themes.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/examples/demo-deck/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/references/animations.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/references/authoring-guide.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/references/full-decks.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/references/layouts.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/references/presenter-mode.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/references/themes.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/scripts/new-deck.sh"
+        },
+        {
+          "path": "skills/html-ppt-skill/scripts/render.sh"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/animation-showcase.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/deck.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks-index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/course-module/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/course-module/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/course-module/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/dir-key-nav-minimal/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/dir-key-nav-minimal/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/dir-key-nav-minimal/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/graphify-dark-graph/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/graphify-dark-graph/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/graphify-dark-graph/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/hermes-cyber-terminal/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/hermes-cyber-terminal/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/hermes-cyber-terminal/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/knowledge-arch-blueprint/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/knowledge-arch-blueprint/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/knowledge-arch-blueprint/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/obsidian-claude-gradient/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/obsidian-claude-gradient/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/obsidian-claude-gradient/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/pitch-deck/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/pitch-deck/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/pitch-deck/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/presenter-mode-reveal/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/presenter-mode-reveal/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/presenter-mode-reveal/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/product-launch/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/product-launch/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/product-launch/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/tech-sharing/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/tech-sharing/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/tech-sharing/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/testing-safety-alert/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/testing-safety-alert/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/testing-safety-alert/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/weekly-report/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/weekly-report/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/weekly-report/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-pastel-card/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-pastel-card/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-pastel-card/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-post/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-post/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-post/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-white-editorial/README.md"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-white-editorial/index.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/full-decks/xhs-white-editorial/style.css"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/layout-showcase.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/arch-diagram.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/big-quote.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/bullets.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/chart-bar.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/chart-line.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/chart-pie.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/chart-radar.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/code.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/comparison.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/cover.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/cta.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/diff.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/flow-diagram.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/gantt.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/image-grid.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/image-hero.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/kpi-grid.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/mindmap.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/process-steps.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/pros-cons.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/roadmap.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/section-divider.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/stat-highlight.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/table.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/terminal.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/thanks.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/three-column.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/timeline.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/toc.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/todo-checklist.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/single-page/two-column.html"
+        },
+        {
+          "path": "skills/html-ppt-skill/templates/theme-showcase.html"
+        },
+        {
+          "path": "skills/huqiu-design/.gitignore"
+        },
+        {
+          "path": "skills/huqiu-design/LICENSE"
+        },
+        {
+          "path": "skills/huqiu-design/README.en.md"
+        },
+        {
+          "path": "skills/huqiu-design/README.md"
+        },
+        {
+          "path": "skills/huqiu-design/SKILL.md"
+        },
+        {
+          "path": "skills/huqiu-design/assets/android_frame.jsx"
+        },
+        {
+          "path": "skills/huqiu-design/assets/animations.jsx"
+        },
+        {
+          "path": "skills/huqiu-design/assets/banner.svg"
+        },
+        {
+          "path": "skills/huqiu-design/assets/browser_window.jsx"
+        },
+        {
+          "path": "skills/huqiu-design/assets/deck_index.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/deck_stage.js"
+        },
+        {
+          "path": "skills/huqiu-design/assets/design_canvas.jsx"
+        },
+        {
+          "path": "skills/huqiu-design/assets/ios_frame.jsx"
+        },
+        {
+          "path": "skills/huqiu-design/assets/macos_window.jsx"
+        },
+        {
+          "path": "skills/huqiu-design/assets/personal-asset-index.example.json"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/INDEX.md"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/cover/cover-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/cover/cover-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/cover/cover-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/infographic/infographic-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/infographic/infographic-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/infographic/infographic-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/ppt/ppt-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/ppt/ppt-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/ppt/ppt-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-ai-nav/ainav-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-ai-nav/ainav-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-ai-nav/ainav-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-ai-writing/aiwriting-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-ai-writing/aiwriting-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-ai-writing/aiwriting-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-devdocs/devdocs-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-devdocs/devdocs-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-devdocs/devdocs-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-homepage/homepage-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-homepage/homepage-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-homepage/homepage-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-saas/saas-build.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-saas/saas-pentagram.html"
+        },
+        {
+          "path": "skills/huqiu-design/assets/showcases/website-saas/saas-takram.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c1-ios-prototype-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c1-ios-prototype.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c2-slides-pptx-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c2-slides-pptx.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c3-motion-design-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c3-motion-design.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c4-tweaks-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c4-tweaks.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c5-infographic-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c5-infographic.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c6-expert-review-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/c6-expert-review.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/hero-animation-v10-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/w1-brand-protocol-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/w1-brand-protocol.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/w2-junior-designer-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/w2-junior-designer.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/w3-fallback-advisor-en.html"
+        },
+        {
+          "path": "skills/huqiu-design/demos/w3-fallback-advisor.html"
+        },
+        {
+          "path": "skills/huqiu-design/references/animation-best-practices.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/animation-pitfalls.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/animations.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/apple-gallery-showcase.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/audio-design-rules.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/content-guidelines.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/critique-guide.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/design-context.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/design-styles.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/editable-pptx.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/hero-animation-case-study.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/react-setup.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/scene-templates.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/sfx-library.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/slide-decks.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/tweaks-system.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/verification.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/video-export.md"
+        },
+        {
+          "path": "skills/huqiu-design/references/workflow.md"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/add-music.sh"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/convert-formats.sh"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/export_deck_pdf.mjs"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/export_deck_pptx.mjs"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/export_deck_stage_pdf.mjs"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/html2pptx.js"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/render-video.js"
+        },
+        {
+          "path": "skills/huqiu-design/scripts/verify.py"
+        },
+        {
+          "path": "skills/huqiu-design/test-prompts.json"
+        },
+        {
+          "path": "skills/ppt-design-master/SKILL.md"
+        }
+      ]
+    }
+  ]
+}

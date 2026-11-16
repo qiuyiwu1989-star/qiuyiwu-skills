@@ -1,0 +1,23 @@
+{
+  "id": "e785fc58-bf7e-422f-a530-5517628377aa",
+  "name": "dbs-goal",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-goal--e785fc58-bf7e-422f-a530-5517628377aa",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-goal--e785fc58-bf7e-422f-a530-5517628377aa/versions/1.0.0",
+      "sourcePackageHash": "305b1b31580414f73989f6995a348910ace0e290b9036b21f627159cde0ccbc2",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f85cb873-f6a9-4b94-80ce-a1dcad562d7b",
+  "name": "installed-skill-auditor",
+  "description": "Weekly audit of all installed third-party and community skills for malicious patterns, stale credentials, and drift from last-known-good state.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/installed-skill-auditor--f85cb873-f6a9-4b94-80ce-a1dcad562d7b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/installed-skill-auditor--f85cb873-f6a9-4b94-80ce-a1dcad562d7b/versions/1.0.0",
+      "sourcePackageHash": "5f78886cc54417afc3eafd7a199f243d1c174895c800b2cd615d7e3961d018a9",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "audit.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

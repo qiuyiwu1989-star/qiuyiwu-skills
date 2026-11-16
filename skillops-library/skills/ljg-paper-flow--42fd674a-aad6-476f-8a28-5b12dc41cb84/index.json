@@ -1,0 +1,23 @@
+{
+  "id": "42fd674a-aad6-476f-8a28-5b12dc41cb84",
+  "name": "ljg-paper-flow",
+  "description": "Paper workflow: read papers + cast cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. For each paper, runs ljg-paper (generates org analysis) then ljg-card -l (generates long reading card PNG). Use when user says '论文流', 'paper flow', '读论文并做卡片', '论文卡片', or provides multiple papers wanting both analysis and cards.",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-paper-flow--42fd674a-aad6-476f-8a28-5b12dc41cb84",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-paper-flow--42fd674a-aad6-476f-8a28-5b12dc41cb84/versions/1.0.0",
+      "sourcePackageHash": "c513af72da806106e33a3accc7714ca717a9426254bb736a0e27454d3f8b535f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

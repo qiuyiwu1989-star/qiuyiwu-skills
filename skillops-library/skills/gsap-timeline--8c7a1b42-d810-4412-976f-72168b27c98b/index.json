@@ -1,0 +1,23 @@
+{
+  "id": "8c7a1b42-d810-4412-976f-72168b27c98b",
+  "name": "gsap-timeline",
+  "description": "Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing keyframes, or when th",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/gsap-timeline--8c7a1b42-d810-4412-976f-72168b27c98b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/gsap-timeline--8c7a1b42-d810-4412-976f-72168b27c98b/versions/1.0.0",
+      "sourcePackageHash": "ad298722094944dc4561a624b5dd2f59c28b5511b71a3aed549631241b8c5c6a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

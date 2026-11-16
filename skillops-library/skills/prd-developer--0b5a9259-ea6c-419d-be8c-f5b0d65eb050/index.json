@@ -1,0 +1,26 @@
+{
+  "id": "0b5a9259-ea6c-419d-be8c-f5b0d65eb050",
+  "name": "prd-developer",
+  "description": "产品需求文档（PRD）开发技能。帮助产品经理从需求分析到完整PRD文档的撰写，包含用户故事、功能规格、交互设计要求和验收标准。适用于前端网页项目的需求定义和产品规划。",
+  "source": "personal_agi",
+  "category": "product",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/prd-developer--0b5a9259-ea6c-419d-be8c-f5b0d65eb050",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/prd-developer--0b5a9259-ea6c-419d-be8c-f5b0d65eb050/versions/1.0.0",
+      "sourcePackageHash": "34a0cd20f5c5f69b2318ea00dc6d58901d2d10ddd4e206cab172b3952d454ade",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

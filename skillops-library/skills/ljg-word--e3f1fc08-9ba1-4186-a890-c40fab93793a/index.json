@@ -1,0 +1,23 @@
+{
+  "id": "e3f1fc08-9ba1-4186-a890-c40fab93793a",
+  "name": "ljg-word",
+  "description": "",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-word--e3f1fc08-9ba1-4186-a890-c40fab93793a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-word--e3f1fc08-9ba1-4186-a890-c40fab93793a/versions/1.0.0",
+      "sourcePackageHash": "7acf0bedea89dc253c1be1546d00059ad3e475b19c70094af9b5695d2c2bc9ea",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

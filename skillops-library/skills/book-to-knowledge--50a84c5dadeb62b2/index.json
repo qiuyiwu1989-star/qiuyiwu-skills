@@ -1,0 +1,23 @@
+{
+  "id": "50a84c5dadeb62b2",
+  "name": "book-to-knowledge",
+  "description": "输入书名或已有材料，按无界图书馆方法生成知行档案「书库」的单书阅读页面及同源 agent 知识数据；无需个人说明。用于好书录入、书籍结构化、BookPress 报告升级与批量内容质检。不用于普通书单推荐。",
+  "source": "skillops",
+  "category": "research",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/book-to-knowledge--50a84c5dadeb62b2",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/book-to-knowledge--50a84c5dadeb62b2/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

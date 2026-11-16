@@ -1,0 +1,23 @@
+{
+  "id": "957fd89f-5b7a-46b4-a3b1-ade519f07671",
+  "name": "dbs-save",
+  "description": "",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-save--957fd89f-5b7a-46b4-a3b1-ade519f07671",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-save--957fd89f-5b7a-46b4-a3b1-ade519f07671/versions/1.0.0",
+      "sourcePackageHash": "e95b158a2d9e5c221c9d309781565b699ded6ea709a80fe61a6ccc8eef89eea0",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

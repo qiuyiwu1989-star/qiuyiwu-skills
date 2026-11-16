@@ -1,0 +1,23 @@
+{
+  "id": "b7c8426b-a5f4-49a4-a782-ed79537a4229",
+  "name": "ljg-writes",
+  "description": "写作引擎。带着一个观点出发，在写的过程中把它想透。",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-writes--b7c8426b-a5f4-49a4-a782-ed79537a4229",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-writes--b7c8426b-a5f4-49a4-a782-ed79537a4229/versions/1.0.0",
+      "sourcePackageHash": "d3fa1309e3fada4bec3f2c30589cb3ed70576f99cdf36eddea1e7ecfe15c01d0",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "440f9a36-ac79-484b-8e4e-efefee25ed20",
+  "name": "arkcli-custommodel",
+  "description": "arkcli 自定义模型仓库管理：从 TOS 导入自定义模型、查询/筛选自定义模型、查看详情、改名、删除、查询可用量化模式、量化已就绪的模型。任何提到自定义模型 ID（`cm-*`）的管理、部署准备，或要求用 `cm-*` 直接对话/推理/试效果的边界判断，都必须使用本 skill。注意：查询火山**公共基础模型**（doubao 等 foundation models）走 arkcli-models；本 skill 只管账号下的自定义模型仓库。",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-custommodel--440f9a36-ac79-484b-8e4e-efefee25ed20",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-custommodel--440f9a36-ac79-484b-8e4e-efefee25ed20/versions/1.0.0",
+      "sourcePackageHash": "82e90168acb9fdcb1edeeef9b2bd422dc5da89824f77e319fe86591452abedd7",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-custommodel-available-quantizations.md"
+        },
+        {
+          "path": "references/arkcli-custommodel-delete.md"
+        },
+        {
+          "path": "references/arkcli-custommodel-get.md"
+        },
+        {
+          "path": "references/arkcli-custommodel-list.md"
+        },
+        {
+          "path": "references/arkcli-custommodel-quantize.md"
+        },
+        {
+          "path": "references/arkcli-custommodel-update.md"
+        },
+        {
+          "path": "references/arkcli-custommodel-upload.md"
+        },
+        {
+          "path": "references/evals.md"
+        }
+      ]
+    }
+  ]
+}

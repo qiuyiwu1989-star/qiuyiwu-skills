@@ -1,0 +1,23 @@
+{
+  "id": "54d7b6f7-a224-46f6-aecf-62a46bca2eec",
+  "name": "dbs-content",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-content--54d7b6f7-a224-46f6-aecf-62a46bca2eec",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-content--54d7b6f7-a224-46f6-aecf-62a46bca2eec/versions/1.0.0",
+      "sourcePackageHash": "e7be4900a4a0dd3148c3f70b0182eb9eef62bffa40864db2e6c5ab392479340f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ab14f93eddf8ac9a",
+  "name": "深度长文锻造 · 从素材到非显然的论点",
+  "description": "把一堆素材锻造成能发布的深度文章——先逼出一个非显然的论点，再用'现象→原点→重构→影响'撑起来。专治写出来像综述、没观点。",
+  "source": "skillops",
+  "category": "writing",
+  "visibility": "public",
+  "candidate": false,
+  "path": "skills/skill--ab14f93eddf8ac9a",
+  "currentVersion": 3,
+  "versions": [
+    {
+      "version": 3,
+      "path": "skills/skill--ab14f93eddf8ac9a/versions/3",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": 2,
+      "path": "skills/skill--ab14f93eddf8ac9a/versions/2",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "path": "skills/skill--ab14f93eddf8ac9a/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

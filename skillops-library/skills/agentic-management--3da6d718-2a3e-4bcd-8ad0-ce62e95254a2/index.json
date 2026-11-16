@@ -1,0 +1,131 @@
+{
+  "id": "3da6d718-2a3e-4bcd-8ad0-ce62e95254a2",
+  "name": "agentic-management",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/agentic-management--3da6d718-2a3e-4bcd-8ad0-ce62e95254a2",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/agentic-management--3da6d718-2a3e-4bcd-8ad0-ce62e95254a2/versions/1.0.0",
+      "sourcePackageHash": "19db16398a644c0746fceb6f23cafc97f0d6f56deb5d728db441eb8c6725b14c",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "frameworks/F01_competitive_analysis.md"
+        },
+        {
+          "path": "frameworks/F02_moat_assessment.md"
+        },
+        {
+          "path": "frameworks/F03_portfolio_matrix.md"
+        },
+        {
+          "path": "frameworks/F04_3B_capability_acquisition.md"
+        },
+        {
+          "path": "frameworks/F05_AaaA_digital_labor_asset.md"
+        },
+        {
+          "path": "frameworks/F06_AaaS_business_model.md"
+        },
+        {
+          "path": "frameworks/F07_agentic_network_design.md"
+        },
+        {
+          "path": "frameworks/F08_agent_platform_architecture.md"
+        },
+        {
+          "path": "frameworks/F09_human_agent_governance.md"
+        },
+        {
+          "path": "frameworks/F10_agentic_roles_system.md"
+        },
+        {
+          "path": "frameworks/F11_boundary_escalation_recovery.md"
+        },
+        {
+          "path": "frameworks/F12_agentic_transformation_leap.md"
+        },
+        {
+          "path": "frameworks/F13_APS_agent_positioning.md"
+        },
+        {
+          "path": "frameworks/F14_JTBO_outcome_definition.md"
+        },
+        {
+          "path": "frameworks/F15_context_first_design.md"
+        },
+        {
+          "path": "frameworks/F16_reliability_pmf.md"
+        },
+        {
+          "path": "frameworks/F17_VERITAS_evaluation.md"
+        },
+        {
+          "path": "frameworks/F18_CATER_governance_trust.md"
+        },
+        {
+          "path": "frameworks/F19_MAS_architecture_selection.md"
+        },
+        {
+          "path": "frameworks/F20_triple_E_engineering.md"
+        },
+        {
+          "path": "frameworks/F21_skill_asset_governance.md"
+        },
+        {
+          "path": "frameworks/F22_context_engineering_implementation.md"
+        },
+        {
+          "path": "frameworks/F23_AEA_enterprise_architecture.md"
+        },
+        {
+          "path": "frameworks/F24_PRT_probabilistic_regression_testing.md"
+        },
+        {
+          "path": "frameworks/F25_three_layer_SLO_pyramid.md"
+        },
+        {
+          "path": "frameworks/F26_agent_scorecard.md"
+        },
+        {
+          "path": "frameworks/F27_CPTA_cost_calculation.md"
+        },
+        {
+          "path": "frameworks/F28_agent_roi_calculation.md"
+        },
+        {
+          "path": "frameworks/F29_agent_risk_governance.md"
+        },
+        {
+          "path": "frameworks/F31_role_transformation_map.md"
+        },
+        {
+          "path": "frameworks/F32_agent_literacy_assessment.md"
+        },
+        {
+          "path": "frameworks/F33_AC6_core_capabilities.md"
+        },
+        {
+          "path": "governance/governance_nerve_01_intent_management.md"
+        },
+        {
+          "path": "governance/governance_nerve_03_agent_sovereignty.md"
+        },
+        {
+          "path": "references/FRAMEWORK_INDEX.md"
+        },
+        {
+          "path": "references/zhuge-soul.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "e7ccd4faef9f4358",
+  "name": "speech-record-workshop",
+  "description": "将演讲录音转写及可选课件整理为保真、可读的第一人称图文实录，生成来源对照与响应式排版。用于演讲实录、讲课成文和已有实录的还原度修订；不代替会议纪要或营销改写。",
+  "source": "skillops",
+  "category": "writing",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/speech-record-workshop--e7ccd4faef9f4358",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/speech-record-workshop--e7ccd4faef9f4358/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

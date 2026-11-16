@@ -1,0 +1,71 @@
+{
+  "children": {
+    "赵昱嘉": {
+      "file": "赵昱嘉.json",
+      "chat_id": "oc_a6de0b1f7fe4a6f43b7cbea5e9859e63",
+      "gender": "男",
+      "grade": "七年级",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "conversations": 1,
+      "type_hint": "INTX·自主守门型",
+      "key_signal": "先发500字伦理反驳来测试你"
+    },
+    "兜兜": {
+      "file": "兜兜.json",
+      "chat_id": "oc_446c26fe826291ab81264da709d463b7",
+      "gender": "女",
+      "grade": "四年级",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "conversations": 1,
+      "type_hint": "极简精准·反转型",
+      "key_signal": "你问题太多了"
+    },
+    "孟好": {
+      "file": "孟好.json",
+      "chat_id": "oc_f66ea917192cafd6c474166c8a436178",
+      "gender": "男",
+      "grade": "五年级",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-12",
+      "conversations": 2,
+      "type_hint": "INXP·独立思考者",
+      "key_signal": "勇敢是所有人的品质，聪明只是指挥官的"
+    },
+    "徐小棠": {
+      "file": "徐小棠.json",
+      "chat_id": "oc_f3f78917157e27d5638eb047239696d9",
+      "gender": "女",
+      "grade": "五年级",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "conversations": 1,
+      "type_hint": "ESFX·被看见驱动型",
+      "key_signal": "高光时刻被同学看见非常有成就感"
+    },
+    "沈晏辰": {
+      "file": "沈晏辰.json",
+      "chat_id": "oc_5fbc361c8f353ec75970c28fa98ae59e",
+      "gender": "男",
+      "grade": "五年级",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "conversations": 1,
+      "type_hint": "NFXP·感官诗人型",
+      "key_signal": "闻起来是一股复合的味道，让人满血"
+    },
+    "向日葵": {
+      "file": "向日葵.json",
+      "chat_id": "oc_a23c5c8118ef4609744007e31fd6725a",
+      "gender": "男",
+      "grade": "五年级",
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "conversations": 1,
+      "type_hint": "ISTX·务实深度型",
+      "key_signal": "起名字叫1因为打字方便"
+    }
+  },
+  "last_updated": "2026-04-12"
+}

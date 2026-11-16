@@ -1,0 +1,35 @@
+{
+  "id": "4b7f0c7b-6940-4ac5-9e2c-8ef44c94f9fc",
+  "name": "collaboration-methods",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/collaboration-methods--4b7f0c7b-6940-4ac5-9e2c-8ef44c94f9fc",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/collaboration-methods--4b7f0c7b-6940-4ac5-9e2c-8ef44c94f9fc/versions/1.0.0",
+      "sourcePackageHash": "e40a3df96aaac4bb3d8afdf8cdd2a84155241558ead33a2c6a53714922536a9e",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "agents/openai.yaml"
+        },
+        {
+          "path": "references/handoff.md"
+        },
+        {
+          "path": "references/patterns.md"
+        },
+        {
+          "path": "references/unknowns-and-ambition.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "931e8148-e80b-4808-90ab-9bb1e7133018",
+  "name": "ai-contract-review-cn",
+  "description": "AI合同审查助手 - 智能风险提示、条款解读、合同生成、法律咨询",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ai-contract-review-cn--931e8148-e80b-4808-90ab-9bb1e7133018",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ai-contract-review-cn--931e8148-e80b-4808-90ab-9bb1e7133018/versions/1.0.0",
+      "sourcePackageHash": "61420abe819d40ea21eb14dabc358838ecb6c24c1af03724bc276357ef7c1adb",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2bf58bc4-a82d-470b-bd31-c9db46d58895",
+  "name": "context-budget-guard",
+  "description": "Proactively monitors estimated token usage during long sessions and triggers context-window-management before overflow, not after. Use at the start of any session expected to last more than 30 minutes.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/context-budget-guard--2bf58bc4-a82d-470b-bd31-c9db46d58895",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/context-budget-guard--2bf58bc4-a82d-470b-bd31-c9db46d58895/versions/1.0.0",
+      "sourcePackageHash": "7b2bf0514f6e79f74e8333b3ef514d41d2813f0ba6f1259fb1ed12f4a000013e",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "check.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

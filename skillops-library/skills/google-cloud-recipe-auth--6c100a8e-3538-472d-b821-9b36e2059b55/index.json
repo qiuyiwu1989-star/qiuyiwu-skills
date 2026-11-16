@@ -1,0 +1,23 @@
+{
+  "id": "6c100a8e-3538-472d-b821-9b36e2059b55",
+  "name": "google-cloud-recipe-auth",
+  "description": "Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, covering human users, service identities, Application Default Credentials (ADC), and best practices for secure access.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/google-cloud-recipe-auth--6c100a8e-3538-472d-b821-9b36e2059b55",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/google-cloud-recipe-auth--6c100a8e-3538-472d-b821-9b36e2059b55/versions/1.0.0",
+      "sourcePackageHash": "c446a4a1326ea75d6bd357bbc842de095179d2955a70feac119a719f05ec393a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

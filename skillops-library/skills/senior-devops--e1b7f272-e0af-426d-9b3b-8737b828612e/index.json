@@ -1,0 +1,75 @@
+{
+  "id": "e1b7f272-e0af-426d-9b3b-8737b828612e",
+  "name": "senior-devops",
+  "description": "Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/senior-devops--e1b7f272-e0af-426d-9b3b-8737b828612e",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/senior-devops--e1b7f272-e0af-426d-9b3b-8737b828612e/versions/1.0.0",
+      "sourcePackageHash": "f1fc6cfeb9b28f5e48bbd8e90254902cf9c117b73222e4ad78c3249ea7c32bc8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/cicd_pipeline_guide.md"
+        },
+        {
+          "path": "references/deployment_strategies.md"
+        },
+        {
+          "path": "references/infrastructure_as_code.md"
+        },
+        {
+          "path": "scripts/deployment_manager.py"
+        },
+        {
+          "path": "scripts/pipeline_generator.py"
+        },
+        {
+          "path": "scripts/terraform_scaffolder.py"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/senior-devops--e1b7f272-e0af-426d-9b3b-8737b828612e/versions/1.0.1",
+      "sourcePackageHash": "070fa426307e8353d1de7f6ad2a46d8d65ade4d5613d81dba4d8ed3a552e450d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "references/cicd_pipeline_guide.md"
+        },
+        {
+          "path": "references/deployment_strategies.md"
+        },
+        {
+          "path": "references/infrastructure_as_code.md"
+        },
+        {
+          "path": "scripts/deployment_manager.py"
+        },
+        {
+          "path": "scripts/pipeline_generator.py"
+        },
+        {
+          "path": "scripts/terraform_scaffolder.py"
+        }
+      ]
+    }
+  ]
+}

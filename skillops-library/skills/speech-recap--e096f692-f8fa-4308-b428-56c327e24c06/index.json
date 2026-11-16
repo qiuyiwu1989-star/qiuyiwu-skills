@@ -1,0 +1,29 @@
+{
+  "id": "e096f692-f8fa-4308-b428-56c327e24c06",
+  "name": "speech-recap",
+  "description": "把一场演讲/分享的【录音或文字记录 + 课件】整理成一篇可发布的『现场实录』HTML——保真复述讲者第一人称原话、修口误顺逻辑、分节配标题、控密度、配课件图、脱敏列清单。当用户说'把这场讲座整理成实录''演讲录音整理''这场分享做成实录''讲座归档成文章''录音+课件做成实录'，或当用户丢来【一段分享的录音/飞书文字记录 + 一份课件PDF/PPT】时，务必使用本技能。这是记录不是营销稿——不做钩子标题、不替讲者拔高、不杜撰细节。",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": true,
+  "path": "skills/speech-recap--e096f692-f8fa-4308-b428-56c327e24c06",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/speech-recap--e096f692-f8fa-4308-b428-56c327e24c06/versions/1.0.0",
+      "sourcePackageHash": "f0229fdd4fdc7114876bc5f8544a763f94df209251dfe05d275b6a8565739e41",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/edit-discipline.md"
+        },
+        {
+          "path": "references/recap-standard.md"
+        }
+      ]
+    }
+  ]
+}

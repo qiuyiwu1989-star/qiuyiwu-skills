@@ -1,0 +1,32 @@
+{
+  "id": "faaaaac6-fa61-4cab-95bc-0e9675a7b189",
+  "name": "secrets-hygiene",
+  "description": "Audits which skills have access to secrets, flags stale or unrotated credentials, and prompts rotation. Use weekly to keep credentials clean.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/secrets-hygiene--faaaaac6-fa61-4cab-95bc-0e9675a7b189",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/secrets-hygiene--faaaaac6-fa61-4cab-95bc-0e9675a7b189/versions/1.0.0",
+      "sourcePackageHash": "1e75c94e423f688899adbc38549e1aaf8ab089cdf1bbfbfb91c51ce4ca5bbedf",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "audit.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

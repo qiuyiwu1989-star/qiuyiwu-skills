@@ -1,0 +1,23 @@
+{
+  "id": "bbf2ba95-a842-4a0f-9a93-69adea1015ff",
+  "name": "dbs-decision",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-decision--bbf2ba95-a842-4a0f-9a93-69adea1015ff",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-decision--bbf2ba95-a842-4a0f-9a93-69adea1015ff/versions/1.0.0",
+      "sourcePackageHash": "e458fbf2feab5e60f8a708ba162722b7d544c3610b06a90f6e0782568264aed3",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

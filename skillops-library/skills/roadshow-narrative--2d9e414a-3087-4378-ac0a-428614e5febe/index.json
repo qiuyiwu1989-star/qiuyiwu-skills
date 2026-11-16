@@ -1,0 +1,23 @@
+{
+  "id": "2d9e414a-3087-4378-ac0a-428614e5febe",
+  "name": "roadshow-narrative",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/roadshow-narrative--2d9e414a-3087-4378-ac0a-428614e5febe",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/roadshow-narrative--2d9e414a-3087-4378-ac0a-428614e5febe/versions/1.0.0",
+      "sourcePackageHash": "b2d02361bbb828e0a0f3f682544499233eca718a1bbcbb4a1cde0fc3df6016ec",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

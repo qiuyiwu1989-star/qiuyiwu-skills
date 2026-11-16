@@ -1,0 +1,29 @@
+{
+  "id": "829631fa-9182-4e7c-9b6e-2e67e498911b",
+  "name": "wecom-smartsheet-data",
+  "description": "企业微信智能表格数据（记录）管理技能。提供智能表格记录的增删改查能力。适用场景：(1) 查询子表全部记录 (2) 添加一行或多行记录 (3) 更新已有记录 (4) 删除记录。当用户需要读取表格数据、写入新数据、修改或删除表格行时触发此 Skill。支持通过 docid 或文档 URL 定位文档。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-smartsheet-data--829631fa-9182-4e7c-9b6e-2e67e498911b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-smartsheet-data--829631fa-9182-4e7c-9b6e-2e67e498911b/versions/1.0.0",
+      "sourcePackageHash": "e52715c9db9dda05a242d57234591ed0e4d05e3e79249f11af00c7f3a302e2f7",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/api-get-records.md"
+        },
+        {
+          "path": "references/cell-value-formats.md"
+        }
+      ]
+    }
+  ]
+}

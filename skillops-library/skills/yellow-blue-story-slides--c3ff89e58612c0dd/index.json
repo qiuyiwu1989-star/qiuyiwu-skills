@@ -1,0 +1,23 @@
+{
+  "id": "c3ff89e58612c0dd",
+  "name": "yellow-blue-story-slides",
+  "description": "制作 YB-001 黄蓝叙事漫画整页 PPT 图。用户选择 YB-001、黄蓝漫画、黄蓝叙事漫画或引用黄蓝人物旅程参考时使用。白底、黄色人物与物件、浅蓝路径、黑色灵动线条；支持八种页型与连续推演，区别于 EC-003 编辑漫画和米色手绘。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/yellow-blue-story-slides--c3ff89e58612c0dd",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/yellow-blue-story-slides--c3ff89e58612c0dd/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

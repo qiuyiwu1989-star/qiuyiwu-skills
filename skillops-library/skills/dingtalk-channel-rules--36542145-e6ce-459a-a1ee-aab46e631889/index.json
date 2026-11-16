@@ -1,0 +1,23 @@
+{
+  "id": "36542145-e6ce-459a-a1ee-aab46e631889",
+  "name": "dingtalk-channel-rules",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dingtalk-channel-rules--36542145-e6ce-459a-a1ee-aab46e631889",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dingtalk-channel-rules--36542145-e6ce-459a-a1ee-aab46e631889/versions/1.0.0",
+      "sourcePackageHash": "ac7c0b6552e89a4c366725dccad10d3b57fb032ffc2bbc5493e279b27cb392de",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

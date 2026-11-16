@@ -1,0 +1,23 @@
+{
+  "id": "eedcedce17dc3ac9",
+  "name": "isometric-model-slides",
+  "description": "为邱懿武制作IM-005等距积木整页PPT图；用户指定该编号或风格时使用。文字、人物、关系与留白一起由image生成，支持8种页型，不用HTML套版代替。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/isometric-model-slides--eedcedce17dc3ac9",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/isometric-model-slides--eedcedce17dc3ac9/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

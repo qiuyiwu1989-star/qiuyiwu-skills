@@ -1,0 +1,23 @@
+{
+  "id": "eca85a495d269dbd",
+  "name": "archive-save",
+  "description": "用户要求保存当前讨论、想法或资料到知行档案时使用。",
+  "source": "skillops",
+  "category": "knowledge",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/archive-save--eca85a495d269dbd",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/archive-save--eca85a495d269dbd/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

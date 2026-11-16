@@ -1,0 +1,29 @@
+{
+  "id": "2f1b21ac-0f14-4ecd-be79-514ac6c23252",
+  "name": "humanizer",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/humanizer--2f1b21ac-0f14-4ecd-be79-514ac6c23252",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/humanizer--2f1b21ac-0f14-4ecd-be79-514ac6c23252/versions/1.0.0",
+      "sourcePackageHash": "04a057601b26651f55fb6019b710ee771e42843ed1189508921252dbe6a839b6",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

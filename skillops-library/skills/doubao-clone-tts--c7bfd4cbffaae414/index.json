@@ -1,0 +1,23 @@
+{
+  "id": "c7bfd4cbffaae414",
+  "name": "doubao-clone-tts",
+  "description": "克隆声音豆包语音配音。使用豆包双向流式 TTS，以邱懿武授权的本人克隆音色生成中文旁白、试听和原始字幕事件。用户要求豆包配音、qiuyiwu 音色或 S_r9pl2DBW1 时使用。",
+  "source": "skillops",
+  "category": "media",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/doubao-clone-tts--c7bfd4cbffaae414",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/doubao-clone-tts--c7bfd4cbffaae414/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

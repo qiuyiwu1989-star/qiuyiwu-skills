@@ -1,0 +1,29 @@
+{
+  "id": "cddfd894-3412-4c74-9b79-31101a57ecab",
+  "name": "arkcli-connect",
+  "description": "arkcli +connect：将 arkcli 内嵌的 AI skills 安装到本机检测到的所有 AI Agent 中，支持安装、列出已支持 agent、卸载。当用户需要将 arkcli 能力同步到 Claude Code 等本地 agent 时使用。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-connect--cddfd894-3412-4c74-9b79-31101a57ecab",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-connect--cddfd894-3412-4c74-9b79-31101a57ecab/versions/1.0.0",
+      "sourcePackageHash": "cb597485c1ecd7641b3754c34ac861fc6cda1b6a401d6bdb6a8f942420a6c528",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-connect.md"
+        },
+        {
+          "path": "references/evals.md"
+        }
+      ]
+    }
+  ]
+}

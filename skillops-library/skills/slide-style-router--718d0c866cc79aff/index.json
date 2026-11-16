@@ -1,0 +1,23 @@
+{
+  "id": "718d0c866cc79aff",
+  "name": "slide-style-router",
+  "description": "根据内容、听众和表达目标推荐演示风格；用于选择PPT风格而非直接固定套版。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/slide-style-router--718d0c866cc79aff",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/slide-style-router--718d0c866cc79aff/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

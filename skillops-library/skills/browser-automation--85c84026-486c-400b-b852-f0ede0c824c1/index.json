@@ -1,0 +1,23 @@
+{
+  "id": "85c84026-486c-400b-b852-f0ede0c824c1",
+  "name": "browser-automation",
+  "description": "Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/browser-automation--85c84026-486c-400b-b852-f0ede0c824c1",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/browser-automation--85c84026-486c-400b-b852-f0ede0c824c1/versions/1.0.0",
+      "sourcePackageHash": "fd0859d746a27d6ccd2c0a9e74d5e1ae8dc04c78cdbcd7860529b9792c9ad9b6",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

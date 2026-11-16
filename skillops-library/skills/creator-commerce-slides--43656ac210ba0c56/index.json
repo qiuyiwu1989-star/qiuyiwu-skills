@@ -1,0 +1,23 @@
+{
+  "id": "43656ac210ba0c56",
+  "name": "creator-commerce-slides",
+  "description": "制作CC-011创作者商业新粗野主义整页PPT图，以紧凑大黑字、暖白底、粉紫黄配色和简洁物件表达创作与商业价值。用户选择本风格或CC-011时使用；支持八种页型，区别于复古漫画与高彩涂鸦。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/creator-commerce-slides--43656ac210ba0c56",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/creator-commerce-slides--43656ac210ba0c56/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "c109ae34e9fb869b",
+  "name": "rational-manuscript",
+  "description": "为邱懿武制作RM-002理性手稿简约版整页PPT图。用于用户指定第二套模板、理性手稿或工程手写风；文字、人物、结构与留白一起由image生成，保留层次并减少配图细节。不替代米色马克笔手绘套系。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/rational-manuscript--c109ae34e9fb869b",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/rational-manuscript--c109ae34e9fb869b/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

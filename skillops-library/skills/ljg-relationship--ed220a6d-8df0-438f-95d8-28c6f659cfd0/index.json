@@ -1,0 +1,23 @@
+{
+  "id": "ed220a6d-8df0-438f-95d8-28c6f659cfd0",
+  "name": "ljg-relationship",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-relationship--ed220a6d-8df0-438f-95d8-28c6f659cfd0",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-relationship--ed220a6d-8df0-438f-95d8-28c6f659cfd0/versions/1.0.0",
+      "sourcePackageHash": "b36b78588ec85aea0c3d8cb249963d430817e245869c44dc9f62cbbe1af89de1",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

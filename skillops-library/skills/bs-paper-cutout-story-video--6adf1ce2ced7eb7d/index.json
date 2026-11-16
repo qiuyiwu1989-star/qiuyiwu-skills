@@ -1,0 +1,23 @@
+{
+  "id": "6adf1ce2ced7eb7d",
+  "name": "bs-paper-cutout-story-video",
+  "description": "Turn any story, lesson or brand message into a paper-cutout storybook video with soft clay-and-felt pieces, layered green hills, a warm sun and props that pop, grow and slide into place like a child's collage. Give it your own topic, script or notes; it plans the scenes, builds the props around your subject and adds an optional music bed. You get an MP4 in 1080p, 2K or 4K plus an editable film you can preview in the browser.",
+  "source": "skillops",
+  "category": "media",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/bs-paper-cutout-story-video--6adf1ce2ced7eb7d",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/bs-paper-cutout-story-video--6adf1ce2ced7eb7d/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

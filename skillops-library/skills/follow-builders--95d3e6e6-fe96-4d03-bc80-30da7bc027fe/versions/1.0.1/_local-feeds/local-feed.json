@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-11-12T01:03:26.329Z",
+  "source": "local-supplement",
+  "podcasts": [
+    {
+      "name": "The Cognitive Revolution",
+      "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+      "url": "https://www.cognitiverevolution.ai/agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment-scope-accord-concord/",
+      "publishedAt": "2026-11-11T11:59:15.000Z",
+      "description": "Vijoy Pandey, SVP and GM of Outshift by Cisco, discusses the challenges of multi-agent systems and Cisco's new open-source protocols designed to help AI agents collaborate effectively. He explains how tools like Scope, Accord, and Concord address semantic misalignments, intent negotiation, and cognitive failures across complex workflows. The conversation also dives into personal agent setups, avoiding model lock-in, and the rise of latent space communication. Finally, Pandey shares why proper guardrails will ensure humanity benefits as autonomous systems grow in complexity. Sponsors: Lovable: Lovable is the software creation platform that brings your ideas to life with enterprise-grade infrastructure and flexible AI coding agents. Start building your next project today at https://lovable.comVisit https://fruitopia.ai to explore more than 400 fruits, and more than 8000 varieties, from all around the world. Claude: Claude is the AI collaborator built for problem solvers, extending your thinking across coding, modeling, and strategic workflows. Get started and discover Claude Pro at https://claude.ai/tcr OutSystems: OutSystems is the leading agentic systems platform, empowering enterprises to build, coordinate, and govern AI agents and mission-critical applications securely. Learn more and start building your agentic future at https://outsystems.com/tcr Tasklet: Tasklet empowers your business with AI agents that connect to your tools and automate recurring workflows with no code required. Visit https://tasklet.ai and use code cog rev for $50 in free credits CHAPTERS: (00:00) About the Episode (03:26) Sponsor: Lovable (05:09) Rise of connected agents (10:09) Enterprise multi-agent case studies (Part 1) (20:50) Sponsors: Claude | OutSystems (23:27) Enterprise multi-agent case studies (Part 2) (25:51) The Internet of Cognition (33:12) Detecting cognitive drift (Part 1) (40:30) Sponsor: Tasklet (42:08) Detecting cognitive drift (Part 2) (43:53) Accord and Concord protocols (56:19) Judgment and cognition engines (01:02:24) Personal autonomous agent workflows (01:16:31) High dimensional agent communication (01:26:25) Episode Outro (01:29:38) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "source": "podcast-local",
+      "guid": "8e5615bc-ddb9-11f1-a866-a31f48301512"
+    },
+    {
+      "name": "The a16z Show",
+      "title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+      "url": "https://a16z.simplecast.com/episodes/what-the-internet-boom-teaches-us-about-the-ai-buildout-mike-volpi-C_gHjXbG",
+      "publishedAt": "2026-11-11T11:00:00.000Z",
+      "description": "The internet boom built bandwidth. The AI boom is building intelligence. Mike Volpi, who helped shape Cisco’s strategy during the internet buildout, asks what that era can teach us about this one. Mike joins a16z’s Raghu Raghuram and Guido Appenzeller to compare today’s investment in GPUs, data centers, and power with the fiber boom of the late 1990s, and explain why the infrastructure could prove valuable even if the market corrects. They also discuss NVIDIA, custom silicon, networking, and the changing economics of GPUs, plus lessons from Cisco’s acquisition machine. And Mike explains why he thinks this technology cycle could be even more consequential than the last. Resources: Follow Mike Volpi on X: https://x.com/mavolpi Follow Raghu Raghuram on X: https://x.com/RaghuRaghuram Follow Guido Appenzeller on X: https://x.com/appenz Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "source": "podcast-local",
+      "guid": "1d628599-d453-4bf2-a3ab-a6391a67ea9f"
+    }
+  ],
+  "blogs": [
+    {
+      "name": "OpenAI News",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "publishedAt": "2026-11-11T08:00:00.000Z",
+      "content": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "source": "blog-local",
+      "guid": "https://openai.com/index/chatgpt-plus-for-veterans"
+    },
+    {
+      "name": "OpenAI News",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "content": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "source": "blog-local",
+      "guid": "https://openai.com/index/jiostar-vijay-seshadri"
+    },
+    {
+      "name": "Google DeepMind",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "publishedAt": "2026-11-11T15:00:15.000Z",
+      "content": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "source": "blog-local",
+      "guid": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    },
+    {
+      "name": "Google DeepMind",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "publishedAt": "2026-11-09T19:51:47.000Z",
+      "content": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "source": "blog-local",
+      "guid": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    }
+  ],
+  "stats": {
+    "localPodcasts": 2,
+    "localBlogs": 4
+  }
+}

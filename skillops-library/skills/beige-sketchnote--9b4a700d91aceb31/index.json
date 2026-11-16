@@ -1,0 +1,23 @@
+{
+  "id": "9b4a700d91aceb31",
+  "name": "beige-sketchnote",
+  "description": "为邱懿武的 PPT 制作米色底、粗黑线条、橙色强调的手绘插画与信息图，支持整页带字图、无字配图及封面结尾一致性。用户说按我们的风格画、简化插画或引用此 skill 时使用，按当前页意重新设计。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/beige-sketchnote--9b4a700d91aceb31",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/beige-sketchnote--9b4a700d91aceb31/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

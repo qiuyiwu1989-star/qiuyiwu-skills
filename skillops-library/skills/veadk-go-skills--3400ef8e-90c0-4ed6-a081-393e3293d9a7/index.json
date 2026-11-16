@@ -1,0 +1,38 @@
+{
+  "id": "3400ef8e-90c0-4ed6-a081-393e3293d9a7",
+  "name": "veadk-go-skills",
+  "description": "根据用户的功能需求，完成与 VeADK-Go 相关的功能; 包括：直接根据需求生成 Agent；将Enio Agent转换为VeADK-Go Agent。",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/veadk-go-skills--3400ef8e-90c0-4ed6-a081-393e3293d9a7",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/veadk-go-skills--3400ef8e-90c0-4ed6-a081-393e3293d9a7/versions/1.0.0",
+      "sourcePackageHash": "40d562a0f5da7c1a0300b97407a1b3bce19a71e68463f1c308bac33e1cbe04c8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "common/agent.md"
+        },
+        {
+          "path": "common/callback.md"
+        },
+        {
+          "path": "common/knowledgebase.md"
+        },
+        {
+          "path": "common/tools.md"
+        },
+        {
+          "path": "converter/enio_rule.md"
+        }
+      ]
+    }
+  ]
+}

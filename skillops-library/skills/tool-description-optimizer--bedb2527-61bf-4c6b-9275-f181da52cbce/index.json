@@ -1,0 +1,32 @@
+{
+  "id": "bedb2527-61bf-4c6b-9275-f181da52cbce",
+  "name": "tool-description-optimizer",
+  "description": "Analyzes skill descriptions for trigger quality — scores clarity, keyword density, and specificity, then suggests rewrites that improve discovery accuracy.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/tool-description-optimizer--bedb2527-61bf-4c6b-9275-f181da52cbce",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/tool-description-optimizer--bedb2527-61bf-4c6b-9275-f181da52cbce/versions/1.0.0",
+      "sourcePackageHash": "d9874b15daa50074ce583372789c87c9e359f14098a1e8e87c36c3f9f28ce811",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "optimize.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "13e75ca6061e8fc5",
+  "name": "ppt-ingest",
+  "description": "把一批新的 Keynote 导出课件导入 qiuyiwu.com 的 PPT 资产库（data/atom/*.json + data/slide-library.json），跑通「抽取 → 高清 → 空白检测 → 聚类成原子 → 归节 → VLM 标注 → diff 报告」，并在导入后补归节，让备课台能按主题取到页。触",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/ppt-ingest--13e75ca6061e8fc5",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/ppt-ingest--13e75ca6061e8fc5/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

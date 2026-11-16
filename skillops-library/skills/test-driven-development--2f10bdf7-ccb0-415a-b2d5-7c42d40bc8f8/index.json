@@ -1,0 +1,33 @@
+{
+  "id": "2f10bdf7-ccb0-415a-b2d5-7c42d40bc8f8",
+  "name": "test-driven-development",
+  "description": "Use when implementing any feature or bugfix, before writing implementation code. Enforces RED-GREEN-REFACTOR cycle with test-first approach.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/test-driven-development--2f10bdf7-ccb0-415a-b2d5-7c42d40bc8f8",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/test-driven-development--2f10bdf7-ccb0-415a-b2d5-7c42d40bc8f8/versions/1.0.0",
+      "sourcePackageHash": "7efea562024d73e981f9ac5cccc20e2eb9311ef45d1f0387134b27f3619db9c8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/test-driven-development--2f10bdf7-ccb0-415a-b2d5-7c42d40bc8f8/versions/1.0.1",
+      "sourcePackageHash": "2a559a6e03c2ecd0982942e54f30ece0563ba7f75096b7e72bad085c9971acd0",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

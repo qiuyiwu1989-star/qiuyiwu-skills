@@ -1,0 +1,32 @@
+{
+  "id": "63afbbaf-75bf-4bf6-9dba-23a7386085bc",
+  "name": "morning-briefing",
+  "description": "Compiles a daily morning briefing from active tasks, priorities, and pending items. Use at the start of each working day.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/morning-briefing--63afbbaf-75bf-4bf6-9dba-23a7386085bc",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/morning-briefing--63afbbaf-75bf-4bf6-9dba-23a7386085bc/versions/1.0.0",
+      "sourcePackageHash": "8934e2408c8aa26e41043bcf4454548a84bfdc4cda14c8cfe9e9d7e72d20a1be",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "run.py"
+        }
+      ]
+    }
+  ]
+}

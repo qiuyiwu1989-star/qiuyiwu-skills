@@ -1,0 +1,68 @@
+{
+  "id": "4836357b-7486-44f1-a3be-5779c7dda50a",
+  "name": "二脑",
+  "description": "共享职能部门·知识库管理。知识收割机，负责识别内容、入库、关联。所有Agent可调用。",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill--4836357b-7486-44f1-a3be-5779c7dda50a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill--4836357b-7486-44f1-a3be-5779c7dda50a/versions/1.0.0",
+      "sourcePackageHash": "8ae5597117b94eb6d8ebcc6a8c2678eecc049bf77576e92e9d2d1632c010457a",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "ANALYSIS.md"
+        },
+        {
+          "path": "CHANGELOG.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "SKILL.md.bak.20260501"
+        },
+        {
+          "path": "WIKI_CONFIG.md"
+        },
+        {
+          "path": "assets/content-templates.md"
+        },
+        {
+          "path": "assets/intake-classifier.md"
+        },
+        {
+          "path": "assets/knowledge-taxonomy.md"
+        },
+        {
+          "path": "assets/table-definitions.md"
+        },
+        {
+          "path": "examples/concept-example.md"
+        },
+        {
+          "path": "examples/meeting-example.md"
+        },
+        {
+          "path": "examples/topic-card-example.md"
+        },
+        {
+          "path": "references/graph-engine.md"
+        },
+        {
+          "path": "references/md-standards.md"
+        },
+        {
+          "path": "wiki-mapping.json"
+        }
+      ]
+    }
+  ]
+}

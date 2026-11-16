@@ -1,0 +1,33 @@
+{
+  "id": "cc1bf11d-a217-4123-8043-a6edc1a90836",
+  "name": "image-taste-frontend",
+  "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, and it must generate fresh separate images for sections or detail views rather than",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/image-taste-frontend--cc1bf11d-a217-4123-8043-a6edc1a90836",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/image-taste-frontend--cc1bf11d-a217-4123-8043-a6edc1a90836/versions/1.0.0",
+      "sourcePackageHash": "15f6719def03f851fa966463aad213be3a2f717095959da7a072b36f53448229",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/image-taste-frontend--cc1bf11d-a217-4123-8043-a6edc1a90836/versions/1.0.1",
+      "sourcePackageHash": "5ea82291f0d23e481f383a4545db299bb8682103d087612b05ecfdaab4b3cdc5",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

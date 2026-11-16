@@ -1,0 +1,110 @@
+{
+  "id": "29467cd2-5ddd-4215-9abb-377bfeb0c2cf",
+  "name": "dbs-content-system",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-content-system--29467cd2-5ddd-4215-9abb-377bfeb0c2cf",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-content-system--29467cd2-5ddd-4215-9abb-377bfeb0c2cf/versions/1.0.0",
+      "sourcePackageHash": "c53536632144a80d0d190a66f23480e0b8c246d75ca608a117555a093a0a8703",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "docs/acceptance.md"
+        },
+        {
+          "path": "docs/quickstart.md"
+        },
+        {
+          "path": "scaffold/root/AGENTS.md"
+        },
+        {
+          "path": "scaffold/root/CLAUDE.md"
+        },
+        {
+          "path": "scaffold/root/README.md"
+        },
+        {
+          "path": "scaffold/root/SOURCE_OF_TRUTH.md"
+        },
+        {
+          "path": "scaffold/rules/内容单元关系规则.md"
+        },
+        {
+          "path": "scaffold/rules/内容单元去重与版本规则.md"
+        },
+        {
+          "path": "scaffold/rules/内容单元字段规范.md"
+        },
+        {
+          "path": "scaffold/rules/处理流程.md"
+        },
+        {
+          "path": "scaffold/rules/新增文稿进入系统流程.md"
+        },
+        {
+          "path": "scaffold/rules/来源命名规范.md"
+        },
+        {
+          "path": "templates/主题地图模板.md"
+        },
+        {
+          "path": "templates/方案单元模板.md"
+        },
+        {
+          "path": "templates/案例单元模板.md"
+        },
+        {
+          "path": "templates/概念单元模板.md"
+        },
+        {
+          "path": "templates/观点单元模板.md"
+        },
+        {
+          "path": "templates/选题装配模板.md"
+        },
+        {
+          "path": "templates/问题单元模板.md"
+        },
+        {
+          "path": "tools/assemble-topic-from-units.js"
+        },
+        {
+          "path": "tools/extract-sample-units.js"
+        },
+        {
+          "path": "tools/fill-obsidian-links.js"
+        },
+        {
+          "path": "tools/generate-duplicate-candidates.js"
+        },
+        {
+          "path": "tools/generate-link-map.js"
+        },
+        {
+          "path": "tools/generate-source-registry.js"
+        },
+        {
+          "path": "tools/generate-unit-draft.js"
+        },
+        {
+          "path": "tools/init-content-system.js"
+        },
+        {
+          "path": "tools/rebuild-processing-ledger.js"
+        },
+        {
+          "path": "tools/summarize-system.js"
+        }
+      ]
+    }
+  ]
+}

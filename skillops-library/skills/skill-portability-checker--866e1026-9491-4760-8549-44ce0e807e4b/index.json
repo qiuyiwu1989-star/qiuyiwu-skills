@@ -1,0 +1,26 @@
+{
+  "id": "866e1026-9491-4760-8549-44ce0e807e4b",
+  "name": "skill-portability-checker",
+  "description": "Validates that a skill's companion scripts declare their OS and binary dependencies correctly, and checks whether those dependencies are actually present on the current machine.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/skill-portability-checker--866e1026-9491-4760-8549-44ce0e807e4b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/skill-portability-checker--866e1026-9491-4760-8549-44ce0e807e4b/versions/1.0.0",
+      "sourcePackageHash": "5b98d1fed7501fcacc6be149aa9ecb246e99df214715543558a4c14260e2b4ed",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "check.py"
+        }
+      ]
+    }
+  ]
+}

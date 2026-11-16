@@ -1,0 +1,23 @@
+{
+  "id": "c6ebfdab-8c29-4d3e-ab94-dfc5fc1c7783",
+  "name": "using-superpowers",
+  "description": "Bootstrap skill — teaches the agent how to find and invoke skills. Use when starting any new task or session.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/using-superpowers--c6ebfdab-8c29-4d3e-ab94-dfc5fc1c7783",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/using-superpowers--c6ebfdab-8c29-4d3e-ab94-dfc5fc1c7783/versions/1.0.0",
+      "sourcePackageHash": "ead626b458cba496078ac8fac6d03997ff47f6cb4969812a060eafdf959332e3",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

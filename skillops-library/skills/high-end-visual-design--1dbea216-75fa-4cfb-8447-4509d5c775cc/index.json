@@ -1,0 +1,33 @@
+{
+  "id": "1dbea216-75fa-4cfb-8447-4509d5c775cc",
+  "name": "high-end-visual-design",
+  "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/high-end-visual-design--1dbea216-75fa-4cfb-8447-4509d5c775cc",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/high-end-visual-design--1dbea216-75fa-4cfb-8447-4509d5c775cc/versions/1.0.0",
+      "sourcePackageHash": "117dced1a86aaa28d12defb184efadb5eb1b54dab6578d0618171540e34d980b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/high-end-visual-design--1dbea216-75fa-4cfb-8447-4509d5c775cc/versions/1.0.1",
+      "sourcePackageHash": "5ad7cff04a8ecefa65e4186d2ad61d8de15ede6084ae4c3192180d51759ed431",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

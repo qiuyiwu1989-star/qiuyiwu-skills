@@ -1,0 +1,33 @@
+{
+  "id": "b538bc0e-365c-4f0e-8982-2a5dade5d617",
+  "name": "minimalist-ui",
+  "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/minimalist-ui--b538bc0e-365c-4f0e-8982-2a5dade5d617",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/minimalist-ui--b538bc0e-365c-4f0e-8982-2a5dade5d617/versions/1.0.0",
+      "sourcePackageHash": "2bcea8fd089066309841e44dc8a9a46856cfb33ab948537f9eb1c2157ecfd19f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/minimalist-ui--b538bc0e-365c-4f0e-8982-2a5dade5d617/versions/1.0.1",
+      "sourcePackageHash": "500a69d8b9c9a2401561376936c6f159e133b20e9d9523e18dc1d282d51fd254",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "d75f1ee8-bb6b-4cf4-aaeb-a234317c4f7c",
+  "name": "weibo-search",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-search--d75f1ee8-bb6b-4cf4-aaeb-a234317c4f7c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-search--d75f1ee8-bb6b-4cf4-aaeb-a234317c4f7c/versions/1.0.0",
+      "sourcePackageHash": "12452893c1ad9c0ca82da1e42344167935c1e1f6472337aabcfb897905f3412b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

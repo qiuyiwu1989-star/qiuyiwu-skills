@@ -1,0 +1,23 @@
+{
+  "id": "1bc9a124-3c5a-4ac3-92ed-9693f07e7a26",
+  "name": "feishu-calendar",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-calendar--1bc9a124-3c5a-4ac3-92ed-9693f07e7a26",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-calendar--1bc9a124-3c5a-4ac3-92ed-9693f07e7a26/versions/1.0.0",
+      "sourcePackageHash": "b9f87d20b8ea107daffddd06bab90c6e7d1396052bf9bab04c4de138601c9e9f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

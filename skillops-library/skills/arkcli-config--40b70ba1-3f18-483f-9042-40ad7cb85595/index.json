@@ -1,0 +1,32 @@
+{
+  "id": "40b70ba1-3f18-483f-9042-40ad7cb85595",
+  "name": "arkcli-config",
+  "description": "arkcli 本地配置管理。处理 profile 配置归因、update.mode 的 automatic/disabled 策略、config reset 与历史 yaml 排障；profile 类操作优先使用 `arkcli profile <subcmd>`。",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-config--40b70ba1-3f18-483f-9042-40ad7cb85595",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-config--40b70ba1-3f18-483f-9042-40ad7cb85595/versions/1.0.0",
+      "sourcePackageHash": "51274dc3246821ce2c66359eebdaaf2ea10494bc714dadad7de5c0422c46592d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-config-init.md"
+        },
+        {
+          "path": "references/arkcli-config-profile.md"
+        },
+        {
+          "path": "references/evals.md"
+        }
+      ]
+    }
+  ]
+}

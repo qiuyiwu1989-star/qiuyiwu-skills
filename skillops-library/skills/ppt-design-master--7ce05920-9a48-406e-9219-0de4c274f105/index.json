@@ -1,0 +1,23 @@
+{
+  "id": "7ce05920-9a48-406e-9219-0de4c274f105",
+  "name": "ppt-design-master",
+  "description": "",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ppt-design-master--7ce05920-9a48-406e-9219-0de4c274f105",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ppt-design-master--7ce05920-9a48-406e-9219-0de4c274f105/versions/1.0.0",
+      "sourcePackageHash": "8b9babfe9b2de4e674cf5cc343c032392b96a5b7f3a83688e9e3605717e48777",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "a0133e6e-d382-4fdc-944f-fce6df21a2ea",
+  "name": "ljg-roundtable",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-roundtable--a0133e6e-d382-4fdc-944f-fce6df21a2ea",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-roundtable--a0133e6e-d382-4fdc-944f-fce6df21a2ea/versions/1.0.0",
+      "sourcePackageHash": "c0294949049f3f44c1bbb79b3d06fe7bdb9cf2f92b627842dc4d682425ff6461",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/original-prompt.org"
+        }
+      ]
+    }
+  ]
+}

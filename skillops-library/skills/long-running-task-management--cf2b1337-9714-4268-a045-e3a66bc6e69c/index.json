@@ -1,0 +1,26 @@
+{
+  "id": "cf2b1337-9714-4268-a045-e3a66bc6e69c",
+  "name": "long-running-task-management",
+  "description": "Breaks multi-hour tasks into checkpointed stages with resume capability. Use when a task is expected to take more than 30 minutes or multiple sessions.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/long-running-task-management--cf2b1337-9714-4268-a045-e3a66bc6e69c",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/long-running-task-management--cf2b1337-9714-4268-a045-e3a66bc6e69c/versions/1.0.0",
+      "sourcePackageHash": "91e4816b568b82d0098c3c8e25a88355639f3a112a4c6456103be01cf4e61378",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        }
+      ]
+    }
+  ]
+}

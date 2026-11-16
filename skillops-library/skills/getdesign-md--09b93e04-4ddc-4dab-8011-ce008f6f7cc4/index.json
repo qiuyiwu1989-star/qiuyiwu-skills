@@ -1,0 +1,26 @@
+{
+  "id": "09b93e04-4ddc-4dab-8011-ce008f6f7cc4",
+  "name": "getdesign-md",
+  "description": "从 getdesign.md 下载知名品牌/网站的设计系统文档（DESIGN.md），为前端开发提供风格参考。当需要为项目选择或应用某个品牌的设计系统风格时使用此技能。",
+  "source": "personal_agi",
+  "category": "design",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/getdesign-md--09b93e04-4ddc-4dab-8011-ce008f6f7cc4",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/getdesign-md--09b93e04-4ddc-4dab-8011-ce008f6f7cc4/versions/1.0.0",
+      "sourcePackageHash": "7627ebafe2f063c25f1d9c614f5e59563ed75a83486d40a7cf573c67adf6206c",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

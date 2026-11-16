@@ -1,0 +1,51 @@
+{
+  "id": "6b85fabf-5030-4d6b-80ae-86ed73ec98b3",
+  "name": "mlops-automation-cn",
+  "description": "Task automation, containerization, CI/CD, and experiment tracking",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/mlops-automation-cn--6b85fabf-5030-4d6b-80ae-86ed73ec98b3",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/mlops-automation-cn--6b85fabf-5030-4d6b-80ae-86ed73ec98b3/versions/1.0.0",
+      "sourcePackageHash": "398f381891d7106f500e3d7bb8d554b66a66d4a45b57481b1cc63d18bf5efc1e",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "package.json"
+        },
+        {
+          "path": "references/ci-workflow.yml"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/mlops-automation-cn--6b85fabf-5030-4d6b-80ae-86ed73ec98b3/versions/1.0.1",
+      "sourcePackageHash": "ceaedf321dc53771d6743485a5092149375fd9ba9b155ad237e94d935a2d72c8",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "package.json"
+        },
+        {
+          "path": "references/ci-workflow.yml"
+        }
+      ]
+    }
+  ]
+}

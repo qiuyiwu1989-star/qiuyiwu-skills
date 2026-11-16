@@ -1,0 +1,23 @@
+{
+  "id": "63febc02-ba0f-4728-83a1-973637415dc0",
+  "name": "dbs-slowisfast",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-slowisfast--63febc02-ba0f-4728-83a1-973637415dc0",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-slowisfast--63febc02-ba0f-4728-83a1-973637415dc0/versions/1.0.0",
+      "sourcePackageHash": "4550ba0147cd2125fe1c0cddd85de6d61b3b22beea98246543ff7795721023d5",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

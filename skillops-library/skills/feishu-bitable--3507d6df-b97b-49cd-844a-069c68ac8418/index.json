@@ -1,0 +1,32 @@
+{
+  "id": "3507d6df-b97b-49cd-844a-069c68ac8418",
+  "name": "feishu-bitable",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-bitable--3507d6df-b97b-49cd-844a-069c68ac8418",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-bitable--3507d6df-b97b-49cd-844a-069c68ac8418/versions/1.0.0",
+      "sourcePackageHash": "338b6e12c266c667c7463fdee6fa600450efbeec198b5762f2844c91abc4d23c",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/examples.md"
+        },
+        {
+          "path": "references/field-properties.md"
+        },
+        {
+          "path": "references/record-values.md"
+        }
+      ]
+    }
+  ]
+}

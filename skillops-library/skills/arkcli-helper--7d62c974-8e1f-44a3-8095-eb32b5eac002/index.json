@@ -1,0 +1,29 @@
+{
+  "id": "7d62c974-8e1f-44a3-8095-eb32b5eac002",
+  "name": "arkcli-helper",
+  "description": "arkcli helper：为 Claude Code / Codex / OpenCode / OpenClaw / Hermes / ZCode 配置火山方舟 Plan 或 Platform Endpoint 的 model/provider，或给支持的 Agent（含 MCP-only Trae）配置 Harness 工具。真人 TTY 运行 `arkcli helper` 可选择模型和 Harness 能力；`helper mcp` 默认保持整组 Agent Plan MCP 行为，传 `--capability datapro|web-search|agent-memory` 只配单项，传 `--capability cua` 只给目标 Agent 安装云电脑 Skill；连 model/provider 一起配置用 `helper configure`，查状态用 `helper",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-helper--7d62c974-8e1f-44a3-8095-eb32b5eac002",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-helper--7d62c974-8e1f-44a3-8095-eb32b5eac002/versions/1.0.0",
+      "sourcePackageHash": "50f77684b6c1e77086b6d20fa1563cecdc6fc81f81f2acf835cc3d508ecbf93a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-helper.md"
+        },
+        {
+          "path": "references/evals.md"
+        }
+      ]
+    }
+  ]
+}

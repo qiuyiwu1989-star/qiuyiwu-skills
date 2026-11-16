@@ -1,0 +1,57 @@
+{
+  "id": "917d0d13-cf1a-47f7-9d22-57a19dc5573a",
+  "name": "cyber-owasp-review",
+  "description": "Map application security findings to OWASP Top 10 categories and generate remediation checklists. Use for normalized AppSec review outputs and category-level prioritization.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/cyber-owasp-review--917d0d13-cf1a-47f7-9d22-57a19dc5573a",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/cyber-owasp-review--917d0d13-cf1a-47f7-9d22-57a19dc5573a/versions/1.0.0",
+      "sourcePackageHash": "93176d6bfe7ee3bbc93f484573a829a101fead1eea7c2c6dbe56c2b63abcdbfa",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "agents/openai.yaml"
+        },
+        {
+          "path": "references/owasp-mapping-guide.md"
+        },
+        {
+          "path": "scripts/map_findings_to_owasp.py"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/cyber-owasp-review--917d0d13-cf1a-47f7-9d22-57a19dc5573a/versions/1.0.1",
+      "sourcePackageHash": "6392d57ef8277b77a6cf4f84b9d2ad984d1ec9db1aaeee5862131684966bb971",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "agents/openai.yaml"
+        },
+        {
+          "path": "references/owasp-mapping-guide.md"
+        },
+        {
+          "path": "scripts/map_findings_to_owasp.py"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bfeb0f29-5318-4522-a735-72ddae516ef0",
+  "name": "spend-circuit-breaker",
+  "description": "Tracks cumulative API spend against a monthly budget and pauses non-essential automations when thresholds are crossed",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/spend-circuit-breaker--bfeb0f29-5318-4522-a735-72ddae516ef0",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/spend-circuit-breaker--bfeb0f29-5318-4522-a735-72ddae516ef0/versions/1.0.0",
+      "sourcePackageHash": "8d450b536a1d85fe1fbab62a328a2e7bd83a1b0cc663441bef5bcae782764723",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "check.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3b8c86c3-1d6a-44fc-869a-f9173734fbde",
+  "name": "weibo-crowd",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/weibo-crowd--3b8c86c3-1d6a-44fc-869a-f9173734fbde",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/weibo-crowd--3b8c86c3-1d6a-44fc-869a-f9173734fbde/versions/1.0.0",
+      "sourcePackageHash": "71e4b61b6e5ecfc79545224453e1894f47072b92e97121d8121781146da6a1ce",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/SILICON-TEAHOUSE-RULES.md"
+        },
+        {
+          "path": "scripts/weibo-crowd.js"
+        }
+      ]
+    }
+  ]
+}

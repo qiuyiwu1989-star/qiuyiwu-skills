@@ -1,0 +1,68 @@
+{
+  "id": "f3d01035-fc3a-4c19-af20-8353421328a8",
+  "name": "dws-cli",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dws-cli--f3d01035-fc3a-4c19-af20-8353421328a8",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dws-cli--f3d01035-fc3a-4c19-af20-8353421328a8/versions/1.0.0",
+      "sourcePackageHash": "78f8c73dc90b1d9bb12371b6e855c20261ea0e75643d9a41817a7a3ef48b0cf2",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/error-codes.md"
+        },
+        {
+          "path": "references/field-rules.md"
+        },
+        {
+          "path": "references/global-reference.md"
+        },
+        {
+          "path": "references/intent-guide.md"
+        },
+        {
+          "path": "references/products/aitable.md"
+        },
+        {
+          "path": "references/products/attendance.md"
+        },
+        {
+          "path": "references/products/calendar.md"
+        },
+        {
+          "path": "references/products/chat.md"
+        },
+        {
+          "path": "references/products/contact.md"
+        },
+        {
+          "path": "references/products/ding.md"
+        },
+        {
+          "path": "references/products/report.md"
+        },
+        {
+          "path": "references/products/simple.md"
+        },
+        {
+          "path": "references/products/todo.md"
+        },
+        {
+          "path": "references/products/workbench.md"
+        },
+        {
+          "path": "references/recovery-guide.md"
+        }
+      ]
+    }
+  ]
+}

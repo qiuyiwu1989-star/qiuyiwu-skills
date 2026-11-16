@@ -1,0 +1,23 @@
+{
+  "id": "0b2e9a7ce5e52c99",
+  "name": "silkscreen-slides",
+  "description": "为邱懿武制作SS-004丝网海报整页PPT图；用户指定该编号或风格时使用。文字、人物、关系与留白一起由image生成，支持8种页型，不用HTML套版代替。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/silkscreen-slides--0b2e9a7ce5e52c99",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/silkscreen-slides--0b2e9a7ce5e52c99/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

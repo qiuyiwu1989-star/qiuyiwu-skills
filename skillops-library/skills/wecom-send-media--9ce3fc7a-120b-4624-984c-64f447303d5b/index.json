@@ -1,0 +1,23 @@
+{
+  "id": "9ce3fc7a-120b-4624-984c-64f447303d5b",
+  "name": "wecom-send-media",
+  "description": "通过 MEDIA 指令向用户发送本地文件（图片、视频、语音等文件）。当用户要求发送或分享文件时，或当生成的文件需要交付给用户时使用。仅当通过 wecom 通道通信时使用此技能。",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/wecom-send-media--9ce3fc7a-120b-4624-984c-64f447303d5b",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/wecom-send-media--9ce3fc7a-120b-4624-984c-64f447303d5b/versions/1.0.0",
+      "sourcePackageHash": "5170b25759fff8df61c57cc3451c48966132072d4a7060dca4e71fa940efaa4a",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "8ba7191b-eb9b-44e1-abe1-f41256e42dad",
+  "name": "feishu-fetch-doc",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-fetch-doc--8ba7191b-eb9b-44e1-abe1-f41256e42dad",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-fetch-doc--8ba7191b-eb9b-44e1-abe1-f41256e42dad/versions/1.0.0",
+      "sourcePackageHash": "7e7cb4c54294a2a44313e38f2712cbfbb85d06bbebbe5e0b050ec74042d7c55d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

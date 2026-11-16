@@ -1,0 +1,23 @@
+{
+  "id": "2e3c5f5f-5b36-4b7a-b97b-e77a7ecad1a9",
+  "name": "feishu-im-read",
+  "description": "",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/feishu-im-read--2e3c5f5f-5b36-4b7a-b97b-e77a7ecad1a9",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/feishu-im-read--2e3c5f5f-5b36-4b7a-b97b-e77a7ecad1a9/versions/1.0.0",
+      "sourcePackageHash": "9bcfc052945cd9f25e9009c9027021cde1d9ff68842b4a6a066342d82251761f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

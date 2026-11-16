@@ -1,0 +1,32 @@
+{
+  "id": "d0834329-934d-445e-b840-1d103c296e2e",
+  "name": "memory-dag-compactor",
+  "description": "Builds hierarchical summary DAGs from MEMORY.md with depth-aware prompts — leaf summaries preserve detail, higher depths condense to durable arcs, preventing information loss during compaction.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/memory-dag-compactor--d0834329-934d-445e-b840-1d103c296e2e",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/memory-dag-compactor--d0834329-934d-445e-b840-1d103c296e2e/versions/1.0.0",
+      "sourcePackageHash": "f727598206f31e5841747731ce70f302c8baceb325edbb12acedeb5e0fa5538d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "compact.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

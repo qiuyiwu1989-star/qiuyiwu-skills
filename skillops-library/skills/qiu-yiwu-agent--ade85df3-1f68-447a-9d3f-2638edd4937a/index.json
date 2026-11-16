@@ -1,0 +1,29 @@
+{
+  "id": "ade85df3-1f68-447a-9d3f-2638edd4937a",
+  "name": "qiu-yiwu-agent",
+  "description": "邱懿武Agent · 独立对外产品 · AI麦肯锡（战略/管理/创新咨询）· 用户直接对话入口。六阶段工作流：深度理解→问题定义→研究规划→深度研究→洞察呈现→决策支持。触发词：邱懿武、帮我分析、值不值得做、战略、咨询、怎么想、能不能写、商业模式、竞争分析。",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/qiu-yiwu-agent--ade85df3-1f68-447a-9d3f-2638edd4937a",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/qiu-yiwu-agent--ade85df3-1f68-447a-9d3f-2638edd4937a/versions/1.0.0",
+      "sourcePackageHash": "ab2ee1cb217741dfe8e0497c31b72a31fe2f5a15464894b771377cd401a3cce3",
+      "files": [
+        {
+          "path": "AGENT.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/master-agent-architecture-v1.0.md"
+        }
+      ]
+    }
+  ]
+}

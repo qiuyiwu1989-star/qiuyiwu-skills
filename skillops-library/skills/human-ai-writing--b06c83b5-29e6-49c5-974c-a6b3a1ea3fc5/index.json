@@ -1,0 +1,29 @@
+{
+  "id": "b06c83b5-29e6-49c5-974c-a6b3a1ea3fc5",
+  "name": "human-ai-writing",
+  "description": "",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/human-ai-writing--b06c83b5-29e6-49c5-974c-a6b3a1ea3fc5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/human-ai-writing--b06c83b5-29e6-49c5-974c-a6b3a1ea3fc5/versions/1.0.0",
+      "sourcePackageHash": "7fd687dc52f0e1f3d8b31d2665d87ca47715e723d82add23d5bfe85e2ede6038",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "agents/openai.yaml"
+        },
+        {
+          "path": "references/examples.md"
+        }
+      ]
+    }
+  ]
+}

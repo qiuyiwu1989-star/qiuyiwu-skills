@@ -1,0 +1,1559 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Architecture:
+  - One long-lived Chrome process, owns a single --user-data-dir (shared profile).
+  - Remote debugging on 127.0.0.1:$BUA_CDP_PORT (default 9222).
+  - Each OpenClaw session id (sid) is mapped to a Chrome windowId AND a
+    persisted activeTargetId (the tab bua treats as the sid's active page).
+  - Each session also keeps a stable `tabsOrder` — an ordered list of
+    targetIds that belong to the session's window, enabling per-session
+    references like T1/T2 for the `bua tabs` command family.
+  - High-level actions (snapshot/act/click/...) are delegated to `agent-browser
+    --cdp <port> ...` after activating the persisted activeTargetId. If that
+    target has vanished (closed / crashed), bua falls back to the newest
+    non-blank tab in the window and persists the new choice.
+  - Cookies / localStorage / auth are shared across all windows because they
+    all live in the same Chrome profile.
+
+No external Python deps: an embedded minimal WebSocket client speaks CDP.
+"""
+from __future__ import annotations
+import argparse
+import base64
+import errno
+import fcntl
+import json
+import logging
+import os
+import re
+import socket
+import struct
+import subprocess
+import sys
+import time
+import urllib.request
+import urllib.error
+from logging.handlers import RotatingFileHandler
+from typing import Any, Dict, List, Optional, Tuple
+
+# --------------------------------------------------------------------------- #
+# Config                                                                      #
+# --------------------------------------------------------------------------- #
+
+VERSION = "1.14.0"
+
+# v1.14.0: top-level state key for detecting Chrome respawn.
+CHROME_FP_FIELD = "chromeFingerprint"
+
+LOG_PATH = os.environ.get("BUA_LOG", "/var/log/arkclaw/bua.log")
+DISPLAY = os.environ.get("DISPLAY", ":99")
+
+
+def _resolve_agent_browser_bin() -> Optional[str]:
+    """AGENT_BROWSER_BIN if set, else a binary beside this script. No PATH."""
+    override = os.environ.get("AGENT_BROWSER_BIN")
+    if override:
+        return override
+    try:
+        here = os.path.dirname(os.path.abspath(__file__))
+    except NameError:
+        here = os.getcwd()
+    for rel in (("agent-browser",), ("bin", "agent-browser")):
+        p = os.path.join(here, *rel)
+        if os.path.isfile(p):
+            return p
+    return None
+
+
+AGENT_BROWSER_BIN: Optional[str] = _resolve_agent_browser_bin()
+CHROME_BIN = os.environ.get("BUA_CHROME_BIN", "/usr/bin/google-chrome")
+CDP_PORT = int(os.environ.get("BUA_CDP_PORT", "9222"))
+CDP_HOST = os.environ.get("BUA_CDP_HOST", "127.0.0.1")
+PROFILE_DIR = os.environ.get(
+    "BUA_PROFILE",
+    os.path.expanduser("~/.arkclaw/bua-profile"),
+)
+STATE_DIR = os.environ.get("BUA_STATE_DIR", "/var/run/bua")
+STATE_FILE = os.path.join(STATE_DIR, "sessions.json")
+LOCK_FILE = os.path.join(STATE_DIR, "bua.lock")
+CHROME_PID_FILE = os.path.join(STATE_DIR, "chrome.pid")
+CHROME_LOG = os.environ.get("BUA_CHROME_LOG", "/tmp/bua-chrome.log")
+
+DEFAULT_CHROME_ARGS = [
+    "--no-sandbox",
+    "--disable-dev-shm-usage",
+    "--disable-features=AsyncDns",
+    "--no-first-run",
+    "--no-default-browser-check",
+    "--start-maximized",
+    "--test-type",
+    "--disable-component-update",
+    "--disable-background-networking",
+    "--disable-notifications",
+    "--disable-popup-blocking",
+    "--hide-crash-restore-bubble",
+    "--disable-session-crashed-bubble",
+    "--disable-infobars",
+]
+
+FORWARD_CMDS = {
+    "snapshot", "screenshot", "click", "type", "fill", "select", "hover",
+    "drag", "press", "act", "goto", "back", "forward", "reload",
+    "get", "eval", "wait", "cookies", "storage", "network",
+}
+NATIVE_CMDS = {"open", "start", "close", "focus", "status", "list", "gc",
+               "tabs", "doctor"}
+
+# URLs considered "blank" — not preferred as fallback active target.
+_BLANK_URLS = ("about:blank", "", "chrome://newtab/")
+
+# Tab reference formats accepted by `bua tabs <close|switch> <ref>`:
+#   T<N>     per-session stable index (1-based) into sess["tabsOrder"]
+#   <32hex>  raw CDP targetId (escape hatch / for scripting)
+_TAB_REF_RE = re.compile(r"^[Tt](\d+)$")
+_HEX_TID_RE = re.compile(r"^[0-9A-Fa-f]{32}$")
+
+
+def _is_blank_url(url: str) -> bool:
+    if url in _BLANK_URLS:
+        return True
+    return url.startswith("chrome://new-tab-page")
+
+
+# --------------------------------------------------------------------------- #
+# Window state applied when bua brings a session window to the foreground
+# or spawns a new one. Accepts the Chrome `windowState` values:
+#   - "maximized" (default): fill the work area, keep tab bar / title bar
+#   - "fullscreen": F11-style, hides tab bar and title bar
+#   - "normal":    legacy behaviour, just un-minimize
+WINDOW_STATE = os.environ.get("BUA_WINDOW_STATE", "maximized").strip().lower()
+if WINDOW_STATE not in ("maximized", "fullscreen", "normal"):
+    WINDOW_STATE = "maximized"
+
+
+def _apply_window_state(cdp: "CDP", wid: Any) -> None:
+    """Force `wid` into the configured WINDOW_STATE. Best-effort: CDP errors
+    (window already gone / unsupported state) are swallowed — callers are
+    tolerant to focus failures.
+
+    Chrome rejects setting non-normal states directly from a non-normal
+    source; the documented safe path is to always go through `normal` first
+    when switching between maximized <-> fullscreen. For our bua usage we
+    only ever stamp one terminal state, so a single call suffices.
+    """
+    if wid is None:
+        return
+    try:
+        cdp.call("Browser.setWindowBounds",
+                 {"windowId": wid,
+                  "bounds": {"windowState": WINDOW_STATE}})
+    except RuntimeError:
+        pass
+
+
+# --------------------------------------------------------------------------- #
+# Logging                                                                     #
+# --------------------------------------------------------------------------- #
+
+def _init_logger() -> logging.Logger:
+    lg = logging.getLogger("bua")
+    lg.setLevel(logging.INFO)
+    try:
+        os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+        h: logging.Handler = RotatingFileHandler(
+            LOG_PATH, maxBytes=10 * 1024 * 1024, backupCount=5
+        )
+    except (PermissionError, OSError):
+        h = logging.StreamHandler(sys.stderr)
+    h.setFormatter(logging.Formatter(
+        "%(asctime)s %(levelname)s sid=%(sid)s cmd=%(cmd)s %(message)s"
+    ))
+    lg.addHandler(h)
+    return lg
+
+
+LOG = _init_logger()
+
+
+def _log(level: int, sid: str, cmd: str, msg: str) -> None:
+    LOG.log(level, msg, extra={"sid": sid or "-", "cmd": cmd or "-"})
+
+
+# --------------------------------------------------------------------------- #
+# Minimal WebSocket client (CDP only)                                         #
+# --------------------------------------------------------------------------- #
+
+class _WS:
+    def __init__(self, url: str, timeout: float = 10.0) -> None:
+        assert url.startswith("ws://"), url
+        hp, path = url[5:].split("/", 1)
+        host, port = hp.split(":")
+        self.sock = socket.create_connection((host, int(port)), timeout=timeout)
+        self.sock.settimeout(timeout)
+        key = base64.b64encode(os.urandom(16)).decode()
+        req = (
+            f"GET /{path} HTTP/1.1\r\n"
+            f"Host: {hp}\r\n"
+            f"Upgrade: websocket\r\n"
+            f"Connection: Upgrade\r\n"
+            f"Sec-WebSocket-Key: {key}\r\n"
+            f"Sec-WebSocket-Version: 13\r\n\r\n"
+        )
+        self.sock.sendall(req.encode())
+        buf = b""
+        while b"\r\n\r\n" not in buf:
+            chunk = self.sock.recv(4096)
+            if not chunk:
+                raise RuntimeError("ws handshake aborted")
+            buf += chunk
+        head, self._buf = buf.split(b"\r\n\r\n", 1)
+        if b" 101 " not in head.split(b"\r\n", 1)[0]:
+            raise RuntimeError(f"ws handshake failed: {head!r}")
+
+    def _read_exact(self, n: int) -> bytes:
+        while len(self._buf) < n:
+            chunk = self.sock.recv(65536)
+            if not chunk:
+                raise ConnectionError("ws closed")
+            self._buf += chunk
+        out, self._buf = self._buf[:n], self._buf[n:]
+        return out
+
+    def send(self, text: str) -> None:
+        data = text.encode()
+        mask = os.urandom(4)
+        hdr = b"\x81"
+        ln = len(data)
+        if ln < 126:
+            hdr += bytes([0x80 | ln])
+        elif ln < 65536:
+            hdr += b"\xfe" + struct.pack(">H", ln)
+        else:
+            hdr += b"\xff" + struct.pack(">Q", ln)
+        masked = bytes(b ^ mask[i % 4] for i, b in enumerate(data))
+        self.sock.sendall(hdr + mask + masked)
+
+    def recv(self) -> str:
+        while True:
+            b1, b2 = self._read_exact(2)
+            ln = b2 & 0x7F
+            if ln == 126:
+                ln = struct.unpack(">H", self._read_exact(2))[0]
+            elif ln == 127:
+                ln = struct.unpack(">Q", self._read_exact(8))[0]
+            masked = bool(b2 & 0x80)
+            mask = self._read_exact(4) if masked else b""
+            data = self._read_exact(ln)
+            if masked:
+                data = bytes(b ^ mask[i % 4] for i, b in enumerate(data))
+            op = b1 & 0x0F
+            if op == 1:
+                return data.decode()
+            if op == 8:
+                raise ConnectionError("ws closed by peer")
+            # ping / pong / binary -> ignore
+
+    def close(self) -> None:
+        try:
+            self.sock.sendall(b"\x88\x80" + os.urandom(4))
+        except OSError:
+            pass
+        try:
+            self.sock.close()
+        except OSError:
+            pass
+
+
+# --------------------------------------------------------------------------- #
+# CDP client                                                                  #
+# --------------------------------------------------------------------------- #
+
+class CDP:
+    def __init__(self, host: str = CDP_HOST, port: int = CDP_PORT) -> None:
+        self.host, self.port = host, port
+        self._ws: Optional[_WS] = None
+        self._id = 0
+
+    def _http_json(self, path: str) -> Any:
+        url = f"http://{self.host}:{self.port}{path}"
+        with urllib.request.urlopen(url, timeout=5) as r:
+            return json.loads(r.read())
+
+    def ping(self, timeout: float = 1.5) -> bool:
+        try:
+            with socket.create_connection((self.host, self.port), timeout=timeout):
+                return True
+        except OSError:
+            return False
+
+    def connect(self) -> None:
+        if self._ws is not None:
+            return
+        ver = self._http_json("/json/version")
+        self._ws = _WS(ver["webSocketDebuggerUrl"])
+
+    def call(self, method: str, params: Optional[Dict[str, Any]] = None,
+             session_id: Optional[str] = None) -> Dict[str, Any]:
+        self.connect()
+        assert self._ws is not None
+        self._id += 1
+        msg: Dict[str, Any] = {"id": self._id, "method": method,
+                               "params": params or {}}
+        if session_id:
+            msg["sessionId"] = session_id
+        self._ws.send(json.dumps(msg))
+        while True:
+            raw = self._ws.recv()
+            data = json.loads(raw)
+            if data.get("id") == self._id:
+                if "error" in data:
+                    raise RuntimeError(f"CDP {method} error: {data['error']}")
+                return data.get("result", {})
+
+    def close(self) -> None:
+        if self._ws is not None:
+            self._ws.close()
+            self._ws = None
+
+
+# --------------------------------------------------------------------------- #
+# Helpers                                                                     #
+# --------------------------------------------------------------------------- #
+
+def _attach(cdp: CDP, target_id: str) -> str:
+    """Attach to a target and return a sessionId for per-target CDP calls."""
+    res = cdp.call("Target.attachToTarget",
+                   {"targetId": target_id, "flatten": True})
+    return res["sessionId"]
+
+
+def _ok(sid: str, sess: Dict[str, Any], url: str,
+        target_id: Optional[str] = None) -> int:
+    """Print standard success JSON and return 0."""
+    print(json.dumps({
+        "ok": True,
+        "sid": sid,
+        "targetId": target_id or sess.get("activeTargetId"),
+        "windowId": sess.get("windowId"),
+        "url": url,
+    }))
+    return 0
+
+
+def _pick_reusable_blank(cdp: CDP, state: Dict[str, Any]) -> Optional[Dict[str, str]]:
+    """Find a blank/newtab page whose window is not bound to any sid."""
+    sessions = state.get("sessions", {})
+    if isinstance(sessions, list):
+        used_wids = {s.get("windowId") for s in sessions}
+    else:
+        used_wids = {s.get("windowId") for s in sessions.values()}
+    for t in cdp.call("Target.getTargets").get("targetInfos", []):
+        if t.get("type") != "page":
+            continue
+        if not _is_blank_url(t.get("url") or ""):
+            continue
+        tid = t.get("targetId")
+        try:
+            wid = cdp.call("Browser.getWindowForTarget",
+                           {"targetId": tid})["windowId"]
+        except RuntimeError:
+            continue
+        if wid in used_wids:
+            continue
+        return {"targetId": tid, "windowId": wid}
+    return None
+
+
+# --------------------------------------------------------------------------- #
+# State                                                                       #
+# --------------------------------------------------------------------------- #
+
+def _ensure_state_dir() -> None:
+    try:
+        os.makedirs(STATE_DIR, exist_ok=True)
+    except PermissionError:
+        globals()["STATE_DIR"] = os.path.expanduser("~/.arkclaw/bua-state")
+        globals()["STATE_FILE"] = os.path.join(STATE_DIR, "sessions.json")
+        globals()["LOCK_FILE"] = os.path.join(STATE_DIR, "bua.lock")
+        globals()["CHROME_PID_FILE"] = os.path.join(STATE_DIR, "chrome.pid")
+        os.makedirs(STATE_DIR, exist_ok=True)
+
+
+class _Lock:
+    def __init__(self, path: str) -> None:
+        self.path = path
+        self.fd: Optional[int] = None
+
+    def __enter__(self) -> "_Lock":
+        _ensure_state_dir()
+        self.fd = os.open(self.path, os.O_CREAT | os.O_RDWR, 0o644)
+        fcntl.flock(self.fd, fcntl.LOCK_EX)
+        return self
+
+    def __exit__(self, *exc: Any) -> None:
+        if self.fd is not None:
+            try:
+                fcntl.flock(self.fd, fcntl.LOCK_UN)
+            finally:
+                os.close(self.fd)
+                self.fd = None
+
+
+def load_state() -> Dict[str, Any]:
+    _ensure_state_dir()
+    if not os.path.exists(STATE_FILE):
+        return {"sessions": {}}
+    try:
+        with open(STATE_FILE, "r", encoding="utf-8") as f:
+            state = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return {"sessions": {}}
+    # Forward migration:
+    #  - legacy `targetId` -> `activeTargetId`
+    #  - missing `tabsOrder` -> seed with [activeTargetId] if any, else []
+    sessions = state.get("sessions") or {}
+    if isinstance(sessions, dict):
+        for s in sessions.values():
+            if not isinstance(s, dict):
+                continue
+            legacy = s.pop("targetId", None)
+            if legacy and not s.get("activeTargetId"):
+                s["activeTargetId"] = legacy
+            if "tabsOrder" not in s or not isinstance(s.get("tabsOrder"), list):
+                active = s.get("activeTargetId")
+                s["tabsOrder"] = [active] if active else []
+    # v1.14.0: Chrome instance fingerprint (None = unknown / pre-v1.14.0 state).
+    state.setdefault(CHROME_FP_FIELD, None)
+    return state
+
+
+def save_state(state: Dict[str, Any]) -> None:
+    _ensure_state_dir()
+    tmp = STATE_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+    os.replace(tmp, STATE_FILE)
+
+
+# --------------------------------------------------------------------------- #
+# Chrome lifecycle                                                            #
+# --------------------------------------------------------------------------- #
+
+def _pid_alive(pid: int) -> bool:
+    try:
+        os.kill(pid, 0)
+        return True
+    except OSError as e:
+        return e.errno == errno.EPERM
+
+
+
+def _chrome_fingerprint(cdp: CDP) -> Optional[str]:
+    """
+    Stable-within-one-Chrome-lifetime, distinct-across-restarts identifier.
+
+    Reads /json/version over HTTP (single RTT, cheap — same endpoint used by
+    CDP.connect for handshake). Extracts the UUID from webSocketDebuggerUrl
+    so the fingerprint is short and greppable in logs. Includes `product` so
+    a Chrome binary upgrade also counts as a new instance.
+
+    Returns None on failure — caller treats as "unknown, assume changed".
+    """
+    try:
+        ver = cdp._http_json("/json/version")
+    except Exception as e:
+        _log(logging.WARNING, "-", "fingerprint", f"getVersion failed: {e!r}")
+        return None
+    ws = ver.get("webSocketDebuggerUrl") or ""
+    product = ver.get("Browser") or ver.get("product") or ""
+    m = re.search(r"/devtools/browser/([0-9a-fA-F-]{36})", ws)
+    uuid = m.group(1) if m else ws
+    return f"{product}|{uuid}"
+
+
+def _invalidate_all_sessions(state: Dict[str, Any], reason: str) -> List[str]:
+    """
+    Drop all sessions from state. Caller holds the lock and must save_state().
+    Returns the list of sids that were dropped (for logging / telemetry).
+
+    We do NOT attempt to close CDP targets — by definition the recorded
+    windowIds are dead (stale integers from a previous Chrome process).
+    """
+    sessions = state.get("sessions") or {}
+    if not sessions:
+        return []
+    dropped = list(sessions.keys())
+    state["sessions"] = {}
+    _log(logging.WARNING, "-", "reconcile",
+         f"invalidated {len(dropped)} sessions ({reason}): {dropped}")
+    return dropped
+
+
+def ensure_chrome() -> CDP:
+    """
+    Guarantee a Chrome instance with CDP alive on (CDP_HOST, CDP_PORT), and
+    reconcile state with it:
+
+    * fast path  : CDP already alive → verify fingerprint matches state.
+                   If state's fp differs from runtime fp, Chrome was restarted
+                   behind our back — invalidate all sessions (their windowIds
+                   are stale integers from the dead process).
+    * slow path  : spawn Chrome, wait up to 15s, then invalidate all sessions
+                   unconditionally (we know we just replaced the instance).
+
+    Returns a CDP client bound to the current instance.
+    """
+    cdp = CDP()
+    spawned = False
+
+    if not cdp.ping():
+        _ensure_state_dir()
+        os.makedirs(PROFILE_DIR, exist_ok=True)
+
+        if os.path.exists(CHROME_PID_FILE):
+            try:
+                pid = int(open(CHROME_PID_FILE).read().strip() or "0")
+                if pid and not _pid_alive(pid):
+                    os.unlink(CHROME_PID_FILE)
+            except (OSError, ValueError):
+                pass
+
+        argv = [
+            CHROME_BIN,
+            f"--user-data-dir={PROFILE_DIR}",
+            f"--remote-debugging-port={CDP_PORT}",
+            f"--remote-debugging-address={CDP_HOST}",
+            *DEFAULT_CHROME_ARGS,
+            "about:blank",
+        ]
+        env = {**os.environ}
+        env.setdefault("DISPLAY", DISPLAY)
+        _log(logging.INFO, "-", "ensure_chrome", f"spawn argv={argv}")
+
+        log_fd = os.open(CHROME_LOG, os.O_WRONLY | os.O_CREAT | os.O_APPEND, 0o644)
+        proc = subprocess.Popen(
+            argv,
+            stdout=log_fd,
+            stderr=log_fd,
+            stdin=subprocess.DEVNULL,
+            env=env,
+            start_new_session=True,
+            close_fds=True,
+        )
+        os.close(log_fd)
+        try:
+            with open(CHROME_PID_FILE, "w") as f:
+                f.write(str(proc.pid))
+        except OSError:
+            pass
+
+        deadline = time.time() + 15.0
+        while time.time() < deadline:
+            if cdp.ping():
+                spawned = True
+                _log(logging.INFO, "-", "ensure_chrome",
+                     f"chrome up pid={proc.pid} cdp={CDP_PORT}")
+                break
+            time.sleep(0.25)
+        else:
+            raise RuntimeError(
+                f"chrome failed to expose CDP on {CDP_HOST}:{CDP_PORT}"
+            )
+
+    # ---- Reconcile state with the Chrome instance we're about to use ----
+    # Runs on both fast and slow paths. Handles:
+    #   a. first run ever                 → adopt current fp, no invalidate
+    #   b. upgrade from pre-v1.14.0 state → adopt current fp, no invalidate
+    #      (existing windowIds stay valid if Chrome kept running across upgrade;
+    #       any stale ones get cleaned by L1 sweep on next op)
+    #   c. Chrome respawned behind our back → invalidate all sessions
+    #   d. we just spawned Chrome ourselves → invalidate all sessions
+    new_fp = _chrome_fingerprint(cdp)
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        old_fp = state.get(CHROME_FP_FIELD)
+
+        if new_fp is None:
+            # Couldn't fingerprint. Be conservative:
+            #   - if we just spawned, we know Chrome is new → invalidate
+            #   - otherwise leave state alone (likely transient CDP hiccup)
+            if spawned:
+                _invalidate_all_sessions(state, reason="spawned,no-fp")
+                state[CHROME_FP_FIELD] = None
+                save_state(state)
+        elif spawned:
+            # We replaced the Chrome process; old windowIds are dead.
+            _invalidate_all_sessions(
+                state, reason=f"spawned fp={new_fp[:16]}"
+            )
+            state[CHROME_FP_FIELD] = new_fp
+            save_state(state)
+        elif old_fp is None:
+            # First run OR upgrade from pre-v1.14.0 state. Adopt without
+            # invalidating — any stale windowIds will be cleaned by L1 sweep.
+            state[CHROME_FP_FIELD] = new_fp
+            save_state(state)
+            _log(logging.INFO, "-", "reconcile",
+                 f"adopted fp={new_fp[:16]} (first run or migration)")
+        elif old_fp != new_fp:
+            # Chrome was restarted by someone else (systemd, OOM + external
+            # supervisor, manual). All recorded windowIds are stale.
+            _invalidate_all_sessions(
+                state,
+                reason=f"respawn old={old_fp[:16]} new={new_fp[:16]}",
+            )
+            state[CHROME_FP_FIELD] = new_fp
+            save_state(state)
+        # else: fp match, nothing to do.
+
+    return cdp
+
+
+# --------------------------------------------------------------------------- #
+# Core ops                                                                    #
+# --------------------------------------------------------------------------- #
+
+def _get_page_targets(cdp: CDP) -> Dict[str, Dict[str, Any]]:
+    res = cdp.call("Target.getTargets")
+    return {
+        t["targetId"]: t
+        for t in res.get("targetInfos", [])
+        if t.get("type") == "page"
+    }
+
+
+def _targets_in_window(cdp: CDP, wid: Any) -> List[Dict[str, Any]]:
+    """Return page targets that belong to Browser window `wid`, preserving
+    the order returned by CDP (which is typically creation-ascending).
+    """
+    if wid is None:
+        return []
+    out: List[Dict[str, Any]] = []
+    for t in _get_page_targets(cdp).values():
+        try:
+            w = cdp.call("Browser.getWindowForTarget",
+                         {"targetId": t["targetId"]})["windowId"]
+        except RuntimeError:
+            continue
+        if w == wid:
+            out.append(t)
+    return out
+
+
+def _pick_fallback_target(targets: List[Dict[str, Any]]) -> str:
+    """Given a non-empty list of page targets (in CDP order), pick the best
+    fallback: prefer the newest non-blank target; else the newest of any.
+    """
+    assert targets, "targets must be non-empty"
+    non_blank = [t for t in targets if not _is_blank_url(t.get("url") or "")]
+    return (non_blank or targets)[-1]["targetId"]
+
+
+def _resolve_active_target(cdp: CDP, sess: Dict[str, Any]
+                           ) -> Tuple[str, str]:
+    """Return (target_id, resolved_from) for `sess`. Mutates sess in place
+    by rewriting `activeTargetId` on fallback — callers are responsible for
+    persisting via `save_state` if they want the change to stick.
+
+    resolved_from:
+      "state"    -> the persisted activeTargetId is still live
+      "fallback" -> activeTargetId was missing/stale; a new tab was picked
+    Raises RuntimeError if the window has no live page tabs.
+    """
+    wid = sess.get("windowId")
+    targets = _targets_in_window(cdp, wid)
+    if not targets:
+        raise RuntimeError(f"session has no live tab (windowId={wid})")
+
+    current = sess.get("activeTargetId")
+    if current:
+        for t in targets:
+            if t["targetId"] == current:
+                return current, "state"
+
+    chosen = _pick_fallback_target(targets)
+    sess["activeTargetId"] = chosen
+    return chosen, "fallback"
+
+
+def _sync_tabs_order(sess: Dict[str, Any],
+                     live_targets: List[Dict[str, Any]]) -> None:
+    """Reconcile sess['tabsOrder'] against the live targets in its window:
+      - drop tids no longer live (tab closed / crashed)
+      - append live tids not yet recorded (e.g. spawned by window.open or
+        from an older bua version that did not track tabsOrder)
+    Preserves existing ordering for still-alive tabs so T<N> references are
+    stable across commands.
+    """
+    live_ids = [t["targetId"] for t in live_targets]
+    live_set = set(live_ids)
+    existing = [tid for tid in (sess.get("tabsOrder") or []) if tid in live_set]
+    existing_set = set(existing)
+    for tid in live_ids:
+        if tid not in existing_set:
+            existing.append(tid)
+            existing_set.add(tid)
+    sess["tabsOrder"] = existing
+
+
+def _resolve_tab_ref(sess: Dict[str, Any], ref: str) -> str:
+    """Translate a user-supplied tab reference to a targetId.
+    Accepts:
+      - 'T<N>' / 't<N>' (1-based index into sess['tabsOrder'])
+      - raw 32-hex targetId (escape hatch for scripting)
+    Does not verify that the target is still live in CDP; callers should
+    cross-check against the current window's live targets.
+    """
+    if not ref:
+        raise ValueError("empty tab reference")
+    m = _TAB_REF_RE.match(ref)
+    if m:
+        order = sess.get("tabsOrder") or []
+        idx = int(m.group(1)) - 1
+        if idx < 0 or idx >= len(order):
+            raise ValueError(
+                f"tab ref {ref} out of range (session has {len(order)} tabs)"
+            )
+        return order[idx]
+    if _HEX_TID_RE.match(ref):
+        return ref
+    raise ValueError(
+        f"invalid tab reference: {ref!r} (use T<N> or raw targetId)"
+    )
+
+
+def _window_alive(cdp: CDP, wid: Any) -> bool:
+    if wid is None:
+        return False
+    return bool(_targets_in_window(cdp, wid))
+
+
+def _validate_session(cdp: CDP, sess: Dict[str, Any]) -> bool:
+    """A session is live iff its windowId still has at least one page tab."""
+    return _window_alive(cdp, sess.get("windowId"))
+
+
+def _windows_with_pages(cdp: CDP) -> set:
+    """Set of Browser windowIds that currently have at least one page target."""
+    wids: set = set()
+    for t in _get_page_targets(cdp).values():
+        try:
+            w = cdp.call("Browser.getWindowForTarget",
+                         {"targetId": t["targetId"]})["windowId"]
+            wids.add(w)
+        except RuntimeError:
+            continue
+    return wids
+
+
+def _close_window_tabs(cdp: CDP, wid: Any) -> None:
+    """Close every page target belonging to Browser window wid."""
+    if wid is None:
+        return
+    targets = _get_page_targets(cdp)
+    for tid in list(targets.keys()):
+        try:
+            w = cdp.call("Browser.getWindowForTarget",
+                         {"targetId": tid})["windowId"]
+        except RuntimeError:
+            continue
+        if w == wid:
+            try:
+                cdp.call("Target.closeTarget", {"targetId": tid})
+            except RuntimeError:
+                pass
+
+
+def _touch(sess: Dict[str, Any]) -> None:
+    """Update lastUsedAt timestamp on a session record."""
+    sess["lastUsedAt"] = int(time.time())
+
+
+def _sweep_dead(cdp: "CDP", state: Dict[str, Any]) -> list:
+    """Remove sessions whose Browser window has no page targets left."""
+    wids_live = _windows_with_pages(cdp)
+    dead: list = []
+    for sid, s in list(state["sessions"].items()):
+        wid = s.get("windowId")
+        if wid is not None and wid in wids_live:
+            continue
+        dead.append(sid)
+        state["sessions"].pop(sid, None)
+    return dead
+
+
+_DURATION_UNITS = {"s": 1, "m": 60, "h": 3600, "d": 86400}
+
+
+def _parse_duration(s: str) -> int:
+    s = str(s).strip().lower()
+    if not s:
+        raise ValueError("empty duration")
+    if s[-1] in _DURATION_UNITS:
+        return int(s[:-1]) * _DURATION_UNITS[s[-1]]
+    return int(s)
+
+
+def op_open(sid: str, url: str, replace_tab: bool = False) -> int:
+    cdp = ensure_chrome()
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        _sweep_dead(cdp, state)
+        sess = state["sessions"].get(sid)
+
+        # A. sid alive -> default: new tab in the same window.
+        #    --replace-tab: navigate the currently-active tab instead.
+        if sess and _validate_session(cdp, sess):
+            wid = sess["windowId"]
+            if replace_tab:
+                # Resolve the persisted active tab (or fallback). Navigate it
+                # without creating a new target; activeTargetId stays the same
+                # conceptual slot.
+                try:
+                    tid, resolved_from = _resolve_active_target(cdp, sess)
+                except RuntimeError:
+                    tid, resolved_from = None, "none"
+                if tid:
+                    session_id = _attach(cdp, tid)
+                    cdp.call("Page.navigate", {"url": url},
+                             session_id=session_id)
+                    try:
+                        cdp.call("Target.activateTarget", {"targetId": tid})
+                    except RuntimeError:
+                        pass
+                    if resolved_from == "fallback":
+                        _log(logging.WARNING, sid, "open",
+                             f"active tab fallback -> {tid}")
+                _sync_tabs_order(sess, _targets_in_window(cdp, wid))
+                sess["url"] = url
+                _touch(sess)
+                save_state(state)
+                _apply_window_state(cdp, wid)
+                return _ok(sid, sess, url, target_id=tid)
+     
+            anchor_targets = _targets_in_window(cdp, wid)
+            anchor_tid: Optional[str] = None
+            if anchor_targets:
+                candidate = sess.get("activeTargetId")
+                live_ids = {t["targetId"] for t in anchor_targets}
+                anchor_tid = candidate if candidate in live_ids \
+                    else _pick_fallback_target(anchor_targets)
+                try:
+                    cdp.call("Target.activateTarget",
+                             {"targetId": anchor_tid})
+                except RuntimeError:
+                    pass
+
+            res = cdp.call("Target.createTarget",
+                           {"url": url, "newWindow": False})
+            tid = res["targetId"]
+            try:
+                new_wid = cdp.call("Browser.getWindowForTarget",
+                                   {"targetId": tid})["windowId"]
+            except RuntimeError:
+                new_wid = wid
+
+            if new_wid != wid:
+                # Tab landed in the wrong window - close it and retry via
+                # window.open from an anchor tab inside the correct window.
+                _log(logging.WARNING, sid, "open",
+                     f"stray tab {tid} landed in wid={new_wid}, "
+                     f"expected wid={wid}; falling back to window.open")
+                try:
+                    cdp.call("Target.closeTarget", {"targetId": tid})
+                except RuntimeError:
+                    pass
+                if not anchor_tid:
+                    raise RuntimeError(
+                        f"session {sid}: cannot open in window {wid} "
+                        f"(no anchor tab available)"
+                    )
+                before = set(_get_page_targets(cdp).keys())
+                anchor_sess_id = _attach(cdp, anchor_tid)
+                cdp.call(
+                    "Runtime.evaluate",
+                    {"expression":
+                        f"window.open({json.dumps(url)}, '_blank')",
+                     "awaitPromise": False},
+                    session_id=anchor_sess_id,
+                )
+                tid = None
+                deadline = time.time() + 3.0
+                while time.time() < deadline:
+                    current = _get_page_targets(cdp)
+                    for nid in current.keys() - before:
+                        try:
+                            w = cdp.call("Browser.getWindowForTarget",
+                                         {"targetId": nid})["windowId"]
+                        except RuntimeError:
+                            continue
+                        if w == wid:
+                            tid = nid
+                            break
+                    if tid:
+                        break
+                    time.sleep(0.05)
+                if not tid:
+                    raise RuntimeError(
+                        f"session {sid}: failed to create tab in "
+                        f"window {wid} via window.open fallback"
+                    )
+
+            try:
+                cdp.call("Target.activateTarget", {"targetId": tid})
+            except RuntimeError:
+                pass
+            sess["activeTargetId"] = tid
+            # Refresh tabsOrder against live window; ensure new tid is at end.
+            live = _targets_in_window(cdp, wid)
+            _sync_tabs_order(sess, live)
+            if tid in sess["tabsOrder"]:
+                sess["tabsOrder"] = [x for x in sess["tabsOrder"] if x != tid]
+            sess["tabsOrder"].append(tid)
+            sess["url"] = url
+            _touch(sess)
+            save_state(state)
+            _apply_window_state(cdp, wid)
+            return _ok(sid, sess, url, target_id=tid)
+
+        # B. sid not alive -> adopt a reusable blank window before spawning.
+        reuse = _pick_reusable_blank(cdp, state)
+        if reuse:
+            tid = reuse["targetId"]
+            session_id = _attach(cdp, tid)
+            cdp.call("Page.navigate", {"url": url}, session_id=session_id)
+            wid = reuse.get("windowId") or cdp.call(
+                "Browser.getWindowForTarget",
+                {"targetId": tid})["windowId"]
+        else:
+            res = cdp.call("Target.createTarget",
+                           {"url": url, "newWindow": True})
+            tid = res["targetId"]
+            wid = cdp.call("Browser.getWindowForTarget",
+                           {"targetId": tid})["windowId"]
+
+        try:
+            cdp.call("Target.activateTarget", {"targetId": tid})
+        except RuntimeError:
+            pass
+        _apply_window_state(cdp, wid)
+
+        sess = {
+            "sid": sid,
+            "windowId": wid,
+            "activeTargetId": tid,
+            "tabsOrder": [tid],
+            "alive": True,
+            "url": url,
+            "title": "",
+            "createdAt": int(time.time()),
+            "lastUsedAt": int(time.time()),
+        }
+        state["sessions"][sid] = sess
+        save_state(state)
+        return _ok(sid, sess, url, target_id=tid)
+
+
+def op_focus(sid: str) -> int:
+    cdp = ensure_chrome()
+    tid: Optional[str] = None
+    wid: Any = None
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        sess = state["sessions"].get(sid)
+        if not sess or not _validate_session(cdp, sess):
+            _log(logging.ERROR, sid, "focus", "no live window")
+            print(f"bua: no window for session {sid}", file=sys.stderr)
+            return 1
+        try:
+            tid, resolved_from = _resolve_active_target(cdp, sess)
+        except RuntimeError as e:
+            _log(logging.ERROR, sid, "focus", f"resolve failed: {e}")
+            print(f"bua: focus failed: {e}", file=sys.stderr)
+            return 1
+        if resolved_from == "fallback":
+            _log(logging.WARNING, sid, "focus",
+                 f"active tab fallback -> {tid}")
+        wid = sess["windowId"]
+        _touch(sess)
+        save_state(state)
+    try:
+        cdp.call("Target.activateTarget", {"targetId": tid})
+    except RuntimeError as e:
+        _log(logging.ERROR, sid, "focus", f"CDP failed: {e}")
+        print(f"bua: focus failed: {e}", file=sys.stderr)
+        return 1
+    _apply_window_state(cdp, wid)
+    _log(logging.INFO, sid, "focus", f"window={wid} tab={tid}")
+    return 0
+
+
+def op_close(sid: str) -> int:
+    cdp = ensure_chrome()
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        sess = state["sessions"].pop(sid, None)
+        save_state(state)
+        # Close tabs inside the lock to avoid racing a concurrent `open` that
+        # could re-bind the same sid to a freshly-created window.
+        if sess:
+            try:
+                _close_window_tabs(cdp, sess.get("windowId"))
+            except RuntimeError as e:
+                _log(logging.WARNING, sid, "close", f"{e}")
+    if not sess:
+        print(f"bua: session {sid} not found", file=sys.stderr)
+        return 1
+    _log(logging.INFO, sid, "close", f"window={sess.get('windowId')}")
+    print(json.dumps({"ok": True, "sid": sid}))
+    return 0
+
+
+def op_status(sid: Optional[str]) -> int:
+    up = CDP().ping()
+    state = load_state()
+    if sid:
+        sess = state["sessions"].get(sid)
+        print(json.dumps({"version": VERSION, "chromeUp": up,
+                          "sid": sid, "session": sess}, indent=2))
+    else:
+        print(json.dumps({"version": VERSION, "chromeUp": up,
+                          "port": CDP_PORT, "profile": PROFILE_DIR,
+                          "sessionCount": len(state["sessions"])}, indent=2))
+    return 0
+
+
+def op_list() -> int:
+    cdp = ensure_chrome()
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        _sweep_dead(cdp, state)
+        save_state(state)
+    targets = _get_page_targets(cdp)
+    wids_live = _windows_with_pages(cdp)
+    rows = []
+    for sid, sess in state["sessions"].items():
+        wid = sess.get("windowId")
+        win_alive = wid is not None and wid in wids_live
+        active_tid = sess.get("activeTargetId")
+        # Is the persisted activeTargetId still in the window? If not, show
+        # what a fallback *would* pick, but do not mutate state from `list`.
+        resolved_from = "state"
+        resolved_tid = active_tid
+        if win_alive:
+            tabs = _targets_in_window(cdp, wid)
+            tab_ids = {t["targetId"] for t in tabs}
+            if not active_tid or active_tid not in tab_ids:
+                resolved_tid = _pick_fallback_target(tabs) if tabs else None
+                resolved_from = "fallback" if resolved_tid else "none"
+        else:
+            tabs = []
+            resolved_tid = None
+            resolved_from = "none"
+        t = targets.get(resolved_tid, {}) if resolved_tid else {}
+        rows.append({
+            "sid": sid,
+            "windowId": wid,
+            "activeTargetId": active_tid,
+            "resolvedTargetId": resolved_tid,
+            "resolvedFrom": resolved_from,
+            "tabCount": len(tabs),
+            "tabsOrder": sess.get("tabsOrder") or [],
+            "alive": win_alive,
+            "url": t.get("url") or sess.get("url"),
+            "title": t.get("title"),
+        })
+    print(json.dumps({"sessions": rows}, indent=2))
+    return 0
+
+
+# --------------------------------------------------------------------------- #
+# Tabs command family                                                          #
+#                                                                              #
+# All `bua tabs <sub>` operations are NATIVE (never forwarded to               #
+# agent-browser) because:                                                      #
+#   1. agent-browser's tab subcommands operate on its own `pages[]`, which     #
+#      spans every target it has attached — crossing sid boundaries.           #
+#   2. bua must keep `sess.activeTargetId` and `sess.tabsOrder` in sync with   #
+#      any tab creation/deletion.                                              #
+#   3. Per-session T<N> references avoid collisions between sessions.          #
+# --------------------------------------------------------------------------- #
+
+def op_tabs_list(sid: str) -> int:
+    cdp = ensure_chrome()
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        sess = state["sessions"].get(sid)
+        if not sess or not _validate_session(cdp, sess):
+            print(f"bua: no window for session {sid}", file=sys.stderr)
+            return 1
+        live = _targets_in_window(cdp, sess["windowId"])
+        _sync_tabs_order(sess, live)
+        _touch(sess)
+        save_state(state)
+        order_snapshot = list(sess["tabsOrder"])
+        wid_snapshot = sess.get("windowId")
+        active_snapshot = sess.get("activeTargetId")
+    tab_map = {t["targetId"]: t for t in live}
+    rows = []
+    for i, tid in enumerate(order_snapshot, start=1):
+        t = tab_map.get(tid, {})
+        rows.append({
+            "ref": f"T{i}",
+            "targetId": tid,
+            "active": tid == active_snapshot,
+            "url": t.get("url"),
+            "title": t.get("title"),
+        })
+    print(json.dumps({
+        "sid": sid,
+        "windowId": wid_snapshot,
+        "activeTargetId": active_snapshot,
+        "tabs": rows,
+    }, indent=2))
+    return 0
+
+
+def op_tabs_new(sid: str, url: str) -> int:
+    cdp = ensure_chrome()
+    sess_snapshot: Optional[Dict[str, Any]] = None
+    tid: Optional[str] = None
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        sess = state["sessions"].get(sid)
+        if not sess or not _validate_session(cdp, sess):
+            print(f"bua: no window for session {sid}", file=sys.stderr)
+            return 1
+        wid = sess["windowId"]
+        res = cdp.call("Target.createTarget",
+                       {"url": url, "newWindow": False})
+        tid = res["targetId"]
+        try:
+            actual_wid = cdp.call("Browser.getWindowForTarget",
+                                  {"targetId": tid})["windowId"]
+        except RuntimeError:
+            actual_wid = wid
+        if actual_wid != wid:
+            # Chrome placed the tab in another window; re-bind the session.
+            sess["windowId"] = actual_wid
+        live = _targets_in_window(cdp, sess["windowId"])
+        _sync_tabs_order(sess, live)
+        if tid in sess["tabsOrder"]:
+            sess["tabsOrder"] = [x for x in sess["tabsOrder"] if x != tid]
+        sess["tabsOrder"].append(tid)
+        sess["activeTargetId"] = tid
+        sess["url"] = url
+        _touch(sess)
+        save_state(state)
+        sess_snapshot = dict(sess)
+    try:
+        cdp.call("Target.activateTarget", {"targetId": tid})
+    except RuntimeError:
+        pass
+    _apply_window_state(cdp, (sess_snapshot or {}).get("windowId"))
+    _log(logging.INFO, sid, "tabs.new", f"tab={tid} url={url}")
+    return _ok(sid, sess_snapshot or {}, url, target_id=tid)
+
+
+def op_tabs_close(sid: str, ref: str) -> int:
+    cdp = ensure_chrome()
+    closed_tid: Optional[str] = None
+    new_active: Optional[str] = None
+    final_active: Optional[str] = None
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        sess = state["sessions"].get(sid)
+        if not sess or not _validate_session(cdp, sess):
+            print(f"bua: no window for session {sid}", file=sys.stderr)
+            return 1
+        live = _targets_in_window(cdp, sess["windowId"])
+        _sync_tabs_order(sess, live)
+        try:
+            tid = _resolve_tab_ref(sess, ref)
+        except ValueError as e:
+            print(f"bua: {e}", file=sys.stderr)
+            return 2
+        if tid not in {t["targetId"] for t in live}:
+            print(
+                f"bua: tab {ref} not live in session window "
+                f"(run `bua tabs list --session {sid}`)",
+                file=sys.stderr,
+            )
+            return 3
+        try:
+            cdp.call("Target.closeTarget", {"targetId": tid})
+            closed_tid = tid
+        except RuntimeError as e:
+            _log(logging.ERROR, sid, "tabs.close", f"{e}")
+            print(f"bua: close failed: {e}", file=sys.stderr)
+            return 1
+        # Re-read live set after close, reconcile tabsOrder, then pick a new
+        # active tab if we just closed the active one.
+        live_after = _targets_in_window(cdp, sess["windowId"])
+        _sync_tabs_order(sess, live_after)
+        if sess.get("activeTargetId") == tid:
+            if live_after:
+                new_active = _pick_fallback_target(live_after)
+                sess["activeTargetId"] = new_active
+            else:
+                sess["activeTargetId"] = None
+        _touch(sess)
+        save_state(state)
+        final_active = sess.get("activeTargetId")
+    if new_active:
+        try:
+            cdp.call("Target.activateTarget", {"targetId": new_active})
+        except RuntimeError:
+            pass
+    # Re-load sess under no lock is fine: windowId is invariant post-close
+    # for this path. Best-effort only; errors swallowed.
+    try:
+        st2 = load_state()
+        s2 = st2["sessions"].get(sid) or {}
+        _apply_window_state(cdp, s2.get("windowId"))
+    except Exception:
+        pass
+    _log(logging.INFO, sid, "tabs.close",
+         f"closed={closed_tid} newActive={new_active}")
+    print(json.dumps({
+        "ok": True, "sid": sid,
+        "closedTargetId": closed_tid,
+        "activeTargetId": final_active,
+    }))
+    return 0
+
+
+def op_tabs_switch(sid: str, ref: str) -> int:
+    cdp = ensure_chrome()
+    previous_tid: Optional[str] = None
+    resolved_tid: Optional[str] = None
+    wid: Any = None
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        sess = state["sessions"].get(sid)
+        if not sess or not _validate_session(cdp, sess):
+            print(f"bua: no window for session {sid}", file=sys.stderr)
+            return 1
+        wid = sess["windowId"]
+        live = _targets_in_window(cdp, wid)
+        _sync_tabs_order(sess, live)
+        try:
+            tid = _resolve_tab_ref(sess, ref)
+        except ValueError as e:
+            print(f"bua: {e}", file=sys.stderr)
+            return 2
+        live_ids = {t["targetId"] for t in live}
+        if tid not in live_ids:
+            print(
+                f"bua: tab {ref} is not live in this session window "
+                f"(run `bua tabs list --session {sid}`)",
+                file=sys.stderr,
+            )
+            return 3
+        previous_tid = sess.get("activeTargetId")
+        sess["activeTargetId"] = tid
+        resolved_tid = tid
+        _touch(sess)
+        save_state(state)
+    try:
+        cdp.call("Target.activateTarget", {"targetId": resolved_tid})
+    except RuntimeError as e:
+        _log(logging.WARNING, sid, "tabs.switch", f"CDP failed: {e}")
+    _apply_window_state(cdp, wid)
+    _log(logging.INFO, sid, "tabs.switch",
+         f"prev={previous_tid} new={resolved_tid} ref={ref}")
+    print(json.dumps({
+        "ok": True,
+        "sid": sid,
+        "tabRef": ref,
+        "previousTargetId": previous_tid,
+        "activeTargetId": resolved_tid,
+    }))
+    return 0
+
+
+def op_tabs(sid: str, sub: str, rest: List[str],
+            url: Optional[str]) -> int:
+    if sub == "list":
+        return op_tabs_list(sid)
+    if sub == "new":
+        u = url
+        if u is None and rest:
+            u = rest[0]
+        return op_tabs_new(sid, u or "about:blank")
+    if sub == "close":
+        if not rest:
+            print("bua: tabs close requires a tab ref (T<N> or targetId)",
+                  file=sys.stderr)
+            return 2
+        return op_tabs_close(sid, rest[0])
+    if sub == "switch":
+        if not rest:
+            print("bua: tabs switch requires a tab ref (T<N> or targetId)",
+                  file=sys.stderr)
+            return 2
+        return op_tabs_switch(sid, rest[0])
+    print(f"bua: unknown tabs subcommand '{sub}' (list|new|close|switch)",
+          file=sys.stderr)
+    return 2
+
+
+def op_gc(idle: str = "24h", cache_max: str = "2G",
+         dry_run: bool = False) -> int:
+    """Garbage collect: dead windows + idle sessions.
+
+    Note: browser cache cleanup is intentionally disabled.
+    `cache_max` is kept only for CLI backward compatibility.
+    """
+    cdp = ensure_chrome()
+    idle_sec = _parse_duration(idle)
+    now = int(time.time())
+    result: Dict[str, Any] = {
+        "ts": now,
+        "removed_dead": [],
+        "closed_idle": [],
+        "purged_cache_bytes": 0,
+        "cache_gc_enabled": False,
+        "cache_max_ignored": cache_max,
+        "kept": 0,
+        "errors": [],
+        "dry_run": dry_run,
+    }
+
+    with _Lock(LOCK_FILE):
+        state = load_state()
+
+        # (1) dead windows
+        result["removed_dead"] = _sweep_dead(cdp, state)
+
+        # (2) idle sessions
+        for sid in list(state["sessions"].keys()):
+            sess = state["sessions"][sid]
+            last = int(sess.get("lastUsedAt") or sess.get("createdAt") or now)
+            if now - last <= idle_sec:
+                continue
+            wid = sess.get("windowId")
+            try:
+                if not dry_run and wid is not None:
+                    _close_window_tabs(cdp, wid)
+                state["sessions"].pop(sid, None)
+                result["closed_idle"].append(sid)
+            except Exception as e:
+                result["errors"].append({"sid": sid, "err": str(e)})
+
+        result["kept"] = len(state["sessions"])
+        if not dry_run:
+            save_state(state)
+
+    _log(logging.INFO, "-", "gc",
+         f"dead={len(result['removed_dead'])} "
+         f"idle={len(result['closed_idle'])} "
+         f"purged={result['purged_cache_bytes']} "
+         f"kept={result['kept']} dry={dry_run}")
+    print(json.dumps(result))
+    return 0
+
+
+# --------------------------------------------------------------------------- #
+# Forward to agent-browser                                                    #
+# --------------------------------------------------------------------------- #
+
+
+def op_doctor() -> int:
+    """
+    `bua doctor` — one-shot health report as JSON. Exits 0 unless state is
+    unreadable. Designed for fast triage on production boxes.
+    """
+    report: Dict[str, Any] = {
+        "bua_version": VERSION,
+        "chrome_bin": CHROME_BIN,
+        "cdp_endpoint": f"{CDP_HOST}:{CDP_PORT}",
+        "state_dir": STATE_DIR,
+        "state_file_exists": os.path.exists(STATE_FILE),
+        "agent_browser_bin": AGENT_BROWSER_BIN,
+        "profile_dir": PROFILE_DIR,
+    }
+
+    cdp = CDP()
+    alive = cdp.ping(timeout=1.0)
+    report["chrome_alive"] = alive
+    if alive:
+        report["chrome_fingerprint"] = _chrome_fingerprint(cdp)
+        try:
+            wids = sorted(_windows_with_pages(cdp))
+        except Exception as e:
+            wids = []
+            report["live_window_ids_error"] = repr(e)
+        report["live_window_ids"] = wids
+    else:
+        wids = []
+
+    with _Lock(LOCK_FILE):
+        state = load_state()
+    state_fp = state.get(CHROME_FP_FIELD)
+    report["state_chrome_fingerprint"] = state_fp
+    report["state_fp_matches_runtime"] = bool(
+        alive and state_fp and state_fp == report.get("chrome_fingerprint")
+    )
+
+    sessions = state.get("sessions", {}) or {}
+    report["session_count"] = len(sessions)
+    report["sessions"] = [
+        {
+            "sid": sid,
+            "windowId": s.get("windowId"),
+            "activeTargetId": (s.get("activeTargetId") or "")[:8],
+            "tabCount": len(s.get("tabsOrder") or []),
+            "lastUsedAt": s.get("lastUsedAt"),
+            "windowAlive": s.get("windowId") in wids if alive else None,
+        }
+        for sid, s in sessions.items()
+    ]
+
+    print(json.dumps(report, indent=2, ensure_ascii=False))
+    return 0
+
+
+def op_forward(sid: str, cmd: str, extra: list) -> int:
+    cdp = ensure_chrome()
+    # Resolve the active tab inside the lock so concurrent forwards on the
+    # same sid observe a consistent view of activeTargetId; exec the child
+    # process outside the lock to avoid holding it for the full RTT.
+    with _Lock(LOCK_FILE):
+        state = load_state()
+        sess = state["sessions"].get(sid)
+        if not sess or not _validate_session(cdp, sess):
+            _log(logging.ERROR, sid, cmd, "no live window")
+            print(f"bua: no window for session {sid}; run `bua open` first",
+                  file=sys.stderr)
+            return 1
+        try:
+            tid, resolved_from = _resolve_active_target(cdp, sess)
+        except RuntimeError as e:
+            _log(logging.ERROR, sid, cmd, f"resolve failed: {e}")
+            print(f"bua: {e}", file=sys.stderr)
+            return 1
+        if resolved_from == "fallback":
+            _log(logging.WARNING, sid, cmd,
+                 f"active tab fallback -> {tid}")
+        wid = sess["windowId"]
+        _touch(sess)
+        save_state(state)
+
+    # Bring the bound window to the foreground. CDP has no primitive for
+    # "raise window without touching tab focus": Browser.setWindowBounds
+    # with {windowState:"normal"} only un-minimizes, it does NOT restack
+    # above other windows or switch OS focus. The only reliable primitive
+    # that restacks is Target.activateTarget, which also sets that target
+    # as the active tab. We activate the persisted activeTargetId so the
+    # sid's intended tab wins focus regardless of creation order quirks.
+    try:
+        cdp.call("Target.activateTarget", {"targetId": tid})
+    except RuntimeError as e:
+        _log(logging.WARNING, sid, cmd, f"activate failed: {e}")
+    _apply_window_state(cdp, wid)
+
+    bin_path = AGENT_BROWSER_BIN
+    if not bin_path:
+        _log(logging.ERROR, sid, cmd, "agent-browser not on disk (set AGENT_BROWSER_BIN)")
+        print(
+            "bua: agent-browser not found; place ./agent-browser or ./bin/agent-browser "
+            "next to this script, or set AGENT_BROWSER_BIN",
+            file=sys.stderr,
+        )
+        return 127
+
+    argv = [bin_path, "--cdp", str(CDP_PORT), cmd, *extra]
+    env = {**os.environ}
+    env.setdefault("DISPLAY", DISPLAY)
+    _log(logging.INFO, sid, cmd,
+         f"forward window={wid} tab={tid} argv={argv}")
+    try:
+        rc = subprocess.call(argv, env=env)
+    except FileNotFoundError:
+        _log(logging.ERROR, sid, cmd, f"binary not found: {bin_path}")
+        print(f"bua: agent-browser not found: {bin_path}", file=sys.stderr)
+        return 127
+    _log(logging.INFO, sid, cmd, f"exit rc={rc}")
+    return rc
+
+
+# --------------------------------------------------------------------------- #
+# CLI                                                                          #
+# --------------------------------------------------------------------------- #
+
+def main(argv: list) -> int:
+    p = argparse.ArgumentParser(prog="bua", add_help=True)
+    p.add_argument("--version", action="version", version=f"bua {VERSION}")
+    p.add_argument("cmd")
+    p.add_argument("--session", default=None)
+    p.add_argument("--url", default=None)
+    p.add_argument("--replace-tab", action="store_true", dest="replace_tab",
+                   help="open/start: if session window exists, navigate in the "
+                   "current active tab instead of opening a new tab")
+    p.add_argument("--idle", default="24h",
+                   help="Close sessions idle longer than this (gc only)")
+    p.add_argument("--cache-max", default="2G", dest="cache_max",
+                   help="Purge Chrome cache when total exceeds this (gc only)")
+    p.add_argument("--dry-run", action="store_true", dest="dry_run",
+                   help="gc: compute but do not mutate")
+    a, rest = p.parse_known_args(argv)
+
+    cmd = a.cmd
+    sid = a.session or os.environ.get("BUA_SESSION")
+
+    try:
+        if cmd in ("open", "start"):
+            if not sid:
+                print("bua: --session required", file=sys.stderr); return 2
+            url = a.url
+            if url is None and rest:
+                url = rest[0]
+            return op_open(sid, url or "about:blank",
+                           replace_tab=a.replace_tab)
+        if cmd == "close":
+            if not sid:
+                print("bua: --session required", file=sys.stderr); return 2
+            return op_close(sid)
+        if cmd == "focus":
+            if not sid:
+                print("bua: --session required", file=sys.stderr); return 2
+            return op_focus(sid)
+        if cmd == "status":
+            return op_status(sid)
+        if cmd == "list":
+            return op_list()
+        if cmd == "doctor":
+            return op_doctor()
+        if cmd == "gc":
+            return op_gc(a.idle, a.cache_max, a.dry_run)
+        if cmd == "tabs":
+            if not sid:
+                print("bua: --session required for 'tabs'",
+                      file=sys.stderr); return 2
+            if not rest:
+                print("bua: tabs requires a subcommand "
+                      "(list|new|close|switch)", file=sys.stderr)
+                return 2
+            sub = rest[0]
+            sub_rest = rest[1:]
+            return op_tabs(sid, sub, sub_rest, a.url)
+        if cmd in FORWARD_CMDS or cmd not in NATIVE_CMDS:
+            if not sid:
+                print(f"bua: --session required for '{cmd}'", file=sys.stderr)
+                return 2
+            extra = list(rest)
+            if cmd == "goto" and a.url and a.url not in extra:
+                extra = [a.url] + extra
+            return op_forward(sid, cmd, extra)
+        print(f"bua: unknown command '{cmd}'", file=sys.stderr)
+        return 2
+    except Exception as e:
+        _log(logging.ERROR, sid or "-", cmd, f"unhandled: {e!r}")
+        print(f"bua: {e}", file=sys.stderr)
+        return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

@@ -1,0 +1,29 @@
+{
+  "id": "26b12488-0dc3-495a-aa82-84c55e4f4890",
+  "name": "notion",
+  "description": "Notion API for creating and managing pages, databases, and blocks.",
+  "source": "personal_agi",
+  "category": "office",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/notion--26b12488-0dc3-495a-aa82-84c55e4f4890",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/notion--26b12488-0dc3-495a-aa82-84c55e4f4890/versions/1.0.0",
+      "sourcePackageHash": "55bcfb94b51ae3b1715616df2dc2ccc4d669f9e7e824b6f4c46733140d3c711a",
+      "files": [
+        {
+          "path": ".clawhub/origin.json"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "f65ecfc8-a979-4f9b-90d6-c77356c54b92",
+  "name": "media-transcript",
+  "description": "把一条视频/音频链接（抖音为主，可扩展 B站/视频号/小宇宙）变成「可用的内容资产」：无水印原视频 + 毫秒级逐字稿(SRT) + 读后总结。当用户发来抖音/视频链接并要求\"转写/转录/提取内容/读一下这个视频/总结这个视频/保存这个视频\"时使用。也适用于用户说\"帮我读下这个视频讲什么\"。输出三件套：source.mp4 / transcript.txt+srt / 总结.md。",
+  "source": "personal_agi",
+  "category": "media",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/media-transcript--f65ecfc8-a979-4f9b-90d6-c77356c54b92",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/media-transcript--f65ecfc8-a979-4f9b-90d6-c77356c54b92/versions/1.0.0",
+      "sourcePackageHash": "a4e8fc4456b0c871e1da50f8f024cfd65284cf847f03251b61f5750da14650c1",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "review.md"
+        },
+        {
+          "path": "scripts/douyin.py"
+        },
+        {
+          "path": "scripts/ingest.sh"
+        },
+        {
+          "path": "scripts/transcribe.py"
+        },
+        {
+          "path": "scripts/transcribe.sh"
+        },
+        {
+          "path": "scripts/xhs.py"
+        }
+      ]
+    }
+  ]
+}

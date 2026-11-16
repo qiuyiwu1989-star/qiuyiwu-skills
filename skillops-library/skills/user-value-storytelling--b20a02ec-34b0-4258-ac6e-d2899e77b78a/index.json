@@ -1,0 +1,63 @@
+{
+  "id": "b20a02ec-34b0-4258-ac6e-d2899e77b78a",
+  "name": "user-value-storytelling",
+  "description": "用户价值叙事方法论——把\"产品思维\"翻译成\"用户思维\"，按「场—痛—解—证—邀」五步讲好产品/应用故事。This skill should be used when the user needs to pitch, introduce, or explain a product, device, AI application, or solution to a customer, principal, parent, investor, or partner; when writing a 路演稿/讲解话术/销售话术/产品介绍/一页纸/海报文案/概念视频脚本; when reviewing (复盘) a recorded pitch or meeting transcript to diagnose why the explanation fell flat; or when adapti",
+  "source": "personal_agi",
+  "category": "product",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/user-value-storytelling--b20a02ec-34b0-4258-ac6e-d2899e77b78a",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/user-value-storytelling--b20a02ec-34b0-4258-ac6e-d2899e77b78a/versions/1.0.0",
+      "sourcePackageHash": "a017c3ec46196fd0a029ecc78518bded55be044139c7bd126ce03748b640b233",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "assets/story-canvas.md"
+        },
+        {
+          "path": "references/checklist.md"
+        },
+        {
+          "path": "references/examples.md"
+        },
+        {
+          "path": "references/principles.md"
+        },
+        {
+          "path": "references/stakeholder-lens.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/user-value-storytelling--b20a02ec-34b0-4258-ac6e-d2899e77b78a/versions/1.0.1",
+      "sourcePackageHash": "ace51e2bf91b2be18e4658ad0fabce11727ecbf669be8c3727610be6e5b468b7",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "assets/story-canvas.md"
+        },
+        {
+          "path": "references/checklist.md"
+        },
+        {
+          "path": "references/examples.md"
+        },
+        {
+          "path": "references/principles.md"
+        },
+        {
+          "path": "references/stakeholder-lens.md"
+        }
+      ]
+    }
+  ]
+}

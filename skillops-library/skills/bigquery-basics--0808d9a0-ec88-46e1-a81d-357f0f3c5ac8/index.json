@@ -1,0 +1,41 @@
+{
+  "id": "0808d9a0-ec88-46e1-a81d-357f0f3c5ac8",
+  "name": "bigquery-basics",
+  "description": "",
+  "source": "personal_agi",
+  "category": "research",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/bigquery-basics--0808d9a0-ec88-46e1-a81d-357f0f3c5ac8",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/bigquery-basics--0808d9a0-ec88-46e1-a81d-357f0f3c5ac8/versions/1.0.0",
+      "sourcePackageHash": "a044339cac6609d485a969beff7521c9024b63cf7097c532ee96aeb1aae9fe48",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/cli-usage.md"
+        },
+        {
+          "path": "references/client-library-usage.md"
+        },
+        {
+          "path": "references/core-concepts.md"
+        },
+        {
+          "path": "references/iac-usage.md"
+        },
+        {
+          "path": "references/iam-security.md"
+        },
+        {
+          "path": "references/mcp-usage.md"
+        }
+      ]
+    }
+  ]
+}

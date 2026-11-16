@@ -1,0 +1,43 @@
+{
+  "id": "be7620d67d445d1a",
+  "name": "weiminskill",
+  "description": "",
+  "source": "skillops",
+  "category": "product",
+  "visibility": "public",
+  "candidate": false,
+  "path": "skills/weiminskill--be7620d67d445d1a",
+  "currentVersion": 3,
+  "versions": [
+    {
+      "version": 3,
+      "path": "skills/weiminskill--be7620d67d445d1a/versions/3",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": 2,
+      "path": "skills/weiminskill--be7620d67d445d1a/versions/2",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "path": "skills/weiminskill--be7620d67d445d1a/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

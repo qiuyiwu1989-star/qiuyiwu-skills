@@ -1,0 +1,38 @@
+{
+  "id": "47286097-4b88-4ecb-927d-2e82d827cc7d",
+  "name": "arkcli-gen",
+  "description": "火山方舟 Ark 图片/视频生成入口：支持 profile 默认资源与临时 API Key/Base URL/Endpoint；显式 Endpoint 不受当前 plan profile 误导。图片同步返回，视频异步轮询。",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/arkcli-gen--47286097-4b88-4ecb-927d-2e82d827cc7d",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/arkcli-gen--47286097-4b88-4ecb-927d-2e82d827cc7d/versions/1.0.0",
+      "sourcePackageHash": "bc46152a2e766a7e1e2ab8198855c5e03477f70fe243dbd885e7dd57caa60f8f",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "references/arkcli-gen.md"
+        },
+        {
+          "path": "references/evals.md"
+        },
+        {
+          "path": "references/gen-meta.md"
+        },
+        {
+          "path": "references/image-stream.md"
+        },
+        {
+          "path": "references/intent-and-validation.md"
+        }
+      ]
+    }
+  ]
+}

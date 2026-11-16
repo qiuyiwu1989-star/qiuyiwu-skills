@@ -1,0 +1,26 @@
+{
+  "id": "cf978e59-638a-43ef-a470-333d690f23de",
+  "name": "openai-integration",
+  "description": "",
+  "source": "personal_agi",
+  "category": "models",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/openai-integration--cf978e59-638a-43ef-a470-333d690f23de",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/openai-integration--cf978e59-638a-43ef-a470-333d690f23de/versions/1.0.0",
+      "sourcePackageHash": "b7e2178f117e310bac70b9cd2e8752da7eefe61e997c1ee0e8969a6832ceda0d",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        }
+      ]
+    }
+  ]
+}

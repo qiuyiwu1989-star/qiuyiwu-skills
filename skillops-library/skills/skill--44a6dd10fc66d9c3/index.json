@@ -1,0 +1,23 @@
+{
+  "id": "44a6dd10fc66d9c3",
+  "name": "郑刚教授创新管理工具包",
+  "description": "郑刚教授《常见创新管理方法与工具包 2026》29 个核心工具",
+  "source": "skillops",
+  "category": "product",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/skill--44a6dd10fc66d9c3",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/skill--44a6dd10fc66d9c3/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "5b0da41a-896a-4f8d-a508-6d3870d8888f",
+  "name": "openclaw-config-advisor",
+  "description": "Diagnoses OpenClaw provider, fallback, channel, MCP, and gateway config issues with read-only scans and stateful summaries.",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/openclaw-config-advisor--5b0da41a-896a-4f8d-a508-6d3870d8888f",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/openclaw-config-advisor--5b0da41a-896a-4f8d-a508-6d3870d8888f/versions/1.0.0",
+      "sourcePackageHash": "ffbc5da41e7c704e4153a33e1803734eeb82524a5345ba4965e50fd188a46360",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "advise.py"
+        },
+        {
+          "path": "example-state.yaml"
+        }
+      ]
+    }
+  ]
+}

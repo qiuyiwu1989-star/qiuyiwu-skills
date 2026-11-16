@@ -1,0 +1,23 @@
+{
+  "id": "fa156794-bee1-41b2-8f23-8635f2d851d5",
+  "name": "dbs-benchmark",
+  "description": "",
+  "source": "personal_agi",
+  "category": "business",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/dbs-benchmark--fa156794-bee1-41b2-8f23-8635f2d851d5",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/dbs-benchmark--fa156794-bee1-41b2-8f23-8635f2d851d5/versions/1.0.0",
+      "sourcePackageHash": "988c2f71a8b2fee63003846ff2b3a763e2515798a42a01339a2f57bf92658b8b",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

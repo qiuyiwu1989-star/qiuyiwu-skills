@@ -1,0 +1,26 @@
+{
+  "id": "8fd089c7-e6be-472d-b8bc-16606303eee3",
+  "name": "ljg-skill-map",
+  "description": "",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/ljg-skill-map--8fd089c7-e6be-472d-b8bc-16606303eee3",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/ljg-skill-map--8fd089c7-e6be-472d-b8bc-16606303eee3/versions/1.0.0",
+      "sourcePackageHash": "67e94c67f962276afdaf39e831c19ad9121de41c8c52e907071c570562f346fe",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "scripts/scan.sh"
+        }
+      ]
+    }
+  ]
+}

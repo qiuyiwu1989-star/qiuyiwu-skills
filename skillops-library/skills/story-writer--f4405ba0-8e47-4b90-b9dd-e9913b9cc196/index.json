@@ -1,0 +1,35 @@
+{
+  "id": "f4405ba0-8e47-4b90-b9dd-e9913b9cc196",
+  "name": "story-writer",
+  "description": "小说创作、角色设计、情节设计(三幕式)、对话生成、世界观构建、续写。Story writing with character design, three-act plot structure, dialogue generation, worldbuilding. Supports bilingual documentation and optimized AI agent interaction. 支持中英双语文档与AI助手深度优化。",
+  "source": "personal_agi",
+  "category": "writing",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/story-writer--f4405ba0-8e47-4b90-b9dd-e9913b9cc196",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/story-writer--f4405ba0-8e47-4b90-b9dd-e9913b9cc196/versions/1.0.0",
+      "sourcePackageHash": "8c10b8d2b67a061ab3e8a94248ad4ab975b2cffc4a0b2d7736c9d6e2afddf1aa",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "scripts/script.sh"
+        },
+        {
+          "path": "scripts/story.sh"
+        },
+        {
+          "path": "tips.md"
+        }
+      ]
+    }
+  ]
+}

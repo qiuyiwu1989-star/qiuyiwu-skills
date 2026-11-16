@@ -1,0 +1,51 @@
+{
+  "id": "829f17cb-2a4c-4b7f-b58b-c6baba9fdd1d",
+  "name": "modified-code-review",
+  "description": "Reviews user-modified code (diffs/PRs), provides best-practice recommendations, analyzes cost-effectiveness of the approach, and outputs a code score. Use when the user asks to review their changes, 审查/评审修改的代码, 代码评审, or wants 最佳实践/性价比/代码评分.",
+  "source": "personal_agi",
+  "category": "engineering",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/modified-code-review--829f17cb-2a4c-4b7f-b58b-c6baba9fdd1d",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/modified-code-review--829f17cb-2a4c-4b7f-b58b-c6baba9fdd1d/versions/1.0.0",
+      "sourcePackageHash": "2d224f88858147e441f7b90f4ddccc06e136d0917e15d41070bbba84e753a9ee",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "clawhub.json"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/modified-code-review--829f17cb-2a4c-4b7f-b58b-c6baba9fdd1d/versions/1.0.1",
+      "sourcePackageHash": "a09c6275a55734162d6202a7d2d2dc8825c98f8655c65b8d07023c01d7bfbc8f",
+      "files": [
+        {
+          "path": "README.md"
+        },
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "_meta.json"
+        },
+        {
+          "path": "clawhub.json"
+        }
+      ]
+    }
+  ]
+}

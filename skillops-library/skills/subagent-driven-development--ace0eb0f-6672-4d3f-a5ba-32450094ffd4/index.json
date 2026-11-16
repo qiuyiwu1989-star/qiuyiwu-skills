@@ -1,0 +1,33 @@
+{
+  "id": "ace0eb0f-6672-4d3f-a5ba-32450094ffd4",
+  "name": "subagent-driven-development",
+  "description": "Use when executing implementation plans with independent tasks. Dispatches fresh delegate_task per task with two-stage review (spec compliance then code quality).",
+  "source": "personal_agi",
+  "category": "agent",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/subagent-driven-development--ace0eb0f-6672-4d3f-a5ba-32450094ffd4",
+  "currentVersion": "1.0.1",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/subagent-driven-development--ace0eb0f-6672-4d3f-a5ba-32450094ffd4/versions/1.0.0",
+      "sourcePackageHash": "57e1f549424088b0bcefbfec3d3cbc3f7ef10239472eb640900b4ab8424a85e4",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "path": "skills/subagent-driven-development--ace0eb0f-6672-4d3f-a5ba-32450094ffd4/versions/1.0.1",
+      "sourcePackageHash": "89af4d4163ed906760f4f863090420c4fbcb209f60a02c542a80777a4d212435",
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "421aa3e72b19c96c",
+  "name": "editorial-comic-slides",
+  "description": "为邱懿武制作EC-003编辑漫画整页PPT图；用户指定该编号或风格时使用。文字、人物、关系与留白一起由image生成，支持8种页型，不用HTML套版代替。",
+  "source": "skillops",
+  "category": "design",
+  "visibility": "private",
+  "candidate": false,
+  "path": "skills/editorial-comic-slides--421aa3e72b19c96c",
+  "currentVersion": 1,
+  "versions": [
+    {
+      "version": 1,
+      "path": "skills/editorial-comic-slides--421aa3e72b19c96c/versions/1",
+      "sourcePackageHash": null,
+      "files": [
+        {
+          "path": "SKILL.md"
+        }
+      ]
+    }
+  ]
+}

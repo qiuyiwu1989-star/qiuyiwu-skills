@@ -1,0 +1,32 @@
+{
+  "id": "6984444c-809e-4b5c-85c5-b21fe663dfb7",
+  "name": "obsidian-sync",
+  "description": "Syncs agent daily memory and MEMORY.md to an Obsidian vault so notes are human-browsable. Use nightly or on demand.",
+  "source": "personal_agi",
+  "category": "knowledge",
+  "state": "published",
+  "candidate": false,
+  "path": "skills/obsidian-sync--6984444c-809e-4b5c-85c5-b21fe663dfb7",
+  "currentVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "path": "skills/obsidian-sync--6984444c-809e-4b5c-85c5-b21fe663dfb7/versions/1.0.0",
+      "sourcePackageHash": "fa8668da704baabc7327feb9ba21cc086a8c50d5adb5bfaa444f90b89cf75bc1",
+      "files": [
+        {
+          "path": "SKILL.md"
+        },
+        {
+          "path": "STATE_SCHEMA.yaml"
+        },
+        {
+          "path": "example-state.yaml"
+        },
+        {
+          "path": "sync.py"
+        }
+      ]
+    }
+  ]
+}
